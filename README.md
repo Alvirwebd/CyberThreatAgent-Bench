@@ -48,8 +48,8 @@ CyberThreatAgent-Bench evaluates agentic security pipelines across 9 modular, pr
 Clone this repository and install the verified dependencies:
 
 ```bash
-git clone https://github.com/your-org/CyberThreatAgent-Bench-Release.git
-cd CyberThreatAgent-Bench-Release
+git clone https://github.com/Alvirwebd/CyberThreatAgent-Bench.git
+cd CyberThreatAgent-Bench
 pip install -r requirements.txt
 ```
 
@@ -110,6 +110,34 @@ Evaluated across $n=5$ independent seeds on group-disjoint splits:
 
 $^{\dagger}$ Statistically significant improvement over next-best baseline ($p < 0.01$, paired bootstrap & Wilcoxon signed-rank tests across 5 seeds).  
 $^{*}$ Evaluated on $n=60$ test alerts with strict JSON schema at temperature 0 (unparseable predictions counted as incorrect).
+
+### 🔀 Hybrid-to-LLM Confidence Routing (Pareto Cascade)
+
+Evaluated on $n=60$ test alerts with the local `HierarchicalMapper` evaluating first and escalating to the frontier LLM (`gemini-2.0-flash-lite`) only when the top-2 prediction margin falls below uncertainty threshold $	heta$:
+
+| Margin Threshold ($	heta$) | LLM Escalation Rate | Top-1 Exact Accuracy | $p_{50}$ Latency | Mean Latency | Cost Savings vs. Full LLM | Operating Regime |
+| :---: | :---: | :---: | :---: | :---: | :---: | :--- |
+| 0.05 | 38.33% | 0.6000 | 5.05 ms | 255.43 ms | 61.67% | Edge fast-path |
+| **0.10** | **48.33%** | **0.6500** | **7.69 ms** | **328.70 ms** | **51.67%** | **Balanced Sweet Spot** (51.7% cost saved) |
+| 0.15 | 63.33% | 0.7000 | 570.63 ms | 432.10 ms | 36.67% | High-confidence consensus |
+| 0.20 | 73.33% | 0.7167 | 583.93 ms | 507.61 ms | 26.67% | High accuracy tier |
+| **0.30** | **81.67%** | **0.7333** | **604.27 ms** | **554.92 ms** | **18.33%** | **Peak Ensemble Accuracy** (73.33% Top-1) |
+| 0.40 | 90.00% | 0.6833 | 638.52 ms | 604.99 ms | 10.00% | Full cloud fallback |
+
+> **Key Findings:**
+> - **51.67% Cost & Latency Reduction at $	heta=0.10$:** Resolves over half of all security alerts locally in under $8\,	ext{ms}$, preserving $0.6500$ exact sub-technique accuracy (within 3.3% of the standalone LLM).
+> - **Super-LLM Ensemble Synergy at $	heta=0.30$:** Surpasses the 100% LLM baseline ($0.7333$ vs. $0.6833$) by allowing the specialized local mapper to resolve procedural alert patterns where zero-shot prompt heuristics fail.
+
+---
+
+## 🔬 Verified Artifacts & Methodology
+
+- **Cryptographic Provenance:** [`artifacts/manifest_v5.json`](artifacts/manifest_v5.json) records SHA-256 digests for all inputs (MITRE ATT&CK 16.1, pinned Sigma rules) and outputs.
+- **5-Seed Scorecard & Raw Trials:** [`artifacts/scorecard_raw_by_seed.csv`](artifacts/scorecard_raw_by_seed.csv) preserves trial-by-trial logs across seeds `[7, 21, 42, 84, 123]` with Student's $t$ $\text{CI}_{95}$ in [`artifacts/scorecard_aggregated.csv`](artifacts/scorecard_aggregated.csv).
+- **Zero-Overlap External CTI Transfer:** [`artifacts/external_validation.csv`](artifacts/external_validation.csv) documents out-of-distribution evaluation on the MITRE TRAM analyst-annotated corpus with zero rule-family overlap.
+- **Statistical Significance Testing:** Paired-order bootstrap resampling ($B=2,000$) and Wilcoxon signed-rank tests confirm statistical significance ($p < 0.01$) of the proposed hybrid mapper against all non-LLM baselines.
+- **Regression Contract Suite:** 23 automated contract smoke tests (schema normalization, score bounds $[0, 100]$, graph acyclicity, and zero-overlap TRAM isolation) pass deterministically.
+- **Environment Verification:** Verified and tested across Python 3.10, 3.11, and 3.12 (see [`requirements.txt`](requirements.txt)).
 
 ---
 

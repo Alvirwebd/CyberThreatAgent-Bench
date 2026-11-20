@@ -89,7 +89,7 @@
     "unparseable_yaml_files": 0
   },
   "artifact_sha256": {
-    "agentic_routing.csv": "7c22db70c13db5084092d77ec5fd47067f88ebac568578521fcef48844267c67",
+    "agentic_routing.csv": "c390b27f1f0d3283c385faf590010db92ae59aefc7d22d05ec2b3460e107941d",
     "dataset_statistics.csv": "8ffcf039b2cc5890278fb8319e946678e70f9960a346e28ea2a5035317388b83",
     "datasheet.json": "7dffcc2152c328e7702f66900013f949c0ef1da87af67ad07930e72ec4ff1c5b",
     "errors_stage3.csv": "5c92dce81ffaaa3be4e60d99ec797d956d65c49b92a0cc0e2515fb4148236af8",
@@ -97,16 +97,17 @@
     "scorecard_aggregated.csv": "c9117d72557a478a7adcbe2a1f909e871d3939fa28b01bd8c8795d1a80c008c2",
     "scorecard_raw_by_seed.csv": "86675e7d66644d980c5606c1837c2829ddf8271dd8167d3443dea7390fd2cfca",
     "smoke_tests.csv": "52223062a4b4383f86d3cb68831bfce2f19646044855652278d41c4f900669bc",
-    "stage2_ioc_eval.csv": "ca80f9c02a02dc4b2109e34689ae570f60731b4477622d85bc50f2a264c2d385",
+    "stage2_ioc_eval.csv": "c259b5e37b29168467dc553952f3fb6f771e6aaead522213809334ce82caf690",
     "stage3_alpha_sweep.csv": "d3de2bb1f0f58d2a968dfb3d6be51c9385c3268f5a201d6ca5036b276ce159c3",
-    "stage3_predictions.csv": "1f7f92e95e534ae9bcc0829753986668ac238aba109b552200c2cc9ee916a332",
+    "stage3_predictions.csv": "ff684497677fee7cf2333750d7382f85dbc68261c8dcece1e5e9eaa692583720",
     "stage5_sequence.csv": "8e11e5435e6a9a4d0e37ab8c6473631f7d12a706087fe4914e7c6ffcbe214b0e",
     "stage6_cve_coverage.csv": "338d11ef1f170e212c5976e7dd78bfd3f3b61e23054d7e0b593ded804c305f8b",
     "stage7_graph.csv": "7d4b4321993124adc6c917875f7da7059ad527c7dbb1f0176200400f9213c2f4",
     "stage8_chain_risk.csv": "c320bcd48c7a3d502b4c64b2ced3073fcc3c95ffe9b47763a34698194d16a3b7",
     "stage8_risk.csv": "5f4cfe0818840d3621ec1de023b2764ad0b3fe1c4b45b04bc1950c6fa2dd919b",
     "llm_baseline.csv": "cfcd47821726b07866322fe726d6b75985e4076bed1fce780d9f2f0331f97dd6",
-    "hybrid_llm_routing.csv": "e38132904a67f6cab75867025b1d158202fb0831a36b49656c4ef61d3bc18fdd"
+    "hybrid_llm_routing.csv": "e38132904a67f6cab75867025b1d158202fb0831a36b49656c4ef61d3bc18fdd",
+    "benchmark_summary.csv": "c376ebb5389df69445a8defbfdb052a042c7fa5a6ddaed7fed44933ae77ce961"
   },
   "changes_vs_v4": [
     "N6 stage6: explicit-CVE metric de-tautologised (gold CVE no longer passed as input)",
