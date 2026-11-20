@@ -105,7 +105,8 @@
     "stage7_graph.csv": "7d4b4321993124adc6c917875f7da7059ad527c7dbb1f0176200400f9213c2f4",
     "stage8_chain_risk.csv": "c320bcd48c7a3d502b4c64b2ced3073fcc3c95ffe9b47763a34698194d16a3b7",
     "stage8_risk.csv": "5f4cfe0818840d3621ec1de023b2764ad0b3fe1c4b45b04bc1950c6fa2dd919b",
-    "llm_baseline.csv": "cfcd47821726b07866322fe726d6b75985e4076bed1fce780d9f2f0331f97dd6"
+    "llm_baseline.csv": "cfcd47821726b07866322fe726d6b75985e4076bed1fce780d9f2f0331f97dd6",
+    "hybrid_llm_routing.csv": "e38132904a67f6cab75867025b1d158202fb0831a36b49656c4ef61d3bc18fdd"
   },
   "changes_vs_v4": [
     "N6 stage6: explicit-CVE metric de-tautologised (gold CVE no longer passed as input)",
