@@ -41,6 +41,10 @@ Examples:
 def main():
     args = parse_args()
     
+    # Propagate output directory to environment for notebook cells
+    if args.output_dir:
+        os.environ["CTAB_OUT_DIR"] = str(Path(args.output_dir).resolve())
+    
     # Default to fast mode if neither specified for quick safe inspection
     fast_mode = True if args.fast or not args.full else False
     mode_str = "FAST (Sanity Smoke Test)" if fast_mode else "FULL (5-Seed Publication Run)"

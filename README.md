@@ -1,6 +1,6 @@
 # CyberThreatAgent-Bench: Autonomous Cybersecurity Agent Benchmark
 
-[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
+[![Python 3.10 | 3.11 | 3.12](https://img.shields.io/badge/python-3.10%20%7C%203.11%20%7C%203.12-blue.svg)](https://www.python.org/downloads/)
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 [![Reproducibility](https://img.shields.io/badge/reproducibility-verified%205--seed-green.svg)](artifacts/manifest_v5.json)
 
@@ -146,11 +146,12 @@ Evaluated on $n=60$ test alerts with the local `HierarchicalMapper` evaluating f
 If you use CyberThreatAgent-Bench in your research, please cite:
 
 ```bibtex
-@inproceedings{alvir2026cyberthreatagentbench,
-  title     = {CyberThreatAgent-Bench: A Multi-Stage Benchmark for Autonomous Threat Detection and Investigation Agents},
-  author    = {Alvir, M. and DeepMind Team},
-  booktitle = {Proceedings of the IEEE Symposium on Security and Privacy (S&P)},
-  year      = {2026}
+@misc{shahriar2026cyberthreatagentbench,
+  author       = {Shahriar, Alvir},
+  title        = {CyberThreatAgent-Bench: A Multi-Stage Benchmark for Autonomous Threat Detection and ATT&CK Mapping Agents},
+  year         = {2026},
+  howpublished = {\url{https://github.com/Alvirwebd/CyberThreatAgent-Bench}},
+  note         = {Open-source research benchmark and reproducibility repository}
 }
 ```
 
