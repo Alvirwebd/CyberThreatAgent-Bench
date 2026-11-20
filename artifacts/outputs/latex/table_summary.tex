@@ -1,0 +1,24 @@
+\begin{table}[t]
+\centering
+\caption{CyberThreatAgent-Bench --- Comprehensive Multi-Stage Benchmark Summary}
+\label{tab:summary}
+\begin{tabular}{lllr}
+\toprule
+Stage & Task & Metric & 5-Seed Score \\ \midrule
+Stage 1 & Alert Ingestion & Schema Validation Rate & 0.960 +-0.0156 \\
+Stage 2 & IOC Extraction & Pooled Micro-F1 & 1.000 +-0.0000 \\
+Stage 2 & IOC Extraction & Benign False-Positive Rate & 0.000 +-0.0000 \\
+Stage 3 & ATT&CK Mapping & Top-1 Exact Accuracy & 0.265 +-0.0633 \\
+Stage 3 & ATT&CK Mapping & MRR (Mean Reciprocal Rank) & 0.366 +-0.0725 \\
+Stage 3 & ATT&CK Mapping & Macro-F1 & 0.213 +-0.0309 \\
+Stage 4 & Actor Attribution & Actor@1 (40% Noise) & 0.486 +-0.0177 \\
+Stage 4 & Actor Attribution & Lift over Random Floor & 0.479 +-0.0177 \\
+Stage 5 & Stage Identification & Micro-F1 & 0.592 +-0.0817 \\
+Stage 6 & CVE Retrieval & Detection F1 (Controlled Probe) & 1.000 +-0.0000 \\
+Stage 7 & Attack Graph & Technique Node Recall & 0.185 +-0.0809 \\
+Stage 7 & Attack Graph & Host Node Accuracy & 1.000 +-0.0000 \\
+Stage 8 & Risk Scoring & Spearman Rank Correlation & 0.067 +-0.1631 \\
+Stage 9 & Mitigation Rec. & NDCG@3 & 0.422 +-0.0933 \\
+\bottomrule
+\end{tabular}
+\end{table}

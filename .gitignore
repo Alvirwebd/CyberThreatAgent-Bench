@@ -1,0 +1,23 @@
+# Environment & Secrets
+.env
+.env.*
+*.env
+
+# Python cache & artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.pkl
+*.pyc
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Jupyter & checkpoints
+.ipynb_checkpoints/
+
+# Operating system
+.DS_Store
+Thumbs.db

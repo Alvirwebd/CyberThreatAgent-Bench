@@ -1,0 +1,14 @@
+# CyberThreatAgent-Bench Requirements
+# Python 3.10+ compatible pinned environment
+numpy==2.4.6
+pandas==3.0.3
+scipy==1.18.0
+scikit-learn==1.9.0
+requests==2.34.2
+networkx==3.6.1
+matplotlib==3.11.0
+ipython==9.15.0
+sentence-transformers==6.3.0
+torch>=2.0.0
+openai>=1.12.0
+google-genai>=0.1.0
