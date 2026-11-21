@@ -1,0 +1,5 @@
+model_id,model_name,hardware_regime,n_alerts,Top1_Exact,Top1_AnyTag,Top1_Parent,parse_failure_rate,p50_latency_ms,p95_latency_ms,cost_per_1000_usd,total_prompt_tokens,total_completion_tokens
+openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,43,0.186,0.2326,0.2558,0.1395,702.08,1077.49,0.0922,13808,9767
+qwen/qwen3.8-27b,Qwen 2.5 27B,Groq LPU,43,0.1628,0.2326,0.2791,0.0,242.92,334.63,0.0354,11954,822
+openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,43,0.3488,0.4186,0.4186,0.0,712.51,1243.86,0.521,13808,5883
+gemini-3.5-flash,Gemini 3.5 Flash,Google Cloud API,43,0.0233,0.0465,0.0233,0.907,10000.0,25305.33,0.0016,675,61

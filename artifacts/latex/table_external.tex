@@ -5,10 +5,12 @@
 \begin{tabular}{lrrrr}
 \toprule
 Model Architecture & Top-1 Exact & Top-1 Parent & MRR Exact & Macro-F1 \\ \midrule
-\textbf{HierarchicalMapper (Hybrid)} & \textbf{0.5276} & \textbf{0.5521} & \textbf{0.5760} & \textbf{0.0866} \\
+\textbf{HierarchicalMapper (Hybrid)} & \textbf{0.0798} & \textbf{0.2945} & \textbf{0.1287} & \textbf{0.0050} \\
+\textbf{SecBERTHybridMapper (SecBERT)} & \textbf{0.0061} & \textbf{0.0061} & \textbf{0.0146} & \textbf{0.0008} \\
 ZeroShotMapper & 0.0859 & 0.2822 & 0.1272 & 0.0067 \\
 BM25Mapper & 0.0307 & 0.2393 & 0.0796 & 0.0027 \\
 DenseRetrieverMapper & 0.0675 & 0.3436 & 0.1692 & 0.0033 \\
+SecDenseRetrieverMapper & 0.0000 & 0.1227 & 0.0178 & 0.0000 \\
 \bottomrule
 \end{tabular}
 \end{table}

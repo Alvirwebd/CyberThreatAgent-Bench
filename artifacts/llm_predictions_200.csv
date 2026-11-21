@@ -1,0 +1,801 @@
+sample_id,model_id,model_name,regime,gt_attack_id,pred_top1,predictions,is_top1_exact,is_top1_any_tag,is_top1_parent,is_top3_exact,rr_at_5,latency_ms,parse_failure
+CTA-1593,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1127,T1027.004,"[""T1027.004"", ""T1218"", ""T1059.001"", ""T1106"", ""T1036""]",False,False,False,False,0.0,1400.0673000009556,False
+CTA-1789,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1185,T1185,"[""T1185"", ""T1539"", ""T1059"", ""T1218"", ""T1078""]",True,True,True,True,1.0,1473.2079999994312,False
+CTA-1035,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1543.003,T1543.003,"[""T1543.003"", ""T1222.001"", ""T1098"", ""T1574.011"", ""T1078""]",True,True,True,True,1.0,1163.8381999982812,False
+CTA-2098,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1003.003,T1003.003,"[""T1003.003"", ""T1069.002"", ""T1201"", ""T1087.002"", ""T1033""]",True,True,True,True,1.0,1170.99479999888,False
+CTA-0160,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1574.011,T1543.003,"[""T1543.003"", ""T1574.011"", ""T1031"", ""T1574.010"", ""T1078""]",False,False,False,True,0.5,1027.47939999972,False
+CTA-1274,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1218,T1202,"[""T1202"", ""T1059.001"", ""T1059"", ""T1218"", ""T1036""]",False,True,False,False,0.25,739.6755000008852,False
+CTA-2029,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1140,T1218.005,"[""T1218.005"", ""T1204.002"", ""T1059.005"", ""T1059.007"", ""T1105""]",False,True,False,False,0.0,748.3835999992152,False
+CTA-2353,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1059.001,T1059.001,"[""T1059.001"", ""T1059"", ""T1027"", ""T1218"", ""T1078""]",True,True,True,True,1.0,639.858099999401,False
+CTA-0809,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1047,T1047,"[""T1047"", ""T1202"", ""T1059"", ""T1218"", ""T1036""]",True,True,True,True,1.0,677.668199998152,False
+CTA-1715,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1036.002,T1036.002,"[""T1036.002"", ""T1036"", ""T1204.002"", ""T1204"", ""T1027""]",True,True,True,True,1.0,1168.0648000001383,False
+CTA-1100,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1059.001,T1021.006,"[""T1021.006"", ""T1059.001"", ""T1021"", ""T1059"", ""T1078""]",False,True,False,True,0.5,904.6343000009074,False
+CTA-0361,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1059.001,T1218.007,"[""T1218.007"", ""T1059.001"", ""T1021.002"", ""T1204.002"", ""T1105""]",False,False,False,True,0.5,688.7935000013385,False
+CTA-2218,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1027,T1027,"[""T1027"", ""T1059.001"", ""T1140"", ""T1027.010"", ""T1059""]",True,True,True,True,1.0,685.0599000026705,False
+CTA-0107,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1059.003,T1059.001,"[""T1059.001"", ""T1027"", ""T1562.001"", ""T1218"", ""T1070""]",False,False,True,False,0.0,929.126000002725,False
+CTA-0687,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1552.006,T1087.001,"[""T1087.001"", ""T1069.001"", ""T1592.001"", ""T1082"", ""T1033""]",False,False,False,False,0.0,1005.7067000016104,False
+CTA-2485,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1036,T1218,"[""T1218"", ""T1564"", ""T1202"", ""T1036"", ""T1059""]",False,False,False,False,0.25,803.0399999988731,False
+CTA-2040,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1686.003,T1562.004,"[""T1562.004"", ""T1072"", ""T1202"", ""T1059.001"", ""T1048""]",False,False,False,False,0.0,846.3914000021759,False
+CTA-0196,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1685,T1562.004,"[""T1562.004"", ""T1059.001"", ""T1562"", ""T1078"", ""T1202""]",False,False,False,False,0.0,762.9883000008704,False
+CTA-2271,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1087.002,T1087.002,"[""T1087.002"", ""T1069.002"", ""T1482"", ""T1218"", ""T1059.001""]",True,True,True,True,1.0,614.6031999996922,False
+CTA-0672,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1216.001,T1218,"[""T1218"", ""T1059.001"", ""T1216"", ""T1059"", ""T1078""]",False,False,False,False,0.0,670.9983000000648,False
+CTA-2185,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1115,T1115,"[""T1115"", ""T1204.002"", ""T1059.001"", ""T1218"", ""T1078""]",True,True,True,True,1.0,776.0907000010775,False
+CTA-1058,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1560.001,T1560.001,"[""T1560.001"", ""T1560"", ""T1074.001"", ""T1074"", ""T1036""]",True,True,True,True,1.0,708.4002999981749,False
+CTA-2391,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1059.001,T1059.001,"[""T1059.001"", ""T1027"", ""T1027.006"", ""T1105"", ""T1055""]",True,True,True,True,1.0,802.0801000020583,False
+CTA-0289,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1053.005,T1053.005,"[""T1053.005"", ""T1202"", ""T1059.001"", ""T1059.003"", ""T1218.011""]",True,True,True,True,1.0,641.0297000002174,False
+CTA-1478,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1053.005,T1053.005,"[""T1053.005"", ""T1059.001"", ""T1059.005"", ""T1218.010"", ""T1047""]",True,True,True,True,1.0,1020.785299999261,False
+CTA-2277,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1059.001,T1059.001,"[""T1059.001"", ""T1105"", ""T1059"", ""T1218"", ""T1204.002""]",True,True,True,True,1.0,680.4205999978876,False
+CTA-1067,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1574.001,T1574.002,"[""T1574.002"", ""T1574"", ""T1218"", ""T1036"", ""T1548""]",False,False,True,False,0.0,588.8300999977218,False
+CTA-0171,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1098,T1098.001,"[""T1098.001"", ""T1078.002"", ""T1087.001"", ""T1069.001"", ""T1098""]",False,False,True,False,0.2,930.9743999983766,False
+CTA-0557,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1068,T1068,"[""T1068"", ""T1078.002"", ""T1134"", ""T1204.002"", ""T1078.003""]",True,True,True,True,1.0,984.9446000007448,False
+CTA-1867,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1195.002,T1203,"[""T1203"", ""T1059.001"", ""T1059.003"", ""T1105"", ""T1543""]",False,False,False,False,0.0,926.5641999991204,False
+CTA-1221,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1548.002,T1562.001,"[""T1562.001"", ""T1072"", ""T1134"", ""T1082"", ""T1070""]",False,False,False,False,0.0,987.831800001004,False
+CTA-0623,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1072,T1218,"[""T1218"", ""T1059.007"", ""T1059"", ""T1202"", ""T1127""]",False,True,False,False,0.0,621.9708999997238,False
+CTA-1203,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1588.002,T1588.002,"[""T1588.002"", ""T1204.002"", ""T1059.001"", ""T1059"", ""T1202""]",True,True,True,True,1.0,858.7569000010262,False
+CTA-2267,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1615,T1592.001,"[""T1592.001"", ""T1033"", ""T1082"", ""T1518"", ""T1040""]",False,False,False,False,0.0,1065.3095000016035,False
+CTA-0803,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1546.011,T1546.011,"[""T1546.011"", ""T1546"", ""T1036"", ""T1204"", ""T1078""]",True,True,True,True,1.0,665.1449999990291,False
+CTA-1204,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1218,T1036.005,"[""T1036.005"", ""T1036"", ""T1588.002"", ""T1588"", ""T1070""]",False,True,False,False,0.0,1269.820299999992,False
+CTA-0895,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1021.002,T1218.011,"[""T1218.011"", ""T1021.002"", ""T1218"", ""T1059"", ""T1078""]",False,True,False,True,0.5,716.596500002197,False
+CTA-1671,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1218.011,T1055.002,"[""T1055.002"", ""T1218.011"", ""T1218.010"", ""T1055"", ""T1218""]",False,False,False,True,0.5,632.8737000003457,False
+CTA-1698,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1059.005,T1218,"[""T1218"", ""T1059.005"", ""T1218.005"", ""T1059"", ""T1106""]",False,True,False,True,0.5,1712.8363000010722,False
+CTA-1106,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1112,T1112,"[""T1112"", ""T1562.001"", ""T1218"", ""T1078"", ""T1202""]",True,True,True,True,1.0,675.2674999988812,False
+CTA-0931,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1053.002,T1053.002,"[""T1053.002"", ""T1053"", ""T1548"", ""T1078"", ""T1202""]",True,True,True,True,1.0,659.4923000011477,False
+CTA-2238,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1567.002,T1567.002,"[""T1567.002"", ""T1048.003"", ""T1105"", ""T1071.001"", ""T1036""]",True,True,True,True,1.0,802.4332999993931,False
+CTA-1334,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1219.002,T1219,"[""T1219"", ""T1071.001"", ""T1090"", ""T1114"", ""T1567""]",False,False,True,False,0.0,1106.2782000008156,False
+CTA-1056,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1218.010,T1218.010,"[""T1218.010"", ""T1059.001"", ""T1059.005"", ""T1087.001"", ""T1053.005""]",True,True,True,True,1.0,922.3248999987844,False
+CTA-0852,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1615,T1016,"[""T1016"", ""T1592.001"", ""T1059.005"", ""T1033"", ""T1082""]",False,False,False,False,0.0,786.9257999991532,False
+CTA-2475,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1218,T1218,"[""T1218"", ""T1059"", ""T1106"", ""T1036"", ""T1204""]",True,True,True,True,1.0,1057.6929999988351,False
+CTA-1251,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1059.005,T1218,"[""T1218"", ""T1059.005"", ""T1059"", ""T1202"", ""T1036""]",False,True,False,True,0.5,823.299899999256,False
+CTA-1696,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1110,T1110.001,"[""T1110.001"", ""T1110"", ""T1059.001"", ""T1059"", ""T1204""]",False,True,True,True,0.5,954.1481000014757,False
+CTA-1337,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1218.010,T1218.010,"[""T1218.010"", ""T1021.002"", ""T1218"", ""T1059"", ""T1105""]",True,True,True,True,1.0,568.0769999999029,False
+CTA-1912,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1218,T1059.001,"[""T1059.001"", ""T1218"", ""T1059"", ""T1202"", ""T1078""]",False,False,False,True,0.5,738.9046999996935,False
+CTA-2430,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1090,T1572,"[""T1572"", ""T1090"", ""T1219"", ""T1071"", ""T1105""]",False,False,False,True,0.5,869.81790000209,False
+CTA-0440,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1003.003,T1003.003,"[""T1003.003"", ""T1003"", ""T1074.001"", ""T1562.001"", ""T1201""]",True,True,True,True,1.0,1052.5737999996636,False
+CTA-0279,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1560.001,T1560.001,"[""T1560.001"", ""T1005"", ""T1114"", ""T1036"", ""T1074""]",True,True,True,True,1.0,677.6041999983136,False
+CTA-2126,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1132.001,T1027.013,"[""T1027.013"", ""T1059.001"", ""T1027"", ""T1620"", ""T1140""]",False,False,False,False,0.0,772.7639999975509,False
+CTA-1668,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1558.003,T1558,"[""T1558"", ""T1098"", ""T1558.003"", ""T1078"", ""T1036""]",False,False,True,True,0.3333333333333333,645.3841000002285,False
+CTA-0357,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1489,T1053.005,"[""T1053.005"", ""T1070.004"", ""T1562.001"", ""T1490"", ""T1070""]",False,False,False,False,0.0,646.6266000024916,False
+CTA-0210,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1490,T1490,"[""T1490"", ""T1562.001"", ""T1070"", ""T1486"", ""T1222""]",True,True,True,True,1.0,767.1530000006896,False
+CTA-0732,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1564.004,T1564.004,"[""T1564.004"", ""T1564"", ""T1218"", ""T1140"", ""T1036""]",True,True,True,True,1.0,813.7416999998095,False
+CTA-2326,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1546.003,T1546.003,"[""T1546.003"", ""T1047"", ""T1546"", ""T1059.005"", ""T1078""]",True,True,True,True,1.0,666.9073000011849,False
+CTA-0648,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1543.003,T1543.003,"[""T1543.003"", ""T1068"", ""T1562.001"", ""T1070.001"", ""T1202""]",True,True,True,True,1.0,726.7977000010433,False
+CTA-0690,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1059,T1059.006,"[""T1059.006"", ""T1059"", ""T1021.001"", ""T1569"", ""T1202""]",False,False,True,True,0.5,766.7188999985228,False
+CTA-0057,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1059,T1105,"[""T1105"", ""T1218"", ""T1078"", ""T1562"", ""T1036""]",False,False,False,False,0.0,667.9350000013073,False
+CTA-1688,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1105,T1105,"[""T1105"", ""T1074.001"", ""T1567"", ""T1218"", ""T1059.001""]",True,True,True,True,1.0,718.6121999984607,False
+CTA-0624,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1548.002,T1548.002,"[""T1548.002"", ""T1548"", ""T1036"", ""T1204"", ""T1078""]",True,True,True,True,1.0,596.064599998499,False
+CTA-1882,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1036.003,T1218.003,"[""T1218.003"", ""T1218"", ""T1036.003"", ""T1036"", ""T1059""]",False,False,False,True,0.3333333333333333,971.6795999993336,False
+CTA-2044,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1548.002,T1548.002,"[""T1548.002"", ""T1134"", ""T1202"", ""T1036"", ""T1574.002""]",True,True,True,True,1.0,818.0866999973659,False
+CTA-1927,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1033,T1033,"[""T1033"", ""T1082"", ""T1049"", ""T1087"", ""T1016""]",True,True,True,True,1.0,706.4914000002318,False
+CTA-0671,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1564.004,T1564.004,"[""T1564.004"", ""T1059.001"", ""T1027"", ""T1078"", ""T1218""]",True,True,True,True,1.0,679.0899000006902,False
+CTA-1238,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1218,T1218,"[""T1218"", ""T1059"", ""T1204"", ""T1036"", ""T1078""]",True,True,True,True,1.0,734.5356000005268,False
+CTA-2128,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1685,T1547.009,"[""T1547.009"", ""T1112"", ""T1012"", ""T1562.001"", ""T1070""]",False,False,False,False,0.0,967.4334000010276,False
+CTA-1869,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1105,T1105,"[""T1105"", ""T1218"", ""T1112"", ""T1059.001"", ""T1078""]",True,True,True,True,1.0,820.552699999098,False
+CTA-0371,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1003.001,T1003.001,"[""T1003.001"", ""T1003"", ""T1560"", ""T1218"", ""T1074""]",True,True,True,True,1.0,761.3086999990628,False
+CTA-0129,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1036.003,T1036.001,"[""T1036.001"", ""T1036"", ""T1070"", ""T1202"", ""T1564.004""]",False,False,True,False,0.0,793.8523000011628,False
+CTA-0411,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1059,T1036.003,"[""T1036.003"", ""T1036"", ""T1071.002"", ""T1105"", ""T1048""]",False,False,False,False,0.0,791.0420999978669,False
+CTA-0341,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1059,T1059.006,"[""T1059.006"", ""T1059"", ""T1036"", ""T1202"", ""T1078""]",False,False,True,True,0.5,741.410900001938,False
+CTA-0461,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1197,T1197,"[""T1197"", ""T1105"", ""T1218"", ""T1036"", ""T1059""]",True,True,True,True,1.0,659.2932000021392,False
+CTA-0921,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1218,T1218,"[""T1218"", ""T1202"", ""T1059.001"", ""T1218.011"", ""T1059""]",True,True,True,True,1.0,735.5786000007356,False
+CTA-1167,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1033,T1033,"[""T1033"", ""T1078"", ""T1087.001"", ""T1082"", ""T1059.001""]",True,True,True,True,1.0,712.6683999995294,False
+CTA-1842,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1218,T1218,"[""T1218"", ""T1202"", ""T1036"", ""T1059.001"", ""T1078""]",True,True,True,True,1.0,774.749600001087,False
+CTA-0602,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1036,T1059.001,"[""T1059.001"", ""T1204.002"", ""T1036.005"", ""T1074.001"", ""T1106""]",False,False,False,False,0.0,1134.685699998954,False
+CTA-1426,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1564.004,T1564.004,"[""T1564.004"", ""T1218.011"", ""T1059.001"", ""T1105"", ""T1027""]",True,True,True,True,1.0,687.0464999992691,False
+CTA-2059,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1134.001,T1134,"[""T1134"", ""T1078"", ""T1543"", ""T1098"", ""T1059""]",False,False,True,False,0.0,719.3443000032858,False
+CTA-0812,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1127,T1027,"[""T1027"", ""T1218"", ""T1059.007"", ""T1059"", ""T1127""]",False,False,False,False,0.2,806.3395999997738,False
+CTA-0460,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1218.010,T1218.010,"[""T1218.010"", ""T1105"", ""T1218"", ""T1059"", ""T1027""]",True,True,True,True,1.0,631.1155000003055,False
+CTA-1622,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1016,T1016,"[""T1016"", ""T1049"", ""T1033"", ""T1082"", ""T1007""]",True,True,True,True,1.0,630.9925000023213,False
+CTA-0845,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1546.007,T1546.007,"[""T1546.007"", ""T1546"", ""T1059.001"", ""T1202"", ""T1036""]",True,True,True,True,1.0,1066.4126000010583,False
+CTA-2076,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1047,T1047,"[""T1047"", ""T1202"", ""T1059.001"", ""T1569.002"", ""T1053.005""]",True,True,True,True,1.0,954.2747999985296,False
+CTA-0298,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1548.002,T1548.002,"[""T1548.002"", ""T1548"", ""T1134"", ""T1036"", ""T1218""]",True,True,True,True,1.0,1008.1600999983492,False
+CTA-1752,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1003,T1003.003,"[""T1003.003"", ""T1490"", ""T1059.001"", ""T1047"", ""T1218""]",False,True,True,False,0.0,980.3992000015568,False
+CTA-1858,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1140,T1059.004,"[""T1059.004"", ""T1140"", ""T1027"", ""T1059"", ""T1078""]",False,False,False,True,0.5,1068.695399997523,False
+CTA-1156,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1553.004,T1553.004,"[""T1553.004"", ""T1588.004"", ""T1078"", ""T1574"", ""T1204""]",True,True,True,True,1.0,962.6403000002028,False
+CTA-2457,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1059.004,T1548,"[""T1548"", ""T1059"", ""T1204"", ""T1078"", ""T1070""]",False,False,False,False,0.0,606.1200999974972,False
+CTA-0560,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1685,T1562.004,"[""T1562.004"", ""T1059.004"", ""T1078.002"", ""T1543.003"", ""T1046""]",False,False,False,False,0.0,752.3777999995218,False
+CTA-2244,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1686,T1562.001,"[""T1562.001"", ""T1562.004"", ""T1562"", ""T1489"", ""T1070""]",False,False,False,False,0.0,864.1138000020874,False
+CTA-2289,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1016,T1016,"[""T1016"", ""T1049"", ""T1033"", ""T1082"", ""T1087""]",True,True,True,True,1.0,678.7574000009045,False
+CTA-1896,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1059.004,T1059.004,"[""T1059.004"", ""T1059"", ""T1218"", ""T1078"", ""T1548""]",True,True,True,True,1.0,799.6300000013434,False
+CTA-1239,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1059,T1059.004,"[""T1059.004"", ""T1571"", ""T1059"", ""T1078"", ""T1218""]",False,False,True,True,0.3333333333333333,771.4941999984148,False
+CTA-0428,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1059,T1210,"[""T1210"", ""T1059.004"", ""T1059"", ""T1203"", ""T1078""]",False,False,False,True,0.3333333333333333,1023.9843999988808,False
+CTA-0006,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1567,T1105,"[""T1105"", ""T1041"", ""T1071.001"", ""T1219"", ""T1059.004""]",False,True,False,False,0.0,724.0023000013025,False
+CTA-0912,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1033,T1082,"[""T1082"", ""T1518"", ""T1059.004"", ""T1046"", ""T1201""]",False,False,False,False,0.0,723.879000001034,False
+CTA-2145,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1083,T1082,"[""T1082"", ""T1057"", ""T1059.004"", ""T1548.001"", ""T1033""]",False,False,False,False,0.0,860.3773000031651,False
+CTA-1314,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1565.001,T1546.004,"[""T1546.004"", ""T1098"", ""T1547.006"", ""T1565.001"", ""T1078.003""]",False,False,False,False,0.25,779.2343000000983,False
+CTA-0686,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1059,T1218,"[""T1218"", ""T1059.004"", ""T1548.001"", ""T1059"", ""T1218.005""]",False,False,False,False,0.25,896.5720000014699,False
+CTA-1259,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1505.003,T1505.003,"[""T1505.003"", ""T1059.004"", ""T1033"", ""T1082"", ""T1049""]",True,True,True,True,1.0,947.0363999971596,False
+CTA-0172,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1018,T1018,"[""T1018"", ""T1046"", ""T1016"", ""T1033"", ""T1082""]",True,True,True,True,1.0,973.0176000011852,False
+CTA-0608,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1048.003,T1105,"[""T1105"", ""T1590.005"", ""T1059.006"", ""T1071.001"", ""T1219""]",False,False,False,False,0.0,1044.8680000008608,False
+CTA-0479,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1070.004,T1070.004,"[""T1070.004"", ""T1070"", ""T1485"", ""T1222.002"", ""T1561""]",True,True,True,True,1.0,975.7688000026974,False
+CTA-2342,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1548,T1548.001,"[""T1548.001"", ""T1548"", ""T1168"", ""T1078.003"", ""T1574""]",False,False,True,True,0.5,770.9996000012325,False
+CTA-2111,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1033,T1082,"[""T1082"", ""T1046"", ""T1059.004"", ""T1518"", ""T1033""]",False,False,False,False,0.2,1013.52990000305,False
+CTA-1326,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1140,T1059.004,"[""T1059.004"", ""T1059"", ""T1204.002"", ""T1078.003"", ""T1036""]",False,False,False,False,0.0,758.162899997842,False
+CTA-2084,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1059,T1059.004,"[""T1059.004"", ""T1059.006"", ""T1204.002"", ""T1059.007"", ""T1106""]",False,False,True,False,0.0,788.9288000005763,False
+CTA-2062,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1593.003,T1213,"[""T1213"", ""T1588.002"", ""T1059.004"", ""T1588"", ""T1204.002""]",False,False,False,False,0.0,771.5943000002881,False
+CTA-0511,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1033,T1046,"[""T1046"", ""T1016"", ""T1059.004"", ""T1082"", ""T1518""]",False,False,False,False,0.0,819.4306000004872,False
+CTA-1112,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1082,T1613,"[""T1613"", ""T1082"", ""T1033"", ""T1059.004"", ""T1083""]",False,False,False,True,0.5,780.0712999996904,False
+CTA-0990,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1069.001,T1069.001,"[""T1069.001"", ""T1087.001"", ""T1003.008"", ""T1082"", ""T1078.003""]",True,True,True,True,1.0,758.6338000000978,False
+CTA-0425,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1485,T1485,"[""T1485"", ""T1561.001"", ""T1070.004"", ""T1486"", ""T1070""]",True,True,True,True,1.0,732.1460000021034,False
+CTA-2241,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1082,T1083,"[""T1083"", ""T1059.004"", ""T1204.002"", ""T1070"", ""T1005""]",False,False,False,False,0.0,893.4969000001729,False
+CTA-0451,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1059,T1059.006,"[""T1059.006"", ""T1059"", ""T1036"", ""T1070"", ""T1202""]",False,False,True,True,0.5,636.0596000013174,False
+CTA-1943,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1059,T1059.006,"[""T1059.006"", ""T1059"", ""T1036"", ""T1218"", ""T1078""]",False,False,True,True,0.5,766.4134000006015,False
+CTA-2478,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1552.001,T1003.008,"[""T1003.008"", ""T1003"", ""T1105"", ""T1074.001"", ""T1070.006""]",False,False,False,False,0.0,933.6585999990348,False
+CTA-0843,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1059.006,T1059.006,"[""T1059.006"", ""T1140"", ""T1027"", ""T1059"", ""T1204.002""]",True,True,True,True,1.0,934.672599996702,False
+CTA-0748,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1049,T1049,"[""T1049"", ""T1033"", ""T1082"", ""T1016"", ""T1057""]",True,True,True,True,1.0,760.3331999998773,False
+CTA-2329,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1115,T1115,"[""T1115"", ""T1204.002"", ""T1059.004"", ""T1078.003"", ""T1202""]",True,True,True,True,1.0,780.8923999982653,False
+CTA-0178,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1082,T1613,"[""T1613"", ""T1082"", ""T1033"", ""T1083"", ""T1201""]",False,False,False,True,0.5,998.8426999989316,False
+CTA-1272,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1083,T1083,"[""T1083"", ""T1078"", ""T1222.002"", ""T1548.001"", ""T1201""]",True,True,True,True,1.0,754.9490999990667,False
+CTA-2083,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1082,T1082,"[""T1082"", ""T1033"", ""T1057"", ""T1049"", ""T1083""]",True,True,True,True,1.0,747.7781999987201,False
+CTA-1019,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1053.003,T1053.003,"[""T1053.003"", ""T1053"", ""T1036"", ""T1078"", ""T1204""]",True,True,True,True,1.0,1188.214599998901,False
+CTA-0518,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1222.002,T1070.006,"[""T1070.006"", ""T1565.001"", ""T1070"", ""T1565"", ""T1222.002""]",False,False,False,False,0.2,1011.8968000024324,False
+CTA-1905,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1574.001,T1574.002,"[""T1574.002"", ""T1574"", ""T1055"", ""T1204"", ""T1070""]",False,False,True,False,0.0,665.1302999998734,False
+CTA-0776,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1574.001,T1574.002,"[""T1574.002"", ""T1574"", ""T1204"", ""T1078"", ""T1036""]",False,False,True,False,0.0,768.1989000011527,False
+CTA-2073,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1204.002,T1204.002,"[""T1204.002"", ""T1059.005"", ""T1218"", ""T1055"", ""T1093""]",True,True,True,True,1.0,765.0108000016189,False
+CTA-2079,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1574.001,T1574.002,"[""T1574.002"", ""T1574"", ""T1036"", ""T1059"", ""T1218""]",False,False,True,False,0.0,792.9278000010527,False
+CTA-0052,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1546.003,T1546.003,"[""T1546.003"", ""T1047"", ""T1546"", ""T1218"", ""T1059.001""]",True,True,True,True,1.0,662.8821999984211,False
+CTA-0889,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1574.001,T1574.002,"[""T1574.002"", ""T1574"", ""T1036"", ""T1112"", ""T1070""]",False,False,True,False,0.0,1023.7333000004584,False
+CTA-1269,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1574.001,T1574.001,"[""T1574.001"", ""T1574"", ""T1543.003"", ""T1543"", ""T1055""]",True,True,True,True,1.0,945.3131000009308,False
+CTA-1284,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1574.001,T1574.002,"[""T1574.002"", ""T1574"", ""T1204.002"", ""T1036"", ""T1059""]",False,False,True,False,0.0,1012.3976999966544,False
+CTA-0409,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1574.001,T1574.002,"[""T1574.002"", ""T1574"", ""T1218"", ""T1036"", ""T1059""]",False,False,True,False,0.0,1018.1957999993756,False
+CTA-1374,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1003.001,T1003.001,"[""T1003.001"", ""T1218.011"", ""T1036"", ""T1003"", ""T1218""]",True,True,True,True,1.0,1005.4320000017468,False
+CTA-2335,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1202,T1218.008,"[""T1218.008"", ""T1218"", ""T1574.002"", ""T1574"", ""T1202""]",False,False,False,False,0.2,1141.424299999926,False
+CTA-1548,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1574.001,T1574.002,"[""T1574.002"", ""T1574"", ""T1036"", ""T1218"", ""T1055""]",False,False,True,False,0.0,660.2233000012347,False
+CTA-2279,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1204.002,T1204.002,"[""T1204.002"", ""T1566.001"", ""T1059.005"", ""T1204"", ""T1566""]",True,True,True,True,1.0,1090.8218000004126,False
+CTA-1400,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1204.002,T1218,"[""T1218"", ""T1137"", ""T1574.002"", ""T1204.002"", ""T1055""]",False,False,False,False,0.25,806.7953999998281,False
+CTA-0508,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1490,T1490,"[""T1490"", ""T1070.004"", ""T1562.001"", ""T1055"", ""T1036""]",True,True,True,True,1.0,819.2374999998719,False
+CTA-0140,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1574.001,T1574.002,"[""T1574.002"", ""T1574"", ""T1218"", ""T1036"", ""T1055""]",False,False,True,False,0.0,693.3040999974764,False
+CTA-0661,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1055,T1064,"[""T1064"", ""T1218"", ""T1059"", ""T1202"", ""T1055""]",False,False,False,False,0.2,901.9976999989012,False
+CTA-0961,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1574.001,T1574.002,"[""T1574.002"", ""T1574"", ""T1036"", ""T1218"", ""T1055""]",False,False,True,False,0.0,919.6203999999852,False
+CTA-1175,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1574.001,T1574.002,"[""T1574.002"", ""T1574"", ""T1218"", ""T1055"", ""T1204""]",False,False,True,False,0.0,1023.6139000007825,False
+CTA-1812,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1574.001,T1574.002,"[""T1574.002"", ""T1574"", ""T1218"", ""T1036"", ""T1059""]",False,False,True,False,0.0,663.352899999154,False
+CTA-0547,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1490,T1490,"[""T1490"", ""T1003.003"", ""T1070.004"", ""T1218"", ""T1059""]",True,True,True,True,1.0,925.6994999996097,False
+CTA-2233,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1574.001,T1574.002,"[""T1574.002"", ""T1574"", ""T1204.002"", ""T1059.005"", ""T1202""]",False,False,True,False,0.0,751.0612000005494,False
+CTA-2251,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1574.001,T1574.002,"[""T1574.002"", ""T1574"", ""T1036"", ""T1218"", ""T1070""]",False,False,True,False,0.0,732.126299997617,False
+CTA-1024,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1574.001,T1574.001,"[""T1574.001"", ""T1574"", ""T1036"", ""T1574.002"", ""T1218""]",True,True,True,True,1.0,796.7167999995581,False
+CTA-1078,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1574.001,T1574.002,"[""T1574.002"", ""T1574"", ""T1055"", ""T1036"", ""T1218""]",False,False,True,False,0.0,880.5044000000635,False
+CTA-0441,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1574.001,T1218.002,"[""T1218.002"", ""T1574.002"", ""T1204.002"", ""T1055"", ""T1218""]",False,False,False,False,0.0,1027.4848000008203,False
+CTA-1304,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1003.001,T1003.001,"[""T1003.001"", ""T1547.009"", ""T1574.002"", ""T1134"", ""T1055""]",True,True,True,True,1.0,1002.7260999995632,False
+CTA-1433,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1574.001,T1574.002,"[""T1574.002"", ""T1574"", ""T1218"", ""T1036"", ""T1059""]",False,False,True,False,0.0,693.7266999993881,False
+CTA-1049,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1574.001,T1574.002,"[""T1574.002"", ""T1574"", ""T1218"", ""T1204"", ""T1036""]",False,False,True,False,0.0,765.5692000007548,False
+CTA-1887,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1003.001,T1003.001,"[""T1003.001"", ""T1134"", ""T1055"", ""T1218"", ""T1036""]",True,True,True,True,1.0,1117.0721999988018,False
+CTA-0390,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1574.001,T1574.001,"[""T1574.001"", ""T1574"", ""T1204"", ""T1036"", ""T1055""]",True,True,True,True,1.0,860.5166000015743,False
+CTA-2472,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1574.001,T1574.002,"[""T1574.002"", ""T1574"", ""T1036"", ""T1218"", ""T1055""]",False,False,True,False,0.0,746.4443000026222,False
+CTA-0161,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1218,T1574.002,"[""T1574.002"", ""T1574"", ""T1218"", ""T1036"", ""T1106""]",False,False,False,True,0.3333333333333333,793.4686000007787,False
+CTA-2436,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1574.001,T1574.002,"[""T1574.002"", ""T1574"", ""T1218"", ""T1055"", ""T1078""]",False,False,True,False,0.0,951.5934999981256,False
+CTA-2011,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1574.001,T1574.002,"[""T1574.002"", ""T1574"", ""T1218"", ""T1036"", ""T1055""]",False,False,True,False,0.0,749.0225999972608,False
+CTA-1096,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1574.001,T1574.002,"[""T1574.002"", ""T1574"", ""T1218"", ""T1055"", ""T1070""]",False,False,True,False,0.0,951.4550999992936,False
+CTA-0629,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1003,T1003.001,"[""T1003.001"", ""T1564.003"", ""T1074.001"", ""T1106"", ""T1574.002""]",False,False,True,False,0.0,763.7187999971502,False
+CTA-2132,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1574.001,T1574.002,"[""T1574.002"", ""T1574"", ""T1218"", ""T1055"", ""T1036""]",False,False,True,False,0.0,1101.7333999989205,False
+CTA-1441,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1485,T1578.002,"[""T1578.002"", ""T1078.004"", ""T1562.001"", ""T1485"", ""T1531""]",False,False,False,False,0.25,666.5968999986944,False
+CTA-0797,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1686.001,T1562.004,"[""T1562.004"", ""T1078.004"", ""T1485"", ""T1531"", ""T1578.005""]",False,False,False,False,0.0,774.4277999991027,False
+CTA-0023,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1686.001,T1562.004,"[""T1562.004"", ""T1098"", ""T1078"", ""T1485"", ""T1531""]",False,False,False,False,0.0,1070.609099999274,False
+CTA-0678,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1485,T1098.005,"[""T1098.005"", ""T1078.004"", ""T1562.001"", ""T1485"", ""T1070.008""]",False,False,False,False,0.25,806.7217999996501,False
+CTA-1654,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1078,T1546.015,"[""T1546.015"", ""T1078.004"", ""T1098"", ""T1199"", ""T1565.001""]",False,False,False,False,0.0,800.8994000010716,False
+CTA-1249,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1552,T1578,"[""T1578"", ""T1485"", ""T1530"", ""T1078.004"", ""T1565.001""]",False,False,False,False,0.0,768.4614999998303,False
+CTA-0086,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1485,T1562.001,"[""T1562.001"", ""T1078.004"", ""T1578"", ""T1565.001"", ""T1498""]",False,False,False,False,0.0,783.3823000000848,False
+CTA-1260,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1485,T1078.003,"[""T1078.003"", ""T1098"", ""T1548"", ""T1199"", ""T1078""]",False,False,False,False,0.0,779.7739999987243,False
+CTA-0362,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1685,T1070.001,"[""T1070.001"", ""T1070"", ""T1562.001"", ""T1562"", ""T1078.004""]",False,False,False,False,0.0,753.8004999987606,False
+CTA-0110,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1528,T1570,"[""T1570"", ""T1021.002"", ""T1571"", ""T1105"", ""T1055""]",False,False,False,False,0.0,647.3823000014818,False
+CTA-0145,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1055,T1570,"[""T1570"", ""T1021.002"", ""T1543"", ""T1055"", ""T1090""]",False,False,False,False,0.25,886.4936999998463,False
+CTA-0753,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1055,T1543.003,"[""T1543.003"", ""T1055.001"", ""T1134"", ""T1036"", ""T1059.001""]",False,False,False,False,0.0,971.0855000012089,False
+CTA-2435,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1569.002,T1570,"[""T1570"", ""T1021.002"", ""T1543.003"", ""T1078"", ""T1053.005""]",False,False,False,False,0.0,846.8166999991809,False
+CTA-2394,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1021.002,T1570,"[""T1570"", ""T1021.002"", ""T1574.002"", ""T1059.003"", ""T1078""]",False,False,False,True,0.5,831.3828999998805,False
+CTA-2094,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1021.002,T1570,"[""T1570"", ""T1021.002"", ""T1543"", ""T1053"", ""T1078""]",False,False,False,True,0.5,684.3243000002985,False
+CTA-0958,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1070,T1070.001,"[""T1070.001"", ""T1070"", ""T1485"", ""T1074.001"", ""T1562.001""]",False,False,True,True,0.5,813.8075000024401,False
+CTA-0061,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1490,T1490,"[""T1490"", ""T1070.004"", ""T1485"", ""T1070"", ""T1222.001""]",True,True,True,True,1.0,1127.2289999978966,False
+CTA-1760,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1070.004,T1070.004,"[""T1070.004"", ""T1070"", ""T1562.001"", ""T1562"", ""T1222.001""]",True,True,True,True,1.0,1016.881800002011,False
+CTA-2525,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1070,T1070.004,"[""T1070.004"", ""T1070"", ""T1059.001"", ""T1562.001"", ""T1222.001""]",False,False,True,True,0.5,856.8584999993618,False
+CTA-0462,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1055.012,T1055.002,"[""T1055.002"", ""T1055"", ""T1204.002"", ""T1059.005"", ""T1218.005""]",False,False,True,False,0.0,1092.4530000011146,False
+CTA-1920,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1127,T1055.002,"[""T1055.002"", ""T1055"", ""T1106"", ""T1036"", ""T1218""]",False,False,False,False,0.0,961.1342000025616,False
+CTA-0029,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1055,T1055.002,"[""T1055.002"", ""T1055"", ""T1059"", ""T1218"", ""T1036""]",False,False,True,True,0.5,935.5797999996868,False
+CTA-0617,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1003,T1555.004,"[""T1555.004"", ""T1555"", ""T1003"", ""T1539"", ""T1214""]",False,False,False,True,0.3333333333333333,1367.149600002449,False
+CTA-0679,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1555.004,T1555.004,"[""T1555.004"", ""T1003"", ""T1555"", ""T1036"", ""T1070""]",True,True,True,True,1.0,976.6880000024684,False
+CTA-2108,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1552.006,T1552.006,"[""T1552.006"", ""T1003"", ""T1040"", ""T1550.002"", ""T1039""]",True,True,True,True,1.0,1688.148099998216,False
+CTA-0134,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1071.004,T1071.004,"[""T1071.004"", ""T1568.002"", ""T1041"", ""T1573.001"", ""T1219""]",True,True,True,True,1.0,1007.7590999972016,False
+CTA-1278,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1090.003,T1090.003,"[""T1090.003"", ""T1071.001"", ""T1568"", ""T1090"", ""T1048""]",True,True,True,True,1.0,1815.40060000043,False
+CTA-0045,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1098,T1098.003,"[""T1098.003"", ""T1078.004"", ""T1136.003"", ""T1098"", ""T1078""]",False,False,True,False,0.25,1671.7399999979534,False
+CTA-1497,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1550.002,T1550.002,"[""T1550.002"", ""T1078.003"", ""T1110"", ""T1201"", ""T1040""]",True,True,True,True,1.0,560.4971000029764,False
+CTA-1599,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1548,T1210,"[""T1210"", ""T1068"", ""T1557"", ""T1207"", ""T1078""]",False,False,False,False,0.0,1933.121399997617,False
+CTA-2262,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1204.002,T1202,"[""T1202"", ""T1078"", ""T1548"", ""T1218"", ""T1036""]",False,False,False,False,0.0,1665.69040000104,False
+CTA-0548,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1190,T1190,"[""T1190"", ""T1211"", ""T1068"", ""T1499"", ""T1041""]",True,True,True,True,1.0,1884.4533000010413,False
+CTA-0863,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1649,T1552.004,"[""T1552.004"", ""T1649"", ""T1555"", ""T1098"", ""T1114""]",False,False,False,True,0.5,1594.4197999997414,False
+CTA-1381,gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,Google Cloud API,T1021.002,T1021.002,"[""T1021.002"", ""T1570"", ""T1078"", ""T1210"", ""T1040""]",True,True,True,True,1.0,2197.4451999994926,False
+CTA-1593,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1127,T1106,"[""T1106"", ""T1059.001"", ""T1105"", ""T1074"", ""T1053.005""]",False,False,False,False,0.0,1220.9906999996747,False
+CTA-1789,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1185,T1059.003,"[""T1059.003"", ""T1059.001"", ""T1059.002"", ""T1059.004"", ""T1059.005""]",False,False,False,False,0.0,850.6424000006518,False
+CTA-1035,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1543.003,T1543.003,"[""T1543.003"", ""T1222.001"", ""T1068"", ""T1047"", ""T1053""]",True,True,True,True,1.0,611.955600001238,False
+CTA-2098,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1003.003,,[],False,False,False,False,0.0,1572.970200002601,True
+CTA-0160,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1574.011,T1547.001,"[""T1547.001"", ""T1547.003"", ""T1547.002"", ""T1068"", ""T1053.001""]",False,False,False,False,0.0,448.8582000012684,False
+CTA-1274,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1218,T1059.001,"[""T1059.001"", ""T1106"", ""T1059.003""]",False,False,False,False,0.0,1251.3118000024406,False
+CTA-2029,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1140,,[],False,False,False,False,0.0,1601.4924999981304,True
+CTA-2353,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1059.001,,[],False,False,False,False,0.0,1531.2694999993255,True
+CTA-0809,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1047,,[],False,False,False,False,0.0,1406.8266000031144,True
+CTA-1715,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1036.002,T1027,"[""T1027"", ""T1036"", ""T1140"", ""T1059.003"", ""T1059""]",False,False,False,False,0.0,954.7459999994317,False
+CTA-1100,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1059.001,T1086,"[""T1086"", ""T1047"", ""T1021.004"", ""T1059.001"", ""T1071.001""]",False,False,False,False,0.25,471.2967999985267,False
+CTA-0361,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1059.001,T1059.001,"[""T1059.001"", ""T1105"", ""T1106"", ""T1107"", ""T1108""]",True,True,True,True,1.0,1283.7055000018154,False
+CTA-2218,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1027,T1059.001,"[""T1059.001"", ""T1027"", ""T1106.001"", ""T1059.003"", ""T1059.004""]",False,True,False,True,0.5,665.9249000003911,False
+CTA-0107,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1059.003,T1059.001,"[""T1059.001"", ""T1106"", ""T1059.003"", ""T1105"", ""T1059""]",False,False,True,True,0.3333333333333333,1268.4119000005012,False
+CTA-0687,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1552.006,T1087,"[""T1087"", ""T1087.001"", ""T1087.002"", ""T1087.003"", ""T1087.004""]",False,False,False,False,0.0,946.2415000016335,False
+CTA-2485,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1036,,[],False,False,False,False,0.0,1502.7429000001575,True
+CTA-2040,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1686.003,T1562.006,"[""T1562.006"", ""T1059.003"", ""T1059"", ""T1071.001"", ""T1063""]",False,False,False,False,0.0,663.5088000002725,False
+CTA-0196,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1685,,[],False,False,False,False,0.0,1860.6021999985387,True
+CTA-2271,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1087.002,T1087,"[""T1087"", ""T1069"", ""T1087.001"", ""T1069.001"", ""T1018""]",False,False,True,False,0.0,545.7925000009709,False
+CTA-0672,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1216.001,T1059.001,"[""T1059.001"", ""T1059.003"", ""T1059"", ""T1106"", ""T1086""]",False,False,False,False,0.0,1249.7101000008115,False
+CTA-2185,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1115,T1115,"[""T1115"", ""T1059"", ""T1055"", ""T1053"", ""T1070""]",True,True,True,True,1.0,1268.9725999989605,False
+CTA-1058,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1560.001,,[],False,False,False,False,0.0,1515.9768000012264,True
+CTA-2391,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1059.001,T1086,"[""T1086"", ""T1059.001"", ""T1027"", ""T1105"", ""T1055""]",False,False,False,True,0.5,508.4142999985488,False
+CTA-0289,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1053.005,T1053.005,"[""T1053.005"", ""T1053.001"", ""T1053.006"", ""T1053.003"", ""T1053.004""]",True,True,True,True,1.0,1396.7946999982814,False
+CTA-1478,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1053.005,T1053.005,"[""T1053.005"", ""T1059.001"", ""T1059.003"", ""T1059.004"", ""T1059.006""]",True,True,True,True,1.0,649.5943999980227,False
+CTA-2277,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1059.001,T1059.001,"[""T1059.001"", ""T1105"", ""T1059""]",True,True,True,True,1.0,1531.4466000018,False
+CTA-1067,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1574.001,T1073,"[""T1073"", ""T1055"", ""T1105"", ""T1059"", ""T1086""]",False,False,False,False,0.0,988.3203999997932,False
+CTA-0171,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1098,T1069.001,"[""T1069.001"", ""T1136.001"", ""T1136.003"", ""T1078.001"", ""T1053.005""]",False,False,False,False,0.0,1194.4110999975237,False
+CTA-0557,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1068,T1068,"[""T1068"", ""T1078"", ""T1087"", ""T1059"", ""T1086""]",True,True,True,True,1.0,449.25400000283844,False
+CTA-1867,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1195.002,T1059.001,"[""T1059.001"", ""T1059.003"", ""T1059.004"", ""T1059.006"", ""T1106""]",False,False,False,False,0.0,424.70309999771416,False
+CTA-1221,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1548.002,T1106,"[""T1106"", ""T1059.001"", ""T1105"", ""T1107"", ""T1108""]",False,False,False,False,0.0,1353.7283000005118,False
+CTA-0623,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1072,T1059.001,"[""T1059.001"", ""T1059.003"", ""T1059.004"", ""T1059.005"", ""T1059.006""]",False,False,False,False,0.0,1260.1788000029046,False
+CTA-1203,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1588.002,,[],False,False,False,False,0.0,1518.2787999983702,True
+CTA-2267,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1615,T1082,"[""T1082"", ""T1069.001"", ""T1057"", ""T1087.001"", ""T1055.001""]",False,False,False,False,0.0,771.0377000003064,False
+CTA-0803,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1546.011,T1547.001,"[""T1547.001""]",False,False,False,False,0.0,1508.0543000003672,False
+CTA-1204,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1218,T1036.001,"[""T1036.001"", ""T1036"", ""T1105"", ""T1059.003"", ""T1071.001""]",False,False,False,False,0.0,932.7548000001116,False
+CTA-0895,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1021.002,T1106,"[""T1106"", ""T1105"", ""T1107"", ""T1059.003"", ""T1070.004""]",False,False,False,False,0.0,1458.6936999985483,False
+CTA-1671,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1218.011,,[],False,False,False,False,0.0,1410.538699998142,True
+CTA-1698,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1059.005,T1059.005,"[""T1059.005"", ""T1059.001"", ""T1059.003"", ""T1059.006"", ""T1059.004""]",True,True,True,True,1.0,426.9982000005257,False
+CTA-1106,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1112,T1112,"[""T1112"", ""T1059.003"", ""T1059.001"", ""T1059.004"", ""T1059.005""]",True,True,True,True,1.0,1581.605799998215,False
+CTA-0931,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1053.002,,[],False,False,False,False,0.0,1544.0354000020307,True
+CTA-2238,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1567.002,,[],False,False,False,False,0.0,1410.72030000214,True
+CTA-1334,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1219.002,T1021.001,"[""T1021.001"", ""T1071.001"", ""T1105"", ""T1059.001"", ""T1059.003""]",False,False,False,False,0.0,735.9342999989167,False
+CTA-1056,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1218.010,T1117,"[""T1117"", ""T1059.001"", ""T1059.003"", ""T1059.007"", ""T1059.006""]",False,False,False,False,0.0,717.9606999998214,False
+CTA-0852,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1615,T1016.001,"[""T1016.001"", ""T1059.006"", ""T1049"", ""T1059.001"", ""T1057""]",False,False,False,False,0.0,832.8557999993791,False
+CTA-2475,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1218,T1059.003,"[""T1059.003"", ""T1059.001"", ""T1105"", ""T1106"", ""T1070.004""]",False,False,False,False,0.0,1428.008900002169,False
+CTA-1251,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1059.005,T1059.001,"[""T1059.001"", ""T1059.004"", ""T1059.003"", ""T1059.005"", ""T1059.006""]",False,False,True,False,0.25,1015.401099997689,False
+CTA-1696,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1110,,[],False,False,False,False,0.0,1392.225600000529,True
+CTA-1337,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1218.010,,[],False,False,False,False,0.0,1557.7612000015506,True
+CTA-1912,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1218,,[],False,False,False,False,0.0,1510.1426000001084,True
+CTA-2430,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1090,,[],False,False,False,False,0.0,1498.900099999446,True
+CTA-0440,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1003.003,T1059.003,"[""T1059.003"", ""T1003.001"", ""T1082"", ""T1083"", ""T1087""]",False,False,False,False,0.0,1160.2201999994577,False
+CTA-0279,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1560.001,T1074.001,"[""T1074.001"", ""T1041"", ""T1105"", ""T1070.004"", ""T1020""]",False,False,False,False,0.0,481.8078999996942,False
+CTA-2126,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1132.001,T1059.001,"[""T1059.001"", ""T1027.001"", ""T1055.001"", ""T1105"", ""T1106""]",False,False,False,False,0.0,1606.3037999992957,False
+CTA-1668,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1558.003,T1558.003,"[""T1558.003"", ""T1069.001"", ""T1078.004"", ""T1041"", ""T1203""]",True,True,True,True,1.0,998.9156999981788,False
+CTA-0357,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1489,T1053.005,"[""T1053.005"", ""T1053.006""]",False,False,False,False,0.0,1652.1604000008665,False
+CTA-0210,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1490,T1542.003,"[""T1542.003"", ""T1112"", ""T1059.003"", ""T1059"", ""T1105""]",False,False,False,False,0.0,943.0241000009119,False
+CTA-0732,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1564.004,T1036.006,"[""T1036.006"", ""T1105"", ""T1105.001"", ""T1105.002"", ""T1105.003""]",False,False,False,False,0.0,1320.6018999990192,False
+CTA-2326,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1546.003,,[],False,False,False,False,0.0,1577.2488999973575,True
+CTA-0648,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1543.003,T1050,"[""T1050"", ""T1543.003"", ""T1053.005"", ""T1059.003"", ""T1059.001""]",False,False,False,True,0.5,778.9173000019218,False
+CTA-0690,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1059,T1059.006,"[""T1059.006"", ""T1059.001"", ""T1059.004"", ""T1059.003"", ""T1059.005""]",False,False,True,False,0.0,1483.2799999967392,False
+CTA-0057,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1059,,[],False,False,False,False,0.0,1550.7270000016433,True
+CTA-1688,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1105,T1059.003,"[""T1059.003"", ""T1071.001"", ""T1041"", ""T1105"", ""T1059""]",False,False,False,False,0.25,1144.080699999904,False
+CTA-0624,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1548.002,,[],False,False,False,False,0.0,1651.7552000004798,True
+CTA-1882,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1036.003,,[],False,False,False,False,0.0,1561.4168000029167,True
+CTA-2044,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1548.002,T1106,"[""T1106""]",False,False,False,False,0.0,935.9250000015891,False
+CTA-1927,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1033,T1033,"[""T1033"", ""T1087"", ""T1057"", ""T1082"", ""T1087.001""]",True,True,True,True,1.0,747.1063000011782,False
+CTA-0671,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1564.004,T1059.001,"[""T1059.001"", ""T1140"", ""T1027"", ""T1036.001"", ""T1070.008""]",False,False,False,False,0.0,595.7990999995673,False
+CTA-1238,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1218,T1059.001,"[""T1059.001"", ""T1059.003"", ""T1059.004"", ""T1059.006"", ""T1059.008""]",False,False,False,False,0.0,750.1962999995158,False
+CTA-2128,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1685,,[],False,False,False,False,0.0,1706.2451999991026,True
+CTA-1869,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1105,T1105,"[""T1105"", ""T1112"", ""T1059.001"", ""T1071.001"", ""T1106""]",True,True,True,True,1.0,392.0189000018581,False
+CTA-0371,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1003.001,T1055,"[""T1055"", ""T1055.001"", ""T1055.002"", ""T1055.003"", ""T1055.004""]",False,False,False,False,0.0,1135.3296999986924,False
+CTA-0129,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1036.003,T1036.004,"[""T1036.004"", ""T1036.001"", ""T1036.003"", ""T1036.005"", ""T1105""]",False,False,True,True,0.3333333333333333,688.7181999991299,False
+CTA-0411,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1059,T1036,"[""T1036"", ""T1106"", ""T1059.003"", ""T1071.001"", ""T1059""]",False,False,False,False,0.2,826.4957999999751,False
+CTA-0341,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1059,T1059.005,"[""T1059.005"", ""T1059"", ""T1106"", ""T1059.001"", ""T1059.006""]",False,False,True,True,0.5,607.5490000002901,False
+CTA-0461,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1197,,[],False,False,False,False,0.0,1586.594199998217,True
+CTA-0921,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1218,,[],False,False,False,False,0.0,1568.446799999947,True
+CTA-1167,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1033,T1087.001,"[""T1087.001"", ""T1078.001"", ""T1059.003"", ""T1086"", ""T1055""]",False,False,False,False,0.0,1106.1630000003788,False
+CTA-1842,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1218,T1059.003,"[""T1059.003"", ""T1059.001"", ""T1059.004"", ""T1059.006"", ""T1059.007""]",False,False,False,False,0.0,816.426199999114,False
+CTA-0602,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1036,T1059.003,"[""T1059.003"", ""T1105"", ""T1055"", ""T1083"", ""T1070.004""]",False,False,False,False,0.0,878.4516000014264,False
+CTA-1426,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1564.004,T1117,"[""T1117"", ""T1105"", ""T1059.003"", ""T1070.008"", ""T1106""]",False,False,False,False,0.0,1309.6621000004234,False
+CTA-2059,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1134.001,,[],False,False,False,False,0.0,1411.4315000006172,True
+CTA-0812,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1127,,[],False,False,False,False,0.0,1491.2538999997196,True
+CTA-0460,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1218.010,T1117,"[""T1117"", ""T1105"", ""T1071.001"", ""T1071.002"", ""T1105.001""]",False,False,False,False,0.0,563.5041000023193,False
+CTA-1622,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1016,T1016.001,"[""T1016.001"", ""T1016.003"", ""T1016.005"", ""T1016.006"", ""T1046""]",False,False,True,False,0.0,882.511899999372,False
+CTA-0845,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1546.007,T1105,"[""T1105"", ""T1053"", ""T1059"", ""T1078"", ""T1060""]",False,False,False,False,0.0,1160.8865999987756,False
+CTA-2076,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1047,T1047,"[""T1047"", ""T1055"", ""T1106"", ""T1059.001"", ""T1059.003""]",True,True,True,True,1.0,612.5395000017306,False
+CTA-0298,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1548.002,T1548.003,"[""T1548.003"", ""T1055"", ""T1059.003"", ""T1106"", ""T1064""]",False,False,True,False,0.0,729.343200000585,False
+CTA-1752,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1003,T1569.001,"[""T1569.001"", ""T1059.001"", ""T1059.003"", ""T1105"", ""T1070.001""]",False,False,False,False,0.0,1391.2746000023617,False
+CTA-1858,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1140,,[],False,False,False,False,0.0,1606.4943999990646,True
+CTA-1156,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1553.004,T1059.003,"[""T1059.003"", ""T1107"", ""T1059"", ""T1105"", ""T1070""]",False,False,False,False,0.0,1480.3775000000314,False
+CTA-2457,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1059.004,,[],False,False,False,False,0.0,1292.3166000000492,True
+CTA-0560,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1685,T1059.004,"[""T1059.004"", ""T1112"", ""T1137"", ""T1059.003"", ""T1059.001""]",False,False,False,False,0.0,1044.7141000004194,False
+CTA-2244,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1686,T1089,"[""T1089"", ""T1562.001"", ""T1490"", ""T1059.003"", ""T1070.004""]",False,False,False,False,0.0,812.1004999993602,False
+CTA-2289,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1016,T1016.001,"[""T1016.001"", ""T1046"", ""T1049"", ""T1057"", ""T1053.005""]",False,False,True,False,0.0,717.7475999997114,False
+CTA-1896,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1059.004,T1059.004,"[""T1059.004"", ""T1059.006"", ""T1059"", ""T1059.001"", ""T1059.003""]",True,True,True,True,1.0,1626.4778000004299,False
+CTA-1239,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1059,T1059.003,"[""T1059.003"", ""T1059.001"", ""T1105"", ""T1059.004"", ""T1059.002""]",False,False,True,False,0.0,1138.1819000016549,False
+CTA-0428,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1059,,[],False,False,False,False,0.0,1579.704200001288,True
+CTA-0006,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1567,T1071.001,"[""T1071.001"", ""T1041"", ""T1105"", ""T1059.001"", ""T1106""]",False,False,False,False,0.0,501.6141999985848,False
+CTA-0912,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1033,T1046,"[""T1046"", ""T1057"", ""T1059"", ""T1087"", ""T1082""]",False,False,False,False,0.0,1068.5874999981024,False
+CTA-2145,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1083,T1057,"[""T1057"", ""T1069.001"", ""T1082"", ""T1087"", ""T1059.001""]",False,False,False,False,0.0,771.9479000006686,False
+CTA-1314,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1565.001,,[],False,False,False,False,0.0,1633.1639000018185,True
+CTA-0686,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1059,T1059.004,"[""T1059.004"", ""T1059"", ""T1068"", ""T1055"", ""T1106""]",False,False,True,True,0.5,485.06089999864344,False
+CTA-1259,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1505.003,T1059.004,"[""T1059.004"", ""T1059.001"", ""T1059.003"", ""T1059.005"", ""T1059.006""]",False,False,False,False,0.0,1633.5113999994064,False
+CTA-0172,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1018,T1018,"[""T1018"", ""T1046"", ""T1016.001"", ""T1049""]",True,True,True,True,1.0,1290.1283000028343,False
+CTA-0608,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1048.003,,[],False,False,False,False,0.0,1654.1180000021996,True
+CTA-0479,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1070.004,T1070.004,"[""T1070.004"", ""T1070.001"", ""T1107"", ""T1070.003"", ""T1070.005""]",True,True,True,True,1.0,872.6320999994641,False
+CTA-2342,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1548,T1068,"[""T1068"", ""T1134"", ""T1548.003""]",False,False,False,False,0.0,1534.1413999994984,False
+CTA-2111,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1033,,[],False,False,False,False,0.0,1707.7032000015606,True
+CTA-1326,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1140,,[],False,False,False,False,0.0,1598.0705000001763,True
+CTA-2084,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1059,T1059.004,"[""T1059.004"", ""T1059.006"", ""T1059.001"", ""T1105"", ""T1071.001""]",False,False,True,False,0.0,678.4557999999379,False
+CTA-2062,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1593.003,T1059.001,"[""T1059.001"", ""T1105"", ""T1071.001"", ""T1059.003"", ""T1059.004""]",False,False,False,False,0.0,725.5239000005531,False
+CTA-0511,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1033,T1016.001,"[""T1016.001"", ""T1046"", ""T1059.001"", ""T1057"", ""T1082""]",False,False,False,False,0.0,1051.0119999999006,False
+CTA-1112,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1082,T1082,"[""T1082"", ""T1057"", ""T1083"", ""T1059"", ""T1055""]",True,True,True,True,1.0,852.3782000011124,False
+CTA-0990,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1069.001,T1069.001,"[""T1069.001"", ""T1087.001"", ""T1033"", ""T1057"", ""T1049""]",True,True,True,True,1.0,740.6900999994832,False
+CTA-0425,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1485,,[],False,False,False,False,0.0,1519.4164000022283,True
+CTA-2241,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1082,T1083,"[""T1083"", ""T1059.003"", ""T1059"", ""T1105"", ""T1059.001""]",False,False,False,False,0.0,1003.4307000023546,False
+CTA-0451,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1059,T1059.006,"[""T1059.006"", ""T1059.004"", ""T1059.001"", ""T1059.005"", ""T1059.003""]",False,False,True,False,0.0,983.1870000016352,False
+CTA-1943,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1059,,[],False,False,False,False,0.0,1737.4165000001085,True
+CTA-2478,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1552.001,,[],False,False,False,False,0.0,1308.4158999990905,True
+CTA-0843,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1059.006,T1059.001,"[""T1059.001"", ""T1140"", ""T1027"", ""T1059""]",False,False,True,False,0.0,1016.2430999989738,False
+CTA-0748,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1049,T1049,"[""T1049"", ""T1046"", ""T1057"", ""T1053"", ""T1055""]",True,True,True,True,1.0,819.1770000012184,False
+CTA-2329,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1115,T1115,"[""T1115"", ""T1059.003"", ""T1059"", ""T1059.001"", ""T1059.004""]",True,True,True,True,1.0,1272.2226999976556,False
+CTA-0178,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1082,T1082,"[""T1082"", ""T1057"", ""T1083"", ""T1059.004"", ""T1059.001""]",True,True,True,True,1.0,760.3157999983523,False
+CTA-1272,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1083,T1083,"[""T1083"", ""T1069.001"", ""T1059.003"", ""T1087.001"", ""T1082""]",True,True,True,True,1.0,778.627100000449,False
+CTA-2083,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1082,T1082,"[""T1082"", ""T1082.001"", ""T1082.002"", ""T1057"", ""T1057.001""]",True,True,True,True,1.0,1055.2408000003197,False
+CTA-1019,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1053.003,,[],False,False,False,False,0.0,1557.5922000025457,True
+CTA-0518,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1222.002,T1222.002,"[""T1222.002"", ""T1059.004"", ""T1070.006"", ""T1059.001"", ""T1059.003""]",True,True,True,True,1.0,983.9773999992758,False
+CTA-1905,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1574.001,,[],False,False,False,False,0.0,1669.4534000016574,True
+CTA-0776,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1574.001,,[],False,False,False,False,0.0,1674.5144000014989,True
+CTA-2073,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1204.002,T1055.001,"[""T1055.001"", ""T1106"", ""T1105"", ""T1070.004""]",False,False,False,False,0.0,1179.937199998676,False
+CTA-2079,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1574.001,T1574.009,"[""T1574.009"", ""T1055"", ""T1105"", ""T1070.004"", ""T1059.001""]",False,False,True,False,0.0,861.7579000019759,False
+CTA-0052,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1546.003,T1047,"[""T1047"", ""T1053.005"", ""T1064"", ""T1106"", ""T1059.003""]",False,False,False,False,0.0,602.8264999986277,False
+CTA-0889,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1574.001,,[],False,False,False,False,0.0,1612.7880999993067,True
+CTA-1269,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1574.001,,[],False,False,False,False,0.0,1398.563800001284,True
+CTA-1284,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1574.001,T1073,"[""T1073"", ""T1055"", ""T1105"", ""T1106"", ""T1082""]",False,False,False,False,0.0,804.3007999986003,False
+CTA-0409,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1574.001,T1574.002,"[""T1574.002"", ""T1055.001"", ""T1055.003"", ""T1055.004"", ""T1055.005""]",False,False,True,False,0.0,1023.7405000007129,False
+CTA-1374,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1003.001,,[],False,False,False,False,0.0,1635.1729999987583,True
+CTA-2335,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1202,T1055.001,"[""T1055.001"", ""T1203"", ""T1055"", ""T1070.004"", ""T1070.001""]",False,False,False,False,0.0,1273.7579999993613,False
+CTA-1548,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1574.001,,[],False,False,False,False,0.0,1587.0238999996218,True
+CTA-2279,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1204.002,,[],False,False,False,False,0.0,1513.738800000283,True
+CTA-1400,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1204.002,,[],False,False,False,False,0.0,1386.6381000007095,True
+CTA-0508,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1490,T1490,"[""T1490"", ""T1070.004"", ""T1106"", ""T1059.001"", ""T1105""]",True,True,True,True,1.0,649.2344999969646,False
+CTA-0140,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1574.001,T1073,"[""T1073"", ""T1105"", ""T1055"", ""T1059"", ""T1086""]",False,False,False,False,0.0,1264.1444000000774,False
+CTA-0661,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1055,,[],False,False,False,False,0.0,1579.2350000010629,True
+CTA-0961,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1574.001,,[],False,False,False,False,0.0,1574.082899998757,True
+CTA-1175,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1574.001,T1073,"[""T1073"", ""T1055"", ""T1105"", ""T1106"", ""T1107""]",False,False,False,False,0.0,788.6739999994461,False
+CTA-1812,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1574.001,T1073,"[""T1073"", ""T1055"", ""T1055.001"", ""T1105"", ""T1105.001""]",False,False,False,False,0.0,804.0637999984028,False
+CTA-0547,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1490,T1055,"[""T1055"", ""T1106"", ""T1105"", ""T1059"", ""T1070.004""]",False,False,False,False,0.0,738.1721999990987,False
+CTA-2233,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1574.001,T1574.002,"[""T1574.002"", ""T1105"", ""T1055"", ""T1078"", ""T1106""]",False,False,True,False,0.0,1078.9432000019588,False
+CTA-2251,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1574.001,,[],False,False,False,False,0.0,1583.6870999992243,True
+CTA-1024,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1574.001,T1574.004,"[""T1574.004"", ""T1055"", ""T1105"", ""T1106"", ""T1107""]",False,False,True,False,0.0,855.950600001961,False
+CTA-1078,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1574.001,,[],False,False,False,False,0.0,1540.2904000002309,True
+CTA-0441,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1574.001,,[],False,False,False,False,0.0,1548.607800003083,True
+CTA-1304,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1003.001,T1055.001,"[""T1055.001"", ""T1055.002"", ""T1055.003"", ""T1055.004"", ""T1055.006""]",False,False,False,False,0.0,739.6016000020609,False
+CTA-1433,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1574.001,T1105,"[""T1105"", ""T1106"", ""T1055"", ""T1070"", ""T1059""]",False,False,False,False,0.0,787.801300000865,False
+CTA-1049,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1574.001,T1073,"[""T1073"", ""T1055"", ""T1105"", ""T1106"", ""T1107""]",False,False,False,False,0.0,1197.9033000025083,False
+CTA-1887,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1003.001,T1003.001,"[""T1003.001"", ""T1055.001"", ""T1105""]",True,True,True,True,1.0,1029.2874000006123,False
+CTA-0390,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1574.001,T1073,"[""T1073"", ""T1105"", ""T1055"", ""T1106"", ""T1059""]",False,False,False,False,0.0,829.5077999973728,False
+CTA-2472,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1574.001,,[],False,False,False,False,0.0,1558.4598000023107,True
+CTA-0161,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1218,T1106,"[""T1106"", ""T1105"", ""T1059.001"", ""T1055"", ""T1070""]",False,False,False,False,0.0,1007.0328000001609,False
+CTA-2436,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1574.001,,[],False,False,False,False,0.0,1527.4917000024288,True
+CTA-2011,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1574.001,T1574.001,"[""T1574.001"", ""T1055"", ""T1106"", ""T1105"", ""T1070""]",True,True,True,True,1.0,586.1846000007063,False
+CTA-1096,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1574.001,T1574.009,"[""T1574.009"", ""T1105"", ""T1106"", ""T1059"", ""T1055""]",False,False,True,False,0.0,1359.2489000002388,False
+CTA-0629,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1003,T1055.001,"[""T1055.001"", ""T1003.001"", ""T1105"", ""T1070.004""]",False,False,False,False,0.0,1340.3342999990855,False
+CTA-2132,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1574.001,T1574.009,"[""T1574.009"", ""T1105"", ""T1055"", ""T1106"", ""T1107""]",False,False,True,False,0.0,470.56789999987814,False
+CTA-1441,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1485,T1583.001,"[""T1583.001"", ""T1078.001"", ""T1136.001"", ""T1059.001"", ""T1105""]",False,False,False,False,0.0,773.662499999773,False
+CTA-0797,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1686.001,T1592,"[""T1592"", ""T1529"", ""T1070.004"", ""T1112"", ""T1082""]",False,False,False,False,0.0,1179.8740000012913,False
+CTA-0023,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1686.001,T1112,"[""T1112"", ""T1562.001"", ""T1070.004"", ""T1053.005"", ""T1063""]",False,False,False,False,0.0,1003.576899998734,False
+CTA-0678,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1485,T1098.001,"[""T1098.001""]",False,False,False,False,0.0,1391.9946000023629,False
+CTA-1654,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1078,T1053.005,"[""T1053.005"", ""T1071.001"", ""T1059.001"", ""T1068"", ""T1105""]",False,False,False,False,0.0,424.8494999992545,False
+CTA-1249,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1552,T1112,"[""T1112"", ""T1526"", ""T1078"", ""T1059"", ""T1082""]",False,False,False,False,0.0,927.9801000011503,False
+CTA-0086,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1485,T1040,"[""T1040""]",False,False,False,False,0.0,1277.2317999988445,False
+CTA-1260,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1485,T1548.003,"[""T1548.003"", ""T1069.001"", ""T1098.001"", ""T1078.001"", ""T1059.001""]",False,False,False,False,0.0,969.9793999971007,False
+CTA-0362,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1685,T1070.001,"[""T1070.001"", ""T1070.003"", ""T1070.004"", ""T1070.008"", ""T1070.006""]",False,False,False,False,0.0,374.9000000025262,False
+CTA-0110,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1528,T1041,"[""T1041""]",False,False,False,False,0.0,1213.7035000014293,False
+CTA-0145,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1055,T1041,"[""T1041""]",False,False,False,False,0.0,1047.2153000009712,False
+CTA-0753,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1055,T1041,"[""T1041""]",False,False,False,False,0.0,932.9437000014877,False
+CTA-2435,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1569.002,T1041,"[""T1041""]",False,False,False,False,0.0,728.3101000030001,False
+CTA-2394,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1021.002,,[],False,False,False,False,0.0,1114.49630000061,True
+CTA-2094,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1021.002,T1041,"[""T1041""]",False,False,False,False,0.0,803.4975000009581,False
+CTA-0958,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1070,,[],False,False,False,False,0.0,1561.4189999978407,True
+CTA-0061,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1490,,[],False,False,False,False,0.0,1538.1983000006585,True
+CTA-1760,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1070.004,,[],False,False,False,False,0.0,1478.5942999988038,True
+CTA-2525,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1070,T1070.001,"[""T1070.001"", ""T1070.003"", ""T1070.008"", ""T1059.001"", ""T1070.004""]",False,False,True,False,0.0,1463.061700000253,False
+CTA-0462,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1055.012,T1106,"[""T1106"", ""T1059"", ""T1105"", ""T1053"", ""T1070""]",False,False,False,False,0.0,1004.2180999989796,False
+CTA-1920,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1127,T1055.001,"[""T1055.001"", ""T1055"", ""T1055.002"", ""T1055.003"", ""T1055.004""]",False,False,False,False,0.0,1501.0376999998698,False
+CTA-0029,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1055,T1055.003,"[""T1055.003"", ""T1055"", ""T1106"", ""T1055.001"", ""T1055.004""]",False,False,True,True,0.5,1000.8734000002733,False
+CTA-0617,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1003,T1003.001,"[""T1003.001"", ""T1552.001"", ""T1059.001"", ""T1078.001"", ""T1055.001""]",False,False,True,False,0.0,701.8577999988338,False
+CTA-0679,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1555.004,T1003.003,"[""T1003.003"", ""T1003"", ""T1055"", ""T1055.001"", ""T1055.003""]",False,False,False,False,0.0,1064.3964000009873,False
+CTA-2108,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1552.006,T1083,"[""T1083"", ""T1105"", ""T1033"", ""T1087"", ""T1078""]",False,False,False,False,0.0,679.8402999993414,False
+CTA-0134,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1071.004,T1043,"[""T1043"", ""T1105"", ""T1059.004""]",False,False,False,False,0.0,1138.151499999367,False
+CTA-1278,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1090.003,T1049,"[""T1049"", ""T1046""]",False,False,False,False,0.0,1087.138300001243,False
+CTA-0045,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1098,T1134.001,"[""T1134.001"", ""T1078.001"", ""T1548.001"", ""T1068"", ""T1136""]",False,False,False,False,0.0,736.6879000001063,False
+CTA-1497,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1550.002,T1078.001,"[""T1078.001"", ""T1078.002"", ""T1021.001"", ""T1071.001"", ""T1087.001""]",False,False,False,False,0.0,765.2734000002965,False
+CTA-1599,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1548,T1078.001,"[""T1078.001"", ""T1078.002"", ""T1078.003"", ""T1078.004"", ""T1078.005""]",False,False,False,False,0.0,1021.4408000028925,False
+CTA-2262,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1204.002,T1547.001,"[""T1547.001"", ""T1547.003"", ""T1547.004"", ""T1547.005"", ""T1547.009""]",False,False,False,False,0.0,812.6162000007753,False
+CTA-0548,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1190,T1190,"[""T1190"", ""T1071.001"", ""T1071.002"", ""T1071.003"", ""T1071.004""]",True,True,True,True,1.0,1063.4426999968127,False
+CTA-0863,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1649,T1003,"[""T1003"", ""T1041"", ""T1567.001"", ""T1530"", ""T1048""]",False,False,False,False,0.0,743.7444000024698,False
+CTA-1381,openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,T1021.002,T1021.001,"[""T1021.001"", ""T1077"", ""T1040"", ""T1041"", ""T1053""]",False,False,True,False,0.0,1452.9675999983738,False
+CTA-1593,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1127,T1059.007,"[""T1059.007"", ""T1204.002"", ""T1027"", ""T1059.004"", ""T1059.003""]",False,False,False,False,0.0,396.3691999997536,False
+CTA-1789,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1185,T1185,"[""T1185"", ""T1059.007"", ""T1059.001"", ""T1071.001"", ""T1055""]",True,True,True,True,1.0,343.54910000183736,False
+CTA-1035,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1543.003,T1548.002,"[""T1548.002"", ""T1543.003"", ""T1078"", ""T1055"", ""T1059.001""]",False,False,False,True,0.5,340.3935000023921,False
+CTA-2098,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1003.003,T1003.003,"[""T1003.003"", ""T1003"", ""T1005"", ""T1003.001"", ""T1003.002""]",True,True,True,True,1.0,303.92700000084005,False
+CTA-0160,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1574.011,T1543.003,"[""T1543.003"", ""T1543.002"", ""T1543.001"", ""T1055.001"", ""T1068""]",False,False,False,False,0.0,333.9923000021372,False
+CTA-1274,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1218,T1204.002,"[""T1204.002"", ""T1059.003"", ""T1070.004"", ""T1070.001"", ""T1055""]",False,False,False,False,0.0,313.4437999979127,False
+CTA-2029,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1140,T1218.005,"[""T1218.005"", ""T1059.005"", ""T1059.007"", ""T1204.002"", ""T1027""]",False,True,False,False,0.0,349.6868000001996,False
+CTA-2353,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1059.001,T1059.001,"[""T1059.001"", ""T1059"", ""T1047"", ""T1071.001"", ""T1027""]",True,True,True,True,1.0,277.4106999968353,False
+CTA-0809,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1047,T1047,"[""T1047"", ""T1059.003"", ""T1059"", ""T1569.002"", ""T1059.001""]",True,True,True,True,1.0,329.08620000307565,False
+CTA-1715,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1036.002,T1036.004,"[""T1036.004"", ""T1027"", ""T1566.001"", ""T1059.001"", ""T1070.004""]",False,False,True,False,0.0,421.04639999888605,False
+CTA-1100,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1059.001,T1059.001,"[""T1059.001"", ""T1021.006"", ""T1047"", ""T1071.001"", ""T1059.004""]",True,True,True,True,1.0,346.8305999995209,False
+CTA-0361,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1059.001,T1204.005,"[""T1204.005"", ""T1059.001"", ""T1543.003"", ""T1021.001"", ""T1071.001""]",False,False,False,True,0.5,399.75820000108797,False
+CTA-2218,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1027,T1059.001,"[""T1059.001"", ""T1027"", ""T1059"", ""T1047"", ""T1071.001""]",False,True,False,True,0.5,503.355199998623,False
+CTA-0107,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1059.003,T1059.001,"[""T1059.001"", ""T1204.002"", ""T1027"", ""T1055"", ""T1070.004""]",False,False,True,False,0.0,357.7725000031933,False
+CTA-0687,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1552.006,T1087.001,"[""T1087.001"", ""T1046"", ""T1082"", ""T1016"", ""T1005""]",False,False,False,False,0.0,420.13560000123107,False
+CTA-2485,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1036,T1204.002,"[""T1204.002"", ""T1553.005"", ""T1036.005"", ""T1055.001"", ""T1070.004""]",False,False,False,False,0.0,332.9287000015029,False
+CTA-2040,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1686.003,T1562.004,"[""T1562.004"", ""T1548.003"", ""T1070.004"", ""T1059.004"", ""T1543.003""]",False,False,False,False,0.0,343.9323999991757,False
+CTA-0196,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1685,T1562.004,"[""T1562.004"", ""T1070.004"", ""T1059.001"", ""T1548.002"", ""T1078.002""]",False,False,False,False,0.0,357.774200001586,False
+CTA-2271,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1087.002,T1087.002,"[""T1087.002"", ""T1018"", ""T1046"", ""T1003.006"", ""T1078.004""]",True,True,True,True,1.0,334.53190000000177,False
+CTA-0672,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1216.001,T1059.001,"[""T1059.001"", ""T1204.002"", ""T1071.001"", ""T1059.004"", ""T1059.003""]",False,False,False,False,0.0,318.3052000022144,False
+CTA-2185,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1115,T1115.002,"[""T1115.002"", ""T1056.009"", ""T1005"", ""T1056"", ""T1071.001""]",False,False,True,False,0.0,312.08589999732794,False
+CTA-1058,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1560.001,T1560.001,"[""T1560.001"", ""T1041"", ""T1074.001"", ""T1048"", ""T1029""]",True,True,True,True,1.0,352.9785999999149,False
+CTA-2391,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1059.001,T1059.001,"[""T1059.001"", ""T1140"", ""T1027"", ""T1055.003"", ""T1059.003""]",True,True,True,True,1.0,416.7756000024383,False
+CTA-0289,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1053.005,T1053.005,"[""T1053.005"", ""T1546.001"", ""T1059.001"", ""T1059.003"", ""T1059.004""]",True,True,True,True,1.0,369.76319999666885,False
+CTA-1478,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1053.005,T1053.005,"[""T1053.005"", ""T1059.001"", ""T1059.005"", ""T1546.003"", ""T1027""]",True,True,True,True,1.0,342.325500001607,False
+CTA-2277,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1059.001,T1059.001,"[""T1059.001"", ""T1105"", ""T1027"", ""T1047"", ""T1071.001""]",True,True,True,True,1.0,418.72000000148546,False
+CTA-1067,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1574.001,T1574.002,"[""T1574.002"", ""T1204.002"", ""T1055"", ""T1070.004"", ""T1547.001""]",False,False,True,False,0.0,429.63659999804804,False
+CTA-0171,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1098,T1098.001,"[""T1098.001"", ""T1078.002"", ""T1098"", ""T1548.003"", ""T1136.001""]",False,False,True,True,0.3333333333333333,353.6848000003374,False
+CTA-0557,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1068,T1068,"[""T1068"", ""T1548.002"", ""T1078.002"", ""T1548"", ""T1059.001""]",True,True,True,True,1.0,327.30850000007194,False
+CTA-1867,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1195.002,T1204.002,"[""T1204.002"", ""T1059.001"", ""T1059.003"", ""T1059.004"", ""T1059.007""]",False,False,False,False,0.0,376.6639999994368,False
+CTA-1221,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1548.002,T1546.002,"[""T1546.002"", ""T1059.001"", ""T1071.001"", ""T1543.003"", ""T1021.002""]",False,False,False,False,0.0,476.053000002139,False
+CTA-0623,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1072,T1059.004,"[""T1059.004"", ""T1204.002"", ""T1027"", ""T1070.004"", ""T1562.001""]",False,False,False,False,0.0,329.40249999955995,False
+CTA-1203,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1588.002,T1218.011,"[""T1218.011"", ""T1059.004"", ""T1070.004"", ""T1070.001"", ""T1027""]",False,False,False,False,0.0,342.7135999991151,False
+CTA-2267,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1615,T1016,"[""T1016"", ""T1082"", ""T1069.002"", ""T1018"", ""T1087.002""]",False,False,False,False,0.0,380.66059999982826,False
+CTA-0803,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1546.011,T1546.012,"[""T1546.012"", ""T1546"", ""T1055"", ""T1059"", ""T1070""]",False,False,True,False,0.0,320.29460000194376,False
+CTA-1204,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1218,T1218.011,"[""T1218.011"", ""T1036.005"", ""T1059.004"", ""T1078"", ""T1016""]",False,False,True,False,0.0,555.7407000014791,False
+CTA-0895,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1021.002,T1218.011,"[""T1218.011"", ""T1570"", ""T1059.003"", ""T1027"", ""T1071.001""]",False,True,False,False,0.0,328.23800000187475,False
+CTA-1671,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1218.011,T1218.011,"[""T1218.011"", ""T1218.010"", ""T1218.013"", ""T1055"", ""T1070.004""]",True,True,True,True,1.0,358.31529999995837,False
+CTA-1698,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1059.005,T1204.002,"[""T1204.002"", ""T1059.005"", ""T1059.001"", ""T1047"", ""T1071.001""]",False,False,False,True,0.5,303.19629999939934,False
+CTA-1106,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1112,T1112,"[""T1112"", ""T1547.001"", ""T1543.003"", ""T1546.012"", ""T1059.001""]",True,True,True,True,1.0,354.1866999985359,False
+CTA-0931,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1053.002,T1053.005,"[""T1053.005"", ""T1543.003"", ""T1055"", ""T1078"", ""T1548.002""]",False,False,True,False,0.0,319.169200000033,False
+CTA-2238,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1567.002,T1567.002,"[""T1567.002"", ""T1041"", ""T1105"", ""T1071.001"", ""T1059.004""]",True,True,True,True,1.0,336.6870999998355,False
+CTA-1334,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1219.002,T1219,"[""T1219"", ""T1059.004"", ""T1071.001"", ""T1570"", ""T1021.001""]",False,False,True,False,0.0,327.5967000008677,False
+CTA-1056,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1218.010,T1218.010,"[""T1218.010"", ""T1059.001"", ""T1059.003"", ""T1059.004"", ""T1059.007""]",True,True,True,True,1.0,348.99640000003274,False
+CTA-0852,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1615,T1016,"[""T1016"", ""T1082"", ""T1018"", ""T1046"", ""T1059.001""]",False,False,False,False,0.0,309.569900000497,False
+CTA-2475,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1218,T1562.009,"[""T1562.009"", ""T1059.001"", ""T1070.004"", ""T1543.003"", ""T1027""]",False,False,False,False,0.0,325.81410000057076,False
+CTA-1251,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1059.005,T1204.002,"[""T1204.002"", ""T1059.005"", ""T1059.001"", ""T1059.007"", ""T1059.003""]",False,False,False,True,0.5,337.37029999974766,False
+CTA-1696,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1110,T1110.001,"[""T1110.001"", ""T1078"", ""T1021"", ""T1059.004"", ""T1552.001""]",False,True,True,False,0.0,420.0858000003791,False
+CTA-1337,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1218.010,T1218.010,"[""T1218.010"", ""T1059.003"", ""T1027"", ""T1071.001"", ""T1047""]",True,True,True,True,1.0,304.5135000029404,False
+CTA-1912,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1218,T1059.001,"[""T1059.001"", ""T1218.011"", ""T1059"", ""T1070.004"", ""T1562.001""]",False,False,False,False,0.0,354.2526999990514,False
+CTA-2430,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1090,T1090.003,"[""T1090.003"", ""T1059.004"", ""T1571"", ""T1071.001"", ""T1027""]",False,False,True,False,0.0,420.33989999981713,False
+CTA-0440,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1003.003,T1003.003,"[""T1003.003"", ""T1003"", ""T1547.006"", ""T1078.004"", ""T1016""]",True,True,True,True,1.0,312.80559999868274,False
+CTA-0279,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1560.001,T1560.001,"[""T1560.001"", ""T1041"", ""T1074.001"", ""T1005"", ""T1029""]",True,True,True,True,1.0,308.1128000012541,False
+CTA-2126,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1132.001,T1059.001,"[""T1059.001"", ""T1140"", ""T1027"", ""T1055"", ""T1059""]",False,False,False,False,0.0,361.7097999995167,False
+CTA-1668,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1558.003,T1558.001,"[""T1558.001"", ""T1558.004"", ""T1558.003"", ""T1078.003"", ""T1021.002""]",False,False,True,True,0.3333333333333333,364.1764999993029,False
+CTA-0357,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1489,T1053.005,"[""T1053.005"", ""T1490"", ""T1070.005"", ""T1542.003"", ""T1070""]",False,False,False,False,0.0,409.9955999990925,False
+CTA-0210,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1490,T1542.001,"[""T1542.001"", ""T1562.001"", ""T1070.004"", ""T1543.003"", ""T1059.001""]",False,False,False,False,0.0,434.43570000090403,False
+CTA-0732,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1564.004,T1564.004,"[""T1564.004"", ""T1027"", ""T1059.001"", ""T1070.004"", ""T1059.004""]",True,True,True,True,1.0,402.8139000001829,False
+CTA-2326,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1546.003,T1546.003,"[""T1546.003"", ""T1053.005"", ""T1059.005"", ""T1059.007"", ""T1546.001""]",True,True,True,True,1.0,353.8189999999304,False
+CTA-0648,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1543.003,T1547.005,"[""T1547.005"", ""T1543.003"", ""T1015"", ""T1059.004"", ""T1562.008""]",False,False,False,True,0.5,347.9086000006646,False
+CTA-0690,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1059,T1059.004,"[""T1059.004"", ""T1059.001"", ""T1059"", ""T1071.001"", ""T1059.003""]",False,False,True,True,0.3333333333333333,304.6680000006745,False
+CTA-0057,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1059,T1543.003,"[""T1543.003"", ""T1059.004"", ""T1204.002"", ""T1071.001"", ""T1562.001""]",False,False,False,False,0.0,350.8261999995739,False
+CTA-1688,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1105,T1105,"[""T1105"", ""T1041"", ""T1059.004"", ""T1048"", ""T1071.001""]",True,True,True,True,1.0,323.1986000027973,False
+CTA-0624,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1548.002,T1548.002,"[""T1548.002"", ""T1055"", ""T1078"", ""T1059"", ""T1047""]",True,True,True,True,1.0,317.50620000093477,False
+CTA-1882,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1036.003,T1218.011,"[""T1218.011"", ""T1055"", ""T1070"", ""T1070.001"", ""T1070.004""]",False,False,False,False,0.0,296.24340000009397,False
+CTA-2044,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1548.002,T1543.003,"[""T1543.003"", ""T1204.002"", ""T1059.004"", ""T1547.001"", ""T1078.002""]",False,False,False,False,0.0,374.3955999998434,False
+CTA-1927,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1033,T1033,"[""T1033"", ""T1082"", ""T1016"", ""T1087"", ""T1018""]",True,True,True,True,1.0,304.865999998583,False
+CTA-0671,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1564.004,T1059.001,"[""T1059.001"", ""T1564.004"", ""T1027"", ""T1070.004"", ""T1059""]",False,False,False,True,0.5,308.0076000005647,False
+CTA-1238,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1218,T1218.011,"[""T1218.011"", ""T1059.001"", ""T1059.003"", ""T1218.010"", ""T1218.013""]",False,False,True,False,0.0,366.15449999953853,False
+CTA-2128,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1685,T1562.009,"[""T1562.009"", ""T1543.003"", ""T1059.001"", ""T1112"", ""T1486""]",False,False,False,False,0.0,318.66919999811216,False
+CTA-1869,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1105,T1105,"[""T1105"", ""T1059.001"", ""T1070.001"", ""T1027"", ""T1071.001""]",True,True,True,True,1.0,457.15189999828,False
+CTA-0371,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1003.001,T1055.003,"[""T1055.003"", ""T1059.004"", ""T1059.001"", ""T1059.003"", ""T1059.005""]",False,False,False,False,0.0,330.20460000261664,False
+CTA-0129,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1036.003,T1027.010,"[""T1027.010"", ""T1070.004"", ""T1055.001"", ""T1027"", ""T1070""]",False,False,False,False,0.0,447.54599999942,False
+CTA-0411,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1059,T1059.004,"[""T1059.004"", ""T1204.002"", ""T1027"", ""T1070.004"", ""T1562.001""]",False,False,True,False,0.0,343.14050000102725,False
+CTA-0341,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1059,T1059.004,"[""T1059.004"", ""T1059"", ""T1059.001"", ""T1059.003"", ""T1059.005""]",False,False,True,True,0.5,347.64720000021043,False
+CTA-0461,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1197,T1059.003,"[""T1059.003"", ""T1105"", ""T1071.001"", ""T1027"", ""T1070.004""]",False,False,False,False,0.0,421.7145000002347,False
+CTA-0921,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1218,T1204.002,"[""T1204.002"", ""T1059.001"", ""T1059.004"", ""T1059.003"", ""T1059.005""]",False,False,False,False,0.0,356.5913999991608,False
+CTA-1167,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1033,T1033,"[""T1033"", ""T1059.001"", ""T1078"", ""T1018"", ""T1082""]",True,True,True,True,1.0,385.4103999983636,False
+CTA-1842,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1218,T1204.002,"[""T1204.002"", ""T1059.003"", ""T1059.001"", ""T1059.004"", ""T1059.005""]",False,False,False,False,0.0,315.1843999985431,False
+CTA-0602,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1036,T1204.002,"[""T1204.002"", ""T1564.001"", ""T1036.004"", ""T1059.001"", ""T1070.004""]",False,False,False,False,0.0,363.4524000008241,False
+CTA-1426,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1564.004,T1218.011,"[""T1218.011"", ""T1564.004"", ""T1059.003"", ""T1027"", ""T1070.004""]",False,False,False,True,0.5,332.6646999994409,False
+CTA-2059,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1134.001,T1134.001,"[""T1134.001"", ""T1055.002"", ""T1078"", ""T1021.002"", ""T1059.001""]",True,True,True,True,1.0,392.4609999994573,False
+CTA-0812,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1127,T1218.011,"[""T1218.011"", ""T1059.007"", ""T1027"", ""T1059"", ""T1070.004""]",False,False,False,False,0.0,320.5794999994396,False
+CTA-0460,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1218.010,T1546.001,"[""T1546.001"", ""T1059.001"", ""T1105"", ""T1027"", ""T1071.001""]",False,False,False,False,0.0,333.30620000197086,False
+CTA-1622,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1016,T1016,"[""T1016"", ""T1046"", ""T1082"", ""T1049"", ""T1018""]",True,True,True,True,1.0,316.40300000071875,False
+CTA-0845,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1546.007,T1546.012,"[""T1546.012"", ""T1546"", ""T1055"", ""T1036"", ""T1547.001""]",False,False,True,False,0.0,323.7976999989769,False
+CTA-2076,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1047,T1047,"[""T1047"", ""T1546.003"", ""T1059.004"", ""T1543.003"", ""T1070.004""]",True,True,True,True,1.0,347.25930000058725,False
+CTA-0298,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1548.002,T1548.002,"[""T1548.002"", ""T1055.002"", ""T1078"", ""T1059.001"", ""T1059.003""]",True,True,True,True,1.0,318.04250000277534,False
+CTA-1752,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1003,T1490,"[""T1490"", ""T1003.001"", ""T1562.001"", ""T1070.004"", ""T1059.001""]",False,False,False,False,0.0,318.0054999975255,False
+CTA-1858,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1140,T1059.004,"[""T1059.004"", ""T1027"", ""T1059"", ""T1047"", ""T1071.001""]",False,False,False,False,0.0,330.5551999983436,False
+CTA-1156,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1553.004,T1553.005,"[""T1553.005"", ""T1553"", ""T1071.001"", ""T1105"", ""T1059.004""]",False,False,True,False,0.0,319.8978000000352,False
+CTA-2457,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1059.004,T1059.004,"[""T1059.004"", ""T1068"", ""T1055"", ""T1070.004"", ""T1059.006""]",True,True,True,True,1.0,297.77950000061537,False
+CTA-0560,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1685,T1562.008,"[""T1562.008"", ""T1070.004"", ""T1070"", ""T1548.003"", ""T1059.004""]",False,False,False,False,0.0,326.80810000238125,False
+CTA-2244,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1686,T1562.001,"[""T1562.001"", ""T1562.008"", ""T1562.004"", ""T1562.002"", ""T1562.006""]",False,False,False,False,0.0,385.6753000000026,False
+CTA-2289,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1016,T1016,"[""T1016"", ""T1082"", ""T1046"", ""T1040"", ""T1018""]",True,True,True,True,1.0,259.9268999983906,False
+CTA-1896,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1059.004,T1059.004,"[""T1059.004""]",True,True,True,True,1.0,514.397300001292,False
+CTA-1239,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1059,T1059.004,"[""T1059.004"", ""T1071.001"", ""T1047""]",False,False,True,False,0.0,333.3916000010504,False
+CTA-0428,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1059,T1059.004,"[""T1059.004""]",False,False,True,False,0.0,769.218199999159,False
+CTA-0006,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1567,T1105,"[""T1105"", ""T1041"", ""T1071.001"", ""T1059.004"", ""T1027""]",False,True,False,False,0.0,352.280700000847,False
+CTA-0912,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1033,T1082,"[""T1082"", ""T1016"", ""T1046"", ""T1005"", ""T1078""]",False,False,False,False,0.0,329.218499999115,False
+CTA-2145,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1083,T1588.002,"[""T1588.002"", ""T1082"", ""T1016"", ""T1047"", ""T1059.004""]",False,False,False,False,0.0,325.14679999803775,False
+CTA-1314,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1565.001,T1543.002,"[""T1543.002"", ""T1098.004"", ""T1543.003"", ""T1543.001"", ""T1070.004""]",False,False,False,False,0.0,389.6892000011576,False
+CTA-0686,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1059,T1059.004,"[""T1059.004""]",False,False,True,False,0.0,453.22590000068885,False
+CTA-1259,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1505.003,T1059.004,"[""T1059.004"", ""T1071.001"", ""T1082"", ""T1016"", ""T1078""]",False,False,False,False,0.0,330.88929999939865,False
+CTA-0172,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1018,T1018,"[""T1018"", ""T1046"", ""T1040"", ""T1016"", ""T1082""]",True,True,True,True,1.0,306.8950999986555,False
+CTA-0608,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1048.003,T1560.002,"[""T1560.002"", ""T1105"", ""T1059.006"", ""T1071.001"", ""T1029""]",False,False,False,False,0.0,338.0479999977979,False
+CTA-0479,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1070.004,T1490,"[""T1490"", ""T1070.004"", ""T1070.002"", ""T1070.001"", ""T1070""]",False,False,False,True,0.5,397.2944000015559,False
+CTA-2342,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1548,T1548.001,"[""T1548.001"", ""T1055"", ""T1078"", ""T1543.003"", ""T1070.004""]",False,False,True,False,0.0,346.8656999975792,False
+CTA-2111,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1033,T1082,"[""T1082"", ""T1005"", ""T1016"", ""T1046"", ""T1078""]",False,False,False,False,0.0,296.77620000074967,False
+CTA-1326,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1140,T1059.004,"[""T1059.004""]",False,False,False,False,0.0,352.7183000005607,False
+CTA-2084,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1059,T1059.004,"[""T1059.004""]",False,False,True,False,0.0,321.6790999977093,False
+CTA-2062,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1593.003,T1195.002,"[""T1195.002"", ""T1059.004"", ""T1071.001"", ""T1041"", ""T1027""]",False,False,False,False,0.0,333.21240000077523,False
+CTA-0511,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1033,T1016,"[""T1016"", ""T1082"", ""T1046"", ""T1005"", ""T1078""]",False,False,False,False,0.0,325.1350000027742,False
+CTA-1112,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1082,T1613.001,"[""T1613.001"", ""T1082"", ""T1016"", ""T1057"", ""T1083""]",False,False,False,True,0.5,310.69339999885415,False
+CTA-0990,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1069.001,T1087.001,"[""T1087.001"", ""T1087.002"", ""T1087"", ""T1018"", ""T1005""]",False,False,False,False,0.0,386.215300000913,False
+CTA-0425,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1485,T1485,"[""T1485"", ""T1070.004"", ""T1070"", ""T1490"", ""T1070.002""]",True,True,True,True,1.0,288.19410000141943,False
+CTA-2241,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1082,T1005,"[""T1005"", ""T1070.004"", ""T1070.001"", ""T1070.003"", ""T1070.005""]",False,False,False,False,0.0,308.8640999994823,False
+CTA-0451,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1059,T1059.004,"[""T1059.004"", ""T1059"", ""T1059.006"", ""T1059.001"", ""T1059.003""]",False,False,True,True,0.5,352.3776000001817,False
+CTA-1943,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1059,T1059.004,"[""T1059.004"", ""T1059"", ""T1071.001"", ""T1047"", ""T1059.006""]",False,False,True,True,0.5,325.76999999946565,False
+CTA-2478,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1552.001,T1003.008,"[""T1003.008"", ""T1070.004"", ""T1562.001"", ""T1070.001"", ""T1070.006""]",False,False,False,False,0.0,310.8734000015829,False
+CTA-0843,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1059.006,T1059.004,"[""T1059.004"", ""T1140"", ""T1027"", ""T1059"", ""T1071.001""]",False,False,True,False,0.0,339.8994999988645,False
+CTA-0748,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1049,T1049,"[""T1049"", ""T1016"", ""T1082"", ""T1046"", ""T1059.004""]",True,True,True,True,1.0,292.4103000004834,False
+CTA-2329,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1115,T1115.002,"[""T1115.002"", ""T1056.009"", ""T1005"", ""T1071.001"", ""T1059.004""]",False,False,True,False,0.0,311.50960000013583,False
+CTA-0178,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1082,T1613.001,"[""T1613.001"", ""T1082"", ""T1016"", ""T1070.004"", ""T1059.004""]",False,False,False,True,0.5,311.7411000021093,False
+CTA-1272,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1083,T1087.004,"[""T1087.004"", ""T1083"", ""T1070.004"", ""T1059.004"", ""T1016""]",False,False,False,True,0.5,333.8129999974626,False
+CTA-2083,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1082,T1082,"[""T1082"", ""T1016"", ""T1057"", ""T1083"", ""T1070""]",True,True,True,True,1.0,307.1660999994492,False
+CTA-1019,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1053.003,T1053.003,"[""T1053.003"", ""T1070.004"", ""T1070.001"", ""T1059.004"", ""T1547.001""]",True,True,True,True,1.0,317.19169999996666,False
+CTA-0518,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1222.002,T1562.006,"[""T1562.006"", ""T1070.004"", ""T1070"", ""T1562"", ""T1070.001""]",False,False,False,False,0.0,372.72370000209776,False
+CTA-1905,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1574.001,T1574.002,"[""T1574.002"", ""T1204.002"", ""T1059.001"", ""T1071.001"", ""T1027""]",False,False,True,False,0.0,309.08629999976256,False
+CTA-0776,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1574.001,T1574.002,"[""T1574.002"", ""T1574"", ""T1204.002"", ""T1059.001"", ""T1071.001""]",False,False,True,False,0.0,392.8307999995013,False
+CTA-2073,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1204.002,T1566.001,"[""T1566.001"", ""T1204.002"", ""T1059.005"", ""T1055.001"", ""T1566.004""]",False,False,False,True,0.5,439.7642999974778,False
+CTA-2079,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1574.001,T1574.002,"[""T1574.002"", ""T1574"", ""T1204.002"", ""T1055"", ""T1071""]",False,False,True,False,0.0,332.0330999995349,False
+CTA-0052,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1546.003,T1546.003,"[""T1546.003"", ""T1546"", ""T1059.004"", ""T1059"", ""T1016""]",True,True,True,True,1.0,299.6341999969445,False
+CTA-0889,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1574.001,T1574.002,"[""T1574.002"", ""T1574"", ""T1204.002"", ""T1055"", ""T1078""]",False,False,True,False,0.0,308.3082999983162,False
+CTA-1269,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1574.001,T1574.001,"[""T1574.001"", ""T1547.001"", ""T1055"", ""T1546.001"", ""T1036.005""]",True,True,True,True,1.0,343.0325000008452,False
+CTA-1284,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1574.001,T1574.002,"[""T1574.002"", ""T1574"", ""T1204.002"", ""T1059.001"", ""T1071.001""]",False,False,True,False,0.0,355.24680000162334,False
+CTA-0409,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1574.001,T1574.002,"[""T1574.002"", ""T1574"", ""T1204.002"", ""T1055"", ""T1071""]",False,False,True,False,0.0,351.40539999702014,False
+CTA-1374,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1003.001,T1055.001,"[""T1055.001"", ""T1055"", ""T1070.004"", ""T1027"", ""T1059.003""]",False,False,False,False,0.0,338.362499998766,False
+CTA-2335,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1202,T1574.006,"[""T1574.006"", ""T1204.002"", ""T1059.001"", ""T1071.001"", ""T1027""]",False,False,False,False,0.0,369.3033999988984,False
+CTA-1548,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1574.001,T1574.002,"[""T1574.002"", ""T1574"", ""T1204.002"", ""T1055"", ""T1071""]",False,False,True,False,0.0,327.3988000000827,False
+CTA-2279,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1204.002,T1566.001,"[""T1566.001"", ""T1059.005"", ""T1204.002"", ""T1566.004"", ""T1027""]",False,False,False,True,0.3333333333333333,331.6013000003295,False
+CTA-1400,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1204.002,T1566.001,"[""T1566.001"", ""T1204.002"", ""T1059.005"", ""T1055.001"", ""T1547.001""]",False,False,False,True,0.5,348.32559999995283,False
+CTA-0508,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1490,T1490.002,"[""T1490.002"", ""T1070.004"", ""T1562.009"", ""T1059.001"", ""T1027""]",False,False,True,False,0.0,358.42719999709516,False
+CTA-0140,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1574.001,T1574.002,"[""T1574.002"", ""T1574"", ""T1204.002"", ""T1055"", ""T1071""]",False,False,True,False,0.0,313.95830000110436,False
+CTA-0661,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1055,T1059.001,"[""T1059.001"", ""T1059.005"", ""T1218.011"", ""T1218.010"", ""T1059.007""]",False,False,False,False,0.0,339.43790000193985,False
+CTA-0961,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1574.001,T1574.002,"[""T1574.002"", ""T1574"", ""T1204.002"", ""T1055"", ""T1071""]",False,False,True,False,0.0,353.2149999991816,False
+CTA-1175,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1574.001,T1574.002,"[""T1574.002"", ""T1204.002"", ""T1055"", ""T1071.001"", ""T1027""]",False,False,True,False,0.0,350.0653999981296,False
+CTA-1812,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1574.001,T1574.002,"[""T1574.002"", ""T1574"", ""T1204.002"", ""T1055"", ""T1071""]",False,False,True,False,0.0,536.3555999974778,False
+CTA-0547,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1490,T1490.001,"[""T1490.001"", ""T1070.004"", ""T1562.009"", ""T1059.001"", ""T1027""]",False,False,True,False,0.0,377.35130000146455,False
+CTA-2233,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1574.001,T1574.002,"[""T1574.002"", ""T1204.002"", ""T1059.001"", ""T1071.001"", ""T1027""]",False,False,True,False,0.0,342.40109999882407,False
+CTA-2251,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1574.001,T1574.002,"[""T1574.002"", ""T1574"", ""T1204.002"", ""T1059.001"", ""T1071.001""]",False,False,True,False,0.0,383.7552000004507,False
+CTA-1024,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1574.001,T1574.002,"[""T1574.002"", ""T1574"", ""T1204.002"", ""T1055"", ""T1071""]",False,False,True,False,0.0,333.55219999793917,False
+CTA-1078,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1574.001,T1574.002,"[""T1574.002"", ""T1543.003"", ""T1055"", ""T1078"", ""T1027""]",False,False,True,False,0.0,339.8094000003766,False
+CTA-0441,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1574.001,T1574.001,"[""T1574.001"", ""T1574.002"", ""T1204.002"", ""T1055.001"", ""T1078""]",True,True,True,True,1.0,323.3698000003642,False
+CTA-1304,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1003.001,T1055.001,"[""T1055.001"", ""T1055"", ""T1059.001"", ""T1059"", ""T1059.004""]",False,False,False,False,0.0,287.5357000011718,False
+CTA-1433,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1574.001,T1574.002,"[""T1574.002"", ""T1574"", ""T1204.002"", ""T1055"", ""T1071""]",False,False,True,False,0.0,457.7616000024136,False
+CTA-1049,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1574.001,T1574.002,"[""T1574.002"", ""T1204.002"", ""T1055.001"", ""T1071.001"", ""T1027""]",False,False,True,False,0.0,308.5319999991043,False
+CTA-1887,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1003.001,T1003.001,"[""T1003.001"", ""T1055.001"", ""T1078"", ""T1027"", ""T1071.001""]",True,True,True,True,1.0,334.4117999986338,False
+CTA-0390,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1574.001,T1574.002,"[""T1574.002"", ""T1204.002"", ""T1055.001"", ""T1547.001"", ""T1070.004""]",False,False,True,False,0.0,341.5337999977055,False
+CTA-2472,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1574.001,T1574.002,"[""T1574.002"", ""T1574"", ""T1204.002"", ""T1055"", ""T1071""]",False,False,True,False,0.0,484.30560000269907,False
+CTA-0161,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1218,T1574.002,"[""T1574.002"", ""T1204.002"", ""T1055.001"", ""T1547.001"", ""T1070.004""]",False,False,False,False,0.0,353.90209999968647,False
+CTA-2436,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1574.001,T1574.002,"[""T1574.002"", ""T1574"", ""T1204.002"", ""T1059.001"", ""T1071.001""]",False,False,True,False,0.0,430.10510000021895,False
+CTA-2011,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1574.001,T1574.002,"[""T1574.002"", ""T1574"", ""T1204.002"", ""T1059.001"", ""T1071.001""]",False,False,True,False,0.0,390.70729999730247,False
+CTA-1096,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1574.001,T1574.002,"[""T1574.002"", ""T1574"", ""T1204.002"", ""T1059.001"", ""T1071.001""]",False,False,True,False,0.0,327.64980000138166,False
+CTA-0629,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1003,T1055.001,"[""T1055.001"", ""T1003.001"", ""T1562.001"", ""T1070.004"", ""T1027""]",False,False,False,False,0.0,354.4502000004286,False
+CTA-2132,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1574.001,T1574.002,"[""T1574.002"", ""T1204.002"", ""T1055.001"", ""T1027"", ""T1071.001""]",False,False,True,False,0.0,427.8301999984251,False
+CTA-1441,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1485,T1583.005,"[""T1583.005"", ""T1584.005"", ""T1586.005"", ""T1587.005"", ""T1588.005""]",False,False,False,False,0.0,305.01039999944624,False
+CTA-0797,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1686.001,T1562.004,"[""T1562.004"", ""T1562.008"", ""T1562.001"", ""T1562.009"", ""T1562.006""]",False,False,False,False,0.0,339.0781000016432,False
+CTA-0023,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1686.001,T1562.008,"[""T1562.008"", ""T1562.001"", ""T1562.004"", ""T1070.004"", ""T1548.005""]",False,False,False,False,0.0,447.0926000030886,False
+CTA-0678,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1485,T1485,"[""T1485"", ""T1489"", ""T1486"", ""T1484"", ""T1483""]",True,True,True,True,1.0,280.4891999985557,False
+CTA-1654,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1078,T1543.003,"[""T1543.003"", ""T1078"", ""T1552.007"", ""T1059.004"", ""T1543.002""]",False,False,False,True,0.5,398.62619999985327,False
+CTA-1249,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1552,T1562.008,"[""T1562.008"", ""T1562.001"", ""T1562.006"", ""T1562.004"", ""T1562.009""]",False,False,False,False,0.0,364.50669999976526,False
+CTA-0086,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1485,T1562.008,"[""T1562.008"", ""T1071.001"", ""T1555.001"", ""T1098.001"", ""T1548.005""]",False,False,False,False,0.0,313.0477000013343,False
+CTA-1260,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1485,T1548.005,"[""T1548.005"", ""T1098.001"", ""T1548.003"", ""T1078.004"", ""T1550.001""]",False,False,False,False,0.0,350.4051999989315,False
+CTA-0362,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1685,T1562.008,"[""T1562.008"", ""T1070.001"", ""T1070"", ""T1562"", ""T1070.009""]",False,False,False,False,0.0,325.9336999981315,False
+CTA-0110,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1528,T1574.006,"[""T1574.006"", ""T1055"", ""T1071.001"", ""T1029"", ""T1059.001""]",False,False,False,False,0.0,325.79160000022966,False
+CTA-0145,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1055,T1571,"[""T1571"", ""T1071.001"", ""T1059.001"", ""T1029"", ""T1071.004""]",False,False,False,False,0.0,378.34790000124485,False
+CTA-0753,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1055,T1055.002,"[""T1055.002"", ""T1543.003"", ""T1078"", ""T1059.001"", ""T1047""]",False,False,True,False,0.0,412.2650999997859,False
+CTA-2435,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1569.002,T1055.002,"[""T1055.002"", ""T1059.003"", ""T1047"", ""T1021.002"", ""T1071.001""]",False,False,False,False,0.0,363.15340000146534,False
+CTA-2394,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1021.002,T1059.001,"[""T1059.001"", ""T1055"", ""T1071.001"", ""T1029"", ""T1059.004""]",False,False,False,False,0.0,340.8495000003313,False
+CTA-2094,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1021.002,T1039,"[""T1039"", ""T1055.001"", ""T1059.001"", ""T1071.001"", ""T1021.002""]",False,False,False,False,0.2,341.1908999987645,False
+CTA-0958,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1070,T1070.001,"[""T1070.001"", ""T1070"", ""T1020"", ""T1070.004"", ""T1562.001""]",False,False,True,True,0.5,402.5452999994741,False
+CTA-0061,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1490,T1490,"[""T1490"", ""T1070.004"", ""T1070"", ""T1562.001"", ""T1070.001""]",True,True,True,True,1.0,335.5483999985154,False
+CTA-1760,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1070.004,T1070.004,"[""T1070.004"", ""T1070"", ""T1070.001"", ""T1070.002"", ""T1070.003""]",True,True,True,True,1.0,333.7205999996513,False
+CTA-2525,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1070,T1070.004,"[""T1070.004"", ""T1070"", ""T1562.001"", ""T1059.001"", ""T1027""]",False,False,True,True,0.5,327.93970000057016,False
+CTA-0462,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1055.012,T1055.003,"[""T1055.003"", ""T1204.002"", ""T1059.005"", ""T1059.001"", ""T1059.007""]",False,False,True,False,0.0,327.2577999996429,False
+CTA-1920,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1127,T1055.003,"[""T1055.003"", ""T1055"", ""T1059.004"", ""T1047"", ""T1055.001""]",False,False,False,False,0.0,292.77129999900353,False
+CTA-0029,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1055,T1055.001,"[""T1055.001"", ""T1055"", ""T1204.002"", ""T1059.001"", ""T1059.005""]",False,False,True,True,0.5,406.1206000005768,False
+CTA-0617,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1003,T1552.001,"[""T1552.001"", ""T1003.001"", ""T1552.003"", ""T1059.001"", ""T1078""]",False,False,False,False,0.0,350.26339999967604,False
+CTA-0679,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1555.004,T1555.001,"[""T1555.001"", ""T1003"", ""T1059.001"", ""T1078"", ""T1070""]",False,False,True,False,0.0,348.0463999985659,False
+CTA-2108,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1552.006,T1003.001,"[""T1003.001"", ""T1083"", ""T1070.004"", ""T1059.001"", ""T1027""]",False,False,False,False,0.0,330.72139999785577,False
+CTA-0134,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1071.004,T1071.004,"[""T1071.004"", ""T1071"", ""T1105"", ""T1041"", ""T1029""]",True,True,True,True,1.0,350.3829000001133,False
+CTA-1278,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1090.003,T1071.004,"[""T1071.004"", ""T1572"", ""T1090.003"", ""T1071.001"", ""T1568.002""]",False,False,False,True,0.3333333333333333,345.8846000030462,False
+CTA-0045,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1098,T1098.003,"[""T1098.003"", ""T1078.004"", ""T1548.005"", ""T1078.003"", ""T1548.003""]",False,False,True,False,0.0,429.11109999840846,False
+CTA-1497,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1550.002,T1557.001,"[""T1557.001"", ""T1078"", ""T1558.003"", ""T1021.002"", ""T1110.001""]",False,False,False,False,0.0,330.88059999863617,False
+CTA-1599,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1548,T1021.002,"[""T1021.002"", ""T1078"", ""T1558.003"", ""T1003.006"", ""T1021.001""]",False,False,False,False,0.0,363.89360000248416,False
+CTA-2262,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1204.002,T1543.003,"[""T1543.003"", ""T1059.001"", ""T1547.001"", ""T1078"", ""T1546.001""]",False,False,False,False,0.0,347.3014000010153,False
+CTA-0548,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1190,T1190,"[""T1190"", ""T1059.004"", ""T1071.001"", ""T1021.004"", ""T1078""]",True,True,True,True,1.0,411.8490999971982,False
+CTA-0863,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1649,T1552.001,"[""T1552.001"", ""T1003.001"", ""T1552.004"", ""T1059.001"", ""T1078.004""]",False,False,False,False,0.0,346.8483999968157,False
+CTA-1381,qwen/qwen3.8-27b,Qwen 3.8 27B,Groq LPU,T1021.002,T1021.002,"[""T1021.002"", ""T1021"", ""T1047"", ""T1570"", ""T1078""]",True,True,True,True,1.0,466.03260000119917,False
+CTA-1593,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1127,T1500.001,"[""T1500.001"", ""T1127"", ""T1059.001"", ""T1064"", ""T1574.001""]",False,False,False,True,0.5,1578.6521000009088,False
+CTA-1789,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1185,T1059.007,"[""T1059.007"", ""T1055"", ""T1105"", ""T1566.001"", ""T1027""]",False,False,False,False,0.0,1110.6838999985484,False
+CTA-1035,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1543.003,T1543.003,"[""T1543.003"", ""T1222.001"", ""T1068"", ""T1569.002"", ""T1055""]",True,True,True,True,1.0,1094.0379999992729,False
+CTA-2098,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1003.003,T1003.003,"[""T1003.003"", ""T1213.001"", ""T1087.002"", ""T1562.001"", ""T1033""]",True,True,True,True,1.0,1260.510100000829,False
+CTA-0160,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1574.011,T1543.003,"[""T1543.003"", ""T1068"", ""T1574.001"", ""T1050"", ""T1547.001""]",False,False,False,False,0.0,783.9946999993117,False
+CTA-1274,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1218,T1218,"[""T1218"", ""T1059.003"", ""T1569.002"", ""T1036"", ""T1105""]",True,True,True,True,1.0,1150.4865999995673,False
+CTA-2029,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1140,T1218.005,"[""T1218.005"", ""T1059.005"", ""T1027"", ""T1036"", ""T1105""]",False,True,False,False,0.0,767.0858999990742,False
+CTA-2353,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1059.001,T1059.001,"[""T1059.001"", ""T1059"", ""T1086"", ""T1064"", ""T1027""]",True,True,True,True,1.0,1349.913199999719,False
+CTA-0809,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1047,T1047,"[""T1047"", ""T1059.003"", ""T1569.001"", ""T1569.002"", ""T1106""]",True,True,True,True,1.0,1127.0129999975325,False
+CTA-1715,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1036.002,T1027.003,"[""T1027.003"", ""T1036.007"", ""T1027"", ""T1036"", ""T1564.001""]",False,False,False,False,0.0,1091.1711000007926,False
+CTA-1100,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1059.001,T1059.001,"[""T1059.001"", ""T1021.006"", ""T1078"", ""T1569.002"", ""T1047""]",True,True,True,True,1.0,824.5357999985572,False
+CTA-0361,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1059.001,T1059.001,"[""T1059.001"", ""T1546.003"", ""T1105"", ""T1569.002"", ""T1570""]",True,True,True,True,1.0,884.1499999980442,False
+CTA-2218,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1027,T1027.001,"[""T1027.001"", ""T1059.001"", ""T1059.003"", ""T1567.002"", ""T1105""]",False,False,True,False,0.0,1145.749800001795,False
+CTA-0107,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1059.003,T1059.001,"[""T1059.001"", ""T1055.012"", ""T1105"", ""T1569.002"", ""T1036""]",False,False,True,False,0.0,671.8636000005063,False
+CTA-0687,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1552.006,T1069.001,"[""T1069.001"", ""T1083"", ""T1059.003"", ""T1087"", ""T1222.001""]",False,False,False,False,0.0,1339.7829000023194,False
+CTA-2485,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1036,T1218.011,"[""T1218.011"", ""T1546.012"", ""T1547.001"", ""T1036.005"", ""T1055""]",False,False,False,False,0.0,1040.3651000015088,False
+CTA-2040,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1686.003,T1562.004,"[""T1562.004"", ""T1059.003"", ""T1562"", ""T1059"", ""T1568.001""]",False,False,False,False,0.0,1154.1619999989052,False
+CTA-0196,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1685,T1562.004,"[""T1562.004"", ""T1562.001"", ""T1059.001"", ""T1086"", ""T1562""]",False,False,False,False,0.0,1296.5121999986877,False
+CTA-2271,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1087.002,T1087.002,"[""T1087.002"", ""T1069.002"", ""T1005"", ""T1041"", ""T1565.001""]",True,True,True,True,1.0,1269.73210000142,False
+CTA-0672,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1216.001,T1127.001,"[""T1127.001"", ""T1218.010"", ""T1059.001"", ""T1059"", ""T1055""]",False,False,False,False,0.0,1429.8445999993419,False
+CTA-2185,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1115,T1115,"[""T1115"", ""T1056.001"", ""T1565.001"", ""T1560.001"", ""T1020""]",True,True,True,True,1.0,1245.177100001456,False
+CTA-1058,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1560.001,T1560.001,"[""T1560.001"", ""T1560"", ""T1074.001"", ""T1020"", ""T1041""]",True,True,True,True,1.0,904.9622999991698,False
+CTA-2391,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1059.001,T1059.001,"[""T1059.001"", ""T1027"", ""T1140"", ""T1059"", ""T1568.002""]",True,True,True,True,1.0,1757.4053999996977,False
+CTA-0289,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1053.005,T1053.005,"[""T1053.005"", ""T1569.001"", ""T1059.001"", ""T1059.003"", ""T1568.002""]",True,True,True,True,1.0,1202.7721000013116,False
+CTA-1478,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1053.005,T1053.005,"[""T1053.005"", ""T1117"", ""T1047"", ""T1059.001"", ""T1059.005""]",True,True,True,True,1.0,1324.9274999980116,False
+CTA-2277,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1059.001,T1059.001,"[""T1059.001"", ""T1105"", ""T1027"", ""T1071.001"", ""T1204.002""]",True,True,True,True,1.0,566.3152000015543,False
+CTA-1067,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1574.001,T1574.010,"[""T1574.010"", ""T1574.001"", ""T1129"", ""T1036"", ""T1055.012""]",False,False,True,True,0.5,1211.503200000152,False
+CTA-0171,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1098,T1098.001,"[""T1098.001"", ""T1069.001"", ""T1087.001"", ""T1548.001"", ""T1055""]",False,False,True,False,0.0,999.2444999988948,False
+CTA-0557,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1068,T1068,"[""T1068"", ""T1548.002"", ""T1078"", ""T1055"", ""T1547.001""]",True,True,True,True,1.0,667.374300002848,False
+CTA-1867,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1195.002,T1059.001,"[""T1059.001"", ""T1059.003"", ""T1105"", ""T1036.005"", ""T1569.002""]",False,False,False,False,0.0,892.6422000004095,False
+CTA-1221,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1548.002,T1059.001,"[""T1059.001"", ""T1543.003"", ""T1105"", ""T1572"", ""T1566.002""]",False,False,False,False,0.0,1276.072299999214,False
+CTA-0623,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1072,T1218.010,"[""T1218.010"", ""T1059"", ""T1059.001"", ""T1059.003"", ""T1055""]",False,False,False,False,0.0,1059.5519999988028,False
+CTA-1203,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1588.002,T1059.003,"[""T1059.003"", ""T1569.001"", ""T1569.002"", ""T1105"", ""T1112""]",False,False,False,False,0.0,1270.507199998974,False
+CTA-2267,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1615,T1069.001,"[""T1069.001"", ""T1082"", ""T1087.001"", ""T1087.002"", ""T1069.002""]",False,False,False,False,0.0,1202.936599998793,False
+CTA-0803,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1546.011,T1546.015,"[""T1546.015"", ""T1546"", ""T1548"", ""T1068"", ""T1055""]",False,False,True,False,0.0,1134.0135999998893,False
+CTA-1204,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1218,T1036.005,"[""T1036.005"", ""T1036.003"", ""T1036"", ""T1204.002"", ""T1564.001""]",False,True,False,False,0.0,1301.7006000009133,False
+CTA-0895,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1021.002,T1218.010,"[""T1218.010"", ""T1021.002"", ""T1105"", ""T1570"", ""T1568.002""]",False,False,False,True,0.5,870.1677999997628,False
+CTA-1671,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1218.011,T1218.011,"[""T1218.011"", ""T1117"", ""T1218.010"", ""T1218.005"", ""T1055""]",True,True,True,True,1.0,984.1341999999713,False
+CTA-1698,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1059.005,T1059.005,"[""T1059.005"", ""T1059"", ""T1055.001"", ""T1574.001"", ""T1036""]",True,True,True,True,1.0,1020.9619999986899,False
+CTA-1106,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1112,T1112,"[""T1112"", ""T1059.003"", ""T1060"", ""T1562.001"", ""T1089""]",True,True,True,True,1.0,1449.2013999988558,False
+CTA-0931,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1053.002,T1053.005,"[""T1053.005"", ""T1053"", ""T1068"", ""T1078"", ""T1547.001""]",False,False,True,False,0.0,920.7389000002877,False
+CTA-2238,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1567.002,T1567.002,"[""T1567.002"", ""T1059.003"", ""T1071.001"", ""T1020"", ""T1105""]",True,True,True,True,1.0,1053.0499999986205,False
+CTA-1334,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1219.002,T1021.004,"[""T1021.004"", ""T1210"", ""T1078"", ""T1071"", ""T1569.002""]",False,False,False,False,0.0,1098.746800002118,False
+CTA-1056,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1218.010,T1117,"[""T1117"", ""T1059.001"", ""T1059.005"", ""T1059.003"", ""T1059.007""]",False,False,False,False,0.0,1205.7462999982818,False
+CTA-0852,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1615,T1016.001,"[""T1016.001"", ""T1049"", ""T1082"", ""T1087.001"", ""T1057""]",False,False,False,False,0.0,801.2500000004366,False
+CTA-2475,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1218,T1059.003,"[""T1059.003"", ""T1490"", ""T1565.001"", ""T1105"", ""T1567.001""]",False,False,False,False,0.0,758.9258000007248,False
+CTA-1251,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1059.005,T1059.003,"[""T1059.003"", ""T1059.001"", ""T1059.005"", ""T1036"", ""T1569.002""]",False,False,True,True,0.3333333333333333,1092.7816000003077,False
+CTA-1696,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1110,T1110.001,"[""T1110.001"", ""T1059.003"", ""T1078"", ""T1021.004"", ""T1566.001""]",False,True,True,False,0.0,628.8223000010476,False
+CTA-1337,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1218.010,T1218.010,"[""T1218.010"", ""T1021.002"", ""T1105"", ""T1036"", ""T1070.004""]",True,True,True,True,1.0,918.2870000004186,False
+CTA-1912,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1218,T1059.001,"[""T1059.001"", ""T1059"", ""T1036.005"", ""T1564.001"", ""T1562.001""]",False,False,False,False,0.0,1007.9235000011977,False
+CTA-2430,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1090,T1059.003,"[""T1059.003"", ""T1090.001"", ""T1105"", ""T1027"", ""T1568.001""]",False,False,False,False,0.0,878.2781000008981,False
+CTA-0440,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1003.003,T1003.006,"[""T1003.006"", ""T1083"", ""T1562.001"", ""T1027"", ""T1047""]",False,False,True,False,0.0,1160.263900001155,False
+CTA-0279,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1560.001,T1560.001,"[""T1560.001"", ""T1020"", ""T1005"", ""T1041"", ""T1567.001""]",True,True,True,True,1.0,700.6809000013163,False
+CTA-2126,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1132.001,T1059.001,"[""T1059.001"", ""T1027"", ""T1055"", ""T1560.001"", ""T1105""]",False,False,False,False,0.0,1333.826299996872,False
+CTA-1668,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1558.003,T1550.003,"[""T1550.003"", ""T1021.004"", ""T1059.003"", ""T1075"", ""T1568.002""]",False,False,False,False,0.0,983.0378000006021,False
+CTA-0357,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1489,T1053.005,"[""T1053.005"", ""T1059.003"", ""T1070.004"", ""T1562.001"", ""T1082""]",False,False,False,False,0.0,1262.3513000035018,False
+CTA-0210,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1490,T1542.003,"[""T1542.003"", ""T1490"", ""T1562.001"", ""T1059.003"", ""T1566.001""]",False,False,False,True,0.5,1331.7048999997496,False
+CTA-0732,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1564.004,T1564.004,"[""T1564.004"", ""T1560.001"", ""T1027"", ""T1105"", ""T1036.005""]",True,True,True,True,1.0,1003.2847000002221,False
+CTA-2326,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1546.003,T1546.003,"[""T1546.003"", ""T1047"", ""T1059.005"", ""T1053.005"", ""T1569.002""]",True,True,True,True,1.0,843.7629000000015,False
+CTA-0648,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1543.003,T1543.003,"[""T1543.003"", ""T1569.002"", ""T1050"", ""T1543"", ""T1068""]",True,True,True,True,1.0,864.8818000001484,False
+CTA-0690,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1059,T1059.006,"[""T1059.006"", ""T1059"", ""T1055"", ""T1064"", ""T1059.001""]",False,False,True,True,0.5,1022.8033000021242,False
+CTA-0057,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1059,T1059.003,"[""T1059.003"", ""T1105"", ""T1562.001"", ""T1547.001"", ""T1566.001""]",False,False,True,False,0.0,1121.4235999977973,False
+CTA-1688,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1105,T1059.003,"[""T1059.003"", ""T1567.001"", ""T1105"", ""T1048.003"", ""T1071.001""]",False,False,False,True,0.3333333333333333,1411.5351000000373,False
+CTA-0624,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1548.002,T1218.010,"[""T1218.010"", ""T1548.002"", ""T1068"", ""T1036"", ""T1055""]",False,False,False,True,0.5,1090.9136000009312,False
+CTA-1882,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1036.003,T1218.005,"[""T1218.005"", ""T1036.003"", ""T1059.001"", ""T1055.001"", ""T1566.001""]",False,False,False,True,0.5,1132.976699998835,False
+CTA-2044,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1548.002,T1218.007,"[""T1218.007"", ""T1548.002"", ""T1068"", ""T1546.003"", ""T1129""]",False,False,False,True,0.5,1136.7390000013984,False
+CTA-1927,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1033,T1033,"[""T1033"", ""T1087.001"", ""T1087.004"", ""T1087"", ""T1082""]",True,True,True,True,1.0,959.0256999981648,False
+CTA-0671,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1564.004,T1059.001,"[""T1059.001"", ""T1564.004"", ""T1059"", ""T1027"", ""T1105""]",False,False,False,True,0.5,1000.8680999999342,False
+CTA-1238,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1218,T1059.001,"[""T1059.001"", ""T1059.003"", ""T1055.001"", ""T1569.002"", ""T1053.005""]",False,False,False,False,0.0,974.1821000025084,False
+CTA-2128,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1685,T1112,"[""T1112"", ""T1547.001"", ""T1547.009"", ""T1547.012"", ""T1543.003""]",False,False,False,False,0.0,1579.501000000164,False
+CTA-1869,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1105,T1105,"[""T1105"", ""T1112"", ""T1566.001"", ""T1059.003"", ""T1564.001""]",True,True,True,True,1.0,992.7366999982041,False
+CTA-0371,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1003.001,T1003.001,"[""T1003.001"", ""T1115"", ""T1564.001"", ""T1027"", ""T1036""]",True,True,True,True,1.0,1603.7152000026254,False
+CTA-0129,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1036.003,T1036.003,"[""T1036.003"", ""T1036.005"", ""T1565.001"", ""T1027.004"", ""T1565.003""]",True,True,True,True,1.0,1427.531999997882,False
+CTA-0411,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1059,T1036.003,"[""T1036.003"", ""T1059.003"", ""T1569.001"", ""T1027"", ""T1105""]",False,False,False,False,0.0,1003.6846000002697,False
+CTA-0341,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1059,T1059,"[""T1059"", ""T1059.004"", ""T1064"", ""T1105"", ""T1021.004""]",True,True,True,True,1.0,1436.0661999999138,False
+CTA-0461,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1197,T1105,"[""T1105"", ""T1059.003"", ""T1074.001"", ""T1566.001"", ""T1036""]",False,True,False,False,0.0,998.6544999992475,False
+CTA-0921,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1218,T1190,"[""T1190"", ""T1204.002"", ""T1566.001"", ""T1059.001"", ""T1218.005""]",False,False,False,False,0.0,1253.422400001,False
+CTA-1167,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1033,T1087.001,"[""T1087.001"", ""T1059.003"", ""T1548.002"", ""T1569.002"", ""T1033""]",False,False,False,False,0.2,1344.0427999994427,False
+CTA-1842,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1218,T1059.003,"[""T1059.003"", ""T1036.005"", ""T1055"", ""T1569.002"", ""T1564.001""]",False,False,False,False,0.0,1242.8494000014325,False
+CTA-0602,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1036,T1036.005,"[""T1036.005"", ""T1564.001"", ""T1055"", ""T1105"", ""T1560.001""]",False,False,True,False,0.0,996.8625999972573,False
+CTA-1426,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1564.004,T1218.011,"[""T1218.011"", ""T1564.004"", ""T1055.012"", ""T1027.004"", ""T1036.005""]",False,False,False,True,0.5,1039.5753999982844,False
+CTA-2059,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1134.001,T1134.001,"[""T1134.001"", ""T1028"", ""T1569.002"", ""T1078.001"", ""T1055""]",True,True,True,True,1.0,868.4433999987959,False
+CTA-0812,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1127,T1059.007,"[""T1059.007"", ""T1127"", ""T1064"", ""T1027"", ""T1566.001""]",False,False,False,True,0.5,690.5259999984992,False
+CTA-0460,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1218.010,T1218.010,"[""T1218.010"", ""T1105"", ""T1129"", ""T1055.001"", ""T1071.001""]",True,True,True,True,1.0,862.4534000009589,False
+CTA-1622,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1016,T1016.001,"[""T1016.001"", ""T1016"", ""T1049"", ""T1082"", ""T1087""]",False,False,True,True,0.5,872.4743999991915,False
+CTA-0845,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1546.007,T1547.006,"[""T1547.006"", ""T1574.001"", ""T1543.003"", ""T1060"", ""T1055.012""]",False,False,False,False,0.0,921.8751000007614,False
+CTA-2076,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1047,T1047,"[""T1047"", ""T1569.001"", ""T1055"", ""T1027"", ""T1036""]",True,True,True,True,1.0,1034.5267000011518,False
+CTA-0298,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1548.002,T1548.002,"[""T1548.002"", ""T1574.001"", ""T1055.001"", ""T1068"", ""T1546.012""]",True,True,True,True,1.0,923.8956000008329,False
+CTA-1752,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1003,T1003.004,"[""T1003.004"", ""T1490"", ""T1059.001"", ""T1569.002"", ""T1082""]",False,False,True,False,0.0,1136.0243000017363,False
+CTA-1858,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1140,T1059.004,"[""T1059.004"", ""T1027.010"", ""T1059.001"", ""T1105"", ""T1055.001""]",False,False,False,False,0.0,1449.9175000019022,False
+CTA-1156,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1553.004,T1553.006,"[""T1553.006"", ""T1078"", ""T1566.001"", ""T1040"", ""T1027""]",False,False,True,False,0.0,1140.9172999992734,False
+CTA-2457,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1059.004,T1059.004,"[""T1059.004"", ""T1068"", ""T1574.001"", ""T1547.001"", ""T1543.003""]",True,True,True,True,1.0,1343.9795000012964,False
+CTA-0560,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1685,T1562.006,"[""T1562.006"", ""T1059.004"", ""T1082"", ""T1040"", ""T1565.001""]",False,False,False,False,0.0,1111.4997000004223,False
+CTA-2244,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1686,T1562.001,"[""T1562.001"", ""T1569.002"", ""T1569.001"", ""T1059.003"", ""T1565.001""]",False,False,False,False,0.0,678.2531000026211,False
+CTA-2289,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1016,T1016.001,"[""T1016.001"", ""T1049"", ""T1082"", ""T1059.003"", ""T1069.001""]",False,False,True,False,0.0,1147.0889999982319,False
+CTA-1896,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1059.004,T1059.004,"[""T1059.004"", ""T1059"", ""T1548.002"", ""T1036"", ""T1562.001""]",True,True,True,True,1.0,1143.2495000008203,False
+CTA-1239,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1059,T1218.010,"[""T1218.010"", ""T1059.004"", ""T1105"", ""T1021.004"", ""T1055""]",False,False,False,False,0.0,924.2208000032406,False
+CTA-0428,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1059,T1059.004,"[""T1059.004"", ""T1068"", ""T1569.002"", ""T1055"", ""T1547.001""]",False,False,True,False,0.0,995.3888000018196,False
+CTA-0006,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1567,T1567.002,"[""T1567.002"", ""T1105"", ""T1059.004"", ""T1071.001"", ""T1020""]",False,False,True,False,0.0,781.2111000021105,False
+CTA-0912,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1033,T1082,"[""T1082"", ""T1018"", ""T1497.001"", ""T1057"", ""T1087""]",False,False,False,False,0.0,1092.82069999972,False
+CTA-2145,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1083,T1082,"[""T1082"", ""T1069.001"", ""T1083"", ""T1018"", ""T1040""]",False,False,False,True,0.3333333333333333,1128.9990000004764,False
+CTA-1314,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1565.001,T1053.003,"[""T1053.003"", ""T1222.001"", ""T1565.001"", ""T1566.001"", ""T1070.004""]",False,False,False,True,0.3333333333333333,1073.8887999978033,False
+CTA-0686,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1059,T1059.004,"[""T1059.004"", ""T1548.001"", ""T1068"", ""T1055.001"", ""T1036""]",False,False,True,False,0.0,966.018900002382,False
+CTA-1259,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1505.003,T1059.004,"[""T1059.004"", ""T1566.002"", ""T1105"", ""T1071.001"", ""T1036.005""]",False,False,False,False,0.0,977.9660999993212,False
+CTA-0172,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1018,T1018,"[""T1018"", ""T1046"", ""T1049"", ""T1087"", ""T1033""]",True,True,True,True,1.0,739.4829000004393,False
+CTA-0608,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1048.003,T1059.006,"[""T1059.006"", ""T1105"", ""T1071.001"", ""T1021.004"", ""T1567.001""]",False,False,False,False,0.0,1124.188999998296,False
+CTA-0479,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1070.004,T1070.004,"[""T1070.004"", ""T1070"", ""T1565.001"", ""T1070.006"", ""T1070.001""]",True,True,True,True,1.0,1161.7879000004905,False
+CTA-2342,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1548,T1548.003,"[""T1548.003"", ""T1068"", ""T1547.001"", ""T1546.001"", ""T1574.001""]",False,False,True,False,0.0,1194.635300002119,False
+CTA-2111,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1033,T1059.004,"[""T1059.004"", ""T1082"", ""T1083"", ""T1497.001"", ""T1018""]",False,False,False,False,0.0,1420.8675999980187,False
+CTA-1326,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1140,T1059.004,"[""T1059.004"", ""T1059"", ""T1569.002"", ""T1027"", ""T1055""]",False,False,False,False,0.0,927.9958000006445,False
+CTA-2084,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1059,T1059.004,"[""T1059.004"", ""T1059.006"", ""T1059"", ""T1569.002"", ""T1569.001""]",False,False,True,True,0.3333333333333333,1138.6260999970546,False
+CTA-2062,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1593.003,T1105,"[""T1105"", ""T1059.004"", ""T1566.001"", ""T1564.001"", ""T1071.001""]",False,False,False,False,0.0,898.2901999988826,False
+CTA-0511,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1033,T1016.001,"[""T1016.001"", ""T1082"", ""T1046"", ""T1059.004"", ""T1087""]",False,False,False,False,0.0,582.6697999982571,False
+CTA-1112,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1082,T1619.001,"[""T1619.001"", ""T1082"", ""T1057"", ""T1016.001"", ""T1497.001""]",False,False,False,True,0.5,1366.3972999966063,False
+CTA-0990,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1069.001,T1069.001,"[""T1069.001"", ""T1087.001"", ""T1083"", ""T1025"", ""T1059.003""]",True,True,True,True,1.0,963.1139999983134,False
+CTA-0425,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1485,T1485,"[""T1485"", ""T1565.001"", ""T1561.001"", ""T1070.004"", ""T1059.004""]",True,True,True,True,1.0,925.1981000015803,False
+CTA-2241,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1082,T1083,"[""T1083"", ""T1059.003"", ""T1082"", ""T1033"", ""T1069.001""]",False,False,False,True,0.3333333333333333,1363.504799999646,False
+CTA-0451,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1059,T1059.006,"[""T1059.006"", ""T1059.004"", ""T1569.002"", ""T1106"", ""T1059""]",False,False,True,False,0.2,914.5643999981985,False
+CTA-1943,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1059,T1059.004,"[""T1059.004"", ""T1059"", ""T1021.004"", ""T1105"", ""T1055""]",False,False,True,True,0.5,1211.8195000002743,False
+CTA-2478,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1552.001,T1005,"[""T1005"", ""T1003.006"", ""T1074.001"", ""T1083"", ""T1560.001""]",False,False,False,False,0.0,1090.3475000013714,False
+CTA-0843,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1059.006,T1059.006,"[""T1059.006"", ""T1027.001"", ""T1059"", ""T1564.001"", ""T1105""]",True,True,True,True,1.0,1109.6815999990213,False
+CTA-0748,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1049,T1049,"[""T1049"", ""T1016.001"", ""T1082"", ""T1057"", ""T1069.001""]",True,True,True,True,1.0,766.5402999991784,False
+CTA-2329,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1115,T1056.001,"[""T1056.001"", ""T1115"", ""T1059.004"", ""T1560"", ""T1025""]",False,False,False,True,0.5,1041.0078999993857,False
+CTA-0178,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1082,T1610.001,"[""T1610.001"", ""T1083"", ""T1059.003"", ""T1016.001"", ""T1057""]",False,False,False,False,0.0,1029.306100001122,False
+CTA-1272,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1083,T1083,"[""T1083"", ""T1069.001"", ""T1087"", ""T1018"", ""T1046""]",True,True,True,True,1.0,1363.40299999938,False
+CTA-2083,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1082,T1082,"[""T1082"", ""T1059.004"", ""T1083"", ""T1016.001"", ""T1069.001""]",True,True,True,True,1.0,971.6764000004332,False
+CTA-1019,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1053.003,T1053.003,"[""T1053.003"", ""T1059.004"", ""T1070.004"", ""T1564.001"", ""T1027""]",True,True,True,True,1.0,715.8535999988089,False
+CTA-0518,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1222.002,T1222.001,"[""T1222.001"", ""T1564.001"", ""T1070.004"", ""T1562.001"", ""T1059.004""]",False,False,True,False,0.0,1394.666000000143,False
+CTA-1905,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1574.001,T1574.001,"[""T1574.001"", ""T1129"", ""T1036"", ""T1055"", ""T1547.001""]",True,True,True,True,1.0,869.3067999993218,False
+CTA-0776,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1574.001,T1574.001,"[""T1574.001"", ""T1129"", ""T1036"", ""T1055"", ""T1547.001""]",True,True,True,True,1.0,627.0317000016803,False
+CTA-2073,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1204.002,T1129,"[""T1129"", ""T1055.001"", ""T1574.001"", ""T1546.015"", ""T1566.001""]",False,False,False,False,0.0,809.596999999485,False
+CTA-2079,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1574.001,T1574.001,"[""T1574.001"", ""T1129"", ""T1036"", ""T1546.015"", ""T1218""]",True,True,True,True,1.0,723.6671999999089,False
+CTA-0052,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1546.003,T1546.003,"[""T1546.003"", ""T1047"", ""T1053.005"", ""T1569.002"", ""T1027""]",True,True,True,True,1.0,1317.2651999993832,False
+CTA-0889,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1574.001,T1574.001,"[""T1574.001"", ""T1129"", ""T1036.005"", ""T1546.015"", ""T1218""]",True,True,True,True,1.0,912.8609999970649,False
+CTA-1269,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1574.001,T1574.001,"[""T1574.001"", ""T1543.003"", ""T1055.001"", ""T1068"", ""T1027""]",True,True,True,True,1.0,536.7387000005692,False
+CTA-1284,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1574.001,T1574.002,"[""T1574.002"", ""T1574.001"", ""T1036"", ""T1055"", ""T1564.001""]",False,False,True,True,0.5,895.3572000027634,False
+CTA-0409,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1574.001,T1574.002,"[""T1574.002"", ""T1574.001"", ""T1055"", ""T1036"", ""T1218""]",False,False,True,True,0.5,1017.0413000014378,False
+CTA-1374,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1003.001,T1218.010,"[""T1218.010"", ""T1003.001"", ""T1036.005"", ""T1055"", ""T1568.002""]",False,False,False,True,0.5,928.0098999988695,False
+CTA-2335,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1202,T1218.005,"[""T1218.005"", ""T1055.001"", ""T1203"", ""T1566.001"", ""T1190""]",False,False,False,False,0.0,1243.435499996849,False
+CTA-1548,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1574.001,T1574.001,"[""T1574.001"", ""T1129"", ""T1036"", ""T1218.011"", ""T1055""]",True,True,True,True,1.0,922.568300000421,False
+CTA-2279,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1204.002,T1059.005,"[""T1059.005"", ""T1129"", ""T1204.002"", ""T1566.001"", ""T1547.001""]",False,False,False,True,0.3333333333333333,1038.4928999992553,False
+CTA-1400,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1204.002,T1574.001,"[""T1574.001"", ""T1055"", ""T1129"", ""T1218.011"", ""T1546.015""]",False,False,False,False,0.0,827.3429999971995,False
+CTA-0508,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1490,T1490,"[""T1490"", ""T1562.001"", ""T1574.001"", ""T1055"", ""T1027""]",True,True,True,True,1.0,846.7906000005314,False
+CTA-0140,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1574.001,T1574.002,"[""T1574.002"", ""T1574.001"", ""T1036"", ""T1218"", ""T1055""]",False,False,True,True,0.5,1041.3429000000178,False
+CTA-0661,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1055,T1055.001,"[""T1055.001"", ""T1117"", ""T1191"", ""T1170"", ""T1059.005""]",False,False,True,False,0.0,565.1529000024311,False
+CTA-0961,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1574.001,T1574.002,"[""T1574.002"", ""T1574.001"", ""T1055"", ""T1036"", ""T1129""]",False,False,True,True,0.5,914.7782000000007,False
+CTA-1175,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1574.001,T1574.002,"[""T1574.002"", ""T1574.001"", ""T1055"", ""T1129"", ""T1204.002""]",False,False,True,True,0.5,1109.8343999983626,False
+CTA-1812,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1574.001,T1574.001,"[""T1574.001"", ""T1129"", ""T1036.005"", ""T1055"", ""T1564.001""]",True,True,True,True,1.0,802.9191999994509,False
+CTA-0547,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1490,T1218.010,"[""T1218.010"", ""T1543.003"", ""T1055.001"", ""T1036.005"", ""T1562.001""]",False,False,False,False,0.0,1005.2332999985083,False
+CTA-2233,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1574.001,T1574.001,"[""T1574.001"", ""T1129"", ""T1036"", ""T1218"", ""T1055""]",True,True,True,True,1.0,613.698299999669,False
+CTA-2251,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1574.001,T1574.001,"[""T1574.001"", ""T1546.015"", ""T1129"", ""T1036"", ""T1218.011""]",True,True,True,True,1.0,1031.655700000556,False
+CTA-1024,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1574.001,T1574.001,"[""T1574.001"", ""T1546.015"", ""T1036"", ""T1218"", ""T1129""]",True,True,True,True,1.0,774.0708999990602,False
+CTA-1078,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1574.001,T1574.001,"[""T1574.001"", ""T1546.003"", ""T1036.005"", ""T1129"", ""T1218""]",True,True,True,True,1.0,1139.4857000013872,False
+CTA-0441,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1574.001,T1218.011,"[""T1218.011"", ""T1574.001"", ""T1036"", ""T1055"", ""T1547.001""]",False,False,False,True,0.5,702.4289000000863,False
+CTA-1304,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1003.001,T1055.001,"[""T1055.001"", ""T1116"", ""T1547.001"", ""T1543.003"", ""T1564.001""]",False,False,False,False,0.0,1641.3274000005913,False
+CTA-1433,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1574.001,T1574.002,"[""T1574.002"", ""T1574.001"", ""T1218"", ""T1036"", ""T1129""]",False,False,True,True,0.5,873.8594999995257,False
+CTA-1049,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1574.001,T1574.002,"[""T1574.002"", ""T1036"", ""T1218"", ""T1055"", ""T1070.004""]",False,False,True,False,0.0,1128.0856000012136,False
+CTA-1887,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1003.001,T1003.001,"[""T1003.001"", ""T1003"", ""T1055"", ""T1560.001"", ""T1112""]",True,True,True,True,1.0,1116.0414999976638,False
+CTA-0390,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1574.001,T1574.002,"[""T1574.002"", ""T1574.001"", ""T1129"", ""T1218"", ""T1036""]",False,False,True,True,0.5,1245.387800001481,False
+CTA-2472,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1574.001,T1574.001,"[""T1574.001"", ""T1129"", ""T1055.001"", ""T1036"", ""T1546.015""]",True,True,True,True,1.0,1056.2933000001067,False
+CTA-0161,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1218,T1574.002,"[""T1574.002"", ""T1574.001"", ""T1129"", ""T1218.010"", ""T1055""]",False,False,False,False,0.0,1308.660400001827,False
+CTA-2436,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1574.001,T1574.001,"[""T1574.001"", ""T1129"", ""T1036"", ""T1218"", ""T1546.015""]",True,True,True,True,1.0,861.299100000906,False
+CTA-2011,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1574.001,T1574.002,"[""T1574.002"", ""T1574.001"", ""T1129"", ""T1036"", ""T1546.015""]",False,False,True,True,0.5,839.5601999982318,False
+CTA-1096,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1574.001,T1574.001,"[""T1574.001"", ""T1129"", ""T1218.010"", ""T1055.001"", ""T1036""]",True,True,True,True,1.0,840.8248999985517,False
+CTA-0629,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1003,T1574.001,"[""T1574.001"", ""T1003.001"", ""T1055"", ""T1562.001"", ""T1027""]",False,False,False,False,0.0,628.5467999987304,False
+CTA-2132,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1574.001,T1574.002,"[""T1574.002"", ""T1129"", ""T1036"", ""T1218"", ""T1055""]",False,False,True,False,0.0,814.9794000019028,False
+CTA-1441,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1485,T1578.006,"[""T1578.006"", ""T1496"", ""T1588.006"", ""T1609"", ""T1078""]",False,False,False,False,0.0,1100.0678000018524,False
+CTA-0797,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1686.001,T1562.004,"[""T1562.004"", ""T1578.004"", ""T1089"", ""T1565.001"", ""T1566.001""]",False,False,False,False,0.0,1514.1524999999092,False
+CTA-0023,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1686.001,T1562.004,"[""T1562.004"", ""T1565.001"", ""T1089"", ""T1070.004"", ""T1484.001""]",False,False,False,False,0.0,905.7811000020592,False
+CTA-0678,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1485,T1565.001,"[""T1565.001"", ""T1565.003"", ""T1078"", ""T1087.004"", ""T1485""]",False,True,False,False,0.2,1009.5103999992716,False
+CTA-1654,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1078,T1546.006,"[""T1546.006"", ""T1574.001"", ""T1552.004"", ""T1562.001"", ""T1055""]",False,False,False,False,0.0,943.4359000006225,False
+CTA-1249,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1552,T1555.004,"[""T1555.004"", ""T1485"", ""T1565.003"", ""T1490"", ""T1078""]",False,False,False,False,0.0,1098.8187999973889,False
+CTA-0086,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1485,T1565.004,"[""T1565.004"", ""T1543.009"", ""T1021.004"", ""T1484.001"", ""T1562.004""]",False,False,False,False,0.0,1099.547400001029,False
+CTA-1260,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1485,T1069.001,"[""T1069.001"", ""T1548.003"", ""T1078.004"", ""T1087.004"", ""T1484.001""]",False,False,False,False,0.0,1153.9253000009921,False
+CTA-0362,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1685,T1070.004,"[""T1070.004"", ""T1070.001"", ""T1565.001"", ""T1565.002"", ""T1562.006""]",False,False,False,False,0.0,1328.856000000087,False
+CTA-0110,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1528,T1041,"[""T1041"", ""T1055"", ""T1569.002"", ""T1021.004"", ""T1071.001""]",False,False,False,False,0.0,1528.5757999990892,False
+CTA-0145,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1055,T1041,"[""T1041"", ""T1055"", ""T1071.001"", ""T1105"", ""T1573.001""]",False,False,False,True,0.5,1291.3017999999283,False
+CTA-0753,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1055,T1548.002,"[""T1548.002"", ""T1055"", ""T1041"", ""T1573.001"", ""T1021.006""]",False,False,False,True,0.5,1534.5930000003136,False
+CTA-2435,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1569.002,T1041,"[""T1041"", ""T1021.004"", ""T1055"", ""T1075"", ""T1570""]",False,False,False,False,0.0,1898.9779999974417,False
+CTA-2394,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1021.002,T1041,"[""T1041"", ""T1055"", ""T1071.001"", ""T1573"", ""T1043""]",False,False,False,False,0.0,1500.9016000003612,False
+CTA-2094,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1021.002,T1041,"[""T1041"", ""T1055"", ""T1021.004"", ""T1071.001"", ""T1573""]",False,False,False,False,0.0,1802.083999999013,False
+CTA-0958,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1070,T1070.001,"[""T1070.001"", ""T1070.004"", ""T1070"", ""T1070.006"", ""T1070.003""]",False,False,True,True,0.3333333333333333,1095.2278000004299,False
+CTA-0061,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1490,T1070.004,"[""T1070.004"", ""T1485"", ""T1565.001"", ""T1561.001"", ""T1070.006""]",False,False,False,False,0.0,703.275300002133,False
+CTA-1760,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1070.004,T1070.004,"[""T1070.004"", ""T1070"", ""T1070.001"", ""T1070.005"", ""T1070.006""]",True,True,True,True,1.0,849.2065999998886,False
+CTA-2525,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1070,T1070.004,"[""T1070.004"", ""T1070"", ""T1059.001"", ""T1485"", ""T1565.001""]",False,False,True,True,0.5,847.1159000000625,False
+CTA-0462,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1055.012,T1055.001,"[""T1055.001"", ""T1055"", ""T1059.005"", ""T1059.007"", ""T1569.001""]",False,False,True,False,0.0,897.3445000010543,False
+CTA-1920,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1127,T1055.001,"[""T1055.001"", ""T1090.001"", ""T1105"", ""T1569.002"", ""T1021.004""]",False,False,False,False,0.0,843.0542000023706,False
+CTA-0029,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1055,T1055.001,"[""T1055.001"", ""T1036"", ""T1569.001"", ""T1569.002"", ""T1105""]",False,False,True,False,0.0,961.7275000018708,False
+CTA-0617,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1003,T1555.004,"[""T1555.004"", ""T1003.004"", ""T1003"", ""T1055"", ""T1562.001""]",False,False,False,True,0.3333333333333333,1136.2760999982129,False
+CTA-0679,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1555.004,T1555.003,"[""T1555.003"", ""T1003.006"", ""T1555"", ""T1565.001"", ""T1027""]",False,False,True,False,0.0,1031.4806999995199,False
+CTA-2108,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1552.006,T1083,"[""T1083"", ""T1021.002"", ""T1046"", ""T1069.001"", ""T1560.001""]",False,False,False,False,0.0,717.6870999974199,False
+CTA-0134,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1071.004,T1071.004,"[""T1071.004"", ""T1568.002"", ""T1105"", ""T1036.005"", ""T1041""]",True,True,True,True,1.0,1387.1350000008533,False
+CTA-1278,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1090.003,T1071.004,"[""T1071.004"", ""T1090.002"", ""T1573.001"", ""T1568.002"", ""T1041""]",False,False,False,False,0.0,1020.7396000005247,False
+CTA-0045,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1098,T1078.004,"[""T1078.004"", ""T1098.004"", ""T1087.004"", ""T1548.003"", ""T1562.001""]",False,False,False,False,0.0,694.0815999987535,False
+CTA-1497,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1550.002,T1550.002,"[""T1550.002"", ""T1110.001"", ""T1021.002"", ""T1075"", ""T1040""]",True,True,True,True,1.0,957.870099999127,False
+CTA-1599,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1548,T1068,"[""T1068"", ""T1078.004"", ""T1110.003"", ""T1550.002"", ""T1548.002""]",False,False,False,False,0.0,1270.0611000000208,False
+CTA-2262,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1204.002,T1547.009,"[""T1547.009"", ""T1548.003"", ""T1543.003"", ""T1129"", ""T1546.012""]",False,False,False,False,0.0,1458.1013999995776,False
+CTA-0548,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1190,T1210,"[""T1210"", ""T1068"", ""T1499"", ""T1190"", ""T1021""]",False,False,False,False,0.25,863.6659000003419,False
+CTA-0863,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1649,T1552.004,"[""T1552.004"", ""T1003"", ""T1027.004"", ""T1041"", ""T1566.001""]",False,False,False,False,0.0,834.1843000016524,False
+CTA-1381,openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,T1021.002,T1021.002,"[""T1021.002"", ""T1071.002"", ""T1040"", ""T1049"", ""T1075""]",True,True,True,True,1.0,1281.9743000000017,False

@@ -1,0 +1,173 @@
+model_id,model_name,hardware_regime,sample_id,gt_attack_id,pred_attack_id,is_exact,is_any_tag,is_parent,parse_failure,latency_ms,prompt_tokens,completion_tokens
+openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,CTA-0004,T1566.001,T1059,False,False,False,False,1008.87,208,485
+openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,CTA-0015,T1531,T1098.001,False,False,False,False,605.02,214,96
+openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,CTA-0026,T1105,T1105,True,True,True,False,978.77,235,215
+openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,CTA-0045,T1557.001,T1078.004,False,False,False,False,799.74,240,176
+openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,CTA-0057,T1140,PARSE_FAIL,False,False,False,True,964.02,233,512
+openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,CTA-0062,T1070.004,T1070.004,True,True,True,False,618.32,286,103
+openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,CTA-0082,T1218.008,T1059,False,False,False,False,634.82,338,110
+openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,CTA-0084,T1003.003,T1003.001,False,False,True,False,284.78,293,72
+openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,CTA-0089,T1070.006,T1547.003,False,False,False,False,783.57,208,259
+openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,CTA-0120,T1686,T1562.001,False,False,False,False,355.77,208,57
+openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,CTA-0125,T1571,PARSE_FAIL,False,False,False,True,890.88,533,512
+openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,CTA-0127,T1049,T1049,True,True,True,False,385.44,235,64
+openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,CTA-0128,T1115,T1115,True,True,True,False,583.21,228,44
+openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,CTA-0157,T1033,T1497.001,False,False,False,False,810.15,229,310
+openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,CTA-0160,T1018,T1135,False,False,False,False,747.86,259,114
+openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,CTA-0161,T1059.001,T1059.001,True,True,True,False,623.25,802,73
+openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,CTA-0174,T1571,T1043,False,False,False,False,717.55,330,162
+openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,CTA-0200,T1482,T1059.001,False,True,False,False,523.87,1498,32
+openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,CTA-0204,T1003,T1078.003,False,False,False,False,936.16,324,506
+openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,CTA-0214,T1074.001,T1560.001,False,False,False,False,316.58,314,106
+openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,CTA-0227,T1496,T1496.001,False,False,True,False,539.07,383,91
+openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,CTA-0234,T1036.003,T1055,False,False,False,False,774.99,335,305
+openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,CTA-0236,T1012,T1112,False,False,False,False,850.53,370,275
+openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,CTA-0238,T1046,T1041,False,False,False,False,681.55,270,135
+openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,CTA-0243,T1048.003,T1041,False,False,False,False,695.22,330,273
+openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,CTA-0254,T1567,T1071.001,False,False,False,False,666.75,222,135
+openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,CTA-0258,T1218.008,PARSE_FAIL,False,False,False,True,1135.6,263,512
+openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,CTA-0278,T1119,T1059.003,False,False,False,False,525.75,264,121
+openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,CTA-0280,T1087,T1005,False,False,False,False,613.98,297,135
+openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,CTA-0291,T1049,T1049,True,True,True,False,641.29,245,102
+openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,CTA-0298,T1087.001,T1087.001,True,True,True,False,595.75,516,63
+openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,CTA-0320,T1069.001,PARSE_FAIL,False,False,False,True,1078.38,290,512
+openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,CTA-0324,T1559.001,T1105,False,False,False,False,702.08,206,181
+openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,CTA-0326,T1190,T1046,False,False,False,False,789.48,209,253
+openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,CTA-0336,T1557.001,T1059.003,False,False,False,False,854.11,221,258
+openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,CTA-0345,T1685.005,T1070.001,False,False,False,False,501.77,320,61
+openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,CTA-0360,T1204.002,T1059.003,False,False,False,False,475.59,370,101
+openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,CTA-0374,T1543,PARSE_FAIL,False,False,False,True,1069.48,213,512
+openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,CTA-0379,T1564,T1564.001,False,False,True,False,476.8,220,150
+openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,CTA-0388,T1547,T1059.003,False,False,False,False,784.18,213,186
+openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,CTA-0393,T1574.001,T1112,False,True,False,False,1056.2,241,467
+openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,CTA-0396,T1070.003,T1070.003,True,True,True,False,767.23,328,419
+openai/gpt-oss-20b,GPT-OSS 20B,Groq LPU,CTA-0400,T1553.004,PARSE_FAIL,False,False,False,True,1081.08,267,512
+qwen/qwen3.8-27b,Qwen 2.5 27B,Groq LPU,CTA-0004,T1566.001,T1204.002,False,False,False,False,239.73,159,21
+qwen/qwen3.8-27b,Qwen 2.5 27B,Groq LPU,CTA-0015,T1531,T1070.004,False,False,False,False,232.17,165,21
+qwen/qwen3.8-27b,Qwen 2.5 27B,Groq LPU,CTA-0026,T1105,T1105,True,True,True,False,256.99,192,17
+qwen/qwen3.8-27b,Qwen 2.5 27B,Groq LPU,CTA-0045,T1557.001,T1055.002,False,False,False,False,256.75,194,21
+qwen/qwen3.8-27b,Qwen 2.5 27B,Groq LPU,CTA-0057,T1140,T1059.001,False,False,False,False,326.08,195,21
+qwen/qwen3.8-27b,Qwen 2.5 27B,Groq LPU,CTA-0062,T1070.004,T1485,False,False,False,False,240.86,237,17
+qwen/qwen3.8-27b,Qwen 2.5 27B,Groq LPU,CTA-0082,T1218.008,T1204.002,False,False,False,False,245.96,287,21
+qwen/qwen3.8-27b,Qwen 2.5 27B,Groq LPU,CTA-0084,T1003.003,T1003.002,False,True,True,False,247.84,241,21
+qwen/qwen3.8-27b,Qwen 2.5 27B,Groq LPU,CTA-0089,T1070.006,T1543.002,False,False,False,False,255.53,157,21
+qwen/qwen3.8-27b,Qwen 2.5 27B,Groq LPU,CTA-0120,T1686,T1562.008,False,False,False,False,221.1,158,21
+qwen/qwen3.8-27b,Qwen 2.5 27B,Groq LPU,CTA-0125,T1571,T1071.001,False,False,False,False,275.75,628,21
+qwen/qwen3.8-27b,Qwen 2.5 27B,Groq LPU,CTA-0127,T1049,T1049,True,True,True,False,307.51,188,17
+qwen/qwen3.8-27b,Qwen 2.5 27B,Groq LPU,CTA-0128,T1115,T1115.001,False,False,True,False,227.34,184,21
+qwen/qwen3.8-27b,Qwen 2.5 27B,Groq LPU,CTA-0157,T1033,T1082,False,False,False,False,230.52,178,17
+qwen/qwen3.8-27b,Qwen 2.5 27B,Groq LPU,CTA-0160,T1018,T1087,False,False,False,False,225.77,207,17
+qwen/qwen3.8-27b,Qwen 2.5 27B,Groq LPU,CTA-0161,T1059.001,T1059.001,True,True,True,False,310.18,769,21
+qwen/qwen3.8-27b,Qwen 2.5 27B,Groq LPU,CTA-0174,T1571,T1090,False,False,False,False,308.49,308,17
+qwen/qwen3.8-27b,Qwen 2.5 27B,Groq LPU,CTA-0200,T1482,T1059.001,False,True,False,False,335.58,1476,21
+qwen/qwen3.8-27b,Qwen 2.5 27B,Groq LPU,CTA-0204,T1003,T1558.003,False,True,False,False,245.86,273,21
+qwen/qwen3.8-27b,Qwen 2.5 27B,Groq LPU,CTA-0214,T1074.001,T1560.001,False,False,False,False,229.34,268,21
+qwen/qwen3.8-27b,Qwen 2.5 27B,Groq LPU,CTA-0227,T1496,T1496,True,True,True,False,222.52,341,12
+qwen/qwen3.8-27b,Qwen 2.5 27B,Groq LPU,CTA-0234,T1036.003,T1562.009,False,False,False,False,261.21,290,21
+qwen/qwen3.8-27b,Qwen 2.5 27B,Groq LPU,CTA-0236,T1012,T1012,True,True,True,False,243.17,317,17
+qwen/qwen3.8-27b,Qwen 2.5 27B,Groq LPU,CTA-0238,T1046,T1041,False,False,False,False,236.91,222,17
+qwen/qwen3.8-27b,Qwen 2.5 27B,Groq LPU,CTA-0243,T1048.003,T1041,False,False,False,False,243.22,287,17
+qwen/qwen3.8-27b,Qwen 2.5 27B,Groq LPU,CTA-0254,T1567,T1095,False,False,False,False,234.85,176,17
+qwen/qwen3.8-27b,Qwen 2.5 27B,Groq LPU,CTA-0258,T1218.008,T1546.010,False,False,False,False,237.12,213,21
+qwen/qwen3.8-27b,Qwen 2.5 27B,Groq LPU,CTA-0278,T1119,T1082,False,False,False,False,535.19,213,17
+qwen/qwen3.8-27b,Qwen 2.5 27B,Groq LPU,CTA-0280,T1087,T1003.004,False,False,False,False,242.92,246,21
+qwen/qwen3.8-27b,Qwen 2.5 27B,Groq LPU,CTA-0291,T1049,T1049,True,True,True,False,238.78,204,12
+qwen/qwen3.8-27b,Qwen 2.5 27B,Groq LPU,CTA-0298,T1087.001,T1087.001,True,True,True,False,266.2,460,21
+qwen/qwen3.8-27b,Qwen 2.5 27B,Groq LPU,CTA-0320,T1069.001,T1033,False,False,False,False,239.95,242,17
+qwen/qwen3.8-27b,Qwen 2.5 27B,Groq LPU,CTA-0324,T1559.001,T1059.005,False,False,False,False,228.84,160,21
+qwen/qwen3.8-27b,Qwen 2.5 27B,Groq LPU,CTA-0326,T1190,T1071.004,False,False,False,False,205.87,159,16
+qwen/qwen3.8-27b,Qwen 2.5 27B,Groq LPU,CTA-0336,T1557.001,T1558.001,False,False,False,False,233.19,171,16
+qwen/qwen3.8-27b,Qwen 2.5 27B,Groq LPU,CTA-0345,T1685.005,T1070.001,False,False,False,False,250.63,277,21
+qwen/qwen3.8-27b,Qwen 2.5 27B,Groq LPU,CTA-0360,T1204.002,T1218.011,False,False,False,False,295.9,320,21
+qwen/qwen3.8-27b,Qwen 2.5 27B,Groq LPU,CTA-0374,T1543,T1543.003,False,False,True,False,230.24,168,21
+qwen/qwen3.8-27b,Qwen 2.5 27B,Groq LPU,CTA-0379,T1564,T1562.001,False,False,False,False,230.63,170,21
+qwen/qwen3.8-27b,Qwen 2.5 27B,Groq LPU,CTA-0388,T1547,T1218.013,False,False,False,False,230.32,163,21
+qwen/qwen3.8-27b,Qwen 2.5 27B,Groq LPU,CTA-0393,T1574.001,T1547.001,False,False,False,False,222.3,191,16
+qwen/qwen3.8-27b,Qwen 2.5 27B,Groq LPU,CTA-0396,T1070.003,T1070.004,False,False,True,False,254.25,285,21
+qwen/qwen3.8-27b,Qwen 2.5 27B,Groq LPU,CTA-0400,T1553.004,T1553.005,False,False,True,False,671.55,215,21
+openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,CTA-0004,T1566.001,T1055,False,False,False,False,827.67,208,257
+openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,CTA-0015,T1531,T1531,True,True,True,False,718.16,214,72
+openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,CTA-0026,T1105,T1105,True,True,True,False,744.17,235,109
+openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,CTA-0045,T1557.001,T1548.002,False,False,False,False,571.38,240,131
+openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,CTA-0057,T1140,T1560.001,False,False,False,False,517.24,233,70
+openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,CTA-0062,T1070.004,T1070.004,True,True,True,False,455.72,286,73
+openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,CTA-0082,T1218.008,T1059.003,False,False,False,False,765.23,338,121
+openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,CTA-0084,T1003.003,T1003.002,False,True,True,False,712.51,293,93
+openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,CTA-0089,T1070.006,T1543.004,False,False,False,False,462.42,208,82
+openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,CTA-0120,T1686,T1562.001,False,False,False,False,467.23,208,72
+openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,CTA-0125,T1571,T1071,False,False,False,False,810.14,533,138
+openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,CTA-0127,T1049,T1049,True,True,True,False,587.55,235,30
+openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,CTA-0128,T1115,T1115,True,True,True,False,476.35,228,63
+openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,CTA-0157,T1033,T1497.001,False,False,False,False,1053.39,229,282
+openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,CTA-0160,T1018,T1135,False,False,False,False,618.33,259,76
+openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,CTA-0161,T1059.001,T1059.001,True,True,True,False,614.94,802,64
+openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,CTA-0174,T1571,T1571,True,True,True,False,823.02,330,168
+openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,CTA-0200,T1482,T1059.001,False,True,False,False,659.25,1498,49
+openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,CTA-0204,T1003,T1558.002,False,False,False,False,679.87,324,85
+openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,CTA-0214,T1074.001,T1560.001,False,False,False,False,414.01,314,43
+openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,CTA-0227,T1496,T1496,True,True,True,False,899.41,383,49
+openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,CTA-0234,T1036.003,T1057,False,False,False,False,1064.85,335,368
+openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,CTA-0236,T1012,T1012,True,True,True,False,461.34,370,73
+openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,CTA-0238,T1046,T1041,False,False,False,False,823.01,270,148
+openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,CTA-0243,T1048.003,T1048.003,True,True,True,False,553.5,330,82
+openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,CTA-0254,T1567,T1090.002,False,False,False,False,971.31,222,225
+openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,CTA-0258,T1218.008,T1117,False,False,False,False,1269.14,263,113
+openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,CTA-0278,T1119,T1082,False,False,False,False,695.87,264,119
+openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,CTA-0280,T1087,T1005,False,False,False,False,1369.11,297,436
+openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,CTA-0291,T1049,T1049,True,True,True,False,438.8,245,66
+openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,CTA-0298,T1087.001,T1087.001,True,True,True,False,752.93,516,111
+openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,CTA-0320,T1069.001,T1069.001,True,True,True,False,776.4,290,97
+openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,CTA-0324,T1559.001,T1117,False,False,False,False,995.78,206,123
+openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,CTA-0326,T1190,T1071.004,False,False,False,False,562.38,209,130
+openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,CTA-0336,T1557.001,T1068,False,False,False,False,1252.98,221,402
+openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,CTA-0345,T1685.005,T1070.001,False,False,False,False,639.36,320,60
+openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,CTA-0360,T1204.002,T1047,False,True,False,False,560.53,370,114
+openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,CTA-0374,T1543,T1543.003,False,False,True,False,588.66,213,61
+openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,CTA-0379,T1564,T1564.003,False,False,True,False,947.23,220,234
+openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,CTA-0388,T1547,T1003.002,False,False,False,False,901.55,213,181
+openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,CTA-0393,T1574.001,T1543.003,False,False,False,False,899.01,241,191
+openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,CTA-0396,T1070.003,T1070.003,True,True,True,False,528.97,328,114
+openai/gpt-oss-120b,GPT-OSS 120B,Groq LPU,CTA-0400,T1553.004,T1553.004,True,True,True,False,1161.85,267,308
+gemini-3.5-flash,Gemini 3.5 Flash,Google Cloud API,CTA-0004,T1566.001,T1203,False,True,False,False,96442.58,151,12
+gemini-3.5-flash,Gemini 3.5 Flash,Google Cloud API,CTA-0015,T1531,T1531,True,True,True,False,20490.55,156,17
+gemini-3.5-flash,Gemini 3.5 Flash,Google Cloud API,CTA-0026,T1105,T1218.012,False,False,False,False,25840.3,185,16
+gemini-3.5-flash,Gemini 3.5 Flash,Google Cloud API,CTA-0045,T1557.001,T1134.001,False,False,False,False,57340.41,183,16
+gemini-3.5-flash,Gemini 3.5 Flash,Google Cloud API,CTA-0057,T1140,PARSE_FAIL,False,False,False,True,10000.0,0,0
+gemini-3.5-flash,Gemini 3.5 Flash,Google Cloud API,CTA-0062,T1070.004,PARSE_FAIL,False,False,False,True,10000.0,0,0
+gemini-3.5-flash,Gemini 3.5 Flash,Google Cloud API,CTA-0082,T1218.008,PARSE_FAIL,False,False,False,True,10000.0,0,0
+gemini-3.5-flash,Gemini 3.5 Flash,Google Cloud API,CTA-0084,T1003.003,PARSE_FAIL,False,False,False,True,10000.0,0,0
+gemini-3.5-flash,Gemini 3.5 Flash,Google Cloud API,CTA-0089,T1070.006,PARSE_FAIL,False,False,False,True,10000.0,0,0
+gemini-3.5-flash,Gemini 3.5 Flash,Google Cloud API,CTA-0120,T1686,PARSE_FAIL,False,False,False,True,10000.0,0,0
+gemini-3.5-flash,Gemini 3.5 Flash,Google Cloud API,CTA-0125,T1571,PARSE_FAIL,False,False,False,True,10000.0,0,0
+gemini-3.5-flash,Gemini 3.5 Flash,Google Cloud API,CTA-0127,T1049,PARSE_FAIL,False,False,False,True,10000.0,0,0
+gemini-3.5-flash,Gemini 3.5 Flash,Google Cloud API,CTA-0128,T1115,PARSE_FAIL,False,False,False,True,10000.0,0,0
+gemini-3.5-flash,Gemini 3.5 Flash,Google Cloud API,CTA-0157,T1033,PARSE_FAIL,False,False,False,True,10000.0,0,0
+gemini-3.5-flash,Gemini 3.5 Flash,Google Cloud API,CTA-0160,T1018,PARSE_FAIL,False,False,False,True,10000.0,0,0
+gemini-3.5-flash,Gemini 3.5 Flash,Google Cloud API,CTA-0161,T1059.001,PARSE_FAIL,False,False,False,True,10000.0,0,0
+gemini-3.5-flash,Gemini 3.5 Flash,Google Cloud API,CTA-0174,T1571,PARSE_FAIL,False,False,False,True,10000.0,0,0
+gemini-3.5-flash,Gemini 3.5 Flash,Google Cloud API,CTA-0200,T1482,PARSE_FAIL,False,False,False,True,10000.0,0,0
+gemini-3.5-flash,Gemini 3.5 Flash,Google Cloud API,CTA-0204,T1003,PARSE_FAIL,False,False,False,True,10000.0,0,0
+gemini-3.5-flash,Gemini 3.5 Flash,Google Cloud API,CTA-0214,T1074.001,PARSE_FAIL,False,False,False,True,10000.0,0,0
+gemini-3.5-flash,Gemini 3.5 Flash,Google Cloud API,CTA-0227,T1496,PARSE_FAIL,False,False,False,True,10000.0,0,0
+gemini-3.5-flash,Gemini 3.5 Flash,Google Cloud API,CTA-0234,T1036.003,PARSE_FAIL,False,False,False,True,10000.0,0,0
+gemini-3.5-flash,Gemini 3.5 Flash,Google Cloud API,CTA-0236,T1012,PARSE_FAIL,False,False,False,True,10000.0,0,0
+gemini-3.5-flash,Gemini 3.5 Flash,Google Cloud API,CTA-0238,T1046,PARSE_FAIL,False,False,False,True,10000.0,0,0
+gemini-3.5-flash,Gemini 3.5 Flash,Google Cloud API,CTA-0243,T1048.003,PARSE_FAIL,False,False,False,True,10000.0,0,0
+gemini-3.5-flash,Gemini 3.5 Flash,Google Cloud API,CTA-0254,T1567,PARSE_FAIL,False,False,False,True,10000.0,0,0
+gemini-3.5-flash,Gemini 3.5 Flash,Google Cloud API,CTA-0258,T1218.008,PARSE_FAIL,False,False,False,True,10000.0,0,0
+gemini-3.5-flash,Gemini 3.5 Flash,Google Cloud API,CTA-0278,T1119,PARSE_FAIL,False,False,False,True,10000.0,0,0
+gemini-3.5-flash,Gemini 3.5 Flash,Google Cloud API,CTA-0280,T1087,PARSE_FAIL,False,False,False,True,10000.0,0,0
+gemini-3.5-flash,Gemini 3.5 Flash,Google Cloud API,CTA-0291,T1049,PARSE_FAIL,False,False,False,True,10000.0,0,0
+gemini-3.5-flash,Gemini 3.5 Flash,Google Cloud API,CTA-0298,T1087.001,PARSE_FAIL,False,False,False,True,10000.0,0,0
+gemini-3.5-flash,Gemini 3.5 Flash,Google Cloud API,CTA-0320,T1069.001,PARSE_FAIL,False,False,False,True,10000.0,0,0
+gemini-3.5-flash,Gemini 3.5 Flash,Google Cloud API,CTA-0324,T1559.001,PARSE_FAIL,False,False,False,True,10000.0,0,0
+gemini-3.5-flash,Gemini 3.5 Flash,Google Cloud API,CTA-0326,T1190,PARSE_FAIL,False,False,False,True,10000.0,0,0
+gemini-3.5-flash,Gemini 3.5 Flash,Google Cloud API,CTA-0336,T1557.001,PARSE_FAIL,False,False,False,True,10000.0,0,0
+gemini-3.5-flash,Gemini 3.5 Flash,Google Cloud API,CTA-0345,T1685.005,PARSE_FAIL,False,False,False,True,10000.0,0,0
+gemini-3.5-flash,Gemini 3.5 Flash,Google Cloud API,CTA-0360,T1204.002,PARSE_FAIL,False,False,False,True,10000.0,0,0
+gemini-3.5-flash,Gemini 3.5 Flash,Google Cloud API,CTA-0374,T1543,PARSE_FAIL,False,False,False,True,10000.0,0,0
+gemini-3.5-flash,Gemini 3.5 Flash,Google Cloud API,CTA-0379,T1564,PARSE_FAIL,False,False,False,True,10000.0,0,0
+gemini-3.5-flash,Gemini 3.5 Flash,Google Cloud API,CTA-0388,T1547,PARSE_FAIL,False,False,False,True,10000.0,0,0
+gemini-3.5-flash,Gemini 3.5 Flash,Google Cloud API,CTA-0393,T1574.001,PARSE_FAIL,False,False,False,True,10000.0,0,0
+gemini-3.5-flash,Gemini 3.5 Flash,Google Cloud API,CTA-0396,T1070.003,PARSE_FAIL,False,False,False,True,10000.0,0,0
+gemini-3.5-flash,Gemini 3.5 Flash,Google Cloud API,CTA-0400,T1553.004,PARSE_FAIL,False,False,False,True,10000.0,0,0

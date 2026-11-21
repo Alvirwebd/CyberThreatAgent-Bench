@@ -34,7 +34,7 @@ Examples:
     group.add_argument("--full", action="store_true", help="Complete publication run with 5 seeds across full corpus")
     parser.add_argument("--notebook", type=str, default="Project2-CyberThreatAgent_Bench.ipynb",
                         help="Path to benchmark notebook (default: Project2-CyberThreatAgent_Bench.ipynb)")
-    parser.add_argument("--output-dir", type=str, default="ctab_bench/outputs",
+    parser.add_argument("--output-dir", type=str, default="artifacts",
                         help="Path to output directory (default: ctab_bench/outputs)")
     return parser.parse_args()
 

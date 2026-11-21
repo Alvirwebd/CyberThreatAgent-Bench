@@ -86,53 +86,65 @@ All benchmark outputs, pre-rendered publication figures, and LaTeX tables genera
 - `artifacts/external_validation.csv`: Real-world analyst-annotated CTI text evaluation ($n=163$).
 - `artifacts/manifest_v5.json`: Cryptographic SHA-256 manifest of frozen inputs and outputs.
 - `artifacts/datasheet.json`: Standardized machine-readable dataset documentation.
-- `artifacts/outputs/latex/`: Formatted publication tables ready for direct `\input{}`:
+- `artifacts/latex/`: Formatted publication tables ready for direct `\input{}`:
   - `table_scorecard.tex`: Multi-stage performance scorecard.
   - `table_baselines.tex`: 5-seed baseline comparison table with statistical significance markers ($p < 0.01$).
   - `table_dataset.tex`: Dataset and corpus statistics.
   - `table_external.tex`: Real-world out-of-distribution evaluation on MITRE TRAM.
-- `artifacts/outputs/figures/`: High-resolution (300 DPI) `.png` and vector `.pdf` figures (Pareto frontiers, leakage probes, noise decay curves, attack graphs).
+- `artifacts/figures/`: High-resolution (300 DPI) `.png` and vector `.pdf` figures (Pareto frontiers, leakage probes, noise decay curves, attack graphs).
 
 ---
 
 ## 📑 Baseline Performance Summary (Stage 3 ATT&CK Mapping)
 
-Evaluated across $n=5$ independent seeds on group-disjoint splits:
+Evaluated across $K=5$ independent seeds on group-disjoint splits with both strict exact-match and multi-label (Top-1 Any Valid Tag) scoring across dual hardware regimes:
 
-| Method | Top-1 Exact | Top-1 Parent | Top-3 Exact | MRR Exact | Macro-F1 |
-| :--- | :---: | :---: | :---: | :---: | :---: |
-| Random Guessing Floor | 0.001 $\pm$ 0.001 | 0.009 $\pm$ 0.006 | 0.003 $\pm$ 0.001 | 0.002 $\pm$ 0.001 | 0.000 $\pm$ 0.001 |
-| Majority Class | 0.028 $\pm$ 0.020 | 0.037 $\pm$ 0.020 | 0.096 $\pm$ 0.024 | 0.067 $\pm$ 0.012 | 0.000 $\pm$ 0.000 |
-| Rule-Based Keyword | 0.115 $\pm$ 0.046 | 0.159 $\pm$ 0.069 | 0.196 $\pm$ 0.050 | 0.159 $\pm$ 0.046 | 0.069 $\pm$ 0.034 |
-| Okapi BM25 | 0.165 $\pm$ 0.051 | 0.232 $\pm$ 0.073 | 0.253 $\pm$ 0.039 | 0.213 $\pm$ 0.046 | 0.108 $\pm$ 0.042 |
-| Zero-Shot TF-IDF | 0.226 $\pm$ 0.053 | 0.290 $\pm$ 0.080 | 0.321 $\pm$ 0.049 | 0.281 $\pm$ 0.046 | 0.137 $\pm$ 0.044 |
-| Dense Retriever (`bge-small`) | 0.204 $\pm$ 0.036 | 0.311 $\pm$ 0.020 | 0.320 $\pm$ 0.019 | 0.267 $\pm$ 0.021 | 0.139 $\pm$ 0.039 |
-| Supervised Dense (`bge-small`) | 0.199 $\pm$ 0.035 | **0.403 $\pm$ 0.030** | **0.444 $\pm$ 0.027** | 0.325 $\pm$ 0.028 | 0.165 $\pm$ 0.026 |
-| **Proposed Hybrid Mapper** | **0.294 $\pm$ 0.042**$^{\dagger}$ | 0.376 $\pm$ 0.029 | 0.436 $\pm$ 0.029 | **0.366 $\pm$ 0.035**$^{\dagger}$ | **0.216 $\pm$ 0.033**$^{\dagger}$ |
-| HybridDenseRouter | 0.276 $\pm$ 0.058 | 0.386 $\pm$ 0.056 | 0.435 $\pm$ 0.046 | 0.356 $\pm$ 0.053 | 0.199 $\pm$ 0.026 |
-| LLM (`gemini-2.0-flash-lite`)* | 0.683 | 0.717 | -- | 0.683 | -- |
+| Method | Top-1 Exact | Top-1 Any Valid Tag | Top-3 Exact | MRR Exact | Macro-F1 | Hardware Regime |
+| :--- | :---: | :---: | :---: | :---: | :---: | :--- |
+| **A. Local CPU Inference ($N=2,530$)** | | | | | | *Zero Cloud Dependency* |
+| Random Guessing Floor | 0.000 $\pm$ 0.000 | 0.000 $\pm$ 0.000 | 0.007 $\pm$ 0.012 | 0.004 $\pm$ 0.005 | 0.000 $\pm$ 0.000 | Local CPU (0.02 ms) |
+| Majority Class | 0.003 $\pm$ 0.009 | 0.003 $\pm$ 0.009 | 0.007 $\pm$ 0.012 | 0.005 $\pm$ 0.011 | 0.000 $\pm$ 0.000 | Local CPU (0.01 ms) |
+| Rule-Based Keyword | 0.103 $\pm$ 0.051 | 0.144 $\pm$ 0.062 | 0.200 $\pm$ 0.051 | 0.153 $\pm$ 0.051 | 0.065 $\pm$ 0.038 | Local CPU (0.35 ms) |
+| Okapi BM25 | 0.203 $\pm$ 0.096 | 0.248 $\pm$ 0.095 | 0.270 $\pm$ 0.092 | 0.242 $\pm$ 0.094 | 0.118 $\pm$ 0.060 | Local CPU (1.85 ms) |
+| Zero-Shot TF-IDF | 0.231 $\pm$ 0.094 | 0.297 $\pm$ 0.103 | 0.313 $\pm$ 0.086 | 0.278 $\pm$ 0.084 | 0.135 $\pm$ 0.054 | Local CPU (1.25 ms) |
+| Dense Retriever (`bge-small`) | 0.242 $\pm$ 0.082 | 0.280 $\pm$ 0.061 | 0.321 $\pm$ 0.079 | 0.284 $\pm$ 0.077 | 0.143 $\pm$ 0.064 | Local CPU (12.80 ms) |
+| Supervised Dense (`bge-small`) | 0.142 $\pm$ 0.043 | 0.146 $\pm$ 0.049 | 0.317 $\pm$ 0.100 | 0.238 $\pm$ 0.061 | 0.086 $\pm$ 0.028 | Local CPU (13.50 ms) |
+| SecBERT Bi-Encoder (`SecBERT`) | 0.072 $\pm$ 0.037 | 0.092 $\pm$ 0.045 | 0.100 $\pm$ 0.060 | 0.089 $\pm$ 0.044 | 0.045 $\pm$ 0.031 | Local CPU (11.50 ms) |
+| SecBERT Hybrid Mapper | 0.133 $\pm$ 0.046 | 0.149 $\pm$ 0.061 | 0.223 $\pm$ 0.063 | 0.189 $\pm$ 0.051 | 0.076 $\pm$ 0.031 | Local CPU (13.20 ms) |
+| **Proposed Hybrid Mapper** | **0.255 $\pm$ 0.102** | **0.313 $\pm$ 0.107** | **0.346 $\pm$ 0.099** | **0.307 $\pm$ 0.090** | **0.150 $\pm$ 0.061** | **Local CPU (3.45 ms)** |
+| **Agentic Router** | **0.261 $\pm$ 0.095**$^{\dagger}$ | **0.319 $\pm$ 0.108** | **0.398 $\pm$ 0.071** | **0.331 $\pm$ 0.082**$^{\dagger}$ | **0.153 $\pm$ 0.056** | **Local CPU (4.10 ms)** |
+| **B. Multi-LLM Scaling ($n=200$, Held-Out Fold 0)** | | | | | | *Cloud API / Groq LPU* |
+| Gemini 3.5 Flash-Lite (`gemini-3.5-flash-lite`) | **0.405** | **0.460** | **0.555** | **0.492** | -- | Google Cloud API (804.7 ms) |
+| GPT-OSS 120B (`openai/gpt-oss-120b`) | 0.325 | 0.350 | 0.510 | 0.414 | -- | Groq LPU (1039.0 ms) |
+| Qwen 3.8 27B (`qwen/qwen3.8-27b`) | 0.240 | 0.265 | 0.370 | 0.302 | -- | Groq LPU (342.4 ms) |
+| GPT-OSS 20B (`openai/gpt-oss-20b`) | 0.140 | 0.145 | 0.180 | 0.163 | -- | Groq LPU (1110.3 ms) |
 
-$^{\dagger}$ Statistically significant improvement over next-best baseline ($p < 0.01$, paired bootstrap & Wilcoxon signed-rank tests on $n=999$ unique held-out test items from the primary split).  
-$^{*}$ Evaluated on $n=60$ test alerts with strict JSON schema at temperature 0 (unparseable predictions counted as incorrect).
+$^{\dagger}$ Statistically significant improvement over next-best local baseline ($p < 0.01$, paired bootstrap $B=2000$, Wilcoxon signed-rank, and McNemar tests on non-overlapping out-of-fold test predictions across 5 folds).  
+$^{*}$ Multi-LLM scaling evaluated on the identical held-out test alerts ($n=200$, Fold 0 strictly out-of-sample) with ranked Top-5 schema and strict JSON parsing at temperature 0 (reasoning tokens stripped; unparseable predictions penalized as incorrect). Latency reported as median ($p_{50}$) per-alert inference time. Note: For 1-to-1 comparison on this identical $n=200$ test subset, the Proposed Hybrid Mapper achieves **0.425** Top-1 Exact and **0.492** MRR@5 with 3.45 ms local CPU latency.
+
+#### Stage 3 Modeling Upgrades:
+- **Inner-CV Hyperparameter Selection ($\alpha^*$):** Precomputed score matrices allow fast 3-fold inner cross-validation strictly on training splits to select the optimal hybrid blend weight $\alpha^* \in [0.2, 0.7]$ without data leakage.
+- **Confidence-Adaptive Open-Set OOD Robustness:** Dynamic query weighting $\alpha_{\text{eff}}(x) = \alpha^* \cdot \text{clip}(c_{\text{sup}}(x) / \tau, 0.05, 1.0)$ shifts weight to zero-shot semantic matching whenever supervised margin or query-to-train similarity drops. Under predicted parents, child zero-shot affinities are preserved so unseen sub-techniques are never suppressed by training-only sub-classifiers.
+- **Cybersecurity Transformer Baselines (SecBERT):** Domain-specific pre-trained embeddings (jackaduma/SecBERT) with SHA-256 disk caching, batch size 64, and PyTorch inference mode enable CPU execution in seconds.
 
 ---
 
 ### 🔀 Hybrid-to-LLM Cascade (Accuracy-Latency-Cost Pareto Trade-Off)
 
-Evaluated on $n=60$ held-out test alerts with `HybridLLMCascade`: the fast local `HierarchicalMapper` predicts first, and only escalates to the frontier LLM when the top-2 prediction margin falls below uncertainty threshold $\theta$:
+Evaluated on $n=200$ held-out test alerts with `HybridLLMCascade` paired with champion LLM (`gemini-3.5-flash-lite`): the fast local `HierarchicalMapper` (Fold 0 out-of-sample) predicts first, and only escalates to the champion LLM when the top-2 prediction margin falls below uncertainty threshold $\theta$:
 
 | Margin Threshold ($\theta$) | Escalation Rate | Top-1 Exact Accuracy (95% CI) | $p_{50}$ Latency | Mean Latency | Cost Savings vs. Full LLM | Operating Regime |
 | :---: | :---: | :---: | :---: | :---: | :---: | :--- |
-| 0.05 | 20.00% | 0.3667 [0.2500, 0.4833] | 65.74 ms | 199.30 ms | 80.00% | Ultra-low latency edge filter |
-| 0.10 | 33.33% | 0.4167 [0.2833, 0.5333] | 65.96 ms | 289.09 ms | 66.67% | Cost-conscious tier (66.7% cost saved) |
-| 0.15 | 45.00% | 0.4500 [0.3167, 0.5667] | 67.33 ms | 369.73 ms | 55.00% | Balanced local-first tier |
-| **0.20** | **63.33%** | **0.5333 [0.4000, 0.6667]** | **612.43 ms** | **481.16 ms** | **36.67%** | **Validation-Selected Operating Threshold ($\theta^*$)** |
-| 0.30 | 81.67% | 0.6333 [0.5000, 0.7500] | 650.34 ms | 615.08 ms | 18.33% | High-accuracy tier |
-| 0.40 | 96.67% | 0.6833 [0.5667, 0.8000] | 711.36 ms | 713.66 ms | 3.33% | Full cloud parity ($p=1.0$ vs standalone LLM) |
+| 0.05 | 18.50% | 0.4300 [0.3650, 0.5000] | 3.45 ms | 182.30 ms | 81.50% | Ultra-low latency edge filter |
+| **0.10** | **30.50%** | **0.4350 [0.3650, 0.5100]** | **3.45 ms** | **288.44 ms** | **69.50%** | **Validation-Selected Operating Threshold ($\theta^*$)** |
+| 0.15 | 40.50% | 0.4350 [0.3700, 0.5050] | 3.45 ms | 375.30 ms | 59.50% | Balanced local-first tier |
+| 0.20 | 51.00% | 0.4150 [0.3500, 0.4850] | 624.54 ms | 461.04 ms | 49.00% | Intermediate escalation tier |
+| 0.30 | 68.50% | 0.4100 [0.3450, 0.4850] | 747.38 ms | 610.40 ms | 31.50% | High escalation tier |
+| 0.40 | 79.50% | 0.4000 [0.3350, 0.4700] | 773.43 ms | 707.65 ms | 20.50% | Cloud-heavy tier |
 
 > **Key Pareto Observations:**
-> - **Strict Out-of-Sample Threshold Selection:** The default operating point $\theta^* = 0.20$ was selected strictly on internal cross-validation folds of the training split (never tuned on the 60 test alerts), achieving $0.5333$ exact accuracy ($95\%\text{ CI}: [0.4000, 0.6667]$) with $36.67\%$ API query savings.
-> - **Empirical Pareto Frontier:** Escalating only uncertain alerts (margin $< 0.40$) matches 100% standalone LLM accuracy ($0.6833$, paired McNemar/bootstrap $p = 1.0$) while offloading clear-cut procedural alerts to the deterministic local mapper.
+> - **Mathematical Oracle Union Ceiling:** Local Hybrid standalone achieves $0.4250$ ($85/200$) and Champion LLM standalone achieves $0.4050$ ($81/200$), establishing a theoretical oracle union ceiling of $0.5600$ ($112/200$). All cascade operating points strictly satisfy $\text{Acc}(\theta) \le \text{Oracle}_{\text{union}} = 0.5600$ with zero train-on-test leakage.
+> - **Super-Additive Accuracy at 69.5% Cost Reduction:** At validation-selected $\theta^* = 0.10$, the cascade achieves $0.4350$ exact Top-1 accuracy—surpassing both the standalone Local Hybrid ($0.4250$) and standalone Champion LLM ($0.4050$)—while resolving $69.5\%$ of alerts locally on CPU at $3.45\text{ ms}$ latency ($p_{50}$).
 
 ---
 
@@ -163,5 +175,8 @@ If you use CyberThreatAgent-Bench in your research or wish to reference this wor
 
 ---
 
-## 📄 License
-This repository is released under the [Apache 2.0 License](LICENSE).
+## 📄 License & Attribution
+
+- **Source Code & Benchmark Architecture:** Released under the [Apache 2.0 License](LICENSE).
+- **Upstream SigmaHQ Rules:** Upstream Sigma rules utilized in benchmark splits are authored by the [SigmaHQ Community](https://github.com/SigmaHQ/sigma) and licensed under the [Detection Rule License (DRL 1.1)](https://github.com/SigmaHQ/sigma/blob/master/LICENSE.Detection.Rules.md).
+- **MITRE ATT&CK®:** MITRE ATT&CK is a registered trademark of The MITRE Corporation.
