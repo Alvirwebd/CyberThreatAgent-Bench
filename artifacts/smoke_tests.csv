@@ -22,3 +22,4 @@ Description leakage probe executes across all three conditions,PASS
 external validation: real-world text has zero overlap with Sigma training text,PASS
 stage3: confidence-gated agentic routing escalates below threshold,PASS
 stage8: chain risk scores separate malicious vs benign with attack graph,PASS
+stage3: no target leakage - bench text contains zero attack.t tag strings,PASS

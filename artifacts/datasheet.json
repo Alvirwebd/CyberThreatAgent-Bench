@@ -31,48 +31,48 @@
     "per_seed": {
       "7": {
         "seed": 7,
-        "train_n": 286,
-        "test_n": 67,
+        "train_n": 1469,
+        "test_n": 999,
         "n_folds": 3,
-        "test_fold": 2,
-        "train_sha256": "cc16dc7ad024ba83",
-        "test_sha256": "21c02af264be2b61"
+        "test_fold": 0,
+        "train_sha256": "fd249a8ff5441116",
+        "test_sha256": "468e443b767ecfc3"
       },
       "21": {
         "seed": 21,
-        "train_n": 286,
-        "test_n": 68,
+        "train_n": 1795,
+        "test_n": 703,
         "n_folds": 3,
         "test_fold": 1,
-        "train_sha256": "924d1978b8c6b21d",
-        "test_sha256": "afe5a32dac741ad9"
+        "train_sha256": "2d6c23fe3baf5b79",
+        "test_sha256": "79764e33e2383c2b"
       },
       "42": {
         "seed": 42,
-        "train_n": 228,
-        "test_n": 78,
+        "train_n": 1796,
+        "test_n": 693,
         "n_folds": 3,
-        "test_fold": 0,
-        "train_sha256": "37952df815b9f48d",
-        "test_sha256": "8fe751336c2a7f41"
+        "test_fold": 2,
+        "train_sha256": "c70960ecd28b918a",
+        "test_sha256": "009d16d3deb2f1ff"
       },
       "84": {
         "seed": 84,
-        "train_n": 286,
-        "test_n": 63,
+        "train_n": 1795,
+        "test_n": 704,
         "n_folds": 3,
         "test_fold": 1,
-        "train_sha256": "6888a007b8f205a7",
-        "test_sha256": "b7e5147596fc90d7"
+        "train_sha256": "e7a209984f7294ce",
+        "test_sha256": "890eed6b1cb41b2f"
       },
       "123": {
         "seed": 123,
-        "train_n": 286,
-        "test_n": 65,
+        "train_n": 1469,
+        "test_n": 999,
         "n_folds": 3,
-        "test_fold": 2,
-        "train_sha256": "e7e509cc50b702aa",
-        "test_sha256": "f85387bcee2974cb"
+        "test_fold": 0,
+        "train_sha256": "fd249a8ff5441116",
+        "test_sha256": "468e443b767ecfc3"
       }
     }
   },
