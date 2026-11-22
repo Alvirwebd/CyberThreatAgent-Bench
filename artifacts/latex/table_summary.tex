@@ -9,16 +9,16 @@ Stage 1 & Alert Ingestion & Schema Validation Rate & 0.960 $\pm$ 0.016 & UTC tim
 Stage 2 & IOC Extraction & Pooled Micro-F1 & 1.000 $\pm$ 0.000 & 7 IOC types with regex + defang refanging \\
 Stage 2 & IOC Extraction & Benign False-Positive Rate & 0.000 $\pm$ 0.000 & Evaluated against benign alerts in chain corpus \\
 Stage 3 & ATT\&CK Mapping & Top-1 Exact Accuracy & 0.255 $\pm$ 0.102 & Hierarchical mapper (Parent LogReg + Sub-tech) \\
-Stage 3 & ATT\&CK Mapping & MRR (Mean Reciprocal Rank) & 0.307 $\pm$ 0.090 & Ranking fidelity across candidate technique space \\
-Stage 3 & ATT\&CK Mapping & Macro-F1 & 0.150 $\pm$ 0.061 & Balanced multi-class performance across long-tail \\
+Stage 3 & ATT\&CK Mapping & MRR (Mean Reciprocal Rank) & 0.306 $\pm$ 0.092 & Ranking fidelity across candidate technique space \\
+Stage 3 & ATT\&CK Mapping & Macro-F1 & 0.152 $\pm$ 0.056 & Balanced multi-class performance across long-tail \\
 Stage 4 & Actor Attribution & Actor@1 (40\% Noise) & 0.486 $\pm$ 0.018 & Robust attribution under noisy observational profiles \\
 Stage 4 & Actor Attribution & Lift over Random Floor & 0.479 $\pm$ 0.018 & Accuracy margin above eligible-set random guessing \\
-Stage 5 & Stage Identification & Micro-F1 & 0.403 $\pm$ 0.080 & Kill-chain stage mapping from alert context \\
+Stage 5 & Stage Identification & Micro-F1 & 0.404 $\pm$ 0.082 & Kill-chain stage mapping from alert context \\
 Stage 6 & CVE Retrieval & Detection F1 (Controlled Probe) & 1.000 $\pm$ 0.000 & Robust regex matching against 7 surface forms \& 21 decoys \\
-Stage 7 & Attack Graph & Technique Node Recall & 0.482 $\pm$ 0.038 & Graph reconstruction from predictions without gold labels \\
+Stage 7 & Attack Graph & Technique Node Recall & 0.425 $\pm$ 0.030 & Graph reconstruction from predictions without gold labels \\
 Stage 7 & Attack Graph & Host Node Accuracy & 1.000 $\pm$ 0.000 & Host extraction from alert text regex \\
-Stage 8 & Risk Scoring & Spearman Rank Correlation & 0.038 $\pm$ 0.116 & Multi-factor score validated vs external Sigma level \\
-Stage 9 & Mitigation Rec. & NDCG@3 & 0.417 $\pm$ 0.076 & Playbook mapping to MITRE course-of-action space \\
+Stage 8 & Risk Scoring & Spearman Rank Correlation & 0.121 $\pm$ 0.157 & Multi-factor score validated vs external Sigma level \\
+Stage 9 & Mitigation Rec. & NDCG@3 & 0.414 $\pm$ 0.063 & Playbook mapping to MITRE course-of-action space \\
 \bottomrule
 \end{tabular}
 \end{table*}

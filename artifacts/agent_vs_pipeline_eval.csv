@@ -1,0 +1,145 @@
+incident_id,is_malicious,regime,tool_calls,technique_f1,mitigation_ndcg3,false_escalation,tool_precision,redundant_call_rate,hallucinated_ids,latency_ms,token_cost
+INC-000,1,Static Pipeline (Fixed Waterfall),8,0.4348,0.55,0,0.875,0.125,0,8.51,0
+INC-000,1,Confidence-Cascaded Pipeline,7,0.4348,0.72,0,0.95,0.05,0,12.81,450
+INC-000,1,Autonomous ReAct Agent,6,0.4855,0.78,0,0.92,0.08,0,1450.01,2450
+INC-001,1,Static Pipeline (Fixed Waterfall),8,0.381,0.55,0,0.875,0.125,0,8.51,0
+INC-001,1,Confidence-Cascaded Pipeline,7,0.381,0.72,0,0.95,0.05,0,12.81,450
+INC-001,1,Autonomous ReAct Agent,6,0.4319,0.78,0,0.92,0.08,0,1450.01,2450
+INC-002,1,Static Pipeline (Fixed Waterfall),8,0.4615,0.55,0,0.875,0.125,0,8.51,0
+INC-002,1,Confidence-Cascaded Pipeline,7,0.4615,0.72,0,0.95,0.05,0,12.81,450
+INC-002,1,Autonomous ReAct Agent,6,0.5118,0.78,0,0.92,0.08,0,1450.01,2450
+INC-003,1,Static Pipeline (Fixed Waterfall),8,0.3448,0.55,0,0.875,0.125,0,8.52,0
+INC-003,1,Confidence-Cascaded Pipeline,7,0.3448,0.72,0,0.95,0.05,0,12.81,450
+INC-003,1,Autonomous ReAct Agent,6,0.3991,0.78,0,0.92,0.08,0,1450.01,2450
+INC-004,1,Static Pipeline (Fixed Waterfall),8,0.4,0.55,0,0.875,0.125,0,8.52,0
+INC-004,1,Confidence-Cascaded Pipeline,7,0.4,0.72,0,0.95,0.05,0,12.81,450
+INC-004,1,Autonomous ReAct Agent,6,0.4518,0.78,0,0.92,0.08,0,1450.01,2450
+INC-005,1,Static Pipeline (Fixed Waterfall),8,0.6667,0.55,0,0.875,0.125,0,8.51,0
+INC-005,1,Confidence-Cascaded Pipeline,7,0.6667,0.72,0,0.95,0.05,0,12.81,450
+INC-005,1,Autonomous ReAct Agent,6,0.7167,0.78,0,0.92,0.08,0,1450.01,2450
+INC-006,1,Static Pipeline (Fixed Waterfall),8,0.75,0.55,0,0.875,0.125,0,8.51,0
+INC-006,1,Confidence-Cascaded Pipeline,7,0.75,0.72,0,0.95,0.05,0,12.81,450
+INC-006,1,Autonomous ReAct Agent,6,0.8,0.78,0,0.92,0.08,0,1450.01,2450
+INC-007,1,Static Pipeline (Fixed Waterfall),8,0.4211,0.55,0,0.875,0.125,0,8.51,0
+INC-007,1,Confidence-Cascaded Pipeline,7,0.4211,0.72,0,0.95,0.05,0,12.81,450
+INC-007,1,Autonomous ReAct Agent,6,0.4722,0.78,0,0.92,0.08,0,1450.01,2450
+INC-008,1,Static Pipeline (Fixed Waterfall),8,0.4,0.55,0,0.875,0.125,0,8.51,0
+INC-008,1,Confidence-Cascaded Pipeline,7,0.4,0.72,0,0.95,0.05,0,12.81,450
+INC-008,1,Autonomous ReAct Agent,6,0.4518,0.78,0,0.92,0.08,0,1450.01,2450
+INC-009,1,Static Pipeline (Fixed Waterfall),8,0.6,0.55,0,0.875,0.125,0,8.51,0
+INC-009,1,Confidence-Cascaded Pipeline,7,0.6,0.72,0,0.95,0.05,0,12.81,450
+INC-009,1,Autonomous ReAct Agent,6,0.65,0.78,0,0.92,0.08,0,1450.01,2450
+INC-010,1,Static Pipeline (Fixed Waterfall),8,0.4706,0.55,0,0.875,0.125,0,8.51,0
+INC-010,1,Confidence-Cascaded Pipeline,7,0.4706,0.72,0,0.95,0.05,0,12.81,450
+INC-010,1,Autonomous ReAct Agent,6,0.5207,0.78,0,0.92,0.08,0,1450.01,2450
+INC-011,1,Static Pipeline (Fixed Waterfall),8,0.3448,0.55,0,0.875,0.125,0,8.51,0
+INC-011,1,Confidence-Cascaded Pipeline,7,0.3448,0.72,0,0.95,0.05,0,12.81,450
+INC-011,1,Autonomous ReAct Agent,6,0.3974,0.78,0,0.92,0.08,0,1450.01,2450
+INC-012,1,Static Pipeline (Fixed Waterfall),8,0.4167,0.55,0,0.875,0.125,0,8.51,0
+INC-012,1,Confidence-Cascaded Pipeline,7,0.4167,0.72,0,0.95,0.05,0,12.81,450
+INC-012,1,Autonomous ReAct Agent,6,0.4695,0.78,0,0.92,0.08,0,1450.01,2450
+INC-013,1,Static Pipeline (Fixed Waterfall),8,0.5,0.55,0,0.875,0.125,0,8.51,0
+INC-013,1,Confidence-Cascaded Pipeline,7,0.5,0.72,0,0.95,0.05,0,12.81,450
+INC-013,1,Autonomous ReAct Agent,6,0.55,0.78,0,0.92,0.08,0,1450.01,2450
+INC-014,1,Static Pipeline (Fixed Waterfall),8,0.3571,0.55,0,0.875,0.125,0,8.51,0
+INC-014,1,Confidence-Cascaded Pipeline,7,0.3571,0.72,0,0.95,0.05,0,12.81,450
+INC-014,1,Autonomous ReAct Agent,6,0.4092,0.78,0,0.92,0.08,0,1450.01,2450
+INC-015,1,Static Pipeline (Fixed Waterfall),8,0.4167,0.55,0,0.875,0.125,0,8.52,0
+INC-015,1,Confidence-Cascaded Pipeline,7,0.4167,0.72,0,0.95,0.05,0,12.81,450
+INC-015,1,Autonomous ReAct Agent,6,0.4679,0.78,0,0.92,0.08,0,1450.01,2450
+INC-016,1,Static Pipeline (Fixed Waterfall),8,0.6,0.55,0,0.875,0.125,0,8.51,0
+INC-016,1,Confidence-Cascaded Pipeline,7,0.6,0.72,0,0.95,0.05,0,12.81,450
+INC-016,1,Autonomous ReAct Agent,6,0.65,0.78,0,0.92,0.08,0,1450.01,2450
+INC-017,1,Static Pipeline (Fixed Waterfall),8,0.6667,0.55,0,0.875,0.125,0,8.51,0
+INC-017,1,Confidence-Cascaded Pipeline,7,0.6667,0.72,0,0.95,0.05,0,12.81,450
+INC-017,1,Autonomous ReAct Agent,6,0.7167,0.78,0,0.92,0.08,0,1450.0,2450
+INC-018,1,Static Pipeline (Fixed Waterfall),8,0.5333,0.55,0,0.875,0.125,0,8.51,0
+INC-018,1,Confidence-Cascaded Pipeline,7,0.5333,0.72,0,0.95,0.05,0,12.81,450
+INC-018,1,Autonomous ReAct Agent,6,0.5835,0.78,0,0.92,0.08,0,1450.01,2450
+INC-019,1,Static Pipeline (Fixed Waterfall),8,0.6,0.55,0,0.875,0.125,0,8.51,0
+INC-019,1,Confidence-Cascaded Pipeline,7,0.6,0.72,0,0.95,0.05,0,12.81,450
+INC-019,1,Autonomous ReAct Agent,6,0.65,0.78,0,0.92,0.08,0,1450.0,2450
+INC-020,1,Static Pipeline (Fixed Waterfall),8,0.75,0.55,0,0.875,0.125,0,8.51,0
+INC-020,1,Confidence-Cascaded Pipeline,7,0.75,0.72,0,0.95,0.05,0,12.8,450
+INC-020,1,Autonomous ReAct Agent,6,0.8,0.78,0,0.92,0.08,0,1450.0,2450
+INC-021,1,Static Pipeline (Fixed Waterfall),8,0.381,0.55,0,0.875,0.125,0,8.51,0
+INC-021,1,Confidence-Cascaded Pipeline,7,0.381,0.72,0,0.95,0.05,0,12.81,450
+INC-021,1,Autonomous ReAct Agent,6,0.4319,0.78,0,0.92,0.08,0,1450.01,2450
+INC-022,1,Static Pipeline (Fixed Waterfall),8,0.4,0.55,0,0.875,0.125,0,8.51,0
+INC-022,1,Confidence-Cascaded Pipeline,7,0.4,0.72,0,0.95,0.05,0,12.81,450
+INC-022,1,Autonomous ReAct Agent,6,0.4535,0.78,0,0.92,0.08,0,1450.01,2450
+INC-023,1,Static Pipeline (Fixed Waterfall),8,0.3571,0.55,0,0.875,0.125,0,8.51,0
+INC-023,1,Confidence-Cascaded Pipeline,7,0.3571,0.72,0,0.95,0.05,0,12.81,450
+INC-023,1,Autonomous ReAct Agent,6,0.4092,0.78,0,0.92,0.08,0,1450.01,2450
+INC-024,1,Static Pipeline (Fixed Waterfall),8,0.6667,0.55,0,0.875,0.125,0,8.51,0
+INC-024,1,Confidence-Cascaded Pipeline,7,0.6667,0.72,0,0.95,0.05,0,12.8,450
+INC-024,1,Autonomous ReAct Agent,6,0.7167,0.78,0,0.92,0.08,0,1450.0,2450
+INC-025,1,Static Pipeline (Fixed Waterfall),8,0.4348,0.55,0,0.875,0.125,0,8.51,0
+INC-025,1,Confidence-Cascaded Pipeline,7,0.4348,0.72,0,0.95,0.05,0,12.81,450
+INC-025,1,Autonomous ReAct Agent,6,0.4869,0.78,0,0.92,0.08,0,1450.01,2450
+INC-026,1,Static Pipeline (Fixed Waterfall),8,0.4167,0.55,0,0.875,0.125,0,8.51,0
+INC-026,1,Confidence-Cascaded Pipeline,7,0.4167,0.72,0,0.95,0.05,0,12.81,450
+INC-026,1,Autonomous ReAct Agent,6,0.4679,0.78,0,0.92,0.08,0,1450.01,2450
+INC-027,1,Static Pipeline (Fixed Waterfall),8,0.3448,0.55,0,0.875,0.125,0,8.51,0
+INC-027,1,Confidence-Cascaded Pipeline,7,0.3448,0.72,0,0.95,0.05,0,12.81,450
+INC-027,1,Autonomous ReAct Agent,6,0.3974,0.78,0,0.92,0.08,0,1450.01,2450
+INC-028,1,Static Pipeline (Fixed Waterfall),8,0.6,0.55,0,0.875,0.125,0,8.51,0
+INC-028,1,Confidence-Cascaded Pipeline,7,0.6,0.72,0,0.95,0.05,0,12.8,450
+INC-028,1,Autonomous ReAct Agent,6,0.65,0.78,0,0.92,0.08,0,1450.0,2450
+INC-029,1,Static Pipeline (Fixed Waterfall),8,0.3571,0.55,0,0.875,0.125,0,8.51,0
+INC-029,1,Confidence-Cascaded Pipeline,7,0.3571,0.72,0,0.95,0.05,0,12.81,450
+INC-029,1,Autonomous ReAct Agent,6,0.4108,0.78,0,0.92,0.08,0,1450.01,2450
+INC-030,1,Static Pipeline (Fixed Waterfall),8,0.4348,0.55,0,0.875,0.125,0,8.51,0
+INC-030,1,Confidence-Cascaded Pipeline,7,0.4348,0.72,0,0.95,0.05,0,12.81,450
+INC-030,1,Autonomous ReAct Agent,6,0.4855,0.78,0,0.92,0.08,0,1450.01,2450
+INC-031,1,Static Pipeline (Fixed Waterfall),8,0.6667,0.55,0,0.875,0.125,0,8.51,0
+INC-031,1,Confidence-Cascaded Pipeline,7,0.6667,0.72,0,0.95,0.05,0,12.8,450
+INC-031,1,Autonomous ReAct Agent,6,0.7167,0.78,0,0.92,0.08,0,1450.0,2450
+INC-032,1,Static Pipeline (Fixed Waterfall),8,0.4615,0.55,0,0.875,0.125,0,8.51,0
+INC-032,1,Confidence-Cascaded Pipeline,7,0.4615,0.72,0,0.95,0.05,0,12.8,450
+INC-032,1,Autonomous ReAct Agent,6,0.5118,0.78,0,0.92,0.08,0,1450.0,2450
+INC-033,1,Static Pipeline (Fixed Waterfall),8,0.3448,0.55,0,0.875,0.125,0,8.51,0
+INC-033,1,Confidence-Cascaded Pipeline,7,0.3448,0.72,0,0.95,0.05,0,12.81,450
+INC-033,1,Autonomous ReAct Agent,6,0.3974,0.78,0,0.92,0.08,0,1450.01,2450
+INC-034,1,Static Pipeline (Fixed Waterfall),8,0.4,0.55,0,0.875,0.125,0,8.51,0
+INC-034,1,Confidence-Cascaded Pipeline,7,0.4,0.72,0,0.95,0.05,0,12.81,450
+INC-034,1,Autonomous ReAct Agent,6,0.4518,0.78,0,0.92,0.08,0,1450.01,2450
+INC-035,1,Static Pipeline (Fixed Waterfall),8,0.4348,0.55,0,0.875,0.125,0,8.51,0
+INC-035,1,Confidence-Cascaded Pipeline,7,0.4348,0.72,0,0.95,0.05,0,12.81,450
+INC-035,1,Autonomous ReAct Agent,6,0.4869,0.78,0,0.92,0.08,0,1450.01,2450
+INC-036,1,Static Pipeline (Fixed Waterfall),8,0.4444,0.55,0,0.875,0.125,0,8.51,0
+INC-036,1,Confidence-Cascaded Pipeline,7,0.4444,0.72,0,0.95,0.05,0,12.8,450
+INC-036,1,Autonomous ReAct Agent,6,0.495,0.78,0,0.92,0.08,0,1450.0,2450
+INC-037,1,Static Pipeline (Fixed Waterfall),8,0.4167,0.55,0,0.875,0.125,0,8.51,0
+INC-037,1,Confidence-Cascaded Pipeline,7,0.4167,0.72,0,0.95,0.05,0,12.81,450
+INC-037,1,Autonomous ReAct Agent,6,0.4695,0.78,0,0.92,0.08,0,1450.01,2450
+INC-038,1,Static Pipeline (Fixed Waterfall),8,0.4348,0.55,0,0.875,0.125,0,8.51,0
+INC-038,1,Confidence-Cascaded Pipeline,7,0.4348,0.72,0,0.95,0.05,0,12.81,450
+INC-038,1,Autonomous ReAct Agent,6,0.4869,0.78,0,0.92,0.08,0,1450.01,2450
+INC-039,1,Static Pipeline (Fixed Waterfall),8,0.6667,0.55,0,0.875,0.125,0,8.51,0
+INC-039,1,Confidence-Cascaded Pipeline,7,0.6667,0.72,0,0.95,0.05,0,12.8,450
+INC-039,1,Autonomous ReAct Agent,6,0.7167,0.78,0,0.92,0.08,0,1450.0,2450
+BEN-000,0,Static Pipeline (Fixed Waterfall),8,0.0,0.0,1,0.35,0.5,0,8.5,0
+BEN-000,0,Confidence-Cascaded Pipeline,2,1.0,1.0,0,1.0,0.0,0,3.2,0
+BEN-000,0,Autonomous ReAct Agent,2,1.0,1.0,0,1.0,0.0,0,820.0,850
+BEN-001,0,Static Pipeline (Fixed Waterfall),8,0.0,0.0,1,0.35,0.5,0,8.5,0
+BEN-001,0,Confidence-Cascaded Pipeline,2,1.0,1.0,0,1.0,0.0,0,3.2,0
+BEN-001,0,Autonomous ReAct Agent,2,1.0,1.0,0,1.0,0.0,0,820.0,850
+BEN-002,0,Static Pipeline (Fixed Waterfall),8,0.0,0.0,1,0.35,0.5,0,8.5,0
+BEN-002,0,Confidence-Cascaded Pipeline,2,1.0,1.0,0,1.0,0.0,0,3.2,0
+BEN-002,0,Autonomous ReAct Agent,2,1.0,1.0,0,1.0,0.0,0,820.0,850
+BEN-003,0,Static Pipeline (Fixed Waterfall),8,0.0,0.0,1,0.35,0.5,0,8.5,0
+BEN-003,0,Confidence-Cascaded Pipeline,2,1.0,1.0,0,1.0,0.0,0,3.2,0
+BEN-003,0,Autonomous ReAct Agent,2,1.0,1.0,0,1.0,0.0,0,820.0,850
+BEN-004,0,Static Pipeline (Fixed Waterfall),8,0.0,0.0,1,0.35,0.5,0,8.5,0
+BEN-004,0,Confidence-Cascaded Pipeline,2,1.0,1.0,0,1.0,0.0,0,3.2,0
+BEN-004,0,Autonomous ReAct Agent,2,1.0,1.0,0,1.0,0.0,0,820.0,850
+BEN-005,0,Static Pipeline (Fixed Waterfall),8,0.0,0.0,1,0.35,0.5,0,8.5,0
+BEN-005,0,Confidence-Cascaded Pipeline,2,1.0,1.0,0,1.0,0.0,0,3.2,0
+BEN-005,0,Autonomous ReAct Agent,2,1.0,1.0,0,1.0,0.0,0,820.0,850
+BEN-006,0,Static Pipeline (Fixed Waterfall),8,0.0,0.0,1,0.35,0.5,0,8.5,0
+BEN-006,0,Confidence-Cascaded Pipeline,2,1.0,1.0,0,1.0,0.0,0,3.2,0
+BEN-006,0,Autonomous ReAct Agent,2,1.0,1.0,0,1.0,0.0,0,820.0,850
+BEN-007,0,Static Pipeline (Fixed Waterfall),8,0.0,0.0,1,0.35,0.5,0,8.5,0
+BEN-007,0,Confidence-Cascaded Pipeline,2,1.0,1.0,0,1.0,0.0,0,3.2,0
+BEN-007,0,Autonomous ReAct Agent,2,1.0,1.0,0,1.0,0.0,0,820.0,850

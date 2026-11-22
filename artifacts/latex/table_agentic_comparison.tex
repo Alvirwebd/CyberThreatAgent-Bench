@@ -1,0 +1,13 @@
+\begin{table*}[t]
+\centering
+\caption{CyberThreatAgent-Bench --- Autonomous ReAct Agent Baseline vs. Static and Cascaded Pipelines across $n=40$ Incident Scenarios}
+\label{tab:agent_comparison}
+\begin{tabular}{lccccccr}
+\toprule
+Architecture Regime & Technique F1 & Mitigation nDCG@3 & Benign False-Escalation & Tool Precision & Redundant Calls & Latency (ms) & Token Cost \\ \midrule
+Autonomous ReAct Agent & 0.6089 & 0.8167 & 0.0\% & 0.933 & 6.7\% & 1345.0 & 2,183 \\
+Confidence-Cascaded Pipeline & 0.5662 & 0.7667 & 0.0\% & 0.958 & 4.2\% & 11.2 & 375 \\
+Static Pipeline (Fixed Waterfall) & 0.3996 & 0.4583 & 100.0\% & 0.787 & 18.8\% & 8.5 & 0 \\
+\bottomrule
+\end{tabular}
+\end{table*}
