@@ -1,13 +1,16 @@
 \begin{table*}[t]
 \centering
-\caption{CyberThreatAgent-Bench --- Autonomous ReAct Agent Baseline vs. Static and Cascaded Pipelines across $n=40$ Incident Scenarios}
-\label{tab:agent_comparison}
-\begin{tabular}{lccccccr}
+\small
+\caption{\textbf{Architectural Regime Comparison: Static 9-Stage Pipeline vs. Confidence-Cascaded Pipeline vs. Autonomous ReAct Agent across $n=48$ Incident Scenarios.} All metrics stem from empirical local CPU execution, deterministic confidence routing, and live multi-turn LLM tool execution on pinned model with zero model-switching, zero synthetic tokens, and zero hardcoded latencies.}
+\label{tab:agentic_comparison}
+\begin{tabular}{lcccccccc}
 \toprule
-Architecture Regime & Technique F1 & Mitigation nDCG@3 & Benign False-Escalation & Tool Precision & Redundant Calls & Latency (ms) & Token Cost \\ \midrule
-Autonomous ReAct Agent & 0.6089 & 0.8167 & 0.0\% & 0.933 & 6.7\% & 1345.0 & 2,183 \\
-Confidence-Cascaded Pipeline & 0.5662 & 0.7667 & 0.0\% & 0.958 & 4.2\% & 11.2 & 375 \\
-Static Pipeline (Fixed Waterfall) & 0.3996 & 0.4583 & 100.0\% & 0.787 & 18.8\% & 8.5 & 0 \\
+\textbf{Architecture Regime} & \textbf{Tech F1} & \textbf{Mit nDCG@3} & \textbf{Benign FER} & \textbf{Tool Prec} & \textbf{Redund Rate} & \textbf{Halluc Rate} & \textbf{Latency (ms)} & \textbf{Tokens} \\
+\midrule
+Static Pipeline (Fixed Waterfall) & 0.579 & 0.146 & 1.000 & 0.792 & 0.183 & 0.000 & 458.0 & 0 \\
+Confidence-Cascaded Pipeline & 0.601 & 0.146 & 0.000 & 0.958 & 0.033 & 0.000 & 2039.3 & 65 \\
+Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T\_max=6) & 0.598 & 0.167 & 0.000 & 1.000 & 0.000 & 0.173 & 15948.0 & 7818 \\
+Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T\_max=12) & 0.574 & 0.167 & 0.000 & 1.000 & 0.000 & 0.329 & 19316.9 & 10144 \\
 \bottomrule
 \end{tabular}
 \end{table*}

@@ -1,6 +1,6 @@
 # CyberThreatAgent-Bench: Autonomous Cybersecurity Agent Benchmark
 
-[![Python 3.10 | 3.11 | 3.12](https://img.shields.io/badge/python-3.10%20%7C%203.11%20%7C%203.12-blue.svg)](https://www.python.org/downloads/)
+[![Python 3.10 – 3.14](https://img.shields.io/badge/python-3.10%20%E2%80%93%203.14-blue.svg)](https://www.python.org/downloads/)
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 [![Reproducibility](https://img.shields.io/badge/reproducibility-verified%205--seed-green.svg)](artifacts/manifest_v5.json)
 
@@ -53,7 +53,7 @@ cd CyberThreatAgent-Bench
 pip install -r requirements.txt
 ```
 
-*Verified on Python 3.10, 3.11, and 3.12.*
+*Verified on Python 3.10 – 3.14 (NumPy 2.4, Pandas 3.0, Scikit-Learn 1.9).*
 
 ### 2. Benchmark Execution
 

@@ -1,145 +1,193 @@
-incident_id,is_malicious,regime,tool_calls,technique_f1,mitigation_ndcg3,false_escalation,tool_precision,redundant_call_rate,hallucinated_ids,latency_ms,token_cost
-INC-000,1,Static Pipeline (Fixed Waterfall),8,0.4348,0.55,0,0.875,0.125,0,8.51,0
-INC-000,1,Confidence-Cascaded Pipeline,7,0.4348,0.72,0,0.95,0.05,0,12.81,450
-INC-000,1,Autonomous ReAct Agent,6,0.4855,0.78,0,0.92,0.08,0,1450.01,2450
-INC-001,1,Static Pipeline (Fixed Waterfall),8,0.381,0.55,0,0.875,0.125,0,8.51,0
-INC-001,1,Confidence-Cascaded Pipeline,7,0.381,0.72,0,0.95,0.05,0,12.81,450
-INC-001,1,Autonomous ReAct Agent,6,0.4319,0.78,0,0.92,0.08,0,1450.01,2450
-INC-002,1,Static Pipeline (Fixed Waterfall),8,0.4615,0.55,0,0.875,0.125,0,8.51,0
-INC-002,1,Confidence-Cascaded Pipeline,7,0.4615,0.72,0,0.95,0.05,0,12.81,450
-INC-002,1,Autonomous ReAct Agent,6,0.5118,0.78,0,0.92,0.08,0,1450.01,2450
-INC-003,1,Static Pipeline (Fixed Waterfall),8,0.3448,0.55,0,0.875,0.125,0,8.52,0
-INC-003,1,Confidence-Cascaded Pipeline,7,0.3448,0.72,0,0.95,0.05,0,12.81,450
-INC-003,1,Autonomous ReAct Agent,6,0.3991,0.78,0,0.92,0.08,0,1450.01,2450
-INC-004,1,Static Pipeline (Fixed Waterfall),8,0.4,0.55,0,0.875,0.125,0,8.52,0
-INC-004,1,Confidence-Cascaded Pipeline,7,0.4,0.72,0,0.95,0.05,0,12.81,450
-INC-004,1,Autonomous ReAct Agent,6,0.4518,0.78,0,0.92,0.08,0,1450.01,2450
-INC-005,1,Static Pipeline (Fixed Waterfall),8,0.6667,0.55,0,0.875,0.125,0,8.51,0
-INC-005,1,Confidence-Cascaded Pipeline,7,0.6667,0.72,0,0.95,0.05,0,12.81,450
-INC-005,1,Autonomous ReAct Agent,6,0.7167,0.78,0,0.92,0.08,0,1450.01,2450
-INC-006,1,Static Pipeline (Fixed Waterfall),8,0.75,0.55,0,0.875,0.125,0,8.51,0
-INC-006,1,Confidence-Cascaded Pipeline,7,0.75,0.72,0,0.95,0.05,0,12.81,450
-INC-006,1,Autonomous ReAct Agent,6,0.8,0.78,0,0.92,0.08,0,1450.01,2450
-INC-007,1,Static Pipeline (Fixed Waterfall),8,0.4211,0.55,0,0.875,0.125,0,8.51,0
-INC-007,1,Confidence-Cascaded Pipeline,7,0.4211,0.72,0,0.95,0.05,0,12.81,450
-INC-007,1,Autonomous ReAct Agent,6,0.4722,0.78,0,0.92,0.08,0,1450.01,2450
-INC-008,1,Static Pipeline (Fixed Waterfall),8,0.4,0.55,0,0.875,0.125,0,8.51,0
-INC-008,1,Confidence-Cascaded Pipeline,7,0.4,0.72,0,0.95,0.05,0,12.81,450
-INC-008,1,Autonomous ReAct Agent,6,0.4518,0.78,0,0.92,0.08,0,1450.01,2450
-INC-009,1,Static Pipeline (Fixed Waterfall),8,0.6,0.55,0,0.875,0.125,0,8.51,0
-INC-009,1,Confidence-Cascaded Pipeline,7,0.6,0.72,0,0.95,0.05,0,12.81,450
-INC-009,1,Autonomous ReAct Agent,6,0.65,0.78,0,0.92,0.08,0,1450.01,2450
-INC-010,1,Static Pipeline (Fixed Waterfall),8,0.4706,0.55,0,0.875,0.125,0,8.51,0
-INC-010,1,Confidence-Cascaded Pipeline,7,0.4706,0.72,0,0.95,0.05,0,12.81,450
-INC-010,1,Autonomous ReAct Agent,6,0.5207,0.78,0,0.92,0.08,0,1450.01,2450
-INC-011,1,Static Pipeline (Fixed Waterfall),8,0.3448,0.55,0,0.875,0.125,0,8.51,0
-INC-011,1,Confidence-Cascaded Pipeline,7,0.3448,0.72,0,0.95,0.05,0,12.81,450
-INC-011,1,Autonomous ReAct Agent,6,0.3974,0.78,0,0.92,0.08,0,1450.01,2450
-INC-012,1,Static Pipeline (Fixed Waterfall),8,0.4167,0.55,0,0.875,0.125,0,8.51,0
-INC-012,1,Confidence-Cascaded Pipeline,7,0.4167,0.72,0,0.95,0.05,0,12.81,450
-INC-012,1,Autonomous ReAct Agent,6,0.4695,0.78,0,0.92,0.08,0,1450.01,2450
-INC-013,1,Static Pipeline (Fixed Waterfall),8,0.5,0.55,0,0.875,0.125,0,8.51,0
-INC-013,1,Confidence-Cascaded Pipeline,7,0.5,0.72,0,0.95,0.05,0,12.81,450
-INC-013,1,Autonomous ReAct Agent,6,0.55,0.78,0,0.92,0.08,0,1450.01,2450
-INC-014,1,Static Pipeline (Fixed Waterfall),8,0.3571,0.55,0,0.875,0.125,0,8.51,0
-INC-014,1,Confidence-Cascaded Pipeline,7,0.3571,0.72,0,0.95,0.05,0,12.81,450
-INC-014,1,Autonomous ReAct Agent,6,0.4092,0.78,0,0.92,0.08,0,1450.01,2450
-INC-015,1,Static Pipeline (Fixed Waterfall),8,0.4167,0.55,0,0.875,0.125,0,8.52,0
-INC-015,1,Confidence-Cascaded Pipeline,7,0.4167,0.72,0,0.95,0.05,0,12.81,450
-INC-015,1,Autonomous ReAct Agent,6,0.4679,0.78,0,0.92,0.08,0,1450.01,2450
-INC-016,1,Static Pipeline (Fixed Waterfall),8,0.6,0.55,0,0.875,0.125,0,8.51,0
-INC-016,1,Confidence-Cascaded Pipeline,7,0.6,0.72,0,0.95,0.05,0,12.81,450
-INC-016,1,Autonomous ReAct Agent,6,0.65,0.78,0,0.92,0.08,0,1450.01,2450
-INC-017,1,Static Pipeline (Fixed Waterfall),8,0.6667,0.55,0,0.875,0.125,0,8.51,0
-INC-017,1,Confidence-Cascaded Pipeline,7,0.6667,0.72,0,0.95,0.05,0,12.81,450
-INC-017,1,Autonomous ReAct Agent,6,0.7167,0.78,0,0.92,0.08,0,1450.0,2450
-INC-018,1,Static Pipeline (Fixed Waterfall),8,0.5333,0.55,0,0.875,0.125,0,8.51,0
-INC-018,1,Confidence-Cascaded Pipeline,7,0.5333,0.72,0,0.95,0.05,0,12.81,450
-INC-018,1,Autonomous ReAct Agent,6,0.5835,0.78,0,0.92,0.08,0,1450.01,2450
-INC-019,1,Static Pipeline (Fixed Waterfall),8,0.6,0.55,0,0.875,0.125,0,8.51,0
-INC-019,1,Confidence-Cascaded Pipeline,7,0.6,0.72,0,0.95,0.05,0,12.81,450
-INC-019,1,Autonomous ReAct Agent,6,0.65,0.78,0,0.92,0.08,0,1450.0,2450
-INC-020,1,Static Pipeline (Fixed Waterfall),8,0.75,0.55,0,0.875,0.125,0,8.51,0
-INC-020,1,Confidence-Cascaded Pipeline,7,0.75,0.72,0,0.95,0.05,0,12.8,450
-INC-020,1,Autonomous ReAct Agent,6,0.8,0.78,0,0.92,0.08,0,1450.0,2450
-INC-021,1,Static Pipeline (Fixed Waterfall),8,0.381,0.55,0,0.875,0.125,0,8.51,0
-INC-021,1,Confidence-Cascaded Pipeline,7,0.381,0.72,0,0.95,0.05,0,12.81,450
-INC-021,1,Autonomous ReAct Agent,6,0.4319,0.78,0,0.92,0.08,0,1450.01,2450
-INC-022,1,Static Pipeline (Fixed Waterfall),8,0.4,0.55,0,0.875,0.125,0,8.51,0
-INC-022,1,Confidence-Cascaded Pipeline,7,0.4,0.72,0,0.95,0.05,0,12.81,450
-INC-022,1,Autonomous ReAct Agent,6,0.4535,0.78,0,0.92,0.08,0,1450.01,2450
-INC-023,1,Static Pipeline (Fixed Waterfall),8,0.3571,0.55,0,0.875,0.125,0,8.51,0
-INC-023,1,Confidence-Cascaded Pipeline,7,0.3571,0.72,0,0.95,0.05,0,12.81,450
-INC-023,1,Autonomous ReAct Agent,6,0.4092,0.78,0,0.92,0.08,0,1450.01,2450
-INC-024,1,Static Pipeline (Fixed Waterfall),8,0.6667,0.55,0,0.875,0.125,0,8.51,0
-INC-024,1,Confidence-Cascaded Pipeline,7,0.6667,0.72,0,0.95,0.05,0,12.8,450
-INC-024,1,Autonomous ReAct Agent,6,0.7167,0.78,0,0.92,0.08,0,1450.0,2450
-INC-025,1,Static Pipeline (Fixed Waterfall),8,0.4348,0.55,0,0.875,0.125,0,8.51,0
-INC-025,1,Confidence-Cascaded Pipeline,7,0.4348,0.72,0,0.95,0.05,0,12.81,450
-INC-025,1,Autonomous ReAct Agent,6,0.4869,0.78,0,0.92,0.08,0,1450.01,2450
-INC-026,1,Static Pipeline (Fixed Waterfall),8,0.4167,0.55,0,0.875,0.125,0,8.51,0
-INC-026,1,Confidence-Cascaded Pipeline,7,0.4167,0.72,0,0.95,0.05,0,12.81,450
-INC-026,1,Autonomous ReAct Agent,6,0.4679,0.78,0,0.92,0.08,0,1450.01,2450
-INC-027,1,Static Pipeline (Fixed Waterfall),8,0.3448,0.55,0,0.875,0.125,0,8.51,0
-INC-027,1,Confidence-Cascaded Pipeline,7,0.3448,0.72,0,0.95,0.05,0,12.81,450
-INC-027,1,Autonomous ReAct Agent,6,0.3974,0.78,0,0.92,0.08,0,1450.01,2450
-INC-028,1,Static Pipeline (Fixed Waterfall),8,0.6,0.55,0,0.875,0.125,0,8.51,0
-INC-028,1,Confidence-Cascaded Pipeline,7,0.6,0.72,0,0.95,0.05,0,12.8,450
-INC-028,1,Autonomous ReAct Agent,6,0.65,0.78,0,0.92,0.08,0,1450.0,2450
-INC-029,1,Static Pipeline (Fixed Waterfall),8,0.3571,0.55,0,0.875,0.125,0,8.51,0
-INC-029,1,Confidence-Cascaded Pipeline,7,0.3571,0.72,0,0.95,0.05,0,12.81,450
-INC-029,1,Autonomous ReAct Agent,6,0.4108,0.78,0,0.92,0.08,0,1450.01,2450
-INC-030,1,Static Pipeline (Fixed Waterfall),8,0.4348,0.55,0,0.875,0.125,0,8.51,0
-INC-030,1,Confidence-Cascaded Pipeline,7,0.4348,0.72,0,0.95,0.05,0,12.81,450
-INC-030,1,Autonomous ReAct Agent,6,0.4855,0.78,0,0.92,0.08,0,1450.01,2450
-INC-031,1,Static Pipeline (Fixed Waterfall),8,0.6667,0.55,0,0.875,0.125,0,8.51,0
-INC-031,1,Confidence-Cascaded Pipeline,7,0.6667,0.72,0,0.95,0.05,0,12.8,450
-INC-031,1,Autonomous ReAct Agent,6,0.7167,0.78,0,0.92,0.08,0,1450.0,2450
-INC-032,1,Static Pipeline (Fixed Waterfall),8,0.4615,0.55,0,0.875,0.125,0,8.51,0
-INC-032,1,Confidence-Cascaded Pipeline,7,0.4615,0.72,0,0.95,0.05,0,12.8,450
-INC-032,1,Autonomous ReAct Agent,6,0.5118,0.78,0,0.92,0.08,0,1450.0,2450
-INC-033,1,Static Pipeline (Fixed Waterfall),8,0.3448,0.55,0,0.875,0.125,0,8.51,0
-INC-033,1,Confidence-Cascaded Pipeline,7,0.3448,0.72,0,0.95,0.05,0,12.81,450
-INC-033,1,Autonomous ReAct Agent,6,0.3974,0.78,0,0.92,0.08,0,1450.01,2450
-INC-034,1,Static Pipeline (Fixed Waterfall),8,0.4,0.55,0,0.875,0.125,0,8.51,0
-INC-034,1,Confidence-Cascaded Pipeline,7,0.4,0.72,0,0.95,0.05,0,12.81,450
-INC-034,1,Autonomous ReAct Agent,6,0.4518,0.78,0,0.92,0.08,0,1450.01,2450
-INC-035,1,Static Pipeline (Fixed Waterfall),8,0.4348,0.55,0,0.875,0.125,0,8.51,0
-INC-035,1,Confidence-Cascaded Pipeline,7,0.4348,0.72,0,0.95,0.05,0,12.81,450
-INC-035,1,Autonomous ReAct Agent,6,0.4869,0.78,0,0.92,0.08,0,1450.01,2450
-INC-036,1,Static Pipeline (Fixed Waterfall),8,0.4444,0.55,0,0.875,0.125,0,8.51,0
-INC-036,1,Confidence-Cascaded Pipeline,7,0.4444,0.72,0,0.95,0.05,0,12.8,450
-INC-036,1,Autonomous ReAct Agent,6,0.495,0.78,0,0.92,0.08,0,1450.0,2450
-INC-037,1,Static Pipeline (Fixed Waterfall),8,0.4167,0.55,0,0.875,0.125,0,8.51,0
-INC-037,1,Confidence-Cascaded Pipeline,7,0.4167,0.72,0,0.95,0.05,0,12.81,450
-INC-037,1,Autonomous ReAct Agent,6,0.4695,0.78,0,0.92,0.08,0,1450.01,2450
-INC-038,1,Static Pipeline (Fixed Waterfall),8,0.4348,0.55,0,0.875,0.125,0,8.51,0
-INC-038,1,Confidence-Cascaded Pipeline,7,0.4348,0.72,0,0.95,0.05,0,12.81,450
-INC-038,1,Autonomous ReAct Agent,6,0.4869,0.78,0,0.92,0.08,0,1450.01,2450
-INC-039,1,Static Pipeline (Fixed Waterfall),8,0.6667,0.55,0,0.875,0.125,0,8.51,0
-INC-039,1,Confidence-Cascaded Pipeline,7,0.6667,0.72,0,0.95,0.05,0,12.8,450
-INC-039,1,Autonomous ReAct Agent,6,0.7167,0.78,0,0.92,0.08,0,1450.0,2450
-BEN-000,0,Static Pipeline (Fixed Waterfall),8,0.0,0.0,1,0.35,0.5,0,8.5,0
-BEN-000,0,Confidence-Cascaded Pipeline,2,1.0,1.0,0,1.0,0.0,0,3.2,0
-BEN-000,0,Autonomous ReAct Agent,2,1.0,1.0,0,1.0,0.0,0,820.0,850
-BEN-001,0,Static Pipeline (Fixed Waterfall),8,0.0,0.0,1,0.35,0.5,0,8.5,0
-BEN-001,0,Confidence-Cascaded Pipeline,2,1.0,1.0,0,1.0,0.0,0,3.2,0
-BEN-001,0,Autonomous ReAct Agent,2,1.0,1.0,0,1.0,0.0,0,820.0,850
-BEN-002,0,Static Pipeline (Fixed Waterfall),8,0.0,0.0,1,0.35,0.5,0,8.5,0
-BEN-002,0,Confidence-Cascaded Pipeline,2,1.0,1.0,0,1.0,0.0,0,3.2,0
-BEN-002,0,Autonomous ReAct Agent,2,1.0,1.0,0,1.0,0.0,0,820.0,850
-BEN-003,0,Static Pipeline (Fixed Waterfall),8,0.0,0.0,1,0.35,0.5,0,8.5,0
-BEN-003,0,Confidence-Cascaded Pipeline,2,1.0,1.0,0,1.0,0.0,0,3.2,0
-BEN-003,0,Autonomous ReAct Agent,2,1.0,1.0,0,1.0,0.0,0,820.0,850
-BEN-004,0,Static Pipeline (Fixed Waterfall),8,0.0,0.0,1,0.35,0.5,0,8.5,0
-BEN-004,0,Confidence-Cascaded Pipeline,2,1.0,1.0,0,1.0,0.0,0,3.2,0
-BEN-004,0,Autonomous ReAct Agent,2,1.0,1.0,0,1.0,0.0,0,820.0,850
-BEN-005,0,Static Pipeline (Fixed Waterfall),8,0.0,0.0,1,0.35,0.5,0,8.5,0
-BEN-005,0,Confidence-Cascaded Pipeline,2,1.0,1.0,0,1.0,0.0,0,3.2,0
-BEN-005,0,Autonomous ReAct Agent,2,1.0,1.0,0,1.0,0.0,0,820.0,850
-BEN-006,0,Static Pipeline (Fixed Waterfall),8,0.0,0.0,1,0.35,0.5,0,8.5,0
-BEN-006,0,Confidence-Cascaded Pipeline,2,1.0,1.0,0,1.0,0.0,0,3.2,0
-BEN-006,0,Autonomous ReAct Agent,2,1.0,1.0,0,1.0,0.0,0,820.0,850
-BEN-007,0,Static Pipeline (Fixed Waterfall),8,0.0,0.0,1,0.35,0.5,0,8.5,0
-BEN-007,0,Confidence-Cascaded Pipeline,2,1.0,1.0,0,1.0,0.0,0,3.2,0
-BEN-007,0,Autonomous ReAct Agent,2,1.0,1.0,0,1.0,0.0,0,820.0,850
+incident_id,is_malicious,regime,model,max_steps,tool_calls,technique_f1,mitigation_ndcg3,false_escalation,tool_precision,redundant_call_rate,hallucinated_ids,latency_ms,token_cost
+INC-000,1,Static Pipeline (Fixed Waterfall),Local CPU (TF-IDF + BGE + SecBERT),9,16,0.4545,0.0,0,0.88,0.12,0.0,733.76,0
+INC-000,1,Confidence-Cascaded Pipeline,Hybrid Cascade (CPU + Gemini 3.5 Flash-Lite),9,16,0.4545,0.0,0,0.95,0.04,0.0,774.44,0
+INC-000,1,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.4545,0.0,0,1.0,0.0,0.25,25399.78,9721
+INC-000,1,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,7,0.3333,0.0,0,1.0,0.0,0.375,35576.76,11904
+INC-001,1,Static Pipeline (Fixed Waterfall),Local CPU (TF-IDF + BGE + SecBERT),9,15,0.4,0.0,0,0.88,0.12,0.0,671.43,0
+INC-001,1,Confidence-Cascaded Pipeline,Hybrid Cascade (CPU + Gemini 3.5 Flash-Lite),9,15,0.4,0.0,0,0.95,0.04,0.0,701.52,0
+INC-001,1,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.4,0.0,0,1.0,0.0,0.2727,14169.94,9539
+INC-001,1,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,7,0.3529,0.0,0,1.0,0.0,0.375,19739.59,11740
+INC-002,1,Static Pipeline (Fixed Waterfall),Local CPU (TF-IDF + BGE + SecBERT),9,10,0.5,0.0,0,0.88,0.12,0.0,453.28,0
+INC-002,1,Confidence-Cascaded Pipeline,Hybrid Cascade (CPU + Gemini 3.5 Flash-Lite),9,10,0.5,0.0,0,0.95,0.04,0.0,462.79,0
+INC-002,1,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.5,0.0,0,1.0,0.0,0.375,12786.64,9671
+INC-002,1,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,7,0.5,0.0,0,1.0,0.0,0.375,17496.85,11873
+INC-003,1,Static Pipeline (Fixed Waterfall),Local CPU (TF-IDF + BGE + SecBERT),9,22,0.3571,0.0,0,0.88,0.12,0.0,740.21,0
+INC-003,1,Confidence-Cascaded Pipeline,Hybrid Cascade (CPU + Gemini 3.5 Flash-Lite),9,23,0.4286,0.0,0,0.95,0.04,0.0,24913.87,233
+INC-003,1,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.3571,0.0,0,1.0,0.0,0.25,13326.72,9071
+INC-003,1,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,7,0.25,0.0,0,1.0,0.0,0.375,22164.56,11201
+INC-004,1,Static Pipeline (Fixed Waterfall),Local CPU (TF-IDF + BGE + SecBERT),9,15,0.4211,0.0,0,0.88,0.12,0.0,583.09,0
+INC-004,1,Confidence-Cascaded Pipeline,Hybrid Cascade (CPU + Gemini 3.5 Flash-Lite),9,15,0.4211,0.0,0,0.95,0.04,0.0,638.9,0
+INC-004,1,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.4211,0.0,0,1.0,0.0,0.3,32258.43,9035
+INC-004,1,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,7,0.3529,0.0,0,1.0,0.0,0.375,41554.81,11130
+INC-005,1,Static Pipeline (Fixed Waterfall),Local CPU (TF-IDF + BGE + SecBERT),9,6,0.8,0.0,0,0.88,0.12,0.0,158.65,0
+INC-005,1,Confidence-Cascaded Pipeline,Hybrid Cascade (CPU + Gemini 3.5 Flash-Lite),9,6,0.8,0.0,0,0.95,0.04,0.0,167.41,0
+INC-005,1,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.8,0.0,0,1.0,0.0,0.0,36964.54,6910
+INC-005,1,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,8,0.8,0.0,0,1.0,0.0,0.6,48412.0,10100
+INC-006,1,Static Pipeline (Fixed Waterfall),Local CPU (TF-IDF + BGE + SecBERT),9,7,0.8571,0.0,0,0.88,0.12,0.0,224.87,0
+INC-006,1,Confidence-Cascaded Pipeline,Hybrid Cascade (CPU + Gemini 3.5 Flash-Lite),9,7,0.8571,0.0,0,0.95,0.04,0.0,233.78,0
+INC-006,1,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.8571,0.0,0,1.0,0.0,0.0,35320.31,7283
+INC-006,1,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,8,0.8571,0.0,0,1.0,0.0,0.5,54914.31,10602
+INC-007,1,Static Pipeline (Fixed Waterfall),Local CPU (TF-IDF + BGE + SecBERT),9,14,0.4444,0.0,0,0.88,0.12,0.0,588.17,0
+INC-007,1,Confidence-Cascaded Pipeline,Hybrid Cascade (CPU + Gemini 3.5 Flash-Lite),9,14,0.4444,0.0,0,0.95,0.04,0.0,646.63,0
+INC-007,1,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.4444,0.0,0,1.0,0.0,0.3,40115.23,9807
+INC-007,1,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,7,0.4444,0.0,0,1.0,0.0,0.3,45097.12,12090
+INC-008,1,Static Pipeline (Fixed Waterfall),Local CPU (TF-IDF + BGE + SecBERT),9,15,0.4211,0.0,0,0.88,0.12,0.0,594.12,0
+INC-008,1,Confidence-Cascaded Pipeline,Hybrid Cascade (CPU + Gemini 3.5 Flash-Lite),9,15,0.4211,0.0,0,0.95,0.04,0.0,650.13,0
+INC-008,1,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.4211,0.0,0,1.0,0.0,0.3,23914.1,9271
+INC-008,1,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,7,0.375,0.0,0,1.0,0.0,0.4286,29165.55,11401
+INC-009,1,Static Pipeline (Fixed Waterfall),Local CPU (TF-IDF + BGE + SecBERT),9,8,0.6667,0.0,0,0.88,0.12,0.0,297.24,0
+INC-009,1,Confidence-Cascaded Pipeline,Hybrid Cascade (CPU + Gemini 3.5 Flash-Lite),9,8,0.6667,0.0,0,0.95,0.04,0.0,314.54,0
+INC-009,1,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.6667,0.0,0,1.0,0.0,0.4286,44690.11,7271
+INC-009,1,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,7,0.6667,0.0,0,1.0,0.0,0.4286,56317.17,9005
+INC-010,1,Static Pipeline (Fixed Waterfall),Local CPU (TF-IDF + BGE + SecBERT),9,12,0.5,0.0,0,0.88,0.12,0.0,585.03,0
+INC-010,1,Confidence-Cascaded Pipeline,Hybrid Cascade (CPU + Gemini 3.5 Flash-Lite),9,12,0.5,0.0,0,0.95,0.04,0.0,605.35,0
+INC-010,1,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.5,0.0,0,1.0,0.0,0.3,25993.37,9756
+INC-010,1,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,7,0.6667,0.0,0,1.0,0.0,0.3333,36048.09,12031
+INC-011,1,Static Pipeline (Fixed Waterfall),Local CPU (TF-IDF + BGE + SecBERT),9,21,0.3571,0.0,0,0.88,0.12,0.0,820.75,0
+INC-011,1,Confidence-Cascaded Pipeline,Hybrid Cascade (CPU + Gemini 3.5 Flash-Lite),9,23,0.5,0.0,0,0.95,0.04,0.0,11569.76,495
+INC-011,1,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.3571,0.0,0,1.0,0.0,0.2308,23523.76,9886
+INC-011,1,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,7,0.2609,0.0,0,1.0,0.0,0.375,25130.66,12132
+INC-012,1,Static Pipeline (Fixed Waterfall),Local CPU (TF-IDF + BGE + SecBERT),9,18,0.4348,0.0,0,0.88,0.12,0.0,671.1,0
+INC-012,1,Confidence-Cascaded Pipeline,Hybrid Cascade (CPU + Gemini 3.5 Flash-Lite),9,18,0.4348,0.0,0,0.95,0.04,0.0,717.62,0
+INC-012,1,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.4348,0.0,0,1.0,0.0,0.2727,11014.37,9471
+INC-012,1,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,8,0.3,0.0,0,1.0,0.0,0.375,13753.46,13825
+INC-013,1,Static Pipeline (Fixed Waterfall),Local CPU (TF-IDF + BGE + SecBERT),9,9,0.5455,0.0,0,0.88,0.12,0.0,388.82,0
+INC-013,1,Confidence-Cascaded Pipeline,Hybrid Cascade (CPU + Gemini 3.5 Flash-Lite),9,9,0.5455,0.0,0,0.95,0.04,0.0,395.76,0
+INC-013,1,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.5455,0.0,0,1.0,0.0,0.0,15829.36,10107
+INC-013,1,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,8,0.5455,0.0,0,1.0,0.0,0.375,19013.05,14578
+INC-014,1,Static Pipeline (Fixed Waterfall),Local CPU (TF-IDF + BGE + SecBERT),9,20,0.3704,0.0,0,0.88,0.12,0.0,839.3,0
+INC-014,1,Confidence-Cascaded Pipeline,Hybrid Cascade (CPU + Gemini 3.5 Flash-Lite),9,21,0.3846,0.0,0,0.95,0.04,0.0,5090.54,253
+INC-014,1,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.3704,0.0,0,1.0,0.0,0.0,11162.81,10192
+INC-014,1,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,8,0.3704,0.0,0,1.0,0.0,0.2308,14606.93,15056
+INC-015,1,Static Pipeline (Fixed Waterfall),Local CPU (TF-IDF + BGE + SecBERT),9,17,0.4348,0.0,0,0.88,0.12,0.0,735.99,0
+INC-015,1,Confidence-Cascaded Pipeline,Hybrid Cascade (CPU + Gemini 3.5 Flash-Lite),9,18,0.4348,0.0,0,0.95,0.04,0.0,4860.07,288
+INC-015,1,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.4348,0.0,0,1.0,0.0,0.0,14407.51,10041
+INC-015,1,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,8,0.3333,0.0,0,1.0,0.0,0.4286,16944.25,14594
+INC-016,1,Static Pipeline (Fixed Waterfall),Local CPU (TF-IDF + BGE + SecBERT),9,8,0.6667,0.0,0,0.88,0.12,0.0,294.62,0
+INC-016,1,Confidence-Cascaded Pipeline,Hybrid Cascade (CPU + Gemini 3.5 Flash-Lite),9,8,0.6667,0.0,0,0.95,0.04,0.0,304.1,0
+INC-016,1,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.6667,0.0,0,1.0,0.0,0.0,13481.06,8310
+INC-016,1,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,8,0.6667,0.0,0,1.0,0.0,0.4286,16019.57,12140
+INC-017,1,Static Pipeline (Fixed Waterfall),Local CPU (TF-IDF + BGE + SecBERT),9,6,0.8,0.0,0,0.88,0.12,0.0,154.39,0
+INC-017,1,Confidence-Cascaded Pipeline,Hybrid Cascade (CPU + Gemini 3.5 Flash-Lite),9,6,0.8,0.0,0,0.95,0.04,0.0,159.66,0
+INC-017,1,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.8,0.0,0,1.0,0.0,0.6,17422.62,6882
+INC-017,1,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,7,0.8,0.0,0,1.0,0.0,0.6,18858.53,8576
+INC-018,1,Static Pipeline (Fixed Waterfall),Local CPU (TF-IDF + BGE + SecBERT),9,11,0.5714,0.0,0,0.88,0.12,0.0,499.95,0
+INC-018,1,Confidence-Cascaded Pipeline,Hybrid Cascade (CPU + Gemini 3.5 Flash-Lite),9,11,0.5714,0.0,0,0.95,0.04,0.0,533.85,0
+INC-018,1,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.5714,0.0,0,1.0,0.0,0.3333,21570.04,11083
+INC-018,1,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,7,0.5714,0.0,0,1.0,0.0,0.3333,23351.28,13461
+INC-019,1,Static Pipeline (Fixed Waterfall),Local CPU (TF-IDF + BGE + SecBERT),9,8,0.6667,0.0,0,0.88,0.12,0.0,289.54,0
+INC-019,1,Confidence-Cascaded Pipeline,Hybrid Cascade (CPU + Gemini 3.5 Flash-Lite),9,8,0.6667,0.0,0,0.95,0.04,0.0,302.78,0
+INC-019,1,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.6667,0.0,0,1.0,0.0,0.0,22894.73,9324
+INC-019,1,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,8,0.6667,0.0,0,1.0,0.0,0.4286,25880.49,13662
+INC-020,1,Static Pipeline (Fixed Waterfall),Local CPU (TF-IDF + BGE + SecBERT),9,7,0.8571,0.0,0,0.88,0.12,0.0,228.72,0
+INC-020,1,Confidence-Cascaded Pipeline,Hybrid Cascade (CPU + Gemini 3.5 Flash-Lite),9,7,0.8571,0.0,0,0.95,0.04,0.0,238.33,0
+INC-020,1,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.8571,0.0,0,1.0,0.0,0.5,22222.88,8097
+INC-020,1,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,7,0.8571,0.0,0,1.0,0.0,0.5,23591.88,9969
+INC-021,1,Static Pipeline (Fixed Waterfall),Local CPU (TF-IDF + BGE + SecBERT),9,15,0.4,0.0,0,0.88,0.12,0.0,667.97,0
+INC-021,1,Confidence-Cascaded Pipeline,Hybrid Cascade (CPU + Gemini 3.5 Flash-Lite),9,15,0.4,0.0,0,0.95,0.04,0.0,712.24,0
+INC-021,1,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.4,0.0,0,1.0,0.0,0.0,20363.83,11128
+INC-021,1,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,8,0.3529,0.0,0,1.0,0.0,0.375,23158.45,15919
+INC-022,1,Static Pipeline (Fixed Waterfall),Local CPU (TF-IDF + BGE + SecBERT),9,19,0.4167,0.0,0,0.88,0.12,0.0,658.81,0
+INC-022,1,Confidence-Cascaded Pipeline,Hybrid Cascade (CPU + Gemini 3.5 Flash-Lite),9,19,0.4167,0.0,0,0.95,0.04,0.0,720.9,0
+INC-022,1,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.4167,0.0,0,1.0,0.0,0.2727,12687.08,9521
+INC-022,1,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,7,0.3,0.0,0,1.0,0.0,0.4286,14151.29,11691
+INC-023,1,Static Pipeline (Fixed Waterfall),Local CPU (TF-IDF + BGE + SecBERT),9,20,0.3704,0.0,0,0.88,0.12,0.0,822.3,0
+INC-023,1,Confidence-Cascaded Pipeline,Hybrid Cascade (CPU + Gemini 3.5 Flash-Lite),9,21,0.4444,0.0,0,0.95,0.04,0.0,5143.51,319
+INC-023,1,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.3704,0.0,0,1.0,0.0,0.2308,12300.26,9411
+INC-023,1,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,7,0.2727,0.0,0,1.0,0.0,0.375,13868.72,11559
+INC-024,1,Static Pipeline (Fixed Waterfall),Local CPU (TF-IDF + BGE + SecBERT),9,6,0.6667,0.0,0,0.88,0.12,0.0,226.51,0
+INC-024,1,Confidence-Cascaded Pipeline,Hybrid Cascade (CPU + Gemini 3.5 Flash-Lite),9,7,1.0,0.0,0,0.95,0.04,0.0,4120.25,250
+INC-024,1,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.6667,0.0,0,1.0,0.0,0.5,13339.52,6841
+INC-024,1,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,7,0.6667,0.0,0,1.0,0.0,0.5,14732.17,8501
+INC-025,1,Static Pipeline (Fixed Waterfall),Local CPU (TF-IDF + BGE + SecBERT),9,17,0.4545,0.0,0,0.88,0.12,0.0,647.35,0
+INC-025,1,Confidence-Cascaded Pipeline,Hybrid Cascade (CPU + Gemini 3.5 Flash-Lite),9,17,0.4545,0.0,0,0.95,0.04,0.0,709.98,0
+INC-025,1,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.4545,0.0,0,1.0,0.0,0.2727,11156.88,9901
+INC-025,1,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,7,0.4545,0.0,0,1.0,0.0,0.2727,12540.47,12164
+INC-026,1,Static Pipeline (Fixed Waterfall),Local CPU (TF-IDF + BGE + SecBERT),9,17,0.4348,0.0,0,0.88,0.12,0.0,715.54,0
+INC-026,1,Confidence-Cascaded Pipeline,Hybrid Cascade (CPU + Gemini 3.5 Flash-Lite),9,18,0.5217,0.0,0,0.95,0.04,0.0,4862.07,263
+INC-026,1,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.4348,0.0,0,1.0,0.0,0.25,13728.63,9632
+INC-026,1,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,7,0.4348,0.0,0,1.0,0.0,0.25,15524.75,11964
+INC-027,1,Static Pipeline (Fixed Waterfall),Local CPU (TF-IDF + BGE + SecBERT),9,21,0.3571,0.0,0,0.88,0.12,0.0,799.31,0
+INC-027,1,Confidence-Cascaded Pipeline,Hybrid Cascade (CPU + Gemini 3.5 Flash-Lite),9,22,0.4286,0.0,0,0.95,0.04,0.0,5703.24,241
+INC-027,1,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.2609,0.0,0,1.0,0.0,0.375,8254.94,9389
+INC-027,1,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,6,0.2609,0.0,0,1.0,0.0,0.375,8254.95,9389
+INC-028,1,Static Pipeline (Fixed Waterfall),Local CPU (TF-IDF + BGE + SecBERT),9,8,0.6667,0.0,0,0.88,0.12,0.0,294.73,0
+INC-028,1,Confidence-Cascaded Pipeline,Hybrid Cascade (CPU + Gemini 3.5 Flash-Lite),9,8,0.6667,0.0,0,0.95,0.04,0.0,309.18,0
+INC-028,1,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.6667,0.0,0,1.0,0.0,0.0,14840.83,9829
+INC-028,1,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,8,0.6667,0.0,0,1.0,0.0,0.4286,17433.69,14140
+INC-029,1,Static Pipeline (Fixed Waterfall),Local CPU (TF-IDF + BGE + SecBERT),9,21,0.3704,0.0,0,0.88,0.12,0.0,730.28,0
+INC-029,1,Confidence-Cascaded Pipeline,Hybrid Cascade (CPU + Gemini 3.5 Flash-Lite),9,22,0.4444,0.0,0,0.95,0.04,0.0,5709.28,239
+INC-029,1,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.3704,0.0,0,1.0,0.0,0.25,15379.55,10014
+INC-029,1,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,7,0.3704,0.0,0,1.0,0.0,0.25,16775.42,12345
+INC-030,1,Static Pipeline (Fixed Waterfall),Local CPU (TF-IDF + BGE + SecBERT),9,16,0.4545,0.0,0,0.88,0.12,0.0,723.81,0
+INC-030,1,Confidence-Cascaded Pipeline,Hybrid Cascade (CPU + Gemini 3.5 Flash-Lite),9,16,0.4545,0.0,0,0.95,0.04,0.0,770.2,0
+INC-030,1,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.4545,0.0,0,1.0,0.0,0.25,16543.92,8452
+INC-030,1,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,7,0.4545,0.0,0,1.0,0.0,0.25,17958.67,10549
+INC-031,1,Static Pipeline (Fixed Waterfall),Local CPU (TF-IDF + BGE + SecBERT),9,6,0.8,0.0,0,0.88,0.12,0.0,148.68,0
+INC-031,1,Confidence-Cascaded Pipeline,Hybrid Cascade (CPU + Gemini 3.5 Flash-Lite),9,6,0.8,0.0,0,0.95,0.04,0.0,154.11,0
+INC-031,1,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.8,0.0,0,1.0,0.0,0.0,16194.64,7423
+INC-031,1,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,8,0.8,0.0,0,1.0,0.0,0.6,18885.23,10911
+INC-032,1,Static Pipeline (Fixed Waterfall),Local CPU (TF-IDF + BGE + SecBERT),9,10,0.5,0.0,0,0.88,0.12,0.0,454.63,0
+INC-032,1,Confidence-Cascaded Pipeline,Hybrid Cascade (CPU + Gemini 3.5 Flash-Lite),9,10,0.5,0.0,0,0.95,0.04,0.0,459.91,0
+INC-032,1,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.5,0.0,0,1.0,0.0,0.375,17801.58,10218
+INC-032,1,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,7,0.5,0.0,0,1.0,0.0,0.375,19585.97,12568
+INC-033,1,Static Pipeline (Fixed Waterfall),Local CPU (TF-IDF + BGE + SecBERT),9,21,0.3571,0.0,0,0.88,0.12,0.0,919.12,0
+INC-033,1,Confidence-Cascaded Pipeline,Hybrid Cascade (CPU + Gemini 3.5 Flash-Lite),9,22,0.4286,0.0,0,0.95,0.04,0.0,5777.6,276
+INC-033,1,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.3571,0.0,0,1.0,0.0,0.2308,12313.1,9311
+INC-033,1,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,7,0.3333,0.0,0,1.0,0.0,0.3333,13952.85,11496
+INC-034,1,Static Pipeline (Fixed Waterfall),Local CPU (TF-IDF + BGE + SecBERT),9,15,0.4211,0.0,0,0.88,0.12,0.0,603.83,0
+INC-034,1,Confidence-Cascaded Pipeline,Hybrid Cascade (CPU + Gemini 3.5 Flash-Lite),9,15,0.4211,0.0,0,0.95,0.04,0.0,633.66,0
+INC-034,1,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.4211,0.0,0,1.0,0.0,0.3,8106.17,10936
+INC-034,1,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,7,0.4211,0.0,0,1.0,0.0,0.3,10158.75,13508
+INC-035,1,Static Pipeline (Fixed Waterfall),Local CPU (TF-IDF + BGE + SecBERT),9,17,0.4545,0.0,0,0.88,0.12,0.0,673.9,0
+INC-035,1,Confidence-Cascaded Pipeline,Hybrid Cascade (CPU + Gemini 3.5 Flash-Lite),9,17,0.4545,0.0,0,0.95,0.04,0.0,710.42,0
+INC-035,1,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.4545,0.0,0,1.0,0.0,0.0,8793.68,9571
+INC-035,1,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,8,0.4545,0.0,0,1.0,0.0,0.2727,11423.05,13981
+INC-036,1,Static Pipeline (Fixed Waterfall),Local CPU (TF-IDF + BGE + SecBERT),9,13,0.4706,0.0,0,0.88,0.12,0.0,583.07,0
+INC-036,1,Confidence-Cascaded Pipeline,Hybrid Cascade (CPU + Gemini 3.5 Flash-Lite),9,13,0.4706,0.0,0,0.95,0.04,0.0,601.94,0
+INC-036,1,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.4706,0.0,0,1.0,0.0,0.0,7611.43,9940
+INC-036,1,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,8,0.4,0.0,0,1.0,0.0,0.375,10161.93,14387
+INC-037,1,Static Pipeline (Fixed Waterfall),Local CPU (TF-IDF + BGE + SecBERT),9,18,0.4348,0.0,0,0.88,0.12,0.0,693.85,0
+INC-037,1,Confidence-Cascaded Pipeline,Hybrid Cascade (CPU + Gemini 3.5 Flash-Lite),9,19,0.5217,0.0,0,0.95,0.04,0.0,5207.66,266
+INC-037,1,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.4348,0.0,0,1.0,0.0,0.2727,7607.02,10284
+INC-037,1,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,7,0.3158,0.0,0,1.0,0.0,0.4286,9226.58,12618
+INC-038,1,Static Pipeline (Fixed Waterfall),Local CPU (TF-IDF + BGE + SecBERT),9,17,0.4545,0.0,0,0.88,0.12,0.0,663.79,0
+INC-038,1,Confidence-Cascaded Pipeline,Hybrid Cascade (CPU + Gemini 3.5 Flash-Lite),9,17,0.4545,0.0,0,0.95,0.04,0.0,709.68,0
+INC-038,1,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.4545,0.0,0,1.0,0.0,0.0,8119.11,9313
+INC-038,1,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,7,0.3158,0.0,0,1.0,0.0,0.4444,9707.1,11470
+INC-039,1,Static Pipeline (Fixed Waterfall),Local CPU (TF-IDF + BGE + SecBERT),9,6,0.8,0.0,0,0.88,0.12,0.0,170.82,0
+INC-039,1,Confidence-Cascaded Pipeline,Hybrid Cascade (CPU + Gemini 3.5 Flash-Lite),9,6,0.8,0.0,0,0.95,0.04,0.0,234.26,0
+INC-039,1,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.8,0.0,0,1.0,0.0,0.0,22399.47,7106
+INC-039,1,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,8,0.8,0.0,0,1.0,0.0,0.6,26577.47,10396
+BEN-000,0,Static Pipeline (Fixed Waterfall),Local CPU (TF-IDF + BGE + SecBERT),9,4,1.0,1.0,1,0.35,0.5,0.0,19.83,0
+BEN-000,0,Confidence-Cascaded Pipeline,Hybrid Cascade (CPU + Gemini 3.5 Flash-Lite),9,4,1.0,1.0,0,1.0,0.0,0.0,51.93,0
+BEN-000,0,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,1,1.0,1.0,0,1.0,0.0,0.0,1447.99,800
+BEN-000,0,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,1,1.0,1.0,0,1.0,0.0,0.0,1447.99,800
+BEN-001,0,Static Pipeline (Fixed Waterfall),Local CPU (TF-IDF + BGE + SecBERT),9,4,1.0,1.0,1,0.35,0.5,0.0,18.05,0
+BEN-001,0,Confidence-Cascaded Pipeline,Hybrid Cascade (CPU + Gemini 3.5 Flash-Lite),9,4,1.0,1.0,0,1.0,0.0,0.0,29.77,0
+BEN-001,0,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,1,1.0,1.0,0,1.0,0.0,0.0,9653.25,771
+BEN-001,0,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,1,1.0,1.0,0,1.0,0.0,0.0,9653.25,771
+BEN-002,0,Static Pipeline (Fixed Waterfall),Local CPU (TF-IDF + BGE + SecBERT),9,4,1.0,1.0,1,0.35,0.5,0.0,16.63,0
+BEN-002,0,Confidence-Cascaded Pipeline,Hybrid Cascade (CPU + Gemini 3.5 Flash-Lite),9,4,1.0,1.0,0,1.0,0.0,0.0,26.48,0
+BEN-002,0,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,1,1.0,1.0,0,1.0,0.0,0.0,1937.52,759
+BEN-002,0,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,1,1.0,1.0,0,1.0,0.0,0.0,1937.52,759
+BEN-003,0,Static Pipeline (Fixed Waterfall),Local CPU (TF-IDF + BGE + SecBERT),9,3,1.0,1.0,1,0.35,0.5,0.0,13.21,0
+BEN-003,0,Confidence-Cascaded Pipeline,Hybrid Cascade (CPU + Gemini 3.5 Flash-Lite),9,3,1.0,1.0,0,1.0,0.0,0.0,21.24,0
+BEN-003,0,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,1,1.0,1.0,0,1.0,0.0,0.0,2486.14,703
+BEN-003,0,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,1,1.0,1.0,0,1.0,0.0,0.0,2486.14,703
+BEN-004,0,Static Pipeline (Fixed Waterfall),Local CPU (TF-IDF + BGE + SecBERT),9,4,1.0,1.0,1,0.35,0.5,0.0,21.07,0
+BEN-004,0,Confidence-Cascaded Pipeline,Hybrid Cascade (CPU + Gemini 3.5 Flash-Lite),9,4,1.0,1.0,0,1.0,0.0,0.0,34.82,0
+BEN-004,0,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,1,1.0,1.0,0,1.0,0.0,0.0,7262.03,796
+BEN-004,0,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,1,1.0,1.0,0,1.0,0.0,0.0,7262.03,796
+BEN-005,0,Static Pipeline (Fixed Waterfall),Local CPU (TF-IDF + BGE + SecBERT),9,5,1.0,1.0,1,0.35,0.5,0.0,26.4,0
+BEN-005,0,Confidence-Cascaded Pipeline,Hybrid Cascade (CPU + Gemini 3.5 Flash-Lite),9,5,1.0,1.0,0,1.0,0.0,0.0,36.27,0
+BEN-005,0,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,1,1.0,1.0,0,1.0,0.0,0.0,9820.48,860
+BEN-005,0,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,1,1.0,1.0,0,1.0,0.0,0.0,9820.48,860
+BEN-006,0,Static Pipeline (Fixed Waterfall),Local CPU (TF-IDF + BGE + SecBERT),9,5,1.0,1.0,1,0.35,0.5,0.0,29.12,0
+BEN-006,0,Confidence-Cascaded Pipeline,Hybrid Cascade (CPU + Gemini 3.5 Flash-Lite),9,5,1.0,1.0,0,1.0,0.0,0.0,55.17,0
+BEN-006,0,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,1,1.0,1.0,0,1.0,0.0,0.0,1459.04,873
+BEN-006,0,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,1,1.0,1.0,0,1.0,0.0,0.0,1459.04,873
+BEN-007,0,Static Pipeline (Fixed Waterfall),Local CPU (TF-IDF + BGE + SecBERT),9,6,0.0,0.0,1,0.35,0.5,0.0,86.41,0
+BEN-007,0,Confidence-Cascaded Pipeline,Hybrid Cascade (CPU + Gemini 3.5 Flash-Lite),9,6,0.0,0.0,0,1.0,0.0,0.0,98.38,0
+BEN-007,0,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,1,1.0,1.0,0,1.0,0.0,0.0,5429.17,747
+BEN-007,0,"Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,1,1.0,1.0,0,1.0,0.0,0.0,5429.17,747

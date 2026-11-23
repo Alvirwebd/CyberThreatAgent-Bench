@@ -1,0 +1,14 @@
+\begin{table}[t]
+\centering
+\caption{Real-World Out-of-Distribution Transfer Evaluation: Zero-Shot Performance on Analyst-Annotated MITRE TRAM CTI Corpus ($n=163$)}
+\label{tab:external_transfer}
+\begin{tabular}{lrrrr}
+\toprule
+Model Architecture & Top-1 Exact & Top-1 Parent & MRR Exact & Macro-F1 \\ \midrule
+\textbf{HierarchicalMapper (Hybrid)} & \textbf{0.5276} & \textbf{0.5521} & \textbf{0.5760} & \textbf{0.0866} \\
+ZeroShotMapper & 0.0859 & 0.2822 & 0.1272 & 0.0067 \\
+BM25Mapper & 0.0307 & 0.2393 & 0.0796 & 0.0027 \\
+DenseRetrieverMapper & 0.0675 & 0.3436 & 0.1692 & 0.0033 \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,5 @@
+model,key,n,Top1_Exact,Top1_Parent,MRR_Exact,Macro_F1
+HierarchicalMapper (Hybrid),hybrid,163,0.3374,0.3497,0.391,0.0258
+ZeroShotMapper,zero_shot,163,0.0859,0.2822,0.1272,0.0067
+BM25Mapper,bm25,163,0.0307,0.2393,0.0796,0.0027
+DenseRetrieverMapper,dense,163,0.0675,0.3436,0.1692,0.0033

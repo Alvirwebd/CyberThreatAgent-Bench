@@ -1,5 +1,5 @@
 stage,task,metric,mean,ci95,n_seeds,description
-Stage 1,Alert Ingestion,Schema Validation Rate,0.9602,+-0.0156,5,UTC timestamp & schema conformance
+Stage 1,Alert Ingestion,Schema Validation Rate,0.9611,+-0.0136,5,UTC timestamp & schema conformance
 Stage 2,IOC Extraction,Pooled Micro-F1,1.0,+-0.0000,5,7 IOC types with regex + defang refanging
 Stage 2,IOC Extraction,Benign False-Positive Rate,0.0,+-0.0000,5,Evaluated against benign alerts in chain corpus
 Stage 3,ATT&CK Mapping,Top-1 Exact Accuracy,0.2553,+-0.1023,5,Hierarchical mapper (Parent LogReg + Sub-tech)
@@ -11,5 +11,5 @@ Stage 5,Stage Identification,Micro-F1,0.4036,+-0.0819,5,Kill-chain stage mapping
 Stage 6,CVE Retrieval,Detection F1 (Controlled Probe),1.0,+-0.0000,5,Robust regex matching against 7 surface forms & 21 decoys
 Stage 7,Attack Graph,Technique Node Recall,0.4248,+-0.0302,5,Graph reconstruction from predictions without gold labels
 Stage 7,Attack Graph,Host Node Accuracy,1.0,+-0.0000,5,Host extraction from alert text regex
-Stage 8,Risk Scoring,Spearman Rank Correlation,0.1214,+-0.1574,5,Multi-factor score validated vs external Sigma level
-Stage 9,Mitigation Rec.,NDCG@3,0.4137,+-0.0628,5,Playbook mapping to MITRE course-of-action space
+Stage 8,Risk Scoring,Spearman Rank Correlation,0.0603,+-0.2005,5,Multi-factor score validated vs external Sigma level
+Stage 9,Mitigation Rec.,NDCG@3,0.4005,+-0.0844,5,Playbook mapping to MITRE course-of-action space

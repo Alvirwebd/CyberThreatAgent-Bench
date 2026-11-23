@@ -1,0 +1,125 @@
+{
+  "created_utc": "2026-11-20T17:24:21Z",
+  "inputs": {
+    "attack": {
+      "url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack-16.1.json",
+      "source": "cache",
+      "sha256": "e1a5b2d7a53467969c72f0ba7cd22ee876199376f306da8f9dad845dcc611852"
+    },
+    "external_cti": {
+      "url": "https://raw.githubusercontent.com/center-for-threat-informed-defense/tram/main/tests/data/test-training-data.json",
+      "sha256": "44544920f6e576793e50cfc0b6e35093ffa2e9683db15c077a37e72ef0006918",
+      "name": "MITRE TRAM Analyst-Annotated CTI Corpus",
+      "n_samples": 163,
+      "source": "center-for-threat-informed-defense/tram"
+    },
+    "kev": {
+      "n_cves": 1786,
+      "source": "cache",
+      "date": "2026-11-20"
+    }
+  },
+  "attack_version": "16.1",
+  "benchmark_name": "CyberThreatAgent-Bench",
+  "version": "1.0",
+  "config": {
+    "attack_release": "16.1",
+    "sigma_commit": "auto",
+    "seeds": [
+      7,
+      21,
+      42,
+      84,
+      123
+    ],
+    "fast": true,
+    "max_samples": 400,
+    "test_size": 0.3,
+    "min_label_count": 2,
+    "n_incidents": 40,
+    "defang_rate": 0.25,
+    "ood_holdout_frac": 0.2,
+    "alpha": 0.65,
+    "logreg_C": 8.0,
+    "actor_min_techniques": 3,
+    "actor_hard_obs": 5,
+    "actor_trials": 3,
+    "graph_component_norm": 5.0,
+    "nvd_enabled": false,
+    "offline": false,
+    "llm_n": 50
+  },
+  "seeds": [
+    7,
+    21,
+    42,
+    84,
+    123
+  ],
+  "dataset_statistics": {
+    "samples": 400,
+    "labels": 205,
+    "median_rules_per_label": 2,
+    "labels_with_one_rule": 91,
+    "top5_labels": {
+      "T1106": 5,
+      "T1560.001": 5,
+      "T1555": 5,
+      "T1686.003": 4,
+      "T1531": 4
+    },
+    "long_tail_share_singleton_or_pair": 0.6976,
+    "multi_tag_rules": 91,
+    "definition_balance": 0.2275,
+    "by_os": {
+      "windows": 330,
+      "cloud": 25,
+      "linux": 34,
+      "macos": 11
+    },
+    "by_level": {
+      "low": 41,
+      "high": 162,
+      "medium": 182,
+      "critical": 11,
+      "informational": 4
+    },
+    "sigma_rules_available": 2622,
+    "rules_parsed_with_no_attack_tag": 2222,
+    "unparseable_yaml_files": 0
+  },
+  "artifact_sha256": {
+    "agentic_routing.csv": "7c22db70c13db5084092d77ec5fd47067f88ebac568578521fcef48844267c67",
+    "dataset_statistics.csv": "8ffcf039b2cc5890278fb8319e946678e70f9960a346e28ea2a5035317388b83",
+    "datasheet.json": "7dffcc2152c328e7702f66900013f949c0ef1da87af67ad07930e72ec4ff1c5b",
+    "errors_stage3.csv": "5c92dce81ffaaa3be4e60d99ec797d956d65c49b92a0cc0e2515fb4148236af8",
+    "external_validation.csv": "811295abbbd2bc98877bf7a33af342077f68403dedd4efbe6a5a1f088911cf82",
+    "scorecard_aggregated.csv": "c9117d72557a478a7adcbe2a1f909e871d3939fa28b01bd8c8795d1a80c008c2",
+    "scorecard_raw_by_seed.csv": "86675e7d66644d980c5606c1837c2829ddf8271dd8167d3443dea7390fd2cfca",
+    "smoke_tests.csv": "52223062a4b4383f86d3cb68831bfce2f19646044855652278d41c4f900669bc",
+    "stage2_ioc_eval.csv": "ca80f9c02a02dc4b2109e34689ae570f60731b4477622d85bc50f2a264c2d385",
+    "stage3_alpha_sweep.csv": "d3de2bb1f0f58d2a968dfb3d6be51c9385c3268f5a201d6ca5036b276ce159c3",
+    "stage3_predictions.csv": "1f7f92e95e534ae9bcc0829753986668ac238aba109b552200c2cc9ee916a332",
+    "stage5_sequence.csv": "8e11e5435e6a9a4d0e37ab8c6473631f7d12a706087fe4914e7c6ffcbe214b0e",
+    "stage6_cve_coverage.csv": "338d11ef1f170e212c5976e7dd78bfd3f3b61e23054d7e0b593ded804c305f8b",
+    "stage7_graph.csv": "7d4b4321993124adc6c917875f7da7059ad527c7dbb1f0176200400f9213c2f4",
+    "stage8_chain_risk.csv": "c320bcd48c7a3d502b4c64b2ced3073fcc3c95ffe9b47763a34698194d16a3b7",
+    "stage8_risk.csv": "5f4cfe0818840d3621ec1de023b2764ad0b3fe1c4b45b04bc1950c6fa2dd919b"
+  },
+  "changes_vs_v4": [
+    "N6 stage6: explicit-CVE metric de-tautologised (gold CVE no longer passed as input)",
+    "Stage 7: attack graph built only from predictions; gt_host/gt_attack_id fallbacks removed",
+    "Stage 4: random floor computed over the eligible candidate set, not all ATT&CK groups",
+    "N8 llm: parse-failure rate reported; unparseable predictions counted as wrong",
+    "N2 stage3: hierarchical parent->sub-technique mapping with per-level metrics",
+    "N3 stage3: vectoriser fitted on the union of technique docs and training alerts",
+    "N4 stage3: lexical overlap vectorised (iterrows loop removed)",
+    "N9 corpus: full ATT&CK tag set retained (attack_ids, n_tags)",
+    "N10 inputs: ATT&CK release pinned, Sigma commit recorded, inputs hashed",
+    "N11 stage1: alert ingestion and normalisation stage added",
+    "N1 reporting: downstream stages reported raw AND conditioned on stage-3 correctness",
+    "V08 stage8: Sigma level removed from the risk score, making the correlation external",
+    "Multi-seed harness: 5-seed harness with n, mean, std and CI95 on every metric",
+    "W18: chain corpus expanded to 20 cross-platform templates plus benign negatives"
+  ]
+}
