@@ -17,3 +17,5 @@ Panel B: Real Telemetry,Splunk Sysmon/Cloud Telemetry (N>=300),ZeroShotMapper,ze
 Panel B: Real Telemetry,Splunk Sysmon/Cloud Telemetry (N>=300),BM25Mapper,bm25,329,0.0243,0.1125,0.0322,0.0203
 Panel B: Real Telemetry,Splunk Sysmon/Cloud Telemetry (N>=300),DenseRetrieverMapper,dense,329,0.0,0.0,0.003,0.0
 Panel B: Real Telemetry,Splunk Sysmon/Cloud Telemetry (N>=300),SecDenseRetrieverMapper,sec_dense,329,0.0122,0.0973,0.0138,0.0158
+Panel B: Real Telemetry,Splunk Attack Data (Raw Unfiltered Stream),HierarchicalMapper (Hybrid),hybrid_raw_stream,450,0.0444,0.1111,0.0578,0.0182
+Panel B: Real Telemetry,"Splunk Attack Data (Content-Bearing Runtime Events, N=329, 29 techniques)",HybridLLMCascade (theta=0.10),hybrid_llm_cascade,329,0.0729,0.152,0.0729,0.075

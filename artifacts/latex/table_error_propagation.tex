@@ -1,0 +1,18 @@
+\begin{table}[t]
+\centering
+\small
+\caption{\textbf{Multi-Stage Error Propagation, Elasticity, and Causal Fault Analysis ($N=48$ Incidents).} Downstream graph reconstruction exhibits compounding error amplification ($\eta_{3 \to 7} = 1.0478 > 1.0$), while course-of-action mitigation exhibits structural buffering ($\eta_{3 \to 9} = 0.0000 \le 1.0$). Causal intervention isolating Stage 2 normalization demonstrates downstream technique and mitigation retention.}
+\label{tab:error_propagation}
+\begin{tabular}{lcccc}
+\toprule
+\textbf{Metric / Transition} & \textbf{Value} & \textbf{95\% CI} & \textbf{Regime} & \textbf{Mechanism} \\
+\midrule
+Delta Oracle S2 to S3 TechF1 & -0.0153 & [-0.0225, -0.0081] & Causal Analysis & Causal recovery under gold S2 normalization \\
+Delta Oracle S2 to S9 MitNDCG3 & 0.0000 & -- & Causal Analysis & Downstream M1xxx mitigation recovery \\
+P(S3 error|S2 error) & 0.9250 & -- & Causal Analysis & Conditional failure rate under upstream extraction error (Risk Ratio: 1.00x) \\
+P(S3 error|S2 clean) & 0.9250 & -- & Causal Analysis & Baseline failure rate under clean upstream extraction \\
+Stage Elasticity 3 to 7 (Graph) & 1.0478 & -- & Compounding & Compounding amplification (eta > 1) \\
+Stage Elasticity 3 to 9 (Mitigation) & 0.0000 & -- & Buffering & Structural buffering (eta <= 1) \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,9 @@
+Architecture,Backbone,Regime,Tech_F1,Mit_nDCG3,Benign_FER,Tool_Prec,Redund_Rate,Halluc_Rate,Latency_ms,Tokens
+Static 9-Stage Waterfall,local_cpu,Static 9-Stage Waterfall (Local CPU),0.3838,0.8333,1.0,0.8416,0.1584,0.0,658.0,0
+Confidence-Cascaded Neuro-Symbolic,gemini-3.5-flash-lite,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),0.5133,0.8333,1.0,0.8734,0.0139,0.0,27367.1,601
+Confidence-Cascaded Neuro-Symbolic,qwen/qwen3.8-27b,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),0.4038,0.8333,0.0,0.7761,0.096,0.0,3842.6,104
+Plan-and-Execute Agent,gemini-3.5-flash-lite,Plan-and-Execute Agent (gemini-3.5-flash-lite),0.5136,0.75,0.0,0.9639,0.0361,0.0503,6998.2,2455
+Plan-and-Execute Agent,qwen/qwen3.8-27b,Plan-and-Execute Agent (qwen/qwen3.8-27b),0.2403,0.1777,0.0,1.0,0.0,0.0557,1306.2,497
+Autonomous ReAct Agent,gemini-3.5-flash-lite,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",0.5443,0.6188,0.0,1.0,0.0,0.0,13315.3,7441
+Autonomous ReAct Agent,gemini-3.5-flash-lite,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",0.5141,0.848,0.0,1.0,0.0,0.0104,16037.4,9456
+Autonomous ReAct Agent,qwen/qwen3.8-27b,"Autonomous ReAct Agent (qwen/qwen3.8-27b, T_max=6)",0.4151,0.6042,0.0,1.0,0.0,0.0,3016.1,3958

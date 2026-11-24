@@ -1,0 +1,15 @@
+\begin{table}[t]
+\centering
+\small
+\caption{\textbf{Operational False-Escalation Calibration across $N=120$ Independent Benign Administrative Sequences.} Per-Stage Cascading eliminates alert fatigue ($0/120$ false escalations, $0.0\%$, 95\% Wilson CI [0.000, 0.031]) while retaining $90.0\%$ malicious recall and $0.500$ technique F1, outperforming Global-Thresholding ($39/120$, $32.5\%$) and Static Waterfall ($120/120$, $100.0\%$).}
+\label{tab:benign_calibration}
+\begin{tabular}{lccccc}
+\toprule
+\textbf{Escalation Regime} & \textbf{Benign Escalations} & \textbf{Benign FER (\%)} & \textbf{95\% Wilson CI} & \textbf{Malicious Recall} & \textbf{Malicious Tech F1} \\
+\midrule
+Static Waterfall & 120 / 120 & 100.0\% & [0.9690, 1.0000] & 0.850 & 0.501 \\
+Global-Threshold Cascade & 39 / 120 & 32.5\% & [0.2478, 0.4131] & 0.880 & 0.501 \\
+\textbf{Per-Stage Cascade} & \textbf{0 / 120} & \textbf{0.0\%} & [0.0000, 0.0310] & 0.900 & 0.500 \\
+\bottomrule
+\end{tabular}
+\end{table}

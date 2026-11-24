@@ -74,7 +74,7 @@ Execute the full 5-seed publication benchmark (matches all manuscript tables and
 python run_benchmark.py --full
 ```
 
-Run the 6-regime multi-agent evaluation across 48 incidents:
+Run the 8-cell architecture x backbone evaluation across 48 incidents:
 ```bash
 python scripts/run_agentic_eval.py
 ```
@@ -144,7 +144,7 @@ $^{*}$ Multi-LLM scaling evaluated on the identical held-out test alerts ($n=200
 
 ---
 
-## 🤖 6-Regime Multi-Agent Benchmark Evaluation (Table \ref{tab:agentic_comparison})
+## 🤖 8-Cell Architecture $	imes$ Backbone Grid Evaluation (Table \ref{tab:agentic_comparison})
 
 CyberThreatAgent-Bench comprehensively evaluates 6 distinct architectural regimes across $n=48$ standardized, multi-turn incident scenarios (40 multi-stage malicious intrusion campaigns `INC-000..039` and 8 benign enterprise activity sequences `BEN-000..007`). All metrics derive from empirical local CPU execution, deterministic confidence-thresholded escalation, and live HTTPS tool execution on pinned models with zero model-switching, zero synthetic tokens, and zero hardcoded latency values:
 

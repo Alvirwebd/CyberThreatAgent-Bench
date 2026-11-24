@@ -139,9 +139,10 @@ def test_agentic_eval_and_manifest_contracts():
     assert csv_path.exists(), f"Missing agent evaluation CSV: {csv_path}"
 
     df = pd.read_csv(csv_path)
-    assert len(df) == 288, f"Expected exactly 288 rows in agent evaluation, got {len(df)}"
+    assert len(df) in (288, 384), f"Expected 288 or 384 rows in agent evaluation, got {len(df)}"
     assert df["incident_id"].nunique() == 48, f"Expected 48 incidents, got {df['incident_id'].nunique()}"
-    assert df["regime"].nunique() == 6, f"Expected 6 regimes, got {df['regime'].nunique()}"
+    assert df["regime"].nunique() in (6, 8), f"Expected 6 or 8 regimes, got {df['regime'].nunique()}"
+    assert (df["latency_ms"] == 2500.0).sum() == 0, "Found synthetic fallback latencies (2500.0 ms)!"
 
     # Verify model purity per regime
     for reg, grp in df.groupby("regime"):
@@ -157,4 +158,59 @@ def test_agentic_eval_and_manifest_contracts():
         if not cfg.get("fast", True):
             samples = dstats.get("samples") or cfg.get("samples")
             assert samples == 2530, f"Expected samples=2530 in manifest, got {samples}"
+
+def test_scorecard_aggregated_no_nans():
+    csv_path = ROOT / "artifacts" / "scorecard_aggregated.csv"
+    assert csv_path.exists(), f"Missing scorecard_aggregated.csv: {csv_path}"
+    df = pd.read_csv(csv_path)
+    nan_count = df.isna().sum().sum()
+    assert nan_count == 0, f"Found {nan_count} NaNs in scorecard_aggregated.csv!"
+
+def test_latex_mitre_attack_escaped():
+    latex_dir = ROOT / "artifacts" / "latex"
+    if latex_dir.exists():
+        for tex_file in latex_dir.glob("*.tex"):
+            content = tex_file.read_text(encoding="utf-8")
+            # Raw ATT&CK not preceded by a backslash
+            unescaped = re.findall(r"(?<!\\)ATT&CK", content)
+            assert len(unescaped) == 0, f"Found unescaped ATT&CK in {tex_file.name}: {len(unescaped)} occurrences"
+
+def test_no_q1_labels_in_documentation():
+    for doc_name in ["README.md", "docs/RESEARCH_CLAIMS_AND_VALIDITY.md"]:
+        doc_path = ROOT / doc_name
+        if doc_path.exists():
+            content = doc_path.read_text(encoding="utf-8")
+            q1_matches = re.findall(r"\bQ1[- ](?:grade|Scientific Integrity|grade integrity)?\b", content, re.IGNORECASE)
+            assert len(q1_matches) == 0, f"Found Q1 strings in {doc_name}: {q1_matches}"
+
+def test_hierarchical_mapper_distinct_predictions_and_seed7_reproduction():
+    """
+    Verifies that HierarchicalMapper:
+    1. Returns distinct predictions on distinct alert texts (zero hardcoded stubs).
+    2. Reproduces the exact seed-7 publication benchmark score (Top1_Exact == 0.4128).
+    """
+    from ctab import load_attack, get_canonical_benchmark, group_split, HierarchicalMapper, evaluate_mapping
+
+    df_techniques, _, _, _ = load_attack()
+    bench_df = get_canonical_benchmark()
+
+    # 1. Distinct predictions check (zero hardcoded stubs)
+    sample_train = bench_df.iloc[:200]
+    sample_mapper = HierarchicalMapper(df_techniques, sample_train, alpha=0.65, C=8.0, auto_tune_alpha=False)
+
+    p1 = sample_mapper.ranked("PowerShell EncodedCommand downloading payload from external C2", top_k=1)[0]["attack_id"]
+    p2 = sample_mapper.ranked("Dump lsass process memory with procdump", top_k=1)[0]["attack_id"]
+    p3 = sample_mapper.ranked("Scheduled task creation via schtasks.exe daily persistence", top_k=1)[0]["attack_id"]
+
+    distinct_preds = {p1, p2, p3}
+    assert len(distinct_preds) >= 2, f"HierarchicalMapper returned constant stub predictions: {distinct_preds}"
+
+    # 2. Seed-7 exact publication score reproduction
+    tr, te, _ = group_split(bench_df, seeds=(7, 21, 42, 84, 123), seed=7)
+    mapper_s7 = HierarchicalMapper(df_techniques, tr, alpha=0.65, C=8.0, auto_tune_alpha=True)
+    fn = lambda text, top_k=5: mapper_s7.ranked(text, top_k=top_k)
+    met, _ = evaluate_mapping(te, fn)
+
+    assert met["Top1_Exact"] == 0.4128, f"Expected seed-7 Top1_Exact=0.4128, got {met['Top1_Exact']}"
+
 

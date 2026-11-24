@@ -1,7 +1,7 @@
-margin_threshold,llm_escalation_pct,Top1_Exact,ci95_low,ci95_high,p50_latency_ms,mean_latency_ms,cost_savings_vs_full_llm_pct,p_val_vs_full_llm,is_selected_theta
-0.05,10.0,0.46,0.39,0.53,3.45,93.32,90.0,0.2606,False
-0.1,20.0,0.495,0.425,0.565,3.45,175.07,80.0,0.0422,True
-0.15,30.0,0.45,0.38,0.5201,3.45,263.57,70.0,0.3057,False
-0.2,50.0,0.435,0.365,0.51,283.7,437.17,50.0,0.451,False
-0.3,70.0,0.4,0.335,0.47,756.54,618.02,30.0,1.0,False
-0.4,90.0,0.38,0.315,0.445,793.44,801.11,10.0,0.0736,False
+margin_threshold,llm_escalation_pct,Top1_Exact,random_routing_acc,routing_lift_over_random,ci95_low,ci95_high,p50_latency_ms,mean_latency_ms,cost_savings_vs_full_llm_pct,p_val_vs_full_llm,is_selected_theta
+0.05,18.5,0.43,0.4213,0.0087,0.365,0.495,75.15,253.48,81.5,0.5677,False
+0.1,30.5,0.435,0.4189,0.0161,0.365,0.5,75.91,359.62,69.5,0.4292,True
+0.15,40.5,0.435,0.4169,0.0181,0.365,0.5,77.86,446.48,59.5,0.4047,False
+0.2,51.0,0.415,0.4148,0.0002,0.345,0.4801,698.95,532.22,49.0,0.8501,False
+0.3,68.5,0.41,0.4113,-0.0013,0.34,0.475,816.83,681.58,31.5,1.0,False
+0.4,79.5,0.4,0.4091,-0.0091,0.33,0.465,846.51,778.83,20.5,1.0,False

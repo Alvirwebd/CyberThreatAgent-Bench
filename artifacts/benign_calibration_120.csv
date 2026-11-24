@@ -1,0 +1,4 @@
+Architecture,Total_Benign_Sequences,False_Escalation_Count,Benign_FER,CI95_Low,CI95_High,Suppression_Rate_Pct,Claim4_Status,Malicious_Tech_F1,Malicious_Recall
+Static Waterfall,120,120,1.0,0.969,1.0,0.0,FAIL (FER > 0.20),0.5006,0.85
+Global-Threshold Cascade,120,39,0.325,0.2478,0.4131,67.5,FAIL (FER > 0.20),0.5006,0.88
+Per-Stage Cascade,120,0,0.0,0.0,0.031,100.0,PASS (FER <= 0.20),0.5001,0.9
