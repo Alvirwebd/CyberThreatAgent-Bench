@@ -39,3 +39,6 @@ Thumbs.db
 # Duplicate legacy output directory
 ctab_bench/outputs/
 
+
+artifacts_pre_revision/
+

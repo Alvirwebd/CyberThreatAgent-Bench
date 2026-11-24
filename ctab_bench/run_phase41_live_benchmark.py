@@ -748,8 +748,8 @@ print("AGGREGATED ARCHITECTURAL REGIME COMPARISON (n=48 Incidents)")
 print("="*80)
 print(df_sum.to_string(index=False))
 
-# Q1 Scientific Integrity & Model Purity Assertions
-print("\n[VERIFICATION] Enforcing Q1 Scientific Integrity & Model Purity...")
+# Scientific Scientific Integrity & Model Purity Assertions
+print("\n[VERIFICATION] Enforcing Scientific Scientific Integrity & Model Purity...")
 print(f"  Total ReAct LLM Turns Evaluated: {len(models_used_in_react)}")
 model_counts = Counter(models_used_in_react)
 print(f"  Model Breakdown: {dict(model_counts)}")

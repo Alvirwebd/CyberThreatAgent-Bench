@@ -19,7 +19,7 @@ Executes the comprehensive 6-Regime Multi-Agent Benchmark across n=48 incidents:
 5. Autonomous ReAct Agent (Pinned gemini-3.5-flash-lite, T_max=12)
 6. Autonomous ReAct Agent (Pinned qwen/qwen3.8-27b, T_max=6)
 
-Q1 Scientific-Integrity Enforcements:
+Scientific Validity Enforcements:
 - Full mode: fast = False (MAPPERS["hybrid"] trained on full Fold-0 N=2,530 corpus)
 - Fix Bug #1: VALID_MITIGATIONS checks df_mitigations["attack_id"] | PLAYBOOK (>= 40)
 - Fix Bug #2: Gold mitigations populated for all 40 malicious incidents (Mit nDCG@3 evaluated)

@@ -56,10 +56,10 @@ pip install -r requirements.txt
 
 *Verified on Python 3.10 – 3.14 (NumPy 2.4, Pandas 3.0, Scikit-Learn 1.9).*
 
-### 2. Contract Test Suite (Q1 Scientific Integrity)
+### 2. Contract Test Suite (Reproducibility & Scientific Integrity)
 Verify all 9 architectural, data integrity, and reproducibility contracts:
 ```bash
-pytest tests/test_q1_contracts.py -v
+pytest tests/test_benchmark_contracts.py -v
 ```
 
 ### 3. Benchmark Execution

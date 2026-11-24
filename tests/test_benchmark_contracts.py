@@ -1,7 +1,7 @@
 """
-tests/test_q1_contracts.py
-==========================
-Comprehensive Q1 Scientific-Integrity Contract Test Suite for CyberThreatAgent-Bench.
+tests/test_benchmark_contracts.py
+=================================
+Comprehensive Scientific Contract Test Suite for CyberThreatAgent-Bench.
 Verifies determinism, zero-leakage, dataset validity, routing contracts, and agent regimes.
 """
 
