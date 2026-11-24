@@ -9,27 +9,27 @@
 \midrule
 \multicolumn{7}{l}{\textbf{Panel A: Real Threat Intelligence (CTI) Corpora}} \\
 \midrule
-TRAM Analyst Eval (n=163) & HierarchicalMapper (Hybrid) & 163 & 0.0061 & 0.0429 & 0.0204 & 0.0014 \\
-TRAM Analyst Eval (n=163) & SecBERTHybridMapper (SecBERT) & 163 & 0.0061 & 0.0061 & 0.0146 & 0.0008 \\
+TRAM Analyst Eval (n=163) & HierarchicalMapper (Hybrid) & 163 & 0.1350 & 0.3252 & 0.2280 & 0.0124 \\
+TRAM Analyst Eval (n=163) & SecBERTHybridMapper (SecBERT) & 163 & 0.0307 & 0.0736 & 0.0531 & 0.0026 \\
 TRAM Analyst Eval (n=163) & ZeroShotMapper & 163 & 0.0859 & 0.2822 & 0.1272 & 0.0067 \\
 TRAM Analyst Eval (n=163) & BM25Mapper & 163 & 0.0307 & 0.2393 & 0.0796 & 0.0027 \\
 TRAM Analyst Eval (n=163) & DenseRetrieverMapper & 163 & 0.0675 & 0.3436 & 0.1692 & 0.0033 \\
 TRAM Analyst Eval (n=163) & SecDenseRetrieverMapper & 163 & 0.0000 & 0.1227 & 0.0178 & 0.0000 \\
-TRAM Full Bootstrap (N>=1,000) & HierarchicalMapper (Hybrid) & 1500 & 0.0940 & 0.1280 & 0.1280 & 0.0483 \\
-TRAM Full Bootstrap (N>=1,000) & SecBERTHybridMapper (SecBERT) & 1500 & 0.0367 & 0.1060 & 0.0857 & 0.0254 \\
-TRAM Full Bootstrap (N>=1,000) & ZeroShotMapper & 1500 & 0.1827 & 0.2633 & 0.2651 & 0.0390 \\
-TRAM Full Bootstrap (N>=1,000) & BM25Mapper & 1500 & 0.1520 & 0.2587 & 0.2206 & 0.0298 \\
-TRAM Full Bootstrap (N>=1,000) & DenseRetrieverMapper & 1500 & 0.3027 & 0.4027 & 0.3860 & 0.0636 \\
-TRAM Full Bootstrap (N>=1,000) & SecDenseRetrieverMapper & 1500 & 0.1080 & 0.2073 & 0.1638 & 0.0256 \\
+TRAM Full Bootstrap (N>=1,000) & HierarchicalMapper (Hybrid) & 1500 & 0.1953 & 0.2700 & 0.2644 & 0.0489 \\
+TRAM Full Bootstrap (N>=1,000) & SecBERTHybridMapper (SecBERT) & 1500 & 0.0893 & 0.2073 & 0.1896 & 0.0395 \\
+TRAM Full Bootstrap (N>=1,000) & ZeroShotMapper & 1500 & 0.1813 & 0.2627 & 0.2630 & 0.0391 \\
+TRAM Full Bootstrap (N>=1,000) & BM25Mapper & 1500 & 0.1487 & 0.2553 & 0.2180 & 0.0289 \\
+TRAM Full Bootstrap (N>=1,000) & DenseRetrieverMapper & 1500 & 0.3033 & 0.4013 & 0.3869 & 0.0633 \\
+TRAM Full Bootstrap (N>=1,000) & SecDenseRetrieverMapper & 1500 & 0.1053 & 0.2040 & 0.1614 & 0.0250 \\
 \midrule
-\multicolumn{7}{l}{\textbf{Panel B: Real SIEM & Cloud Runtime Telemetry (Splunk Attack Data, 30 Techniques)}} \\
+\multicolumn{7}{l}{\textbf{Panel B: Real SIEM \& Cloud Runtime Telemetry (Splunk Attack Data, 30 Techniques)}} \\
 \midrule
-Splunk Sysmon/Cloud Telemetry (N>=300) & HierarchicalMapper (Hybrid) & 315 & 0.0444 & 0.0476 & 0.0492 & 0.0508 \\
-Splunk Sysmon/Cloud Telemetry (N>=300) & SecBERTHybridMapper (SecBERT) & 315 & 0.0000 & 0.0127 & 0.0059 & 0.0000 \\
-Splunk Sysmon/Cloud Telemetry (N>=300) & ZeroShotMapper & 315 & 0.0476 & 0.0540 & 0.0570 & 0.0390 \\
-Splunk Sysmon/Cloud Telemetry (N>=300) & BM25Mapper & 315 & 0.0095 & 0.0222 & 0.0214 & 0.0054 \\
-Splunk Sysmon/Cloud Telemetry (N>=300) & DenseRetrieverMapper & 315 & 0.0000 & 0.0190 & 0.0067 & 0.0000 \\
-Splunk Sysmon/Cloud Telemetry (N>=300) & SecDenseRetrieverMapper & 315 & 0.0032 & 0.0159 & 0.0068 & 0.0010 \\
+Splunk Sysmon/Cloud Telemetry (N>=300) & HierarchicalMapper (Hybrid) & 329 & 0.0456 & 0.1246 & 0.0598 & 0.0671 \\
+Splunk Sysmon/Cloud Telemetry (N>=300) & SecBERTHybridMapper (SecBERT) & 329 & 0.0000 & 0.0122 & 0.0102 & 0.0000 \\
+Splunk Sysmon/Cloud Telemetry (N>=300) & ZeroShotMapper & 329 & 0.0547 & 0.1337 & 0.0617 & 0.0841 \\
+Splunk Sysmon/Cloud Telemetry (N>=300) & BM25Mapper & 329 & 0.0243 & 0.1125 & 0.0322 & 0.0203 \\
+Splunk Sysmon/Cloud Telemetry (N>=300) & DenseRetrieverMapper & 329 & 0.0000 & 0.0000 & 0.0030 & 0.0000 \\
+Splunk Sysmon/Cloud Telemetry (N>=300) & SecDenseRetrieverMapper & 329 & 0.0122 & 0.0973 & 0.0138 & 0.0158 \\
 \bottomrule
 \end{tabular}
 \end{table*}

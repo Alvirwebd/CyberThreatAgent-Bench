@@ -15,7 +15,7 @@ Actor attribution is evaluated under injected noise,PASS,
 LLM metrics expose parse-failure rate when evaluated,PASS,
 Sigma severity is purged from risk score formula,PASS,
 Corpus carries complete ATT&CK metadata,FAIL,AssertionError: 
-Actor evaluation uses multi-stage incident context,FAIL,"AssertionError: {'Actor@1_noise0': 0.9513, 'Actor@5_noise0': 1.0, 'MRR_noise0': 0.9736, 'trials_noise%d': 390, 'Actor@1_noise20': 0.8026, 'Actor@5_noise20': 0.9"
+Actor evaluation uses multi-stage incident context,FAIL,"AssertionError: {'Actor@1_noise0': 0.9815, 'Actor@5_noise0': 1.0, 'MRR_noise0': 0.9908, 'trials_noise%d': 650, 'Actor@1_noise20': 0.7985, 'Actor@5_noise20': 0.9"
 Stage sequence metrics match temporal order,PASS,
 stage3: parent evaluation credits accurate parent prediction,FAIL,NameError: name 'evaluate_predicted_parent' is not defined
 stage3: parent and exact metrics are not identical,FAIL,NameError: name 'STAGE3_RES' is not defined
@@ -25,8 +25,8 @@ stage3: confidence-gated agentic routing escalates below threshold,PASS,
 stage8: chain risk scores separate malicious vs benign with attack graph,PASS,
 stage3: no target leakage - bench text contains zero attack.t tag strings,PASS,
 stage3: 5-fold splits are strictly disjoint with unique test fingerprints,PASS,
-Stage 3: Benign Abstention Gate suppresses false ATT&CK mapping on benign logs,PASS,
+Stage 3: Benign Abstention Gate suppresses false ATT&CK mapping on benign logs,FAIL,"AssertionError: Expected None prediction on benign text, got: [{'attack_id': 'T1029', 'name': 'Scheduled Transfer', 'tactics': ['exfiltration'], 'score': 0.9412"
 Stage 7: Attack graph prerequisite edges satisfy temporal and causal constraints,PASS,
-Stage 8: Learned risk calibration scores benign incidents as Low (<25),PASS,
+Stage 8: Learned risk calibration scores benign incidents as Low (<25),FAIL,"AssertionError: Expected mean benign risk < 20.0, got: 41.705"
 Autonomous ReAct Agent vs Pipeline comparison table is exported and valid,PASS,
 "Phase 5: Splunk Telemetry has zero Git-LFS stubs, zero tag leakage, and N>=300",PASS,

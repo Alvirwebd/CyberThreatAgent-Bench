@@ -1,4 +1,0 @@
-alpha,val_Top1_Exact,val_MRR_Exact,val_Macro_F1,val_Top1_Exact_std,val_MRR_Exact_std
-0.0,0.2026,0.2503,0.1301,0.1314,0.1261
-0.5,0.208,0.2576,0.1311,0.1272,0.1216
-1.0,0.2203,0.2687,0.145,0.1164,0.1173

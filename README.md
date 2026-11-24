@@ -45,17 +45,24 @@ CyberThreatAgent-Bench evaluates agentic security pipelines across 9 modular, pr
 ## 🚀 Quickstart & Reproduction
 
 ### 1. Installation
-Clone this repository and install the verified dependencies:
+Clone this repository and install the verified package and dependencies:
 
 ```bash
 git clone https://github.com/Alvirwebd/CyberThreatAgent-Bench.git
 cd CyberThreatAgent-Bench
+pip install -e .
 pip install -r requirements.txt
 ```
 
 *Verified on Python 3.10 – 3.14 (NumPy 2.4, Pandas 3.0, Scikit-Learn 1.9).*
 
-### 2. Benchmark Execution
+### 2. Contract Test Suite (Q1 Scientific Integrity)
+Verify all 9 architectural, data integrity, and reproducibility contracts:
+```bash
+pytest tests/test_q1_contracts.py -v
+```
+
+### 3. Benchmark Execution
 
 Run the fast verification sanity check (2 seeds `[7, 21]`, alert sub-sampling to 400 items, and smoke test checks):
 ```bash
@@ -63,6 +70,14 @@ python run_benchmark.py --fast
 ```
 
 Execute the full 5-seed publication benchmark (matches all manuscript tables and figures across seeds `[7, 21, 42, 84, 123]`):
+```bash
+python run_benchmark.py --full
+```
+
+Run the 6-regime multi-agent evaluation across 48 incidents:
+```bash
+python scripts/run_agentic_eval.py
+```
 ```bash
 python run_benchmark.py --full
 ```
@@ -126,6 +141,26 @@ $^{*}$ Multi-LLM scaling evaluated on the identical held-out test alerts ($n=200
 - **Inner-CV Hyperparameter Selection ($\alpha^*$):** Precomputed score matrices allow fast 3-fold inner cross-validation strictly on training splits to select the optimal hybrid blend weight $\alpha^* \in [0.2, 0.7]$ without data leakage.
 - **Confidence-Adaptive Open-Set OOD Robustness:** Dynamic query weighting $\alpha_{\text{eff}}(x) = \alpha^* \cdot \text{clip}(c_{\text{sup}}(x) / \tau, 0.05, 1.0)$ shifts weight to zero-shot semantic matching whenever supervised margin or query-to-train similarity drops. Under predicted parents, child zero-shot affinities are preserved so unseen sub-techniques are never suppressed by training-only sub-classifiers.
 - **Cybersecurity Transformer Baselines (SecBERT):** Domain-specific pre-trained embeddings (jackaduma/SecBERT) with SHA-256 disk caching, batch size 64, and PyTorch inference mode enable CPU execution in seconds.
+
+---
+
+## 🤖 6-Regime Multi-Agent Benchmark Evaluation (Table \ref{tab:agentic_comparison})
+
+CyberThreatAgent-Bench comprehensively evaluates 6 distinct architectural regimes across $n=48$ standardized, multi-turn incident scenarios (40 multi-stage malicious intrusion campaigns `INC-000..039` and 8 benign enterprise activity sequences `BEN-000..007`). All metrics derive from empirical local CPU execution, deterministic confidence-thresholded escalation, and live HTTPS tool execution on pinned models with zero model-switching, zero synthetic tokens, and zero hardcoded latency values:
+
+| Architecture Regime | Tech F1 | Mit nDCG@3 | Benign FER | Tool Prec | Redund Rate | Halluc Rate | Latency (ms) | Tokens | Hardware / Model |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :--- |
+| **1. Static 9-Stage Waterfall** | 0.420 | 0.833 | 1.000 | 1.000 | 0.000 | 0.000 | 937.1 | 0 | Local CPU standalone |
+| **2. Confidence-Cascaded Neuro-Symbolic** | 0.513 | 0.833 | 1.000 | 0.873 | 0.014 | 0.000 | 27,367.1 | 601 | Local CPU + Escalation |
+| **3. Plan-and-Execute Agent** | 0.514 | 0.750 | **0.000** | 0.964 | 0.036 | 0.050 | 6,998.2 | 2,455 | Pinned `gemini-3.5-flash-lite` |
+| **4. Autonomous ReAct Agent ($T_{\max}=6$)** | **0.544** | 0.619 | **0.000** | **1.000** | **0.000** | **0.000** | 13,315.3 | 7,441 | Pinned `gemini-3.5-flash-lite` |
+| **5. Autonomous ReAct Agent ($T_{\max}=12$)** | 0.514 | **0.848** | **0.000** | **1.000** | **0.000** | 0.010 | 16,037.4 | 9,456 | Pinned `gemini-3.5-flash-lite` |
+| **6. Autonomous ReAct Agent ($T_{\max}=6$, Qwen)** | 0.415 | 0.604 | **0.000** | **1.000** | **0.000** | **0.000** | 3,948.8 | 4,087 | Pinned `qwen/qwen3.8-27b` (Groq) |
+
+> **Key Takeaways & Scientific Findings:**
+> - **Benign False Escalation:** Static waterfall pipelines suffer from severe over-escalation on benign enterprise noise (`Benign FER = 1.000`), whereas autonomous agents with active tool interrogation and finish triage reach **zero false escalations** (`Benign FER = 0.000`).
+> - **Technique Identification:** The Autonomous ReAct Agent ($T_{\max}=6$) achieves highest technique F1 (**0.544**), demonstrating the power of iterative tool grounding.
+> - **Mitigation Precision:** Expanding reasoning horizon to $T_{\max}=12$ increases course-of-action mitigation quality to **0.848 nDCG@3**, outperforming all other regimes while preserving pristine tool precision (1.000) and zero redundancy.
 
 ---
 

@@ -1,12 +1,12 @@
 \begin{table}[t]
 \centering
-\caption{Stage 8 Risk Calibration Ablation: Heuristic vs. Learned NNLS Weights}
+\caption{Stage 8 Risk Calibration Ablation: Heuristic vs. Bounded Least-Squares (lsq\_linear) Weights}
 \label{tab:risk_ablation}
 \begin{tabular}{lcccc}
 \toprule
 Weighting Regime & Malicious Risk (mean) & Benign Risk (mean) & Benign False-Escalation & AUROC Separation \\ \midrule
 Heuristic Weights & 75.79 & 12.13 & 12.5\% & 1.0000 \\
-Learned Calibrated (NNLS) & 66.46 & 14.58 & 0.0\% & 1.0000 \\
+Bounded Least-Squares (lsq\_linear) & 66.46 & 14.58 & 0.0\% & 1.0000 \\
 \bottomrule
 \end{tabular}
 \end{table}

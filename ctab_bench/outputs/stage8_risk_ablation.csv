@@ -1,3 +1,0 @@
-regime,mean_weight_coverage,mean_malicious_risk,mean_benign_risk,benign_false_escalation_rate,auroc_separation,mann_whitney_p
-heuristic,0.6,75.79,12.13,0.125,1.0,4.46757521250167e-06
-calibrated_lsq,0.8867,66.46,14.58,0.0,1.0,5.10508126563125e-06

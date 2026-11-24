@@ -9,6 +9,10 @@ __pycache__/
 *$py.class
 *.pkl
 *.pyc
+*.egg-info/
+.pytest_cache/
+build/
+dist/
 
 # Heavy binary embeddings & models
 *.npy
@@ -28,3 +32,10 @@ env/
 # Operating system
 .DS_Store
 Thumbs.db
+
+# VS Code settings
+.vscode/
+
+# Duplicate legacy output directory
+ctab_bench/outputs/
+
