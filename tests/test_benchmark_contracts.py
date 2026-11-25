@@ -394,3 +394,36 @@ def test_benign_calibration_includes_agents():
     arches = " ".join(df["Architecture"].astype(str).tolist())
     assert "Plan-and-Execute" in arches or "ReAct" in arches, \
         f"benign_calibration_120.csv missing autonomous agent rows: {df['Architecture'].tolist()}"
+
+
+def test_latex_tabular_column_counts():
+    """Every data row in artifacts/latex/*.tex must match its tabular column count."""
+    latex_dir = ROOT / "artifacts" / "latex"
+    if not latex_dir.exists():
+        pytest.skip("artifacts/latex not yet generated")
+    for tex in sorted(latex_dir.glob("*.tex")):
+        txt = tex.read_text(encoding="utf-8")
+        m = re.search(r"\\begin\{tabular\}\{([^}]+)\}", txt)
+        assert m, f"Missing tabular spec in {tex.name}"
+        spec = re.sub(r"@\{[^}]*\}", "", m.group(1))
+        n_cols = len(re.findall(r"[lcrp]", spec))
+        expected_amps = n_cols - 1
+        in_tab = False
+        for lineno, line in enumerate(txt.splitlines(), 1):
+            s = line.strip()
+            if r"\begin{tabular}" in s:
+                in_tab = True
+                continue
+            if r"\end{tabular}" in s:
+                in_tab = False
+                continue
+            if not in_tab or not s or s.startswith("%"):
+                continue
+            if s in (r"\toprule", r"\midrule", r"\bottomrule") or s.startswith(r"\multicolumn"):
+                continue
+            if r"\\" in s:
+                # Count unescaped '&' before '\\'
+                body = s.split(r"\\")[0]
+                n_amps = len(re.findall(r"(?<!\\)&", body))
+                assert n_amps == expected_amps, \
+                    f"{tex.name}:{lineno} has {n_amps} '&' (expected {expected_amps} for {n_cols} cols): {s}"

@@ -19,9 +19,9 @@ This document defines the formal research claims (C1–C5), statistical test cri
 | Corpus / Domain | Samples ($N$) | Closed Vocab ($|K|$) | Open Chance ($1/248$) | Closed Chance ($1/|K|$) | Model Top-1 ($\hat{p}$) | Lift vs. Closed Floor | Statistical Status |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :--- |
 | **Sigma Test Set** | 2,530 | 248 | 0.40% | 0.40% | 38.9% $\pm$ 8.8% | **97.3x** | In-Distribution Benchmark ($p < 0.001$) |
-| **MITRE TRAM Analyst Text** | 1,500 | 50 | 0.40% | 2.00% | 32.7% $\pm$ 2.4% | **16.4x** | Strong CTI Narrative Transfer ($p < 0.001$) |
-| **Splunk Content-Bearing Telemetry** | 329 | 29 | 0.40% | 3.45% | 12.5% $\pm$ 3.1% | **3.6x** | Significant Runtime Signal ($p < 0.001$) |
-| **Splunk Raw Unfiltered Stream** | 329 | 29 | 0.40% | 3.45% | ~4.4% $\pm$ 1.8% | **1.3x** | Evaluated via TOST (Eq. bound 1.5x = 5.17%) |
+| **MITRE TRAM Analyst Text** | 1,500 | 50 | 0.40% | 2.00% | 19.53% (Hybrid) / 30.33% (Dense) | **9.8x / 15.2x** | Strong CTI Narrative Transfer ($p < 0.001$) |
+| **Splunk Content-Bearing Telemetry** | 329 | 29 | 0.40% | 3.45% | 4.56% (Hybrid) / 7.29% (Cascade) | **1.3x / 2.1x** | Significant Runtime Signal ($p < 0.01$) |
+| **Splunk Raw Unfiltered Stream** | 450 | 29 | 0.40% | 3.45% | 4.44% | **1.3x** | Evaluated via TOST (Eq. bound 1.5x = 5.17%) |
 
 * **Falsification Condition:**  
   Equivalence to chance is declared only if the 90% CI lies entirely below $1.5\times$ chance (TOST); otherwise report empirical lift with its CI. If Splunk Content-Bearing telemetry fails to significantly exceed chance ($p \ge 0.05$ via one-sample binomial test) or if cross-domain ordering violates monotonicity, Claim 1 is falsified.

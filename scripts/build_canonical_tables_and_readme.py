@@ -53,10 +53,10 @@ def build_table_dataset():
         r"\toprule",
         r"Statistic & Value \\ \midrule",
         f"Total Benchmark Alert Samples & {n_samples:,} \\\\",
-        f"Unique ATT\\'\\&CK Technique Labels & {n_labels} \\\\",
+        f"Unique ATT\\&CK Technique Labels & {n_labels} \\\\",
         f"Median Rules per Technique & {median_rpl} \\\\",
         f"Singleton or Pair Technique Share & {singleton_share:.4f} \\\\",
-        f"Multi-Tag ATT\\'\\&CK Rules & {multi_tag} \\\\",
+        f"Multi-Tag ATT\\&CK Rules & {multi_tag} \\\\",
         f"Total Sigma Rules Parsed & {sigma_avail:,} \\\\",
         r"\bottomrule",
         r"\end{tabular}",
@@ -103,7 +103,7 @@ def build_table_baselines():
     def fmt(key_prefix, suffix="Top1_Exact"):
         vals = row(f"{key_prefix}_{suffix}")
         if vals is None:
-            return "-- & --"
+            return "--"
         m, s = vals
         return f"{m:.3f} $\\pm$ {s:.3f}"
 
@@ -119,7 +119,7 @@ def build_table_baselines():
     ]
     for display, prefix, bold in mapper_rows:
         t1   = fmt(prefix, "Top1_Exact")
-        t1at = fmt(prefix, "Top1_AnyTag")
+        t1at = fmt(prefix, "Top1_AnyValidTag")
         t3   = fmt(prefix, "Top3_Exact")
         mrr  = fmt(prefix, "MRR_Exact")
         mf1  = fmt(prefix, "Macro_F1")
@@ -137,6 +137,14 @@ def build_table_baselines():
             t1at  = f"{float(r.get('top1_any_tag', r.get('top1_parent', 0))):.3f}"
             mrr   = f"{float(r.get('mrr_at_5', r.get('mrr_exact', 0))):.3f}"
             lines.append(f"{mname} (\\texttt{{{mid.replace('_', r'\_')}}}) & {t1} & {t1at} & -- & {mrr} & -- \\\\")
+
+    routing_csv = ARTIFACTS / "hybrid_llm_routing.csv"
+    if routing_csv.exists():
+        rdf = pd.read_csv(routing_csv)
+        sel = rdf[rdf["is_selected_theta"] == True]
+        if not sel.empty:
+            casc_t1 = float(sel.iloc[0]["Top1_Exact"])
+            lines.append(f"\\textbf{{HybridLLMCascade}} ($\\theta^*=0.10$) & \\textbf{{{casc_t1:.3f}}} & -- & -- & -- & -- \\\\")
 
     lines.extend([
         r"\bottomrule",
@@ -368,7 +376,7 @@ def build_table_benign_calibration():
         r"\begin{table}[t]",
         r"\centering",
         r"\small",
-        r"\caption{\textbf{Operational False-Escalation Calibration across $N=120$ Independent Benign Administrative Sequences.} Per-Stage Cascading eliminates alert fatigue ($0/120$ false escalations, $0.0\%$, 95\% Wilson CI [0.000, 0.031]) while retaining $90.0\%$ malicious recall and $0.500$ technique F1, outperforming Global-Thresholding ($39/120$, $32.5\%$) and Static Waterfall ($120/120$, $100.0\%$).}",
+        r"\caption{\textbf{Operational False-Escalation Calibration across Benign Administrative Sequences ($N=120$ for local/cascaded pipelines; $n=43$/$42$ stratified sequences for autonomous multi-turn agents).} Per-Stage Cascading eliminates alert fatigue ($0/120$ false escalations, $0.0\%$, 95\% Wilson CI [0.0000, 0.0310]) while retaining $90.0\%$ malicious recall, and both autonomous agent architectures record $0$ false escalations ([0.0000, 0.0820] and [0.0000, 0.0838]).}",
         r"\label{tab:benign_calibration}",
         r"\begin{tabular}{lccccc}",
         r"\toprule",
@@ -457,20 +465,31 @@ def build_table_agentic_comparison():
 # 5. Figure 15: Pareto Frontier Latency vs Accuracy (all numbers from CSVs)
 # -----------------------------------------------------------------------------
 def build_figure_15():
-    """Generate Figure 15 with all numbers read from canonical CSVs — zero hardcoded values."""
-    scorecard = pd.read_csv(ARTIFACTS / "scorecard_aggregated.csv").set_index("metric")
+    """Generate Figure 15 with all points evaluated apples-to-apples on test_200_fold0.csv (n=200)."""
     llm_csv = ARTIFACTS / "llm_eval_200.csv"
     routing_csv = ARTIFACTS / "hybrid_llm_routing.csv"
+    test200_csv = ARTIFACTS / "test_200_fold0.csv"
 
-    # Local CPU top-1 means from 5-seed scorecard (n=200 Fold-0 test mean)
-    def agg(key):
-        return float(scorecard.loc[key, "mean"]) if key in scorecard.index else 0.0
+    # Compute genuine n=200 Fold-0 Top-1 Exact for all 5 local CPU mappers via ctab
+    sys.path.insert(0, str(ROOT))
+    from ctab import (
+        load_attack, get_canonical_benchmark, group_split, evaluate_mapping,
+        HierarchicalMapper, ZeroShotMapper, BM25Mapper, DenseRetrieverMapper, SecBERTHybridMapper,
+    )
+    df_techniques, _, _, _ = load_attack()
+    bench_df = get_canonical_benchmark()
+    tr, _, _ = group_split(bench_df, seed=7)
+    te200 = pd.read_csv(test200_csv)
 
-    hybrid_acc = agg("s3_hybrid_Top1_Exact")          # 0.3890 -> displayed vs 0.4350 in routing
-    bm25_acc   = agg("s3_bm25_Top1_Exact")            # 0.1861
-    dense_acc  = agg("s3_dense_Top1_Exact")            # 0.2249
-    zero_acc   = agg("s3_zero_shot_Top1_Exact")        # 0.2465
-    sec_h_acc  = agg("s3_sec_hybrid_Top1_Exact")       # 0.1621
+    def eval200(m):
+        met, _ = evaluate_mapping(te200, lambda text, top_k=5: m.ranked(text, top_k=top_k))
+        return float(met["Top1_Exact"])
+
+    hybrid_acc = eval200(HierarchicalMapper(df_techniques, tr, alpha=0.65, C=8.0, auto_tune_alpha=True))
+    zero_acc   = eval200(ZeroShotMapper(df_techniques))
+    bm25_acc   = eval200(BM25Mapper(df_techniques))
+    dense_acc  = eval200(DenseRetrieverMapper(df_techniques))
+    sec_h_acc  = eval200(SecBERTHybridMapper(df_techniques, tr))
 
     # LLM eval numbers from llm_eval_200.csv
     llm_rows = {}

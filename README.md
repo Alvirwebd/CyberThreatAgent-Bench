@@ -57,7 +57,7 @@ pip install -r requirements.txt
 *Verified on Python 3.10 – 3.14 (NumPy 2.4, Pandas 3.0, Scikit-Learn 1.9).*
 
 ### 2. Contract Test Suite (Reproducibility & Scientific Integrity)
-Verify all 9 architectural, data integrity, and reproducibility contracts:
+Verify all 26 architectural, data integrity, and reproducibility contracts:
 ```bash
 pytest tests/test_benchmark_contracts.py -v
 ```
@@ -76,10 +76,7 @@ python run_benchmark.py --full
 
 Run the 8-cell architecture x backbone evaluation across 48 incidents:
 ```bash
-python scripts/run_agentic_eval.py
-```
-```bash
-python run_benchmark.py --full
+python scripts/run_agentic_8cell_grid.py
 ```
 
 Or open and run interactively:
@@ -191,7 +188,7 @@ Evaluated on $n=200$ held-out test alerts with `HybridLLMCascade` paired with ch
 - **5-Seed Scorecard & Raw Trials:** [`artifacts/scorecard_raw_by_seed.csv`](artifacts/scorecard_raw_by_seed.csv) preserves trial-by-trial logs across seeds `[7, 21, 42, 84, 123]` with Student's $t$ $\text{CI}_{95}$ in [`artifacts/scorecard_aggregated.csv`](artifacts/scorecard_aggregated.csv).
 - **Real-World CTI Evaluation:** [`artifacts/external_validation.csv`](artifacts/external_validation.csv) documents out-of-distribution evaluation on real-world analyst-annotated CTI text ($n=163$) from the MITRE TRAM corpus with zero rule-family overlap.
 - **Statistical Significance Testing:** Paired bootstrap resampling ($B=2,000$) and Wilcoxon signed-rank tests confirm statistical significance ($p < 0.01$) on unique held-out test alerts across 5 group-disjoint folds ($N=2,530$).
-- **Regression Contract Suite:** 25 automated contract tests (target-leakage prevention, schema normalization, score bounds $[0, 100]$, graph acyclicity, zero-overlap TRAM isolation, and cross-file reconciliation) pass deterministically.
+- **Regression Contract Suite:** 26 automated contract tests (target-leakage prevention, schema normalization, score bounds $[0, 100]$, graph acyclicity, zero-overlap TRAM isolation, and cross-file reconciliation) pass deterministically.
 - **Environment Verification:** Verified and tested across Python 3.10, 3.11, and 3.12 (see [`requirements.txt`](requirements.txt)).
 
 ---

@@ -627,7 +627,7 @@ class SupervisedDenseMapper:
         if self.parent_clf is not None:
             pp = self.parent_clf.predict_proba([emb])[0]
             for c, p in zip(self.parent_classes, pp):
-                for aid in [c] + children.get(c, []):
+                for aid in [a for a in self.TECH_IDS if a == c or a.startswith(c + ".")]:
                     if aid in self._idx:
                         sup[self._idx[aid]] += p
             if self.sub_clf is not None:
@@ -844,7 +844,7 @@ class SupervisedSecBERTMapper:
         if self.parent_clf is not None:
             pp = self.parent_clf.predict_proba(q)[0]
             for c, p in zip(self.parent_classes, pp):
-                for aid in [c] + children.get(c, []):
+                for aid in [a for a in self.TECH_IDS if a == c or a.startswith(c + ".")]:
                     if aid in self._idx:
                         sup[self._idx[aid]] += p
             if self.sub_clf is not None:
