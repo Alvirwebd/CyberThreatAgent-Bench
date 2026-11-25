@@ -1,27 +1,28 @@
 \begin{table}[t]
 \centering
-\caption{CyberThreatAgent-Bench --- Key Metrics Across Pipeline Stages (mean $\pm$ CI$_{95}$, $n=5$ seeds)}
+\caption{CyberThreatAgent-Bench --- Key Metrics Across Pipeline Stages (mean $\pm$ CI$_{95}$, $n=5$ seeds, $N=2{,}530$)}
 \label{tab:scorecard}
 \begin{tabular}{llr}
 \toprule
 Stage & Metric & Score \\ \midrule
-Stage 1 & Alert Schema Validation Rate & 0.961 $\pm$ 0.014 \\
+Stage 1 & Alert Schema Validation Rate & 0.954 $\pm$ 0.012 \\
 Stage 2 & IOC Micro-F1 (pooled) & 1.000 $\pm$ 0.000 \\
 Stage 2 & IOC Benign FP Rate & 0.000 $\pm$ 0.000 \\
-Stage 3 & ATT\&CK Hybrid Top-1 Exact & 0.255 $\pm$ 0.102 \\
-Stage 3 & ATT\&CK Hybrid MRR Exact & 0.306 $\pm$ 0.092 \\
-Stage 3 & ATT\&CK Hybrid Macro-F1 & 0.152 $\pm$ 0.056 \\
-Stage 3 & ATT\&CK Zero-Shot Top-1 Exact & 0.231 $\pm$ 0.094 \\
-Stage 3 & ATT\&CK Zero-Shot MRR Exact & 0.278 $\pm$ 0.084 \\
-Stage 4 & Actor@1 (40\% noise) & 0.486 $\pm$ 0.018 \\
-Stage 4 & Actor MRR (40\% noise) & 0.639 $\pm$ 0.021 \\
-Stage 4 & Lift over Random Floor & 0.479 $\pm$ 0.018 \\
-Stage 5 & Stage Micro-F1 & 0.404 $\pm$ 0.082 \\
+Stage 3 & ATT\&CK Hybrid Top-1 Exact & 0.389 $\pm$ 0.088 \\
+Stage 3 & ATT\&CK Hybrid MRR Exact & 0.451 $\pm$ 0.092 \\
+Stage 3 & ATT\&CK Hybrid Macro-F1 & 0.242 $\pm$ 0.080 \\
+Stage 3 & ATT\&CK Zero-Shot Top-1 Exact & 0.246 $\pm$ 0.058 \\
+Stage 3 & ATT\&CK Zero-Shot MRR Exact & 0.299 $\pm$ 0.056 \\
+Stage 4 & Actor@1 (40\% noise) & 0.474 $\pm$ 0.034 \\
+Stage 4 & Actor MRR (40\% noise) & 0.635 $\pm$ 0.022 \\
+Stage 4 & Lift over Random Floor & 0.468 $\pm$ 0.034 \\
+Stage 5 & Stage Micro-F1 & 0.524 $\pm$ 0.043 \\
 Stage 6 & CVE Detection F1 (probe) & 1.000 $\pm$ 0.000 \\
-Stage 7 & Graph Technique Recall & 0.425 $\pm$ 0.030 \\
+Stage 7 & Graph Technique Recall & 0.464 $\pm$ 0.044 \\
+Stage 7 & Graph Edge F1 & 0.170 $\pm$ 0.055 \\
 Stage 7 & Graph Host Accuracy & 1.000 $\pm$ 0.000 \\
-Stage 8 & Risk External Spearman & 0.058 $\pm$ 0.202 \\
-Stage 9 & Mitigation NDCG@3 & 0.410 $\pm$ 0.087 \\
+Stage 8 & Risk External Spearman & 0.115 $\pm$ 0.039 \\
+Stage 9 & Mitigation NDCG@3 & 0.529 $\pm$ 0.078 \\
 \bottomrule
 \end{tabular}
 \end{table}

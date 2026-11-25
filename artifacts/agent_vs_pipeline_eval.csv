@@ -1,385 +1,385 @@
 incident_id,is_malicious,regime,model,max_steps,tool_calls,technique_f1,mitigation_ndcg3,false_escalation,tool_precision,redundant_call_rate,hallucinated_ids,latency_ms,token_cost
-INC-000,1,Static 9-Stage Waterfall (Local CPU),local_cpu,9,17,0.4545,1.0,0,0.8235,0.1765,0.0,689.08,0
-INC-000,1,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,19,0.5455,1.0,0,0.8947,0.0,0.0,4119.98,562
-INC-000,1,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,19,0.5455,1.0,0,0.8947,0.0,0.0,1248.63,344
-INC-000,1,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,5,0.0,0.0,0,1.0,0.0,0.0,5661.97,1736
-INC-000,1,Plan-and-Execute Agent (qwen/qwen3.8-27b),qwen/qwen3.8-27b,6,4,0.5556,0.5307,0,1.0,0.0,0.0,2800.56,2887
-INC-000,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.4545,0.0,0,1.0,0.0,0.0,23522.71,9485
-INC-000,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,8,0.5556,1.0,0,1.0,0.0,0.0,42136.57,13689
-INC-000,1,"Autonomous ReAct Agent (qwen/qwen3.8-27b, T_max=6)",qwen/qwen3.8-27b,6,6,0.4545,1.0,0,1.0,0.0,0.0,4618.12,7812
-INC-001,1,Static 9-Stage Waterfall (Local CPU),local_cpu,9,10,0.5455,1.0,0,0.9,0.1,0.0,347.13,0
-INC-001,1,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,20,0.6667,1.0,0,0.8,0.0,0.0,7582.3,1037
-INC-001,1,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,10,0.5455,1.0,0,1.0,0.0,0.0,340.65,0
-INC-001,1,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,6,0.381,1.0,0,1.0,0.0,0.0,18768.17,3239
-INC-001,1,Plan-and-Execute Agent (qwen/qwen3.8-27b),qwen/qwen3.8-27b,6,5,0.5455,0.0,0,1.0,0.0,0.5833,3572.97,3145
-INC-001,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.381,1.0,0,1.0,0.0,0.0,21505.88,9355
-INC-001,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,7,0.381,1.0,0,1.0,0.0,0.0,24198.21,11565
-INC-001,1,"Autonomous ReAct Agent (qwen/qwen3.8-27b, T_max=6)",qwen/qwen3.8-27b,6,6,0.381,1.0,0,1.0,0.0,0.0,4518.88,7910
-INC-002,1,Static 9-Stage Waterfall (Local CPU),local_cpu,9,23,0.2857,1.0,0,0.913,0.087,0.0,1222.29,0
-INC-002,1,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,11,0.5,1.0,0,1.0,0.0,0.0,820.21,0
-INC-002,1,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,28,0.4571,1.0,0,0.8214,0.0,0.0,2326.6,746
-INC-002,1,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,6,0.5,1.0,0,1.0,0.0,0.0,11394.98,2893
-INC-002,1,Plan-and-Execute Agent (qwen/qwen3.8-27b),qwen/qwen3.8-27b,6,5,0.2857,0.0,0,1.0,0.0,0.2727,5470.59,3415
-INC-002,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.5,0.7039,0,1.0,0.0,0.0,29915.52,9982
-INC-002,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,6,0.5,0.7039,0,1.0,0.0,0.0,29915.52,9982
-INC-002,1,"Autonomous ReAct Agent (qwen/qwen3.8-27b, T_max=6)",qwen/qwen3.8-27b,6,6,0.5,1.0,0,1.0,0.0,0.0,4653.97,7617
-INC-003,1,Static 9-Stage Waterfall (Local CPU),local_cpu,9,12,0.5333,1.0,0,1.0,0.0,0.0,549.19,0
-INC-003,1,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,29,0.5882,1.0,0,0.7931,0.0,0.0,154289.29,1655
-INC-003,1,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,14,0.6667,1.0,0,0.8571,0.0,0.0,981.84,288
-INC-003,1,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,0,0.4615,0.0,0,1.0,0.0,0.4167,5263.11,1375
-INC-003,1,Plan-and-Execute Agent (qwen/qwen3.8-27b),qwen/qwen3.8-27b,6,5,0.5333,0.0,0,1.0,0.0,0.4615,5683.79,3203
-INC-003,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.2941,1.0,0,1.0,0.0,0.0,17854.82,9305
-INC-003,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,7,0.24,1.0,0,1.0,0.0,0.0,19676.43,11540
-INC-003,1,"Autonomous ReAct Agent (qwen/qwen3.8-27b, T_max=6)",qwen/qwen3.8-27b,6,6,0.24,1.0,0,1.0,0.0,0.0,5743.47,7980
-INC-004,1,Static 9-Stage Waterfall (Local CPU),local_cpu,9,19,0.4444,1.0,0,0.8947,0.1053,0.0,893.75,0
-INC-004,1,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,19,0.381,1.0,0,0.7895,0.0526,0.0,211337.25,631
-INC-004,1,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,23,0.4444,1.0,0,0.8261,0.0,0.0,1842.53,633
-INC-004,1,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,0,0.0,0.0,0,1.0,0.0,0.0,5000.01,502
-INC-004,1,Plan-and-Execute Agent (qwen/qwen3.8-27b),qwen/qwen3.8-27b,6,5,0.4444,0.0,0,1.0,0.0,0.4,20874.99,3348
-INC-004,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.381,1.0,0,1.0,0.0,0.0,11812.51,9048
-INC-004,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,7,0.0,0.0,0,1.0,0.0,0.0,14312.51,9620
-INC-004,1,"Autonomous ReAct Agent (qwen/qwen3.8-27b, T_max=6)",qwen/qwen3.8-27b,6,6,0.381,1.0,0,1.0,0.0,0.0,5235.02,7892
-INC-005,1,Static 9-Stage Waterfall (Local CPU),local_cpu,9,13,0.5,1.0,0,0.9231,0.0769,0.0,550.15,0
-INC-005,1,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,6,0.8,1.0,0,1.0,0.0,0.0,586.58,0
-INC-005,1,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,15,0.625,1.0,0,0.8667,0.0,0.0,1197.89,341
-INC-005,1,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,6,0.0,0.0,0,1.0,0.0,0.0,5397.92,1382
-INC-005,1,Plan-and-Execute Agent (qwen/qwen3.8-27b),qwen/qwen3.8-27b,6,4,0.7143,0.0,0,1.0,0.0,0.5455,4035.41,3071
-INC-005,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.0,0.0,0,1.0,0.0,0.0,22153.14,6044
-INC-005,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,6,0.0,0.0,0,1.0,0.0,0.0,22153.14,6044
-INC-005,1,"Autonomous ReAct Agent (qwen/qwen3.8-27b, T_max=6)",qwen/qwen3.8-27b,6,6,0.8,0.0,0,1.0,0.0,0.0,4113.45,6145
-INC-006,1,Static 9-Stage Waterfall (Local CPU),local_cpu,9,16,0.4545,1.0,0,0.9375,0.0625,0.0,754.85,0
-INC-006,1,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,8,0.8571,1.0,0,1.0,0.0,0.0,228.42,0
-INC-006,1,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,21,0.7273,1.0,0,0.7619,0.0,0.0,2466.62,748
-INC-006,1,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,0,0.0,0.0,0,1.0,0.0,0.0,5000.02,424
-INC-006,1,Plan-and-Execute Agent (qwen/qwen3.8-27b),qwen/qwen3.8-27b,6,5,0.4545,0.0,0,1.0,0.0,0.4118,5069.31,3263
-INC-006,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.8571,0.0,0,1.0,0.0,0.0,25933.05,7362
-INC-006,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,8,0.0,0.0,0,1.0,0.0,0.0,29870.73,9422
-INC-006,1,"Autonomous ReAct Agent (qwen/qwen3.8-27b, T_max=6)",qwen/qwen3.8-27b,6,6,0.8571,1.0,0,1.0,0.0,0.0,3980.57,6341
-INC-007,1,Static 9-Stage Waterfall (Local CPU),local_cpu,9,16,0.381,1.0,0,0.875,0.125,0.0,682.57,0
-INC-007,1,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,18,0.6316,1.0,0,0.8333,0.0,0.0,5817.35,833
-INC-007,1,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,19,0.4762,1.0,0,0.8421,0.0,0.0,1802.78,507
-INC-007,1,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,6,0.0,0.0,0,1.0,0.0,0.0,6196.3,1814
-INC-007,1,Plan-and-Execute Agent (qwen/qwen3.8-27b),qwen/qwen3.8-27b,6,5,0.0,0.0,0,1.0,0.0,0.0,3226.03,1518
-INC-007,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.0,0.0,0,1.0,0.0,0.0,9868.81,7233
-INC-007,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,6,0.0,0.0,0,1.0,0.0,0.0,9868.81,7233
-INC-007,1,"Autonomous ReAct Agent (qwen/qwen3.8-27b, T_max=6)",qwen/qwen3.8-27b,6,6,0.5263,1.0,0,1.0,0.0,0.0,4727.46,7874
-INC-008,1,Static 9-Stage Waterfall (Local CPU),local_cpu,9,16,0.4545,1.0,0,0.9375,0.0625,0.0,756.17,0
-INC-008,1,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,18,0.4,1.0,0,0.7778,0.1111,0.0,410039.52,240
-INC-008,1,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,20,0.4545,1.0,0,0.75,0.05,0.0,39932.37,498
-INC-008,1,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,0,0.0,0.0,0,1.0,0.0,0.0,5000.02,502
-INC-008,1,Plan-and-Execute Agent (qwen/qwen3.8-27b),qwen/qwen3.8-27b,6,0,0.0,0.0,0,1.0,0.0,0.0,934.71,0
-INC-008,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,2,0.0,0.0,0,1.0,0.0,0.0,3972.3,1431
-INC-008,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,2,0.0,0.0,0,1.0,0.0,0.0,3972.3,1431
-INC-008,1,"Autonomous ReAct Agent (qwen/qwen3.8-27b, T_max=6)",qwen/qwen3.8-27b,6,6,0.4,1.0,0,1.0,0.0,0.0,4885.29,7861
-INC-009,1,Static 9-Stage Waterfall (Local CPU),local_cpu,9,21,0.4667,1.0,0,0.8571,0.1429,0.0,942.28,0
-INC-009,1,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,9,0.6667,1.0,0,1.0,0.0,0.0,693.36,0
-INC-009,1,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,26,0.4667,1.0,0,0.7308,0.0769,0.0,75201.89,410
-INC-009,1,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,0,0.0,0.0,0,1.0,0.0,0.0,5000.01,462
-INC-009,1,Plan-and-Execute Agent (qwen/qwen3.8-27b),qwen/qwen3.8-27b,6,0,0.0,0.0,0,1.0,0.0,0.0,755.21,0
-INC-009,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,3,0.0,0.0,0,1.0,0.0,0.0,14641.07,2458
-INC-009,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,3,0.0,0.0,0,1.0,0.0,0.0,14641.07,2458
-INC-009,1,"Autonomous ReAct Agent (qwen/qwen3.8-27b, T_max=6)",qwen/qwen3.8-27b,6,6,0.0,0.0,0,1.0,0.0,0.0,3238.46,6770
-INC-010,1,Static 9-Stage Waterfall (Local CPU),local_cpu,9,21,0.3333,1.0,0,0.8571,0.1429,0.0,960.37,0
-INC-010,1,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,15,0.625,1.0,0,0.8667,0.0,0.0,3122.15,594
-INC-010,1,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,25,0.4,1.0,0,0.76,0.08,0.0,4203.55,340
-INC-010,1,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,6,0.5,1.0,0,1.0,0.0,0.0,5167.96,2975
-INC-010,1,Plan-and-Execute Agent (qwen/qwen3.8-27b),qwen/qwen3.8-27b,6,0,0.0,0.0,0,1.0,0.0,0.0,246.54,0
-INC-010,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.5,0.0,0,1.0,0.0,0.0,13239.78,8449
-INC-010,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,8,0.4286,1.0,0,1.0,0.0,0.0,18246.3,12452
-INC-010,1,"Autonomous ReAct Agent (qwen/qwen3.8-27b, T_max=6)",qwen/qwen3.8-27b,6,6,0.5,1.0,0,1.0,0.0,0.0,6200.65,7538
-INC-011,1,Static 9-Stage Waterfall (Local CPU),local_cpu,9,20,0.4,1.0,0,0.95,0.05,0.0,1072.29,0
-INC-011,1,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,29,0.5882,1.0,0,0.7586,0.0,0.0,35804.92,1876
-INC-011,1,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,25,0.4,1.0,0,0.6,0.2,0.0,2657.0,0
-INC-011,1,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,6,0.3529,1.0,0,1.0,0.0,0.0,5802.87,3369
-INC-011,1,Plan-and-Execute Agent (qwen/qwen3.8-27b),qwen/qwen3.8-27b,6,0,0.0,0.0,0,1.0,0.0,0.0,241.41,0
-INC-011,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.3529,1.0,0,1.0,0.0,0.0,9058.44,10371
-INC-011,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,7,0.3333,1.0,0,1.0,0.0,0.0,15613.3,12800
-INC-011,1,"Autonomous ReAct Agent (qwen/qwen3.8-27b, T_max=6)",qwen/qwen3.8-27b,6,6,0.3333,1.0,0,1.0,0.0,0.0,4745.92,7916
-INC-012,1,Static 9-Stage Waterfall (Local CPU),local_cpu,9,21,0.4828,1.0,0,0.8571,0.1429,0.0,972.92,0
-INC-012,1,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,25,0.6429,1.0,0,0.76,0.0,0.0,58902.33,1646
-INC-012,1,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,26,0.4828,1.0,0,0.6154,0.1923,0.0,2261.31,0
-INC-012,1,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,6,0.3571,1.0,0,1.0,0.0,0.0,11864.21,3317
-INC-012,1,Plan-and-Execute Agent (qwen/qwen3.8-27b),qwen/qwen3.8-27b,6,0,0.0,0.0,0,1.0,0.0,0.0,243.33,0
-INC-012,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.3571,1.0,0,1.0,0.0,0.0,20747.02,8870
-INC-012,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,7,0.3571,1.0,0,1.0,0.0,0.0,29524.84,11132
-INC-012,1,"Autonomous ReAct Agent (qwen/qwen3.8-27b, T_max=6)",qwen/qwen3.8-27b,6,6,0.3571,1.0,0,1.0,0.0,0.0,5403.01,8306
-INC-013,1,Static 9-Stage Waterfall (Local CPU),local_cpu,9,8,0.8571,1.0,0,0.875,0.125,0.0,202.18,0
-INC-013,1,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,11,0.6667,1.0,0,0.9091,0.0,0.0,12516.22,278
-INC-013,1,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,8,0.8571,1.0,0,1.0,0.0,0.0,207.38,0
-INC-013,1,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,6,0.6667,1.0,0,1.0,0.0,0.0,5430.96,3114
-INC-013,1,Plan-and-Execute Agent (qwen/qwen3.8-27b),qwen/qwen3.8-27b,6,0,0.0,0.0,0,1.0,0.0,0.0,264.67,0
-INC-013,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.6667,1.0,0,1.0,0.0,0.0,13380.21,10184
-INC-013,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,7,0.6667,1.0,0,1.0,0.0,0.0,15489.34,12481
-INC-013,1,"Autonomous ReAct Agent (qwen/qwen3.8-27b, T_max=6)",qwen/qwen3.8-27b,6,6,0.6667,1.0,0,1.0,0.0,0.0,4410.61,7513
-INC-014,1,Static 9-Stage Waterfall (Local CPU),local_cpu,9,20,0.4,1.0,0,0.95,0.05,0.0,1025.48,0
-INC-014,1,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,27,0.5806,1.0,0,0.7778,0.0,0.0,31307.06,1607
-INC-014,1,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,27,0.4,1.0,0,0.4815,0.2593,0.0,2830.56,0
-INC-014,1,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,6,0.3125,1.0,0,1.0,0.0,0.0,6666.58,3363
-INC-014,1,Plan-and-Execute Agent (qwen/qwen3.8-27b),qwen/qwen3.8-27b,6,0,0.0,0.0,0,1.0,0.0,0.0,258.76,0
-INC-014,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.3125,0.0,0,1.0,0.0,0.0,10010.47,9805
-INC-014,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,8,0.2609,1.0,0,1.0,0.0,0.0,15319.24,14345
-INC-014,1,"Autonomous ReAct Agent (qwen/qwen3.8-27b, T_max=6)",qwen/qwen3.8-27b,6,6,0.2609,1.0,0,1.0,0.0,0.0,5335.9,7971
-INC-015,1,Static 9-Stage Waterfall (Local CPU),local_cpu,9,12,0.5714,1.0,0,0.9167,0.0833,0.0,599.8,0
-INC-015,1,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,22,0.56,1.0,0,0.8182,0.0,0.0,23883.12,1115
-INC-015,1,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,13,0.5714,1.0,0,0.8462,0.0769,0.0,737.93,0
-INC-015,1,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,5,0.4,1.0,0,1.0,0.0,0.0,5753.2,2811
-INC-015,1,Plan-and-Execute Agent (qwen/qwen3.8-27b),qwen/qwen3.8-27b,6,0,0.0,0.0,0,1.0,0.0,0.0,230.94,0
-INC-015,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.4,1.0,0,1.0,0.0,0.0,7983.8,9465
-INC-015,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,7,0.3,1.0,0,1.0,0.0,0.0,9865.56,11715
-INC-015,1,"Autonomous ReAct Agent (qwen/qwen3.8-27b, T_max=6)",qwen/qwen3.8-27b,6,6,0.4,1.0,0,1.0,0.0,0.0,5866.1,8198
-INC-016,1,Static 9-Stage Waterfall (Local CPU),local_cpu,9,19,0.3704,1.0,0,0.8947,0.1053,0.0,905.31,0
-INC-016,1,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,10,0.8,1.0,0,0.9,0.0,0.0,11652.99,262
-INC-016,1,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,23,0.3704,1.0,0,0.6522,0.1739,0.0,4056.11,0
-INC-016,1,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,4,0.6,1.0,0,1.0,0.0,0.0,15804.36,2444
-INC-016,1,Plan-and-Execute Agent (qwen/qwen3.8-27b),qwen/qwen3.8-27b,6,0,0.0,0.0,0,1.0,0.0,0.0,252.37,0
-INC-016,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.6,1.0,0,1.0,0.0,0.0,15831.2,8649
-INC-016,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,7,0.6,1.0,0,1.0,0.0,0.0,17443.37,10639
-INC-016,1,"Autonomous ReAct Agent (qwen/qwen3.8-27b, T_max=6)",qwen/qwen3.8-27b,6,6,0.6,1.0,0,1.0,0.0,0.0,8356.01,6930
-INC-017,1,Static 9-Stage Waterfall (Local CPU),local_cpu,9,20,0.3704,1.0,0,0.8,0.2,0.0,821.94,0
-INC-017,1,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,6,0.8,1.0,0,1.0,0.0,0.0,352.11,0
-INC-017,1,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,23,0.3704,1.0,0,0.7391,0.1304,0.0,1585.83,0
-INC-017,1,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,6,0.8,1.0,0,1.0,0.0,0.0,4312.91,2262
-INC-017,1,Plan-and-Execute Agent (qwen/qwen3.8-27b),qwen/qwen3.8-27b,6,0,0.0,0.0,0,1.0,0.0,0.0,261.01,0
-INC-017,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.8,0.0,0,1.0,0.0,0.0,12648.47,7068
-INC-017,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,8,0.8,1.0,0,1.0,0.0,0.0,15587.38,10394
-INC-017,1,"Autonomous ReAct Agent (qwen/qwen3.8-27b, T_max=6)",qwen/qwen3.8-27b,6,6,0.8,0.0,0,1.0,0.0,0.0,4917.38,6035
-INC-018,1,Static 9-Stage Waterfall (Local CPU),local_cpu,9,13,0.5,1.0,0,0.9231,0.0769,0.0,543.78,0
-INC-018,1,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,14,0.5333,1.0,0,0.8571,0.0,0.0,27762.78,493
-INC-018,1,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,15,0.5,1.0,0,0.7333,0.1333,0.0,1046.77,0
-INC-018,1,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,6,0.6667,1.0,0,1.0,0.0,0.0,11881.66,3246
-INC-018,1,Plan-and-Execute Agent (qwen/qwen3.8-27b),qwen/qwen3.8-27b,6,0,0.0,0.0,0,1.0,0.0,0.0,226.22,0
-INC-018,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.6667,0.0,0,1.0,0.0,0.0,20475.95,10854
-INC-018,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,8,0.8,1.0,0,1.0,0.0,0.0,23996.14,15639
-INC-018,1,"Autonomous ReAct Agent (qwen/qwen3.8-27b, T_max=6)",qwen/qwen3.8-27b,6,6,0.6667,1.0,0,1.0,0.0,0.0,6207.58,7680
-INC-019,1,Static 9-Stage Waterfall (Local CPU),local_cpu,9,13,0.4706,1.0,0,1.0,0.0,0.0,616.83,0
-INC-019,1,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,10,0.6,1.0,0,0.9,0.0,0.0,7746.83,357
-INC-019,1,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,16,0.4706,1.0,0,0.625,0.1875,0.0,1427.09,0
-INC-019,1,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,6,0.8,1.0,0,1.0,0.0,0.0,12541.35,2835
-INC-019,1,Plan-and-Execute Agent (qwen/qwen3.8-27b),qwen/qwen3.8-27b,6,0,0.0,0.0,0,1.0,0.0,0.0,354.72,0
-INC-019,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.8,0.0,0,1.0,0.0,0.0,15139.68,9167
-INC-019,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,8,0.8,1.0,0,1.0,0.0,0.0,19536.13,13440
-INC-019,1,"Autonomous ReAct Agent (qwen/qwen3.8-27b, T_max=6)",qwen/qwen3.8-27b,6,6,0.8,1.0,0,1.0,0.0,0.0,5418.69,6971
-INC-020,1,Static 9-Stage Waterfall (Local CPU),local_cpu,9,17,0.4348,1.0,0,0.8824,0.1176,0.0,752.05,0
-INC-020,1,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,8,0.8571,1.0,0,1.0,0.0,0.0,490.41,0
-INC-020,1,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,21,0.4348,1.0,0,0.619,0.1905,0.0,2043.47,0
-INC-020,1,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,5,0.8571,1.0,0,1.0,0.0,0.0,12938.72,2445
-INC-020,1,Plan-and-Execute Agent (qwen/qwen3.8-27b),qwen/qwen3.8-27b,6,0,0.0,0.0,0,1.0,0.0,0.0,242.55,0
-INC-020,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.8571,0.0,0,1.0,0.0,0.0,27267.1,7879
-INC-020,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,8,0.8571,1.0,0,1.0,0.0,0.0,37222.12,11449
-INC-020,1,"Autonomous ReAct Agent (qwen/qwen3.8-27b, T_max=6)",qwen/qwen3.8-27b,6,6,0.8571,1.0,0,1.0,0.0,0.0,4524.84,6255
-INC-021,1,Static 9-Stage Waterfall (Local CPU),local_cpu,9,24,0.2703,1.0,0,0.9167,0.0833,0.0,1256.99,0
-INC-021,1,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,18,0.4,1.0,0,0.8889,0.0,0.0,27462.26,547
-INC-021,1,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,31,0.2703,1.0,0,0.5484,0.2258,0.0,3544.67,0
-INC-021,1,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,6,0.4,1.0,0,1.0,0.0,0.0,19881.76,3166
-INC-021,1,Plan-and-Execute Agent (qwen/qwen3.8-27b),qwen/qwen3.8-27b,6,0,0.0,0.0,0,1.0,0.0,0.0,225.87,0
-INC-021,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.4,0.0,0,1.0,0.0,0.0,41178.67,12027
-INC-021,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,8,0.4706,1.0,0,1.0,0.0,0.0,49214.13,17383
-INC-021,1,"Autonomous ReAct Agent (qwen/qwen3.8-27b, T_max=6)",qwen/qwen3.8-27b,6,6,0.4,1.0,0,1.0,0.0,0.0,4765.55,7598
-INC-022,1,Static 9-Stage Waterfall (Local CPU),local_cpu,9,12,0.5714,1.0,0,0.9167,0.0833,0.0,474.02,0
-INC-022,1,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,23,0.5,1.0,0,0.8696,0.0,0.0,31612.85,822
-INC-022,1,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,13,0.5714,1.0,0,0.8462,0.0769,0.0,728.72,0
-INC-022,1,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,6,0.3571,1.0,0,1.0,0.0,0.0,20258.74,2868
-INC-022,1,Plan-and-Execute Agent (qwen/qwen3.8-27b),qwen/qwen3.8-27b,6,0,0.0,0.0,0,1.0,0.0,0.0,226.41,0
-INC-022,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.3571,1.0,0,1.0,0.0,0.0,47498.85,10200
-INC-022,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,7,0.3571,1.0,0,1.0,0.0,0.0,57952.38,12714
-INC-022,1,"Autonomous ReAct Agent (qwen/qwen3.8-27b, T_max=6)",qwen/qwen3.8-27b,6,6,0.3571,1.0,0,1.0,0.0,0.0,4507.2,8152
-INC-023,1,Static 9-Stage Waterfall (Local CPU),local_cpu,9,21,0.4,1.0,0,0.8571,0.1429,0.0,988.31,0
-INC-023,1,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,26,0.5161,1.0,0,0.8077,0.0,0.0,8241.72,1378
-INC-023,1,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,25,0.4,1.0,0,0.68,0.16,0.0,2030.05,0
-INC-023,1,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,6,0.3871,1.0,0,1.0,0.0,0.0,13642.26,3428
-INC-023,1,Plan-and-Execute Agent (qwen/qwen3.8-27b),qwen/qwen3.8-27b,6,0,0.0,0.0,0,1.0,0.0,0.0,311.8,0
-INC-023,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.3871,1.0,0,1.0,0.0,0.0,7408.0,9244
-INC-023,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,7,0.2727,1.0,0,1.0,0.0,0.0,9082.24,11370
-INC-023,1,"Autonomous ReAct Agent (qwen/qwen3.8-27b, T_max=6)",qwen/qwen3.8-27b,6,6,0.3871,1.0,0,1.0,0.0,0.0,5916.61,8411
-INC-024,1,Static 9-Stage Waterfall (Local CPU),local_cpu,9,15,0.4444,1.0,0,0.8,0.2,0.0,660.4,0
-INC-024,1,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,8,1.0,1.0,0,0.875,0.0,0.0,1484.47,250
-INC-024,1,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,17,0.4444,1.0,0,0.7647,0.1176,0.0,1269.11,0
-INC-024,1,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,6,0.6667,1.0,0,1.0,0.0,0.0,4863.14,2441
-INC-024,1,Plan-and-Execute Agent (qwen/qwen3.8-27b),qwen/qwen3.8-27b,6,0,0.0,0.0,0,1.0,0.0,0.0,348.66,0
-INC-024,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.6667,1.0,0,1.0,0.0,0.0,9546.14,6669
-INC-024,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,7,0.6667,1.0,0,1.0,0.0,0.0,10699.6,8230
-INC-024,1,"Autonomous ReAct Agent (qwen/qwen3.8-27b, T_max=6)",qwen/qwen3.8-27b,6,5,0.0,0.0,0,1.0,0.0,0.0,5012.64,4026
-INC-025,1,Static 9-Stage Waterfall (Local CPU),local_cpu,9,21,0.3333,1.0,0,0.8571,0.1429,0.0,984.25,0
-INC-025,1,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,22,0.6667,1.0,0,0.8182,0.0,0.0,5733.67,1113
-INC-025,1,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,25,0.3333,1.0,0,0.68,0.16,0.0,2015.72,0
-INC-025,1,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,6,0.4167,1.0,0,1.0,0.0,0.0,5328.67,3279
-INC-025,1,Plan-and-Execute Agent (qwen/qwen3.8-27b),qwen/qwen3.8-27b,6,0,0.0,0.0,0,1.0,0.0,0.0,350.81,0
-INC-025,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.4167,1.0,0,1.0,0.0,0.0,11369.6,9519
-INC-025,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,7,0.3158,1.0,0,1.0,0.0,0.0,12695.95,11686
-INC-025,1,"Autonomous ReAct Agent (qwen/qwen3.8-27b, T_max=6)",qwen/qwen3.8-27b,6,3,0.0,0.0,0,1.0,0.0,0.0,3827.14,2350
-INC-026,1,Static 9-Stage Waterfall (Local CPU),local_cpu,9,16,0.4,1.0,0,0.8125,0.1875,0.0,741.3,0
-INC-026,1,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,22,0.64,1.0,0,0.8182,0.0,0.0,21184.97,1130
-INC-026,1,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,18,0.4,1.0,0,0.8333,0.0556,0.0,3399.37,128
-INC-026,1,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,6,0.48,1.0,0,1.0,0.0,0.0,5912.88,3298
-INC-026,1,Plan-and-Execute Agent (qwen/qwen3.8-27b),qwen/qwen3.8-27b,6,0,0.0,0.0,0,1.0,0.0,0.0,238.88,0
-INC-026,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.48,1.0,0,1.0,0.0,0.0,10584.96,9302
-INC-026,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,7,0.5,1.0,0,1.0,0.0,0.0,13393.14,11539
-INC-026,1,"Autonomous ReAct Agent (qwen/qwen3.8-27b, T_max=6)",qwen/qwen3.8-27b,6,2,0.0,0.0,0,1.0,0.0,0.0,4062.92,1322
-INC-027,1,Static 9-Stage Waterfall (Local CPU),local_cpu,9,15,0.5263,1.0,0,0.8667,0.1333,0.0,627.97,0
-INC-027,1,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,27,0.5625,1.0,0,0.8148,0.0,0.0,23573.82,1341
-INC-027,1,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,18,0.5263,1.0,0,0.6667,0.1667,0.0,1359.24,0
-INC-027,1,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,6,0.3125,1.0,0,1.0,0.0,0.0,6174.06,3170
-INC-027,1,Plan-and-Execute Agent (qwen/qwen3.8-27b),qwen/qwen3.8-27b,6,0,0.0,0.0,0,1.0,0.0,0.0,233.52,0
-INC-027,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.2609,1.0,0,1.0,0.0,0.0,8215.56,9400
-INC-027,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,6,0.2609,1.0,0,1.0,0.0,0.0,8215.56,9400
-INC-027,1,"Autonomous ReAct Agent (qwen/qwen3.8-27b, T_max=6)",qwen/qwen3.8-27b,6,1,0.0,0.0,0,1.0,0.0,0.0,122.43,0
-INC-028,1,Static 9-Stage Waterfall (Local CPU),local_cpu,9,24,0.2703,1.0,0,0.9167,0.0833,0.0,1233.45,0
-INC-028,1,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,10,0.6,1.0,0,0.9,0.0,0.0,9003.35,250
-INC-028,1,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,31,0.2703,1.0,0,0.5484,0.2258,0.0,3100.95,0
-INC-028,1,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,6,0.8,1.0,0,1.0,0.0,0.0,4796.1,3009
-INC-028,1,Plan-and-Execute Agent (qwen/qwen3.8-27b),qwen/qwen3.8-27b,6,0,0.0,0.0,0,1.0,0.0,0.0,285.97,0
-INC-028,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.8,1.0,0,1.0,0.0,0.0,11155.52,10106
-INC-028,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,7,0.8,1.0,0,1.0,0.0,0.0,12511.98,12338
-INC-028,1,"Autonomous ReAct Agent (qwen/qwen3.8-27b, T_max=6)",qwen/qwen3.8-27b,6,1,0.0,0.0,0,1.0,0.0,0.0,111.81,0
-INC-029,1,Static 9-Stage Waterfall (Local CPU),local_cpu,9,20,0.3571,1.0,0,0.85,0.15,0.0,1015.86,0
-INC-029,1,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,27,0.5455,1.0,0,0.8148,0.0,0.0,28325.26,1375
-INC-029,1,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,23,0.3571,1.0,0,0.7391,0.1304,0.0,1841.41,0
-INC-029,1,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,6,0.303,1.0,0,1.0,0.0,0.0,6766.38,3539
-INC-029,1,Plan-and-Execute Agent (qwen/qwen3.8-27b),qwen/qwen3.8-27b,6,0,0.0,0.0,0,1.0,0.0,0.0,247.51,0
-INC-029,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.303,0.0,0,1.0,0.0,0.0,8912.32,10530
-INC-029,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,8,0.2609,1.0,0,1.0,0.0,0.0,11897.43,15422
+INC-000,1,Static 9-Stage Waterfall (Local CPU),local_cpu,9,17,0.4545,0.8886,0,0.8235,0.1765,0.0,1151.89,0
+INC-000,1,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,19,0.5455,0.8886,0,0.8947,0.0,0.0,4657.28,343
+INC-000,1,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,19,0.5455,0.8886,0,0.8947,0.0,0.0,1487.53,344
+INC-000,1,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,5,0.4545,0.7538,0,1.0,0.0,0.0,7272.09,2828
+INC-000,1,Plan-and-Execute Agent (qwen/qwen3.8-27b),qwen/qwen3.8-27b,6,4,0.5556,0.1114,0,1.0,0.0,0.0,2851.05,2887
+INC-000,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.4545,0.5053,0,1.0,0.0,0.0,20520.6,8530
+INC-000,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,7,0.3333,0.5053,0,1.0,0.0,0.0,22080.94,10616
+INC-000,1,"Autonomous ReAct Agent (qwen/qwen3.8-27b, T_max=6)",qwen/qwen3.8-27b,6,6,0.4545,0.8886,0,1.0,0.0,0.0,5295.15,7962
+INC-001,1,Static 9-Stage Waterfall (Local CPU),local_cpu,9,10,0.5455,0.8801,0,0.9,0.1,0.0,511.29,0
+INC-001,1,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,10,0.5455,0.8801,0,1.0,0.0,0.0,543.43,0
+INC-001,1,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,10,0.5455,0.8801,0,1.0,0.0,0.0,599.27,0
+INC-001,1,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,6,0.5455,0.905,0,1.0,0.0,0.0,6781.62,3102
+INC-001,1,Plan-and-Execute Agent (qwen/qwen3.8-27b),qwen/qwen3.8-27b,6,5,0.5455,0.0,0,1.0,0.0,0.5833,3830.12,3145
+INC-001,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.5455,0.8801,0,1.0,0.0,0.0,48636.5,8370
+INC-001,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,7,0.5455,0.8801,0,1.0,0.0,0.0,50322.73,10323
+INC-001,1,"Autonomous ReAct Agent (qwen/qwen3.8-27b, T_max=6)",qwen/qwen3.8-27b,6,6,0.5455,0.8801,0,1.0,0.0,0.0,4521.85,7541
+INC-002,1,Static 9-Stage Waterfall (Local CPU),local_cpu,9,23,0.2857,0.4946,0,0.913,0.087,0.0,2078.84,0
+INC-002,1,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,28,0.4571,0.801,0,0.8214,0.0,0.0,18639.38,700
+INC-002,1,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,28,0.4571,0.801,0,0.8214,0.0,0.0,2473.65,746
+INC-002,1,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,6,0.2857,0.4946,0,1.0,0.0,0.0,6138.02,3175
+INC-002,1,Plan-and-Execute Agent (qwen/qwen3.8-27b),qwen/qwen3.8-27b,6,5,0.2857,0.0,0,1.0,0.0,0.2727,5471.35,3415
+INC-002,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.2857,0.0,0,1.0,0.0,0.0,10049.73,10327
+INC-002,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,8,0.24,0.4946,0,1.0,0.0,0.0,13752.41,14925
+INC-002,1,"Autonomous ReAct Agent (qwen/qwen3.8-27b, T_max=6)",qwen/qwen3.8-27b,6,3,0.0,0.0,0,1.0,0.0,0.0,3172.41,1938
+INC-003,1,Static 9-Stage Waterfall (Local CPU),local_cpu,9,12,0.5333,0.6264,0,1.0,0.0,0.0,556.75,0
+INC-003,1,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,14,0.6667,0.7971,0,0.8571,0.0,0.0,12846.75,260
+INC-003,1,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,14,0.6667,0.7971,0,0.8571,0.0,0.0,1017.8,288
+INC-003,1,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,6,0.5333,0.6264,0,1.0,0.0,0.0,4660.6,3044
+INC-003,1,Plan-and-Execute Agent (qwen/qwen3.8-27b),qwen/qwen3.8-27b,6,5,0.5333,0.0,0,1.0,0.0,0.4615,5633.62,3203
+INC-003,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.5333,0.6264,0,1.0,0.0,0.0,14686.4,9909
+INC-003,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,7,0.5333,0.6264,0,1.0,0.0,0.0,16813.2,12271
+INC-003,1,"Autonomous ReAct Agent (qwen/qwen3.8-27b, T_max=6)",qwen/qwen3.8-27b,6,3,0.0,0.0,0,1.0,0.0,0.0,2523.92,1961
+INC-004,1,Static 9-Stage Waterfall (Local CPU),local_cpu,9,19,0.4444,0.7311,0,0.8947,0.1053,0.0,900.17,0
+INC-004,1,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,23,0.5185,0.7311,0,0.8261,0.0,0.0,88977.83,576
+INC-004,1,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,23,0.4444,0.7311,0,0.8261,0.0,0.0,1826.34,633
+INC-004,1,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,4,0.4444,0.7311,0,1.0,0.0,0.0,12222.72,2820
+INC-004,1,Plan-and-Execute Agent (qwen/qwen3.8-27b),qwen/qwen3.8-27b,6,5,0.4444,0.0,0,1.0,0.0,0.4,20848.85,3348
+INC-004,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.4444,0.7311,0,1.0,0.0,0.0,53123.09,9522
+INC-004,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,7,0.5714,0.7311,0,1.0,0.0,0.0,54836.35,11775
+INC-004,1,"Autonomous ReAct Agent (qwen/qwen3.8-27b, T_max=6)",qwen/qwen3.8-27b,6,2,0.0,0.0,0,1.0,0.0,0.0,680.1,973
+INC-005,1,Static 9-Stage Waterfall (Local CPU),local_cpu,9,13,0.5,0.8427,0,0.9231,0.0769,0.0,546.37,0
+INC-005,1,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,15,0.625,0.8427,0,0.8667,0.0,0.0,24702.08,304
+INC-005,1,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,15,0.625,0.8427,0,0.8667,0.0,0.0,1188.39,341
+INC-005,1,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,6,0.5,0.8131,0,1.0,0.0,0.0,5244.95,2920
+INC-005,1,Plan-and-Execute Agent (qwen/qwen3.8-27b),qwen/qwen3.8-27b,6,4,0.7143,0.0,0,1.0,0.0,0.5455,4034.82,3071
+INC-005,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.5,0.8427,0,1.0,0.0,0.0,10121.07,10057
+INC-005,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,7,0.5,0.8427,0,1.0,0.0,0.0,11696.64,12330
+INC-005,1,"Autonomous ReAct Agent (qwen/qwen3.8-27b, T_max=6)",qwen/qwen3.8-27b,6,1,0.0,0.0,0,1.0,0.0,0.0,143.71,0
+INC-006,1,Static 9-Stage Waterfall (Local CPU),local_cpu,9,16,0.4545,0.7654,0,0.9375,0.0625,0.0,883.98,0
+INC-006,1,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,21,0.7273,0.7654,0,0.7619,0.0,0.0,18422.34,731
+INC-006,1,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,21,0.7273,0.7654,0,0.7619,0.0,0.0,2449.35,748
+INC-006,1,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,6,0.4545,0.7654,0,1.0,0.0,0.0,5948.01,3082
+INC-006,1,Plan-and-Execute Agent (qwen/qwen3.8-27b),qwen/qwen3.8-27b,6,5,0.4545,0.0,0,1.0,0.0,0.4118,5109.1,3263
+INC-006,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.4545,0.0,0,1.0,0.0,0.0,10485.71,9699
+INC-006,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,8,0.4545,0.7654,0,1.0,0.0,0.0,21108.17,14194
+INC-006,1,"Autonomous ReAct Agent (qwen/qwen3.8-27b, T_max=6)",qwen/qwen3.8-27b,6,6,0.4444,0.7654,0,1.0,0.0,0.0,4457.72,7819
+INC-007,1,Static 9-Stage Waterfall (Local CPU),local_cpu,9,16,0.381,0.5433,0,0.875,0.125,0.0,749.62,0
+INC-007,1,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,19,0.5714,0.7654,0,0.8421,0.0,0.0,40558.9,473
+INC-007,1,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,19,0.4762,0.7654,0,0.8421,0.0,0.0,1848.44,507
+INC-007,1,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,6,0.381,0.5433,0,1.0,0.0,0.0,17467.25,2814
+INC-007,1,Plan-and-Execute Agent (qwen/qwen3.8-27b),qwen/qwen3.8-27b,6,5,0.381,0.0,0,1.0,0.0,0.4,4022.41,3201
+INC-007,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.381,0.0,0,1.0,0.0,0.0,10252.36,9124
+INC-007,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,8,0.5556,0.5433,0,1.0,0.0,0.0,20217.4,13328
+INC-007,1,"Autonomous ReAct Agent (qwen/qwen3.8-27b, T_max=6)",qwen/qwen3.8-27b,6,6,0.381,0.5433,0,1.0,0.0,0.0,5212.59,8089
+INC-008,1,Static 9-Stage Waterfall (Local CPU),local_cpu,9,16,0.4545,0.7654,0,0.9375,0.0625,0.0,789.27,0
+INC-008,1,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,20,0.6364,0.7654,0,0.8,0.0,0.0,9839.81,584
+INC-008,1,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,20,0.5455,0.7654,0,0.8,0.0,0.0,1981.25,627
+INC-008,1,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,6,0.4545,0.7654,0,1.0,0.0,0.0,8948.74,3096
+INC-008,1,Plan-and-Execute Agent (qwen/qwen3.8-27b),qwen/qwen3.8-27b,6,2,0.5882,0.074,0,1.0,0.0,0.0,2772.85,2533
+INC-008,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.4545,0.7654,0,1.0,0.0,0.0,38544.9,9161
+INC-008,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,7,0.4545,0.7654,0,1.0,0.0,0.0,49926.66,11426
+INC-008,1,"Autonomous ReAct Agent (qwen/qwen3.8-27b, T_max=6)",qwen/qwen3.8-27b,6,6,0.4444,0.7654,0,1.0,0.0,0.0,4536.21,7787
+INC-009,1,Static 9-Stage Waterfall (Local CPU),local_cpu,9,21,0.4667,0.8622,0,0.8571,0.1429,0.0,1121.65,0
+INC-009,1,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,26,0.6,0.8622,0,0.8077,0.0,0.0,16804.1,706
+INC-009,1,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,26,0.4,0.8622,0,0.8077,0.0,0.0,2352.75,748
+INC-009,1,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,5,0.4667,0.8045,0,1.0,0.0,0.0,6170.17,2983
+INC-009,1,Plan-and-Execute Agent (qwen/qwen3.8-27b),qwen/qwen3.8-27b,6,0,0.5217,0.1378,0,1.0,0.0,0.0,2247.7,838
+INC-009,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.4667,0.8622,0,1.0,0.0,0.0,9434.57,8522
+INC-009,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,7,0.2727,0.8622,0,1.0,0.0,0.0,11530.4,10614
+INC-009,1,"Autonomous ReAct Agent (qwen/qwen3.8-27b, T_max=6)",qwen/qwen3.8-27b,6,6,0.4667,0.8622,0,1.0,0.0,0.0,5450.66,8217
+INC-010,1,Static 9-Stage Waterfall (Local CPU),local_cpu,9,21,0.3333,0.8622,0,0.8571,0.1429,0.0,1106.26,0
+INC-010,1,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,25,0.5333,0.8622,0,0.84,0.0,0.0,6379.28,621
+INC-010,1,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,25,0.4667,0.8622,0,0.84,0.0,0.0,2139.65,675
+INC-010,1,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,4,0.3333,0.8045,0,1.0,0.0,0.0,5396.9,2869
+INC-010,1,Plan-and-Execute Agent (qwen/qwen3.8-27b),qwen/qwen3.8-27b,6,2,0.4545,0.0987,0,1.0,0.0,0.0,2622.92,2552
+INC-010,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.3333,0.8622,0,1.0,0.0,0.0,20821.29,10860
+INC-010,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,7,0.2727,0.8622,0,1.0,0.0,0.0,23020.13,13354
+INC-010,1,"Autonomous ReAct Agent (qwen/qwen3.8-27b, T_max=6)",qwen/qwen3.8-27b,6,6,0.3333,0.8622,0,1.0,0.0,0.0,4588.56,8336
+INC-011,1,Static 9-Stage Waterfall (Local CPU),local_cpu,9,20,0.4,0.7311,0,0.95,0.05,0.0,1186.69,0
+INC-011,1,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,25,0.6,0.7311,0,0.8,0.0,0.0,33247.97,713
+INC-011,1,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,25,0.4667,0.7311,0,0.8,0.0,0.0,3934.92,737
+INC-011,1,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,5,0.4,0.7311,0,1.0,0.0,0.0,5530.34,2999
+INC-011,1,Plan-and-Execute Agent (qwen/qwen3.8-27b),qwen/qwen3.8-27b,6,2,0.4762,0.3842,0,1.0,0.0,0.1,2468.18,2505
+INC-011,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.4,0.0,0,1.0,0.0,0.0,77127.13,9725
+INC-011,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,8,0.3636,0.7311,0,1.0,0.0,0.0,89283.97,14236
+INC-011,1,"Autonomous ReAct Agent (qwen/qwen3.8-27b, T_max=6)",qwen/qwen3.8-27b,6,6,0.4,0.7311,0,1.0,0.0,0.0,5885.65,8202
+INC-012,1,Static 9-Stage Waterfall (Local CPU),local_cpu,9,21,0.4828,0.8622,0,0.8571,0.1429,0.0,952.74,0
+INC-012,1,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,26,0.6,0.8622,0,0.8077,0.0,0.0,6820.65,809
+INC-012,1,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,26,0.5333,0.8622,0,0.8077,0.0,0.0588,8454.93,795
+INC-012,1,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,5,0.4828,0.8045,0,1.0,0.0,0.0,5542.92,2766
+INC-012,1,Plan-and-Execute Agent (qwen/qwen3.8-27b),qwen/qwen3.8-27b,6,0,0.5217,0.6192,0,1.0,0.0,0.0,2158.53,849
+INC-012,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.4828,0.4218,0,1.0,0.0,0.0,10083.73,10468
+INC-012,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,7,0.5217,0.4218,0,1.0,0.0,0.0,12206.16,12879
+INC-012,1,"Autonomous ReAct Agent (qwen/qwen3.8-27b, T_max=6)",qwen/qwen3.8-27b,6,6,0.4828,0.8622,0,1.0,0.0,0.0,5299.69,8346
+INC-013,1,Static 9-Stage Waterfall (Local CPU),local_cpu,9,8,0.8571,0.7346,0,0.875,0.125,0.0,253.65,0
+INC-013,1,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,8,0.8571,0.7346,0,1.0,0.0,0.0,265.11,0
+INC-013,1,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,8,0.8571,0.7346,0,1.0,0.0,0.0,204.66,0
+INC-013,1,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,6,0.8571,0.852,0,1.0,0.0,0.0,5541.49,2400
+INC-013,1,Plan-and-Execute Agent (qwen/qwen3.8-27b),qwen/qwen3.8-27b,6,1,0.8889,0.2961,0,1.0,0.0,0.0,2279.8,2095
+INC-013,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.8571,0.0,0,1.0,0.0,0.0,9158.05,8516
+INC-013,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,8,0.8571,0.7346,0,1.0,0.0,0.0,13296.56,12479
+INC-013,1,"Autonomous ReAct Agent (qwen/qwen3.8-27b, T_max=6)",qwen/qwen3.8-27b,6,6,0.4,0.0,0,1.0,0.0,0.0,3403.7,6448
+INC-014,1,Static 9-Stage Waterfall (Local CPU),local_cpu,9,20,0.4,0.7311,0,0.95,0.05,0.0,1017.91,0
+INC-014,1,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,27,0.7333,0.7311,0,0.7407,0.0,0.0,83523.97,1070
+INC-014,1,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,27,0.6,0.7311,0,0.7407,0.0,0.0,46505.61,1075
+INC-014,1,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,6,0.4,0.7311,0,1.0,0.0,0.0,6439.86,3202
+INC-014,1,Plan-and-Execute Agent (qwen/qwen3.8-27b),qwen/qwen3.8-27b,6,2,0.2222,0.0,0,1.0,0.0,0.75,2367.3,2155
+INC-014,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.4,0.7311,0,1.0,0.0,0.0,9625.44,9150
+INC-014,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,7,0.3636,0.7311,0,1.0,0.0,0.0,11567.06,11340
+INC-014,1,"Autonomous ReAct Agent (qwen/qwen3.8-27b, T_max=6)",qwen/qwen3.8-27b,6,6,0.3,0.0,0,1.0,0.0,0.0,5944.22,10209
+INC-015,1,Static 9-Stage Waterfall (Local CPU),local_cpu,9,12,0.5714,0.8293,0,0.9167,0.0833,0.0,482.49,0
+INC-015,1,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,13,0.5714,0.8293,0,0.9231,0.0,0.0,7448.91,117
+INC-015,1,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,13,0.5714,0.8293,0,0.9231,0.0,0.0,6927.09,127
+INC-015,1,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,6,0.5714,0.6264,0,1.0,0.0,0.0,5132.5,2811
+INC-015,1,Plan-and-Execute Agent (qwen/qwen3.8-27b),qwen/qwen3.8-27b,6,2,0.7692,0.6795,0,1.0,0.0,0.0,2401.0,2539
+INC-015,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.5714,0.0,0,1.0,0.0,0.0,18005.02,8098
+INC-015,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,8,0.7143,0.7971,0,1.0,0.0,0.0,21435.46,12134
+INC-015,1,"Autonomous ReAct Agent (qwen/qwen3.8-27b, T_max=6)",qwen/qwen3.8-27b,6,6,0.5714,0.8293,0,1.0,0.0,0.0,5323.65,7770
+INC-016,1,Static 9-Stage Waterfall (Local CPU),local_cpu,9,19,0.3704,0.5048,0,0.8947,0.1053,0.0,887.11,0
+INC-016,1,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,23,0.5926,0.7311,0,0.8261,0.0,0.0,25745.68,582
+INC-016,1,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,23,0.4444,0.7311,0,0.8261,0.0,0.0,27019.3,636
+INC-016,1,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,6,0.3704,0.7311,0,1.0,0.0,0.0,5714.84,3156
+INC-016,1,Plan-and-Execute Agent (qwen/qwen3.8-27b),qwen/qwen3.8-27b,6,2,0.5,0.0566,0,1.0,0.0,0.0,2450.62,2521
+INC-016,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.3704,0.5048,0,1.0,0.0,0.0,13472.02,9855
+INC-016,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,7,0.3704,0.5048,0,1.0,0.0,0.0,15914.65,12298
+INC-016,1,"Autonomous ReAct Agent (qwen/qwen3.8-27b, T_max=6)",qwen/qwen3.8-27b,6,6,0.3158,0.0,0,1.0,0.0,0.0,4477.37,10063
+INC-017,1,Static 9-Stage Waterfall (Local CPU),local_cpu,9,20,0.3704,0.8986,0,0.8,0.2,0.0,821.82,0
+INC-017,1,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,23,0.5185,0.8986,0,0.8696,0.0,0.0,33169.68,460
+INC-017,1,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,23,0.4444,0.8986,0,0.8696,0.0,0.0,20714.29,474
+INC-017,1,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,6,0.3704,0.7311,0,1.0,0.0,0.0,5461.63,3011
+INC-017,1,Plan-and-Execute Agent (qwen/qwen3.8-27b),qwen/qwen3.8-27b,6,2,0.4762,0.0,0,1.0,0.0,0.5455,2574.37,2712
+INC-017,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.3704,0.0,0,1.0,0.0,0.0,8666.7,9657
+INC-017,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,8,0.2857,0.8986,0,1.0,0.0,0.0,12060.98,14113
+INC-017,1,"Autonomous ReAct Agent (qwen/qwen3.8-27b, T_max=6)",qwen/qwen3.8-27b,6,6,0.3704,0.8986,0,1.0,0.0,0.0,4566.37,8310
+INC-018,1,Static 9-Stage Waterfall (Local CPU),local_cpu,9,13,0.5,0.8427,0,0.9231,0.0769,0.0,548.62,0
+INC-018,1,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,15,0.625,0.8427,0,0.8667,0.0,0.0,13672.1,302
+INC-018,1,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,15,0.625,0.8427,0,0.8667,0.0,0.0,13523.3,341
+INC-018,1,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,6,0.5,0.5772,0,1.0,0.0,0.0,7550.13,2907
+INC-018,1,Plan-and-Execute Agent (qwen/qwen3.8-27b),qwen/qwen3.8-27b,6,2,0.7143,0.0,0,1.0,0.0,0.5833,2600.59,2703
+INC-018,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.5,0.8427,0,1.0,0.0,0.0,15412.39,9747
+INC-018,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,7,0.4286,0.8427,0,1.0,0.0,0.0,16792.0,11967
+INC-018,1,"Autonomous ReAct Agent (qwen/qwen3.8-27b, T_max=6)",qwen/qwen3.8-27b,6,6,0.5,0.8427,0,1.0,0.0,0.0,4703.31,7773
+INC-019,1,Static 9-Stage Waterfall (Local CPU),local_cpu,9,13,0.4706,0.5772,0,1.0,0.0,0.0,712.77,0
+INC-019,1,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,16,0.7059,0.8131,0,0.8125,0.0,0.0,31589.91,454
+INC-019,1,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,16,0.7059,0.8131,0,0.8125,0.0,0.0,20550.56,481
+INC-019,1,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,6,0.4706,0.8131,0,1.0,0.0,0.0,4292.48,2973
+INC-019,1,Plan-and-Execute Agent (qwen/qwen3.8-27b),qwen/qwen3.8-27b,6,2,0.7143,0.0786,0,1.0,0.0,0.0,2493.18,2545
+INC-019,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.4706,0.5772,0,1.0,0.0,0.0,11707.63,9998
+INC-019,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,7,0.4706,0.5772,0,1.0,0.0,0.0,14095.54,12360
+INC-019,1,"Autonomous ReAct Agent (qwen/qwen3.8-27b, T_max=6)",qwen/qwen3.8-27b,6,6,0.4706,0.5772,0,1.0,0.0,0.0,4743.0,7541
+INC-020,1,Static 9-Stage Waterfall (Local CPU),local_cpu,9,17,0.4348,0.5053,0,0.8824,0.1176,0.0,757.03,0
+INC-020,1,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,21,0.6957,0.7538,0,0.8095,0.0,0.0,37234.52,579
+INC-020,1,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,21,0.6087,0.7538,0,0.8095,0.0,0.0,26565.62,620
+INC-020,1,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,6,0.4348,0.7538,0,1.0,0.0,0.0,6765.18,3087
+INC-020,1,Plan-and-Execute Agent (qwen/qwen3.8-27b),qwen/qwen3.8-27b,6,2,0.5556,0.6553,0,1.0,0.0,0.0,2382.99,2529
+INC-020,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.4348,0.0,0,1.0,0.0,0.0,9000.98,10341
+INC-020,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,8,0.3158,0.5053,0,1.0,0.0,0.0,12123.55,14873
+INC-020,1,"Autonomous ReAct Agent (qwen/qwen3.8-27b, T_max=6)",qwen/qwen3.8-27b,6,6,0.4348,0.5053,0,1.0,0.0,0.0,4729.93,7873
+INC-021,1,Static 9-Stage Waterfall (Local CPU),local_cpu,9,24,0.2703,0.448,0,0.9167,0.0833,0.0,1375.06,0
+INC-021,1,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,31,0.5946,0.7651,0,0.7742,0.0,0.0,10150.92,1005
+INC-021,1,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,31,0.5405,0.7651,0,0.7742,0.0,0.0,2942.56,1052
+INC-021,1,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,6,0.2703,0.7651,0,1.0,0.0,0.0,5815.38,3168
+INC-021,1,Plan-and-Execute Agent (qwen/qwen3.8-27b),qwen/qwen3.8-27b,6,2,0.4,0.1503,0,1.0,0.0,0.0,2628.78,2568
+INC-021,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.2703,0.448,0,1.0,0.0,0.0,10875.06,9267
+INC-021,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,7,0.3846,0.448,0,1.0,0.0,0.0,18444.24,11452
+INC-021,1,"Autonomous ReAct Agent (qwen/qwen3.8-27b, T_max=6)",qwen/qwen3.8-27b,6,6,0.2308,0.448,0,1.0,0.0,0.0,5133.26,8149
+INC-022,1,Static 9-Stage Waterfall (Local CPU),local_cpu,9,12,0.5714,0.8293,0,0.9167,0.0833,0.0,522.87,0
+INC-022,1,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,13,0.5714,0.8293,0,0.9231,0.0,0.0,6665.21,127
+INC-022,1,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,13,0.5714,0.8293,0,0.9231,0.0,0.0,6900.44,126
+INC-022,1,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,6,0.5714,0.7971,0,1.0,0.0,0.0,5459.62,3016
+INC-022,1,Plan-and-Execute Agent (qwen/qwen3.8-27b),qwen/qwen3.8-27b,6,2,0.7692,0.6795,0,1.0,0.0,0.0,2784.84,2538
+INC-022,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.5714,0.6264,0,1.0,0.0,0.0,7677.3,8290
+INC-022,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,7,0.5714,0.6264,0,1.0,0.0,0.0,9665.2,10263
+INC-022,1,"Autonomous ReAct Agent (qwen/qwen3.8-27b, T_max=6)",qwen/qwen3.8-27b,6,6,0.5714,0.8293,0,1.0,0.0,0.0,4955.09,7692
+INC-023,1,Static 9-Stage Waterfall (Local CPU),local_cpu,9,21,0.4,0.8622,0,0.8571,0.1429,0.0,1033.44,0
+INC-023,1,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,25,0.5333,0.8622,0,0.84,0.0,0.0,25498.13,602
+INC-023,1,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,25,0.4,0.8622,0,0.84,0.0,0.0,27566.74,660
+INC-023,1,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,5,0.4,0.8045,0,1.0,0.0,0.0,5674.58,3047
+INC-023,1,Plan-and-Execute Agent (qwen/qwen3.8-27b),qwen/qwen3.8-27b,6,2,0.4545,0.0,0,1.0,0.0,0.5455,2839.47,2747
+INC-023,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.4,0.5289,0,1.0,0.0,0.0,9893.58,9263
+INC-023,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,6,0.4,0.5289,0,1.0,0.0,0.0,9893.58,9263
+INC-023,1,"Autonomous ReAct Agent (qwen/qwen3.8-27b, T_max=6)",qwen/qwen3.8-27b,6,6,0.4,0.8622,0,1.0,0.0,0.0,5847.57,8474
+INC-024,1,Static 9-Stage Waterfall (Local CPU),local_cpu,9,15,0.4444,0.9214,0,0.8,0.2,0.0,591.56,0
+INC-024,1,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,17,0.5556,0.9214,0,0.8824,0.0,0.0,13415.65,317
+INC-024,1,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,17,0.5556,0.9214,0,0.8824,0.0,0.0,13882.15,344
+INC-024,1,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,5,0.4444,0.7507,0,1.0,0.0,0.0,5427.1,2797
+INC-024,1,Plan-and-Execute Agent (qwen/qwen3.8-27b),qwen/qwen3.8-27b,6,3,0.625,0.6884,0,1.0,0.0,0.0,2820.54,2511
+INC-024,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.4444,0.9214,0,1.0,0.0,0.0,10272.24,9571
+INC-024,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,7,0.4444,0.9214,0,1.0,0.0,0.0,12474.13,11812
+INC-024,1,"Autonomous ReAct Agent (qwen/qwen3.8-27b, T_max=6)",qwen/qwen3.8-27b,6,6,0.0,0.0,0,1.0,0.0,0.0,4729.06,5883
+INC-025,1,Static 9-Stage Waterfall (Local CPU),local_cpu,9,21,0.3333,0.8622,0,0.8571,0.1429,0.0,1017.26,0
+INC-025,1,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,25,0.4667,0.8622,0,0.84,0.0,0.0,25675.69,626
+INC-025,1,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,25,0.4667,0.8622,0,0.84,0.0,0.0,26924.46,686
+INC-025,1,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,6,0.3333,0.8045,0,1.0,0.0,0.0,7549.28,3151
+INC-025,1,Plan-and-Execute Agent (qwen/qwen3.8-27b),qwen/qwen3.8-27b,6,2,0.4545,0.1378,0,1.0,0.0,0.0,2399.79,2507
+INC-025,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.3333,0.8622,0,1.0,0.0,0.0,11657.17,9646
+INC-025,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,7,0.3333,0.8622,0,1.0,0.0,0.0,14149.39,12095
+INC-025,1,"Autonomous ReAct Agent (qwen/qwen3.8-27b, T_max=6)",qwen/qwen3.8-27b,6,6,0.3333,0.8622,0,1.0,0.0,0.0,5078.86,8348
+INC-026,1,Static 9-Stage Waterfall (Local CPU),local_cpu,9,16,0.4,0.9413,0,0.8125,0.1875,0.0,675.44,0
+INC-026,1,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,18,0.5,0.9413,0,0.8889,0.0,0.0,13651.21,326
+INC-026,1,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,18,0.4,0.9413,0,0.8889,0.0,0.0,7729.3,339
+INC-026,1,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,6,0.4,0.5433,0,1.0,0.0,0.0,4816.33,2920
+INC-026,1,Plan-and-Execute Agent (qwen/qwen3.8-27b),qwen/qwen3.8-27b,6,2,0.5882,0.0,0,1.0,0.0,0.5455,2654.0,2677
+INC-026,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.4,0.9413,0,1.0,0.0,0.0,10326.93,9031
+INC-026,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,6,0.4,0.9413,0,1.0,0.0,0.0,10326.93,9031
+INC-026,1,"Autonomous ReAct Agent (qwen/qwen3.8-27b, T_max=6)",qwen/qwen3.8-27b,6,6,0.4,0.9413,0,1.0,0.0,0.0,4823.53,7797
+INC-027,1,Static 9-Stage Waterfall (Local CPU),local_cpu,9,15,0.5263,0.8131,0,0.8667,0.1333,0.0,636.18,0
+INC-027,1,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,18,0.6316,0.8131,0,0.8333,0.0,0.0,19607.84,479
+INC-027,1,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,18,0.5263,0.8131,0,0.8333,0.0,0.0,20060.99,486
+INC-027,1,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,6,0.5263,0.5772,0,1.0,0.0,0.0,6396.39,2822
+INC-027,1,Plan-and-Execute Agent (qwen/qwen3.8-27b),qwen/qwen3.8-27b,6,2,0.625,0.0,0,1.0,0.0,0.5833,3013.58,2769
+INC-027,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.5263,0.0,0,1.0,0.0,0.0,10224.85,7608
+INC-027,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,7,0.7059,0.0,0,1.0,0.0,0.4,11712.32,9494
+INC-027,1,"Autonomous ReAct Agent (qwen/qwen3.8-27b, T_max=6)",qwen/qwen3.8-27b,6,6,0.5263,0.8131,0,1.0,0.0,0.0,5404.71,7749
+INC-028,1,Static 9-Stage Waterfall (Local CPU),local_cpu,9,24,0.2703,0.448,0,0.9167,0.0833,0.0,1285.34,0
+INC-028,1,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,31,0.5405,0.7651,0,0.7742,0.0,0.0,71213.07,1007
+INC-028,1,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,31,0.5405,0.7651,0,0.7742,0.0,0.0,47359.42,1102
+INC-028,1,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,6,0.2703,0.7651,0,1.0,0.0,0.0,6405.69,3241
+INC-028,1,Plan-and-Execute Agent (qwen/qwen3.8-27b),qwen/qwen3.8-27b,6,2,0.4,0.3717,0,1.0,0.0,0.1,2267.2,2455
+INC-028,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.2703,0.0,0,1.0,0.0,0.0,10102.44,7684
+INC-028,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,9,0.2308,0.448,0,1.0,0.0,0.0,15403.19,13341
+INC-028,1,"Autonomous ReAct Agent (qwen/qwen3.8-27b, T_max=6)",qwen/qwen3.8-27b,6,6,0.2308,0.448,0,1.0,0.0,0.0,5265.3,7942
+INC-029,1,Static 9-Stage Waterfall (Local CPU),local_cpu,9,20,0.3571,0.8986,0,0.85,0.15,0.0,927.39,0
+INC-029,1,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,23,0.4444,0.8986,0,0.8696,0.0,0.0,4556.72,437
+INC-029,1,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,23,0.4286,0.8986,0,0.8696,0.0,0.0,2338.38,489
+INC-029,1,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,6,0.3571,0.7311,0,1.0,0.0,0.0,6736.17,3124
+INC-029,1,Plan-and-Execute Agent (qwen/qwen3.8-27b),qwen/qwen3.8-27b,6,3,0.4762,0.6531,0,1.0,0.0,0.0,3147.89,2693
+INC-029,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.3571,0.8986,0,1.0,0.0,0.0,15433.72,10340
+INC-029,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,7,0.3571,0.8986,0,1.0,0.0,0.0,17734.85,12874
 INC-029,1,"Autonomous ReAct Agent (qwen/qwen3.8-27b, T_max=6)",qwen/qwen3.8-27b,6,1,0.0,0.0,0,1.0,0.0,0.0,110.46,0
-INC-030,1,Static 9-Stage Waterfall (Local CPU),local_cpu,9,14,0.4706,1.0,0,0.8571,0.1429,0.0,633.49,0
-INC-030,1,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,20,0.6087,1.0,0,0.85,0.0,0.0,17546.78,861
-INC-030,1,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,16,0.4706,1.0,0,0.75,0.125,0.0,1056.77,0
-INC-030,1,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,5,0.4348,1.0,0,1.0,0.0,0.0,6470.24,2968
+INC-030,1,Static 9-Stage Waterfall (Local CPU),local_cpu,9,14,0.4706,0.8427,0,0.8571,0.1429,0.0,573.99,0
+INC-030,1,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,16,0.5882,0.8427,0,0.875,0.0,0.0,26880.13,324
+INC-030,1,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,16,0.4706,0.8427,0,0.875,0.0,0.0,7260.95,212
+INC-030,1,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,6,0.4706,0.5772,0,1.0,0.0,0.0,5871.49,3237
 INC-030,1,Plan-and-Execute Agent (qwen/qwen3.8-27b),qwen/qwen3.8-27b,6,0,0.0,0.0,0,1.0,0.0,0.0,223.27,0
-INC-030,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.4348,1.0,0,1.0,0.0,0.0,12867.54,8693
-INC-030,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,7,0.4348,1.0,0,1.0,0.0,0.0,14465.04,10858
+INC-030,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.4706,0.8131,0,1.0,0.0,0.0,18622.18,9617
+INC-030,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,6,0.4706,0.8131,0,1.0,0.0,0.0,18622.18,9617
 INC-030,1,"Autonomous ReAct Agent (qwen/qwen3.8-27b, T_max=6)",qwen/qwen3.8-27b,6,2,0.0,0.0,0,1.0,0.0,0.0,3663.39,1292
-INC-031,1,Static 9-Stage Waterfall (Local CPU),local_cpu,9,22,0.4242,1.0,0,0.9091,0.0909,0.0,1106.03,0
-INC-031,1,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,6,0.8,1.0,0,1.0,0.0,0.0,147.52,0
-INC-031,1,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,28,0.4242,1.0,0,0.5714,0.2143,0.0,3226.72,0
-INC-031,1,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,5,0.8,1.0,0,1.0,0.0,0.0,3511.97,2223
+INC-031,1,Static 9-Stage Waterfall (Local CPU),local_cpu,9,22,0.4242,0.8589,0,0.9091,0.0909,0.0,1132.94,0
+INC-031,1,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,28,0.5455,0.8589,0,0.7857,0.0,0.0,75653.51,887
+INC-031,1,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,28,0.4242,0.8589,0,0.7857,0.0,0.0526,33768.69,747
+INC-031,1,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,6,0.2609,0.5315,0,1.0,0.0,0.0,6012.4,3027
 INC-031,1,Plan-and-Execute Agent (qwen/qwen3.8-27b),qwen/qwen3.8-27b,6,0,0.0,0.0,0,1.0,0.0,0.0,239.23,0
-INC-031,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.8,0.0,0,1.0,0.0,0.0,11697.51,6867
-INC-031,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,8,0.8,1.0,0,1.0,0.0,0.0,14436.11,10064
+INC-031,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.4242,0.8589,0,1.0,0.0,0.0,10628.75,7847
+INC-031,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,7,0.2609,0.8589,0,1.0,0.0,0.0,16341.97,9737
 INC-031,1,"Autonomous ReAct Agent (qwen/qwen3.8-27b, T_max=6)",qwen/qwen3.8-27b,6,1,0.0,0.0,0,1.0,0.0,0.0,113.84,0
-INC-032,1,Static 9-Stage Waterfall (Local CPU),local_cpu,9,15,0.4444,1.0,0,0.8,0.2,0.0,638.55,0
-INC-032,1,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,11,0.5,1.0,0,1.0,0.0,0.0,440.82,0
-INC-032,1,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,17,0.4444,1.0,0,0.7647,0.1176,0.0,1112.0,0
-INC-032,1,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,5,0.5,1.0,0,1.0,0.0,0.0,5284.47,2916
+INC-032,1,Static 9-Stage Waterfall (Local CPU),local_cpu,9,15,0.4444,0.9214,0,0.8,0.2,0.0,577.34,0
+INC-032,1,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,17,0.5556,0.9214,0,0.8824,0.0,0.0,14323.27,314
+INC-032,1,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,17,0.4444,0.9214,0,0.8824,0.0,0.0,13679.31,337
+INC-032,1,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,6,0.4444,0.8131,0,1.0,0.0,0.0,5963.72,3004
 INC-032,1,Plan-and-Execute Agent (qwen/qwen3.8-27b),qwen/qwen3.8-27b,6,0,0.0,0.0,0,1.0,0.0,0.0,338.69,0
-INC-032,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.5,0.0,0,1.0,0.0,0.0,12715.75,9793
-INC-032,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,7,0.5,0.0,0,1.0,0.0,0.5,14369.65,12008
+INC-032,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.4444,0.0,0,1.0,0.0,0.0,14433.22,9510
+INC-032,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,8,0.375,0.9214,0,1.0,0.0,0.0,25868.07,13800
 INC-032,1,"Autonomous ReAct Agent (qwen/qwen3.8-27b, T_max=6)",qwen/qwen3.8-27b,6,1,0.0,0.0,0,1.0,0.0,0.0,113.81,0
-INC-033,1,Static 9-Stage Waterfall (Local CPU),local_cpu,9,18,0.4167,1.0,0,0.8333,0.1667,0.0,777.94,0
-INC-033,1,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,28,0.4706,1.0,0,0.7857,0.0,0.0,33742.26,1609
-INC-033,1,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,21,0.4167,1.0,0,0.7143,0.1429,0.0,1598.79,0
-INC-033,1,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,5,0.2941,1.0,0,1.0,0.0,0.0,7270.85,3010
+INC-033,1,Static 9-Stage Waterfall (Local CPU),local_cpu,9,18,0.4167,0.8986,0,0.8333,0.1667,0.0,956.91,0
+INC-033,1,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,21,0.5833,0.8986,0,0.8571,0.0,0.0,72888.59,459
+INC-033,1,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,21,0.4167,0.8986,0,0.8571,0.0,0.0714,20561.64,469
+INC-033,1,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,6,0.4167,0.7311,0,1.0,0.0,0.0,5478.45,3123
 INC-033,1,Plan-and-Execute Agent (qwen/qwen3.8-27b),qwen/qwen3.8-27b,6,0,0.0,0.0,0,1.0,0.0,0.0,226.83,0
-INC-033,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.2941,1.0,0,1.0,0.0,0.0,11703.75,9342
-INC-033,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,7,0.48,1.0,0,1.0,0.0,0.0,13184.12,11610
+INC-033,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.4167,0.8986,0,1.0,0.0,0.0,10014.7,9768
+INC-033,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,7,0.3158,0.8986,0,1.0,0.0,0.0,11633.81,11959
 INC-033,1,"Autonomous ReAct Agent (qwen/qwen3.8-27b, T_max=6)",qwen/qwen3.8-27b,6,1,0.0,0.0,0,1.0,0.0,0.0,117.71,0
-INC-034,1,Static 9-Stage Waterfall (Local CPU),local_cpu,9,24,0.2778,1.0,0,0.875,0.125,0.0,1615.17,0
-INC-034,1,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,18,0.5,1.0,0,0.8889,0.0,0.0,11002.24,583
-INC-034,1,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,30,0.2778,1.0,0,0.6,0.2,0.0,2665.57,0
-INC-034,1,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,6,0.4,1.0,0,1.0,0.0,0.0,6324.85,3333
+INC-034,1,Static 9-Stage Waterfall (Local CPU),local_cpu,9,24,0.2778,0.724,0,0.875,0.125,0.0,1216.28,0
+INC-034,1,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,30,0.5,0.724,0,0.8,0.0,0.0,54695.54,849
+INC-034,1,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,30,0.4444,0.724,0,0.8,0.0,0.0,33596.6,740
+INC-034,1,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,6,0.2778,0.7651,0,1.0,0.0,0.0,8594.63,3181
 INC-034,1,Plan-and-Execute Agent (qwen/qwen3.8-27b),qwen/qwen3.8-27b,6,0,0.0,0.0,0,1.0,0.0,0.0,231.51,0
-INC-034,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.4,1.0,0,1.0,0.0,0.0,7070.77,9950
-INC-034,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,7,0.4,1.0,0,1.0,0.0,0.0,8684.03,12282
+INC-034,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.2778,0.724,0,1.0,0.0,0.0,11463.3,9911
+INC-034,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,7,0.2778,0.724,0,1.0,0.0,0.0,13970.49,12422
 INC-034,1,"Autonomous ReAct Agent (qwen/qwen3.8-27b, T_max=6)",qwen/qwen3.8-27b,6,1,0.0,0.0,0,1.0,0.0,0.0,121.36,0
-INC-035,1,Static 9-Stage Waterfall (Local CPU),local_cpu,9,11,0.5,1.0,0,0.9091,0.0909,0.0,480.93,0
-INC-035,1,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,22,0.56,1.0,0,0.8182,0.0,0.0,22969.16,1060
-INC-035,1,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,11,0.5,1.0,0,1.0,0.0,0.0,432.63,0
-INC-035,1,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,6,0.4,1.0,0,1.0,0.0,0.0,5605.89,3296
+INC-035,1,Static 9-Stage Waterfall (Local CPU),local_cpu,9,11,0.5,0.7859,0,0.9091,0.0909,0.0,437.48,0
+INC-035,1,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,11,0.5,0.7859,0,1.0,0.0,0.0,419.81,0
+INC-035,1,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,11,0.5,0.7859,0,1.0,0.0,0.0,423.42,0
+INC-035,1,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,5,0.5,0.8081,0,1.0,0.0,0.0,4971.06,2742
 INC-035,1,Plan-and-Execute Agent (qwen/qwen3.8-27b),qwen/qwen3.8-27b,6,0,0.0,0.0,0,1.0,0.0,0.0,235.45,0
-INC-035,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.4,0.0,0,1.0,0.0,0.0,7115.88,9441
-INC-035,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,8,0.3158,1.0,0,1.0,0.0,0.0,10044.39,13752
+INC-035,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.5,0.7859,0,1.0,0.0,0.0,9600.77,10911
+INC-035,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,7,0.5,0.7859,0,1.0,0.0,0.0,11616.76,13305
 INC-035,1,"Autonomous ReAct Agent (qwen/qwen3.8-27b, T_max=6)",qwen/qwen3.8-27b,6,1,0.0,0.0,0,1.0,0.0,0.0,111.57,0
-INC-036,1,Static 9-Stage Waterfall (Local CPU),local_cpu,9,6,0.8,1.0,0,0.8333,0.1667,0.0,156.9,0
-INC-036,1,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,17,0.5556,1.0,0,0.8235,0.0,0.0,15296.09,796
-INC-036,1,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,6,0.8,1.0,0,1.0,0.0,0.0,146.52,0
-INC-036,1,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,6,0.4444,1.0,0,1.0,0.0,0.0,4894.63,3034
-INC-036,1,Plan-and-Execute Agent (qwen/qwen3.8-27b),qwen/qwen3.8-27b,6,0,0.0,0.0,0,1.0,0.0,0.0,227.77,0
-INC-036,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.4444,1.0,0,1.0,0.0,0.0,7425.56,10324
-INC-036,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,7,0.4444,1.0,0,1.0,0.0,0.0,9402.62,12717
+INC-036,1,Static 9-Stage Waterfall (Local CPU),local_cpu,9,6,0.8,0.6806,0,0.8333,0.1667,0.0,157.09,0
+INC-036,1,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,6,0.8,0.6806,0,1.0,0.0,0.0,142.49,0
+INC-036,1,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,6,0.8,0.6806,0,1.0,0.0,0.0,141.02,0
+INC-036,1,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,5,0.8,0.6806,0,1.0,0.0,0.0,4018.53,2180
+INC-036,1,Plan-and-Execute Agent (qwen/qwen3.8-27b),qwen/qwen3.8-27b,6,0,0.8571,0.2015,0,1.0,0.0,0.0,1407.27,1570
+INC-036,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.8,0.0,0,1.0,0.0,0.0,9831.36,7050
+INC-036,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,8,0.8,0.6806,0,1.0,0.0,0.0,13887.05,10184
 INC-036,1,"Autonomous ReAct Agent (qwen/qwen3.8-27b, T_max=6)",qwen/qwen3.8-27b,6,2,0.0,0.0,0,1.0,0.0,0.0,3187.16,1316
-INC-037,1,Static 9-Stage Waterfall (Local CPU),local_cpu,9,6,0.8,1.0,0,0.8333,0.1667,0.0,146.55,0
-INC-037,1,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,22,0.5385,1.0,0,0.8636,0.0,0.0,12605.49,825
-INC-037,1,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,6,0.8,1.0,0,1.0,0.0,0.0,141.37,0
-INC-037,1,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,5,0.3846,1.0,0,1.0,0.0,0.0,5264.32,2900
+INC-037,1,Static 9-Stage Waterfall (Local CPU),local_cpu,9,6,0.8,0.6806,0,0.8333,0.1667,0.0,143.81,0
+INC-037,1,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,6,0.8,0.6806,0,1.0,0.0,0.0,160.55,0
+INC-037,1,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,6,0.8,0.6806,0,1.0,0.0,0.0,143.43,0
+INC-037,1,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,6,0.8,0.6806,0,1.0,0.0,0.0,4794.54,2250
 INC-037,1,Plan-and-Execute Agent (qwen/qwen3.8-27b),qwen/qwen3.8-27b,6,0,0.0,0.0,0,1.0,0.0,0.0,229.92,0
-INC-037,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.3846,1.0,0,1.0,0.0,0.0,7010.4,10250
-INC-037,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,7,0.3,1.0,0,1.0,0.0,0.0,8646.19,12573
+INC-037,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.8,0.6806,0,1.0,0.0,0.0,11857.79,6885
+INC-037,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,7,0.8,0.6806,0,1.0,0.0,0.0,13750.27,8554
 INC-037,1,"Autonomous ReAct Agent (qwen/qwen3.8-27b, T_max=6)",qwen/qwen3.8-27b,6,1,0.0,0.0,0,1.0,0.0,0.0,120.21,0
-INC-038,1,Static 9-Stage Waterfall (Local CPU),local_cpu,9,10,0.5455,1.0,0,0.9,0.1,0.0,392.76,0
-INC-038,1,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,21,0.5833,1.0,0,0.8571,0.0,0.0,17461.86,836
-INC-038,1,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,10,0.5455,1.0,0,1.0,0.0,0.0,348.74,0
-INC-038,1,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,6,0.4167,1.0,0,1.0,0.0,0.0,5478.28,3221
+INC-038,1,Static 9-Stage Waterfall (Local CPU),local_cpu,9,10,0.5455,0.8801,0,0.9,0.1,0.0,353.8,0
+INC-038,1,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,10,0.5455,0.8801,0,1.0,0.0,0.0,344.27,0
+INC-038,1,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,10,0.5455,0.8801,0,1.0,0.0,0.0,350.26,0
+INC-038,1,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,6,0.5455,0.905,0,1.0,0.0,0.0,4540.84,2885
 INC-038,1,Plan-and-Execute Agent (qwen/qwen3.8-27b),qwen/qwen3.8-27b,6,0,0.0,0.0,0,1.0,0.0,0.0,227.99,0
-INC-038,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.4167,1.0,0,1.0,0.0,0.0,7248.96,9858
-INC-038,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,7,0.4167,1.0,0,1.0,0.0,0.0,8552.5,12172
+INC-038,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.5455,0.0,0,1.0,0.0,0.0,10750.63,10400
+INC-038,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,8,0.5455,0.8801,0,1.0,0.0,0.0,14548.21,15002
 INC-038,1,"Autonomous ReAct Agent (qwen/qwen3.8-27b, T_max=6)",qwen/qwen3.8-27b,6,1,0.0,0.0,0,1.0,0.0,0.0,216.61,0
-INC-039,1,Static 9-Stage Waterfall (Local CPU),local_cpu,9,19,0.4615,1.0,0,0.8421,0.1579,0.0,845.82,0
-INC-039,1,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,6,0.8,1.0,0,1.0,0.0,0.0,164.73,0
-INC-039,1,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,23,0.4615,1.0,0,0.6522,0.1739,0.0,2064.26,0
-INC-039,1,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,6,0.8,1.0,0,1.0,0.0,0.0,3489.15,2304
+INC-039,1,Static 9-Stage Waterfall (Local CPU),local_cpu,9,19,0.4615,0.8986,0,0.8421,0.1579,0.0,838.4,0
+INC-039,1,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,23,0.6154,0.8986,0,0.8261,0.0,0.0,40271.11,572
+INC-039,1,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,23,0.4615,0.8986,0,0.8261,0.0,0.0667,15278.6,286
+INC-039,1,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,6,0.4615,0.5048,0,1.0,0.0,0.0,6327.39,3084
 INC-039,1,Plan-and-Execute Agent (qwen/qwen3.8-27b),qwen/qwen3.8-27b,6,0,0.0,0.0,0,1.0,0.0,0.0,666.32,0
-INC-039,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.8,0.0,0,1.0,0.0,0.0,11953.14,6865
-INC-039,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,8,0.8,1.0,0,1.0,0.0,0.0,14263.71,9981
+INC-039,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,6,0.4615,0.0,0,1.0,0.0,0.0,10977.05,11144
+INC-039,1,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,8,0.3,0.8986,0,1.0,0.0,0.0,14533.48,16145
 INC-039,1,"Autonomous ReAct Agent (qwen/qwen3.8-27b, T_max=6)",qwen/qwen3.8-27b,6,1,0.0,0.0,0,1.0,0.0,0.0,115.3,0
-BEN-000,0,Static 9-Stage Waterfall (Local CPU),local_cpu,9,7,0.0,0.0,1,0.4286,0.5714,0.0,82.69,0
-BEN-000,0,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,6,0.0,0.0,1,1.0,0.0,0.0,94.21,0
-BEN-000,0,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,7,0.0,0.0,0,1.0,0.0,0.0,98.73,0
-BEN-000,0,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,5,1.0,0.0,0,0.8,0.2,0.0,2910.16,1770
-BEN-000,0,Plan-and-Execute Agent (qwen/qwen3.8-27b),qwen/qwen3.8-27b,6,0,1.0,1.0,0,1.0,0.0,0.0,246.55,0
-BEN-000,0,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,1,1.0,1.0,0,1.0,0.0,0.0,1447.99,800
-BEN-000,0,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,1,1.0,1.0,0,1.0,0.0,0.0,1447.99,800
-BEN-000,0,"Autonomous ReAct Agent (qwen/qwen3.8-27b, T_max=6)",qwen/qwen3.8-27b,6,1,1.0,1.0,0,1.0,0.0,0.0,112.91,0
-BEN-001,0,Static 9-Stage Waterfall (Local CPU),local_cpu,9,6,0.0,0.0,1,0.8333,0.1667,0.0,145.31,0
-BEN-001,0,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,8,0.0,0.0,1,0.75,0.125,0.0,4473.62,186
-BEN-001,0,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,7,0.0,0.0,0,0.7143,0.1429,0.0,410.03,0
-BEN-001,0,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,5,1.0,1.0,0,0.8,0.2,0.0,2925.92,1807
-BEN-001,0,Plan-and-Execute Agent (qwen/qwen3.8-27b),qwen/qwen3.8-27b,6,0,1.0,1.0,0,1.0,0.0,0.0,230.02,0
-BEN-001,0,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,1,1.0,1.0,0,1.0,0.0,0.0,9653.25,771
-BEN-001,0,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,1,1.0,1.0,0,1.0,0.0,0.0,9653.25,771
-BEN-001,0,"Autonomous ReAct Agent (qwen/qwen3.8-27b, T_max=6)",qwen/qwen3.8-27b,6,1,1.0,1.0,0,1.0,0.0,0.0,333.66,0
-BEN-002,0,Static 9-Stage Waterfall (Local CPU),local_cpu,9,6,0.0,0.0,1,0.5,0.5,0.0,94.93,0
-BEN-002,0,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,6,0.0,0.0,1,1.0,0.0,0.0,93.06,0
-BEN-002,0,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,6,0.0,0.0,0,1.0,0.0,0.0,86.0,0
-BEN-002,0,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,6,1.0,1.0,0,0.8333,0.1667,0.0,3080.99,1813
-BEN-002,0,Plan-and-Execute Agent (qwen/qwen3.8-27b),qwen/qwen3.8-27b,6,0,1.0,1.0,0,1.0,0.0,0.0,238.27,0
-BEN-002,0,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,1,1.0,1.0,0,1.0,0.0,0.0,1937.52,759
-BEN-002,0,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,1,1.0,1.0,0,1.0,0.0,0.0,1937.52,759
-BEN-002,0,"Autonomous ReAct Agent (qwen/qwen3.8-27b, T_max=6)",qwen/qwen3.8-27b,6,1,1.0,1.0,0,1.0,0.0,0.0,112.41,0
-BEN-003,0,Static 9-Stage Waterfall (Local CPU),local_cpu,9,8,0.0,0.0,1,0.625,0.375,0.0,153.48,0
-BEN-003,0,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,5,0.0,0.0,1,1.0,0.0,0.0,84.63,0
-BEN-003,0,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,9,0.0,0.0,0,0.7778,0.1111,0.0,384.78,0
-BEN-003,0,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,4,1.0,0.0,0,0.75,0.25,1.0,2864.2,1575
-BEN-003,0,Plan-and-Execute Agent (qwen/qwen3.8-27b),qwen/qwen3.8-27b,6,0,1.0,1.0,0,1.0,0.0,0.0,263.17,0
-BEN-003,0,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,1,1.0,1.0,0,1.0,0.0,0.0,2486.14,703
-BEN-003,0,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,1,1.0,1.0,0,1.0,0.0,0.0,2486.14,703
-BEN-003,0,"Autonomous ReAct Agent (qwen/qwen3.8-27b, T_max=6)",qwen/qwen3.8-27b,6,1,1.0,1.0,0,1.0,0.0,0.0,111.98,0
-BEN-004,0,Static 9-Stage Waterfall (Local CPU),local_cpu,9,5,0.0,0.0,1,0.6,0.4,0.0,84.48,0
-BEN-004,0,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,8,0.0,0.0,1,0.75,0.125,0.0,4357.04,188
-BEN-004,0,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,6,0.0,0.0,0,0.6667,0.1667,0.0,339.86,0
-BEN-004,0,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,4,1.0,1.0,0,0.75,0.25,0.0,2951.21,1647
-BEN-004,0,Plan-and-Execute Agent (qwen/qwen3.8-27b),qwen/qwen3.8-27b,6,0,1.0,1.0,0,1.0,0.0,0.0,230.33,0
-BEN-004,0,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,1,1.0,1.0,0,1.0,0.0,0.0,7262.03,796
-BEN-004,0,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,1,1.0,1.0,0,1.0,0.0,0.0,7262.03,796
-BEN-004,0,"Autonomous ReAct Agent (qwen/qwen3.8-27b, T_max=6)",qwen/qwen3.8-27b,6,1,1.0,1.0,0,1.0,0.0,0.0,111.25,0
-BEN-005,0,Static 9-Stage Waterfall (Local CPU),local_cpu,9,8,0.0,0.0,1,0.625,0.375,0.0,161.41,0
-BEN-005,0,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,8,0.0,0.0,1,1.0,0.0,0.0,172.24,0
-BEN-005,0,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,8,0.0,0.0,0,1.0,0.0,0.0,169.81,0
-BEN-005,0,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,4,1.0,1.0,0,0.75,0.25,0.0,2885.62,1793
-BEN-005,0,Plan-and-Execute Agent (qwen/qwen3.8-27b),qwen/qwen3.8-27b,6,0,1.0,1.0,0,1.0,0.0,0.0,231.12,0
-BEN-005,0,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,1,1.0,1.0,0,1.0,0.0,0.0,9820.48,860
-BEN-005,0,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,1,1.0,1.0,0,1.0,0.0,0.0,9820.48,860
-BEN-005,0,"Autonomous ReAct Agent (qwen/qwen3.8-27b, T_max=6)",qwen/qwen3.8-27b,6,1,1.0,1.0,0,1.0,0.0,0.0,136.31,0
-BEN-006,0,Static 9-Stage Waterfall (Local CPU),local_cpu,9,5,0.0,0.0,1,0.6,0.4,0.0,80.68,0
-BEN-006,0,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,9,0.0,0.0,1,0.7778,0.1111,0.0,5651.14,258
-BEN-006,0,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,5,0.0,0.0,0,1.0,0.0,0.0,81.67,0
-BEN-006,0,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,6,1.0,0.0,0,0.8333,0.1667,0.0,3263.67,2002
-BEN-006,0,Plan-and-Execute Agent (qwen/qwen3.8-27b),qwen/qwen3.8-27b,6,0,1.0,1.0,0,1.0,0.0,0.0,467.39,0
-BEN-006,0,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,1,1.0,1.0,0,1.0,0.0,0.0,1459.04,873
-BEN-006,0,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,1,1.0,1.0,0,1.0,0.0,0.0,1459.04,873
-BEN-006,0,"Autonomous ReAct Agent (qwen/qwen3.8-27b, T_max=6)",qwen/qwen3.8-27b,6,1,1.0,1.0,0,1.0,0.0,0.0,328.54,0
-BEN-007,0,Static 9-Stage Waterfall (Local CPU),local_cpu,9,6,0.0,0.0,1,0.8333,0.1667,0.0,144.08,0
-BEN-007,0,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,7,0.0,0.0,1,0.7143,0.1429,0.0,1639.65,258
-BEN-007,0,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,7,0.0,0.0,0,0.7143,0.1429,0.0,394.11,0
-BEN-007,0,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,4,1.0,0.0,0,0.75,0.25,1.0,2966.76,1497
-BEN-007,0,Plan-and-Execute Agent (qwen/qwen3.8-27b),qwen/qwen3.8-27b,6,0,1.0,1.0,0,1.0,0.0,0.0,226.34,0
-BEN-007,0,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,1,1.0,1.0,0,1.0,0.0,0.0,5429.17,747
-BEN-007,0,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,1,1.0,1.0,0,1.0,0.0,0.0,5429.17,747
-BEN-007,0,"Autonomous ReAct Agent (qwen/qwen3.8-27b, T_max=6)",qwen/qwen3.8-27b,6,1,1.0,1.0,0,1.0,0.0,0.0,108.94,0
+BEN-000,0,Static 9-Stage Waterfall (Local CPU),local_cpu,9,7,0.0,,1,0.4286,0.5714,0.0,87.28,0
+BEN-000,0,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,7,0.0,,0,1.0,0.0,0.0,86.32,0
+BEN-000,0,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,7,0.0,,0,1.0,0.0,0.0,81.16,0
+BEN-000,0,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,3,1.0,,0,0.6667,0.3333,1.0,3204.55,1563
+BEN-000,0,Plan-and-Execute Agent (qwen/qwen3.8-27b),qwen/qwen3.8-27b,6,0,1.0,,0,1.0,0.0,0.0,246.55,0
+BEN-000,0,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,1,1.0,,0,1.0,0.0,0.0,1546.18,888
+BEN-000,0,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,1,1.0,,0,1.0,0.0,0.0,1546.18,888
+BEN-000,0,"Autonomous ReAct Agent (qwen/qwen3.8-27b, T_max=6)",qwen/qwen3.8-27b,6,1,1.0,,0,1.0,0.0,0.0,112.91,0
+BEN-001,0,Static 9-Stage Waterfall (Local CPU),local_cpu,9,6,0.0,,1,0.8333,0.1667,0.0,155.52,0
+BEN-001,0,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,7,0.0,,0,0.7143,0.1429,0.0,6532.55,122
+BEN-001,0,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,7,0.0,,0,0.8571,0.0,0.0,6592.76,135
+BEN-001,0,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,3,1.0,,0,0.6667,0.3333,1.0,3416.09,1491
+BEN-001,0,Plan-and-Execute Agent (qwen/qwen3.8-27b),qwen/qwen3.8-27b,6,0,1.0,,0,1.0,0.0,0.0,230.02,0
+BEN-001,0,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,1,1.0,,0,1.0,0.0,0.0,1829.35,686
+BEN-001,0,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,1,1.0,,0,1.0,0.0,0.0,1829.35,686
+BEN-001,0,"Autonomous ReAct Agent (qwen/qwen3.8-27b, T_max=6)",qwen/qwen3.8-27b,6,1,1.0,,0,1.0,0.0,0.0,333.66,0
+BEN-002,0,Static 9-Stage Waterfall (Local CPU),local_cpu,9,6,0.0,,1,0.5,0.5,0.0,82.99,0
+BEN-002,0,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,6,0.0,,0,1.0,0.0,0.0,80.75,0
+BEN-002,0,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,6,0.0,,0,1.0,0.0,0.0,80.0,0
+BEN-002,0,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,4,1.0,,0,0.75,0.25,0.0,3891.02,1539
+BEN-002,0,Plan-and-Execute Agent (qwen/qwen3.8-27b),qwen/qwen3.8-27b,6,0,1.0,,0,1.0,0.0,0.0,238.27,0
+BEN-002,0,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,1,1.0,,0,1.0,0.0,0.0,1377.36,766
+BEN-002,0,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,1,1.0,,0,1.0,0.0,0.0,1377.36,766
+BEN-002,0,"Autonomous ReAct Agent (qwen/qwen3.8-27b, T_max=6)",qwen/qwen3.8-27b,6,1,1.0,,0,1.0,0.0,0.0,112.41,0
+BEN-003,0,Static 9-Stage Waterfall (Local CPU),local_cpu,9,8,0.0,,1,0.625,0.375,0.0,167.83,0
+BEN-003,0,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,9,0.0,,0,0.7778,0.1111,0.0,6242.9,118
+BEN-003,0,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,9,0.0,,0,0.8889,0.0,0.0,276.66,0
+BEN-003,0,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,4,1.0,,0,0.75,0.25,0.0,3570.65,1680
+BEN-003,0,Plan-and-Execute Agent (qwen/qwen3.8-27b),qwen/qwen3.8-27b,6,0,1.0,,0,1.0,0.0,0.0,263.17,0
+BEN-003,0,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,1,1.0,,0,1.0,0.0,0.0,1635.89,860
+BEN-003,0,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,1,1.0,,0,1.0,0.0,0.0,1635.89,860
+BEN-003,0,"Autonomous ReAct Agent (qwen/qwen3.8-27b, T_max=6)",qwen/qwen3.8-27b,6,1,1.0,,0,1.0,0.0,0.0,111.98,0
+BEN-004,0,Static 9-Stage Waterfall (Local CPU),local_cpu,9,5,0.0,,1,0.6,0.4,0.0,80.16,0
+BEN-004,0,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,6,0.0,,0,0.6667,0.1667,0.0,6553.88,122
+BEN-004,0,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,6,0.0,,0,0.8333,0.0,0.0,6460.1,135
+BEN-004,0,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,3,1.0,,0,0.6667,0.3333,1.0,3569.24,1441
+BEN-004,0,Plan-and-Execute Agent (qwen/qwen3.8-27b),qwen/qwen3.8-27b,6,0,1.0,,0,1.0,0.0,0.0,230.33,0
+BEN-004,0,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,2,0.0,,0,1.0,0.0,0.0,3531.04,1516
+BEN-004,0,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,2,0.0,,0,1.0,0.0,0.0,3531.04,1516
+BEN-004,0,"Autonomous ReAct Agent (qwen/qwen3.8-27b, T_max=6)",qwen/qwen3.8-27b,6,1,1.0,,0,1.0,0.0,0.0,111.25,0
+BEN-005,0,Static 9-Stage Waterfall (Local CPU),local_cpu,9,8,0.0,,1,0.625,0.375,0.0,153.45,0
+BEN-005,0,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,8,0.0,,0,1.0,0.0,0.0,151.45,0
+BEN-005,0,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,8,0.0,,0,1.0,0.0,0.0,147.01,0
+BEN-005,0,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,4,1.0,,0,0.75,0.25,1.0,3758.17,1827
+BEN-005,0,Plan-and-Execute Agent (qwen/qwen3.8-27b),qwen/qwen3.8-27b,6,0,1.0,,0,1.0,0.0,0.0,231.12,0
+BEN-005,0,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,1,1.0,,0,1.0,0.0,0.0,1523.87,853
+BEN-005,0,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,1,1.0,,0,1.0,0.0,0.0,1523.87,853
+BEN-005,0,"Autonomous ReAct Agent (qwen/qwen3.8-27b, T_max=6)",qwen/qwen3.8-27b,6,1,1.0,,0,1.0,0.0,0.0,136.31,0
+BEN-006,0,Static 9-Stage Waterfall (Local CPU),local_cpu,9,5,0.0,,1,0.6,0.4,0.0,79.14,0
+BEN-006,0,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,5,0.0,,0,1.0,0.0,0.0,76.71,0
+BEN-006,0,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,5,0.0,,0,1.0,0.0,0.0,75.44,0
+BEN-006,0,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,4,0.0,,0,0.75,0.25,0.0,3074.45,1440
+BEN-006,0,Plan-and-Execute Agent (qwen/qwen3.8-27b),qwen/qwen3.8-27b,6,0,1.0,,0,1.0,0.0,0.0,467.39,0
+BEN-006,0,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,1,1.0,,0,1.0,0.0,0.0,1641.39,693
+BEN-006,0,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,1,1.0,,0,1.0,0.0,0.0,1641.39,693
+BEN-006,0,"Autonomous ReAct Agent (qwen/qwen3.8-27b, T_max=6)",qwen/qwen3.8-27b,6,1,1.0,,0,1.0,0.0,0.0,328.54,0
+BEN-007,0,Static 9-Stage Waterfall (Local CPU),local_cpu,9,6,0.0,,1,0.8333,0.1667,0.0,146.99,0
+BEN-007,0,Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite),gemini-3.5-flash-lite,9,7,0.0,,0,0.7143,0.1429,0.0,6501.59,122
+BEN-007,0,Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b),qwen/qwen3.8-27b,9,7,0.0,,0,0.8571,0.0,0.0,6582.74,135
+BEN-007,0,Plan-and-Execute Agent (gemini-3.5-flash-lite),gemini-3.5-flash-lite,6,6,1.0,,0,0.8333,0.1667,1.0,4411.08,1597
+BEN-007,0,Plan-and-Execute Agent (qwen/qwen3.8-27b),qwen/qwen3.8-27b,6,0,1.0,,0,1.0,0.0,0.0,226.34,0
+BEN-007,0,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)",gemini-3.5-flash-lite,6,1,1.0,,0,1.0,0.0,0.0,1524.41,700
+BEN-007,0,"Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)",gemini-3.5-flash-lite,12,1,1.0,,0,1.0,0.0,0.0,1524.41,700
+BEN-007,0,"Autonomous ReAct Agent (qwen/qwen3.8-27b, T_max=6)",qwen/qwen3.8-27b,6,1,1.0,,0,1.0,0.0,0.0,108.94,0

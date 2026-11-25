@@ -1,7 +1,7 @@
 metric,value,ci95_low,ci95_high,interpretation
-Delta_Oracle_S2_to_S3_TechF1,-0.0153,-0.0225,-0.0081,Causal recovery under gold S2 normalization
-Delta_Oracle_S2_to_S9_MitNDCG3,0.0,0.0,0.0,Downstream M1xxx mitigation recovery
+Delta_Oracle_S2_to_S3_TechF1,-0.0317,-0.0391,-0.0241,Causal recovery under gold S2 normalization
+Delta_Oracle_S2_to_S9_MitNDCG3,0.0345,0.0152,0.0525,Downstream M1xxx mitigation recovery
 P(S3_error|S2_error),0.925,0.0,0.0,Conditional failure rate under upstream extraction error (Risk Ratio: 1.00x)
 P(S3_error|S2_clean),0.925,0.0,0.0,Baseline failure rate under clean upstream extraction
 Stage_Elasticity_3_to_7 (Graph),1.0478,0.0,0.0,Compounding amplification (eta > 1)
-Stage_Elasticity_3_to_9 (Mitigation),0.0,0.0,0.0,Structural buffering (eta <= 1)
+Stage_Elasticity_3_to_9 (Mitigation),-0.2805,0.0,0.0,Structural buffering (eta <= 1)

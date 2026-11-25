@@ -117,17 +117,17 @@ Evaluated across $K=5$ independent seeds on group-disjoint splits with both stri
 | Method | Top-1 Exact | Top-1 Any Valid Tag | Top-3 Exact | MRR Exact | Macro-F1 | Hardware Regime |
 | :--- | :---: | :---: | :---: | :---: | :---: | :--- |
 | **A. Local CPU Inference ($N=2,530$)** | | | | | | *Zero Cloud Dependency* |
-| Random Guessing Floor | 0.000 $\pm$ 0.000 | 0.000 $\pm$ 0.000 | 0.007 $\pm$ 0.012 | 0.004 $\pm$ 0.005 | 0.000 $\pm$ 0.000 | Local CPU (0.02 ms) |
-| Majority Class | 0.003 $\pm$ 0.009 | 0.003 $\pm$ 0.009 | 0.007 $\pm$ 0.012 | 0.005 $\pm$ 0.011 | 0.000 $\pm$ 0.000 | Local CPU (0.01 ms) |
-| Rule-Based Keyword | 0.103 $\pm$ 0.051 | 0.144 $\pm$ 0.062 | 0.200 $\pm$ 0.051 | 0.153 $\pm$ 0.051 | 0.065 $\pm$ 0.038 | Local CPU (0.35 ms) |
-| Okapi BM25 | 0.203 $\pm$ 0.096 | 0.248 $\pm$ 0.095 | 0.270 $\pm$ 0.092 | 0.242 $\pm$ 0.094 | 0.118 $\pm$ 0.060 | Local CPU (1.85 ms) |
-| Zero-Shot TF-IDF | 0.231 $\pm$ 0.094 | 0.297 $\pm$ 0.103 | 0.313 $\pm$ 0.086 | 0.278 $\pm$ 0.084 | 0.135 $\pm$ 0.054 | Local CPU (1.25 ms) |
-| Dense Retriever (`bge-small`) | 0.242 $\pm$ 0.082 | 0.280 $\pm$ 0.061 | 0.321 $\pm$ 0.079 | 0.284 $\pm$ 0.077 | 0.143 $\pm$ 0.064 | Local CPU (12.80 ms) |
-| Supervised Dense (`bge-small`) | 0.142 $\pm$ 0.043 | 0.146 $\pm$ 0.049 | 0.317 $\pm$ 0.100 | 0.238 $\pm$ 0.061 | 0.086 $\pm$ 0.028 | Local CPU (13.50 ms) |
-| SecBERT Bi-Encoder (`SecBERT`) | 0.072 $\pm$ 0.037 | 0.092 $\pm$ 0.045 | 0.100 $\pm$ 0.060 | 0.089 $\pm$ 0.044 | 0.045 $\pm$ 0.031 | Local CPU (11.50 ms) |
-| SecBERT Hybrid Mapper | 0.133 $\pm$ 0.046 | 0.149 $\pm$ 0.061 | 0.223 $\pm$ 0.063 | 0.189 $\pm$ 0.051 | 0.076 $\pm$ 0.031 | Local CPU (13.20 ms) |
-| **Proposed Hybrid Mapper** | **0.255 $\pm$ 0.102** | **0.313 $\pm$ 0.107** | **0.346 $\pm$ 0.099** | **0.307 $\pm$ 0.090** | **0.150 $\pm$ 0.061** | **Local CPU (3.45 ms)** |
-| **Agentic Router** | **0.261 $\pm$ 0.095**$^{\dagger}$ | **0.319 $\pm$ 0.108** | **0.398 $\pm$ 0.071** | **0.331 $\pm$ 0.082**$^{\dagger}$ | **0.153 $\pm$ 0.056** | **Local CPU (4.10 ms)** |
+| Random Guessing Floor | 0.002 $\pm$ 0.003 | 0.003 $\pm$ 0.002 | 0.004 $\pm$ 0.003 | 0.003 $\pm$ 0.002 | 0.001 $\pm$ 0.001 | Local CPU (0.02 ms) |
+| Majority Class | 0.033 $\pm$ 0.009 | 0.042 $\pm$ 0.009 | 0.125 $\pm$ 0.023 | 0.080 $\pm$ 0.017 | 0.000 $\pm$ 0.000 | Local CPU (0.01 ms) |
+| Rule-Based Keyword | 0.128 $\pm$ 0.032 | 0.163 $\pm$ 0.043 | 0.214 $\pm$ 0.040 | 0.174 $\pm$ 0.034 | 0.081 $\pm$ 0.030 | Local CPU (0.35 ms) |
+| Okapi BM25 | 0.186 $\pm$ 0.048 | 0.220 $\pm$ 0.046 | 0.270 $\pm$ 0.052 | 0.233 $\pm$ 0.048 | 0.124 $\pm$ 0.053 | Local CPU (1.85 ms) |
+| Zero-Shot TF-IDF | 0.246 $\pm$ 0.047 | 0.297 $\pm$ 0.057 | 0.338 $\pm$ 0.049 | 0.299 $\pm$ 0.045 | 0.159 $\pm$ 0.054 | Local CPU (1.25 ms) |
+| Dense Retriever (`bge-small`) | 0.225 $\pm$ 0.030 | 0.251 $\pm$ 0.030 | 0.332 $\pm$ 0.044 | 0.283 $\pm$ 0.031 | 0.160 $\pm$ 0.046 | Local CPU (12.80 ms) |
+| Supervised Dense (`bge-small`) | 0.236 $\pm$ 0.052 | 0.258 $\pm$ 0.056 | 0.513 $\pm$ 0.042 | 0.379 $\pm$ 0.043 | 0.190 $\pm$ 0.016 | Local CPU (13.50 ms) |
+| SecBERT Bi-Encoder (`SecBERT`) | 0.046 $\pm$ 0.021 | 0.057 $\pm$ 0.018 | 0.075 $\pm$ 0.032 | 0.062 $\pm$ 0.026 | 0.049 $\pm$ 0.027 | Local CPU (11.50 ms) |
+| SecBERT Hybrid Mapper | 0.162 $\pm$ 0.026 | 0.182 $\pm$ 0.029 | 0.327 $\pm$ 0.045 | 0.252 $\pm$ 0.034 | 0.123 $\pm$ 0.021 | Local CPU (13.20 ms) |
+| **Proposed Hybrid Mapper** | **0.389 $\pm$ 0.071** | **0.425 $\pm$ 0.066** | **0.507 $\pm$ 0.083** | **0.451 $\pm$ 0.074** | **0.242 $\pm$ 0.064** | **Local CPU (3.45 ms)** |
+| **Agentic Router** | **0.382 $\pm$ 0.062**$^{\dagger}$ | **0.416 $\pm$ 0.059** | **0.532 $\pm$ 0.056** | **0.459 $\pm$ 0.059**$^{\dagger}$ | **0.254 $\pm$ 0.051** | **Local CPU (4.10 ms)** |
 | **B. Multi-LLM Scaling ($n=200$, Held-Out Fold 0)** | | | | | | *Cloud API / Groq LPU* |
 | Gemini 3.5 Flash-Lite (`gemini-3.5-flash-lite`) | **0.405** | **0.460** | **0.555** | **0.492** | -- | Google Cloud API (804.7 ms) |
 | GPT-OSS 120B (`openai/gpt-oss-120b`) | 0.325 | 0.350 | 0.510 | 0.414 | -- | Groq LPU (1039.0 ms) |
@@ -144,23 +144,25 @@ $^{*}$ Multi-LLM scaling evaluated on the identical held-out test alerts ($n=200
 
 ---
 
-## 🤖 8-Cell Architecture $	imes$ Backbone Grid Evaluation (Table \ref{tab:agentic_comparison})
+## 🤖 8-Cell Architecture $\times$ Backbone Grid Evaluation (Table \ref{tab:agentic_comparison})
 
-CyberThreatAgent-Bench comprehensively evaluates 6 distinct architectural regimes across $n=48$ standardized, multi-turn incident scenarios (40 multi-stage malicious intrusion campaigns `INC-000..039` and 8 benign enterprise activity sequences `BEN-000..007`). All metrics derive from empirical local CPU execution, deterministic confidence-thresholded escalation, and live HTTPS tool execution on pinned models with zero model-switching, zero synthetic tokens, and zero hardcoded latency values:
+CyberThreatAgent-Bench comprehensively evaluates 8 architectural regime $\times$ backbone cells across $n=48$ standardized, multi-turn incident scenarios (40 multi-stage malicious intrusion campaigns `INC-000..039` and 8 benign enterprise activity sequences `BEN-000..007`). All metrics derive from empirical local CPU execution, deterministic confidence-thresholded escalation, and live HTTPS tool execution on pinned models with zero model-switching, zero synthetic tokens, and zero hardcoded latency values:
 
-| Architecture Regime | Tech F1 | Mit nDCG@3 | Benign FER | Tool Prec | Redund Rate | Halluc Rate | Latency (ms) | Tokens | Hardware / Model |
-| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :--- |
-| **1. Static 9-Stage Waterfall** | 0.420 | 0.833 | 1.000 | 1.000 | 0.000 | 0.000 | 937.1 | 0 | Local CPU standalone |
-| **2. Confidence-Cascaded Neuro-Symbolic** | 0.513 | 0.833 | 1.000 | 0.873 | 0.014 | 0.000 | 27,367.1 | 601 | Local CPU + Escalation |
-| **3. Plan-and-Execute Agent** | 0.514 | 0.750 | **0.000** | 0.964 | 0.036 | 0.050 | 6,998.2 | 2,455 | Pinned `gemini-3.5-flash-lite` |
-| **4. Autonomous ReAct Agent ($T_{\max}=6$)** | **0.544** | 0.619 | **0.000** | **1.000** | **0.000** | **0.000** | 13,315.3 | 7,441 | Pinned `gemini-3.5-flash-lite` |
-| **5. Autonomous ReAct Agent ($T_{\max}=12$)** | 0.514 | **0.848** | **0.000** | **1.000** | **0.000** | 0.010 | 16,037.4 | 9,456 | Pinned `gemini-3.5-flash-lite` |
-| **6. Autonomous ReAct Agent ($T_{\max}=6$, Qwen)** | 0.415 | 0.604 | **0.000** | **1.000** | **0.000** | **0.000** | 3,948.8 | 4,087 | Pinned `qwen/qwen3.8-27b` (Groq) |
+| Architecture Regime | Backbone Model | Tech F1 | Mit nDCG@3 | Benign FER (n=8) | Tool Prec | Redund Rate | Halluc Rate | Latency (ms) | Tokens |
+| :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **1. Static 9-Stage Waterfall (Local CPU)** | `local_cpu` | 0.384 | 0.767 | 1.000 | 0.842 | 0.158 | 0.000 | 696.3 | 0 |
+| **2. Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite)** | `gemini-3.5-flash-lite` | 0.496 | 0.818 | 0.000 | 0.860 | 0.012 | 0.000 | 21,198.5 | 400 |
+| **3. Confidence-Cascaded Neuro-Symbolic (qwen/qwen3.8-27b)** | `qwen/qwen3.8-27b` | 0.448 | 0.818 | 0.000 | 0.872 | 0.000 | 0.005 | 10,311.9 | 405 |
+| **4. Plan-and-Execute Agent (gemini-3.5-flash-lite)** | `gemini-3.5-flash-lite` | 0.526 | 0.722 | 0.000 | 0.955 | 0.045 | 0.104 | 5,916.1 | 2,721 |
+| **5. Plan-and-Execute Agent (qwen/qwen3.8-27b)** | `qwen/qwen3.8-27b` | 0.520 | 0.152 | 0.000 | 1.000 | 0.000 | 0.142 | 2,382.0 | 1,659 |
+| **6. Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)** | `gemini-3.5-flash-lite` | 0.530 | 0.478 | 0.000 | 1.000 | 0.000 | 0.000 | 13,712.2 | 7,924 |
+| **7. Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=12)** | `gemini-3.5-flash-lite` | 0.519 | 0.711 | 0.000 | 1.000 | 0.000 | 0.008 | 16,734.7 | 10,232 |
+| **8. Autonomous ReAct Agent (qwen/qwen3.8-27b, T_max=6)** | `qwen/qwen3.8-27b` | 0.375 | 0.400 | 0.000 | 1.000 | 0.000 | 0.000 | 2,921.8 | 4,329 |
 
 > **Key Takeaways & Scientific Findings:**
-> - **Benign False Escalation:** Static waterfall pipelines suffer from severe over-escalation on benign enterprise noise (`Benign FER = 1.000`), whereas autonomous agents with active tool interrogation and finish triage reach **zero false escalations** (`Benign FER = 0.000`).
-> - **Technique Identification:** The Autonomous ReAct Agent ($T_{\max}=6$) achieves highest technique F1 (**0.544**), demonstrating the power of iterative tool grounding.
-> - **Mitigation Precision:** Expanding reasoning horizon to $T_{\max}=12$ increases course-of-action mitigation quality to **0.848 nDCG@3**, outperforming all other regimes while preserving pristine tool precision (1.000) and zero redundancy.
+> - **Benign False Escalation:** Static waterfall pipelines over-escalate on benign enterprise noise (`Benign FER = 1.000`), whereas autonomous agents and confidence-gated cascades reach `0/8` (`Benign FER (n=8) = 0.000`, 95% Wilson CI `[0.00, 0.32]`; see `artifacts/benign_calibration_120.csv` for tight `N=120` bounds `[0.000, 0.031]`).
+> - **Technique Identification:** `Autonomous ReAct Agent (gemini-3.5-flash-lite, T_max=6)` achieves the highest Technique F1 (**0.530**).
+> - **Strict STIX-Only Mitigation:** Under authentic MITRE ATT&CK STIX `M1xxx` graded `nDCG@3` (zero playbook padding), `Confidence-Cascaded Neuro-Symbolic (gemini-3.5-flash-lite)` achieves **0.818**.
 
 ---
 
@@ -179,7 +181,7 @@ Evaluated on $n=200$ held-out test alerts with `HybridLLMCascade` paired with ch
 
 > **Key Pareto Observations:**
 > - **Mathematical Oracle Union Ceiling:** Local Hybrid standalone achieves $0.4250$ ($85/200$) and Champion LLM standalone achieves $0.4050$ ($81/200$), establishing a theoretical oracle union ceiling of $0.5600$ ($112/200$). All cascade operating points strictly satisfy $\text{Acc}(\theta) \le \text{Oracle}_{\text{union}} = 0.5600$ with zero train-on-test leakage.
-> - **Super-Additive Accuracy at 69.5% Cost Reduction:** At validation-selected $\theta^* = 0.10$, the cascade achieves $0.4350$ exact Top-1 accuracy—surpassing both the standalone Local Hybrid ($0.4250$) and standalone Champion LLM ($0.4050$)—while resolving $69.5\%$ of alerts locally on CPU at $3.45\text{ ms}$ latency ($p_{50}$).
+> - **Cost-Latency Efficiency at Non-Inferior Accuracy:** At validation-selected $\theta^* = 0.10$, `HybridLLMCascade` matches standalone accuracy ($0.4350$ vs. $0.4250$ local hybrid / $0.4050$ cloud LLM; McNemar $p = 0.43$, non-inferior) while **eliminating $69.5\%$ of cloud LLM calls and cutting median latency $10.6\times$ ($804.7\text{ ms} \to 75.9\text{ ms}$)**.
 
 ---
 
@@ -188,8 +190,8 @@ Evaluated on $n=200$ held-out test alerts with `HybridLLMCascade` paired with ch
 - **Cryptographic Provenance:** [`artifacts/manifest_v5.json`](artifacts/manifest_v5.json) records SHA-256 digests for all inputs (MITRE ATT&CK 16.1, pinned Sigma rules) and outputs.
 - **5-Seed Scorecard & Raw Trials:** [`artifacts/scorecard_raw_by_seed.csv`](artifacts/scorecard_raw_by_seed.csv) preserves trial-by-trial logs across seeds `[7, 21, 42, 84, 123]` with Student's $t$ $\text{CI}_{95}$ in [`artifacts/scorecard_aggregated.csv`](artifacts/scorecard_aggregated.csv).
 - **Real-World CTI Evaluation:** [`artifacts/external_validation.csv`](artifacts/external_validation.csv) documents out-of-distribution evaluation on real-world analyst-annotated CTI text ($n=163$) from the MITRE TRAM corpus with zero rule-family overlap.
-- **Statistical Significance Testing:** Paired bootstrap resampling ($B=2,000$) and Wilcoxon signed-rank tests confirm statistical significance ($p < 0.01$) on unique held-out test alerts from the primary split ($n=999$).
-- **Regression Contract Suite:** 24 automated contract smoke tests (target-leakage prevention, schema normalization, score bounds $[0, 100]$, graph acyclicity, and zero-overlap TRAM isolation) pass deterministically.
+- **Statistical Significance Testing:** Paired bootstrap resampling ($B=2,000$) and Wilcoxon signed-rank tests confirm statistical significance ($p < 0.01$) on unique held-out test alerts across 5 group-disjoint folds ($N=2,530$).
+- **Regression Contract Suite:** 25 automated contract tests (target-leakage prevention, schema normalization, score bounds $[0, 100]$, graph acyclicity, zero-overlap TRAM isolation, and cross-file reconciliation) pass deterministically.
 - **Environment Verification:** Verified and tested across Python 3.10, 3.11, and 3.12 (see [`requirements.txt`](requirements.txt)).
 
 ---

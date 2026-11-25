@@ -246,8 +246,15 @@ for tier in tiers:
             top2_score = preds_obs[1]["score"] if len(preds_obs) > 1 else 0.0
             margin_obs = top1_score - top2_score
 
-            # Stage 3 Oracle S2: Mapper on gold clean text with gold decoded CLI
-            gold_enriched = f"{gold_text} [DECODED_CLI: {gold_text}]"
+            # Stage 3 Oracle S2: Mapper on gold clean text with ONLY the decoded CLI token appended
+            # (Do NOT duplicate the full gold_text — that inflates the oracle signal artificially)
+            if tier == "cli_obfuscated":
+                # Decode only the obfuscated token: strip carets/ticks from the obfuscated portion
+                decoded_token = re.sub(r"(?<=[a-zA-Z0-9])\^(?=[a-zA-Z0-9])", "", gold_text)
+                decoded_token = re.sub(r"(?<=[a-zA-Z0-9])\`(?=[a-zA-Z0-9])", "", decoded_token)
+                gold_enriched = f"{gold_text} [DECODED_CLI: {decoded_token}]"
+            else:
+                gold_enriched = gold_text
             preds_orc_s2 = mapper.ranked(gold_enriched, top_k=2)
             pred_aid_orc_s2 = preds_orc_s2[0]["attack_id"] if preds_orc_s2 else None
 
@@ -287,7 +294,7 @@ for tier in tiers:
             "actor": 0.3
         })["risk_score"]
 
-        # Stage 9 Mitigation ranking using authentic MITRE STIX M1xxx mitigations!
+        # Stage 9 Mitigation ranking using strict STIX-only M1xxx graded nDCG@3
         ndcg_obs = mit_engine.compute_mitigation_ndcg(pred_techs_obs, gold_chain, k=3)
         ndcg_orc_s2 = mit_engine.compute_mitigation_ndcg(pred_techs_orc_s2, gold_chain, k=3)
         ndcg_orc_s3 = mit_engine.compute_mitigation_ndcg(gold_chain, gold_chain, k=3)
@@ -305,9 +312,9 @@ for tier in tiers:
             "s7_edge_f1_oracle_s2": m_orc_s2["edge_f1"],
             "s7_edge_f1_oracle_s3": m_orc_s3["edge_f1"],
             "s8_risk_score": risk_obs,
-            "s9_mit_ndcg3_observed": round(ndcg_obs, 4),
-            "s9_mit_ndcg3_oracle_s2": round(ndcg_orc_s2, 4),
-            "s9_mit_ndcg3_oracle_s3": round(ndcg_orc_s3, 4),
+            "s9_mit_ndcg3_observed": round(ndcg_obs, 4) if ndcg_obs is not None else np.nan,
+            "s9_mit_ndcg3_oracle_s2": round(ndcg_orc_s2, 4) if ndcg_orc_s2 is not None else np.nan,
+            "s9_mit_ndcg3_oracle_s3": round(ndcg_orc_s3, 4) if ndcg_orc_s3 is not None else np.nan,
             "mean_s3_margin": round(float(np.mean([it["margin"] for it in items_observed])), 4),
         })
 

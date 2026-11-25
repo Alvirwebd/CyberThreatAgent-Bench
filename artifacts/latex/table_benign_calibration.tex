@@ -8,8 +8,10 @@
 \textbf{Escalation Regime} & \textbf{Benign Escalations} & \textbf{Benign FER (\%)} & \textbf{95\% Wilson CI} & \textbf{Malicious Recall} & \textbf{Malicious Tech F1} \\
 \midrule
 Static Waterfall & 120 / 120 & 100.0\% & [0.9690, 1.0000] & 0.850 & 0.501 \\
-Global-Threshold Cascade & 39 / 120 & 32.5\% & [0.2478, 0.4131] & 0.880 & 0.501 \\
-\textbf{Per-Stage Cascade} & \textbf{0 / 120} & \textbf{0.0\%} & [0.0000, 0.0310] & 0.900 & 0.500 \\
+Global-Threshold Cascade & 39 / 120 & 32.5\% & [0.2478, 0.4131] & 0.880 & 0.500 \\
+\textbf{Per-Stage Cascade} & \textbf{0 / 120} & \textbf{0.0\%} & [0.0000, 0.0310] & 0.900 & 0.492 \\
+\textbf{Plan-and-Execute Agent (gemini-3.5-flash-lite)} & \textbf{0 / 43} & \textbf{0.0\%} & [0.0000, 0.0820] & -- & -- \\
+\textbf{Autonomous ReAct Agent (openai/gpt-oss-120b, T\_max=6)} & \textbf{0 / 42} & \textbf{0.0\%} & [0.0000, 0.0838] & -- & -- \\
 \bottomrule
 \end{tabular}
 \end{table}

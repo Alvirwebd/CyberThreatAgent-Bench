@@ -1,4 +1,0 @@
-model,margin_threshold,escalation_rate_pct,Top1_Exact,MRR_Exact,p50_latency_ms,speedup_vs_full_dense
-hierarchical_fast,,0.0,0.3433,0.4582,66.763,0.02
-dense_100pct,,100.0,0.0448,0.0848,1.102,1.0
-agentic_router,0.1,40.3,0.194,0.299,67.843,0.02

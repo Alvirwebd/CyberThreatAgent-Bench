@@ -78,23 +78,36 @@ class MitigationEngine:
                 if src in self.mit_id_by_stix:
                     self.tech_mitigated_by[tgt].add(self.mit_id_by_stix[src])
 
-        # All valid mitigations
-        self.valid_mitigations = set(self.mit_id_by_stix.values()) | {mid for items in PLAYBOOK.values() for _, mid in items}
+        # All valid mitigations — strictly M1xxx only (filter out deprecated T1xxx course-of-action objects)
+        self.valid_mitigations = {mid for mid in self.mit_id_by_stix.values() if mid.startswith("M")}
 
     def gold_mitigation_ids(self, attack_id):
+        """Return ONLY authentic MITRE ATT&CK STIX M1xxx mitigation IDs (zero PLAYBOOK padding)."""
         if not attack_id:
             return []
         stix = self.tech_stix_by_aid.get(attack_id)
+        if not stix and "." in attack_id:
+            stix = self.tech_stix_by_aid.get(attack_id.split(".")[0])
         if not stix:
-            # Fallback to parent technique if sub-technique
-            if "." in attack_id:
-                parent_aid = attack_id.split(".")[0]
-                stix = self.tech_stix_by_aid.get(parent_aid)
-        mits = set(self.tech_mitigated_by.get(stix, set()))
-        tactic = self.tech_tactics.get(attack_id, "unknown")
-        for _, mid in PLAYBOOK.get(tactic, []):
-            mits.add(mid)
+            return []
+        mits = {m for m in self.tech_mitigated_by.get(stix, set()) if m.startswith("M")}
+        if not mits and "." in attack_id:
+            parent_stix = self.tech_stix_by_aid.get(attack_id.split(".")[0])
+            if parent_stix:
+                mits = {m for m in self.tech_mitigated_by.get(parent_stix, set()) if m.startswith("M")}
         return sorted(mits)
+
+    def gold_mitigation_counts(self, gold_techniques):
+        """
+        Graded relevance map exclusively from authentic MITRE ATT&CK STIX 'mitigates' edges
+        (ZERO PLAYBOOK padding in gold):
+            rel(m) = |{g in gold_techniques : m directly mitigates g in STIX}|
+        """
+        gold_mit_rel = defaultdict(int)
+        for g in (gold_techniques or []):
+            for m in self.gold_mitigation_ids(g):
+                gold_mit_rel[m] += 1
+        return dict(gold_mit_rel)
 
     def recommend_mitigations(self, attack_id, top_k=3):
         if not attack_id:
@@ -102,7 +115,7 @@ class MitigationEngine:
         stix = self.tech_stix_by_aid.get(attack_id)
         if not stix and "." in attack_id:
             stix = self.tech_stix_by_aid.get(attack_id.split(".")[0])
-        stix_mits = sorted(self.tech_mitigated_by.get(stix, set()))
+        stix_mits = sorted(m for m in self.tech_mitigated_by.get(stix, set()) if m.startswith("M"))
         out = list(stix_mits)
         if len(out) < top_k:
             tactic = self.tech_tactics.get(attack_id, "unknown")
@@ -111,27 +124,50 @@ class MitigationEngine:
                     out.append(mid)
         return out[:top_k]
 
-    def compute_mitigation_ndcg(self, pred_techniques, gold_techniques, k=3):
-        gold_mits = set()
-        for g in gold_techniques:
-            gold_mits.update(self.gold_mitigation_ids(g))
-        if not gold_mits:
-            return 1.0
+    def compute_mitigation_ndcg_from_ids(self, pred_mits, gold_techniques, k=3):
+        """
+        Strict STIX-only graded nDCG@k given predicted mitigation IDs and gold_techniques.
+        Returns None when gold_techniques is empty (benign) or has zero STIX mitigates edges
+        (never returns 1.0 on empty gold!).
+        """
+        if not gold_techniques:
+            return None
+        gold_mit_rel = self.gold_mitigation_counts(gold_techniques)
+        if not gold_mit_rel:
+            return None
 
-        pred_mits = []
-        for p in pred_techniques:
-            for m in self.recommend_mitigations(p, top_k=k):
-                if m not in pred_mits:
-                    pred_mits.append(m)
-
-        eval_preds = pred_mits[:k]
+        eval_preds = []
+        for m in (pred_mits or []):
+            if m and m not in eval_preds:
+                eval_preds.append(m)
+            if len(eval_preds) >= k:
+                break
         if not eval_preds:
             return 0.0
 
-        hits = [1 if m in gold_mits else 0 for m in eval_preds]
-        dcg = sum(h / math.log2(i + 2) for i, h in enumerate(hits))
-        ideal = sum(1 / math.log2(i + 2) for i in range(min(len(gold_mits), len(eval_preds))))
-        return min(1.0, (dcg / ideal) if ideal > 0 else 0.0)
+        gains = [gold_mit_rel.get(m, 0) for m in eval_preds]
+        dcg = sum(g / math.log2(i + 2) for i, g in enumerate(gains))
+        ideal_gains = sorted(gold_mit_rel.values(), reverse=True)[:k]
+        idcg = sum(g / math.log2(i + 2) for i, g in enumerate(ideal_gains))
+        return min(1.0, (dcg / idcg) if idcg > 0 else 0.0)
+
+    def compute_mitigation_ndcg(self, pred_techniques, gold_techniques, k=3):
+        """
+        Strict STIX-only graded nDCG@k from predicted techniques.
+        Returns None when gold_techniques is empty or has zero STIX mitigates edges.
+        """
+        if not gold_techniques:
+            return None
+        gold_mit_rel = self.gold_mitigation_counts(gold_techniques)
+        if not gold_mit_rel:
+            return None
+
+        pred_mits = []
+        for p in (pred_techniques or []):
+            for m in self.recommend_mitigations(p, top_k=k):
+                if m not in pred_mits:
+                    pred_mits.append(m)
+        return self.compute_mitigation_ndcg_from_ids(pred_mits, gold_techniques, k=k)
 
 _DEFAULT_ENGINE = None
 
